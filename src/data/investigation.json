@@ -1,0 +1,838 @@
+{
+  "reviewedAt": "2026-09-15",
+  "sources": {
+    "atrs_aon": {
+      "title": "Aon implementation and manager-selection memorandum",
+      "agency": "ATRS",
+      "date": "2025-06-02",
+      "locator": "June 2, 2025 Board packet, physical pages 149–150",
+      "originalFile": "06-02-25_BOT_Packet.pdf",
+      "recordUrl": "/documents/records/atrs-aon-memo/",
+      "summary": "Aon implementation and manager-selection memorandum. Read with the dated scope and locator.",
+      "treatment": "Pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/atrs-aon-memo-pages-149-150.pdf",
+      "documentType": "Board record",
+      "subject": "Investment decisions"
+    },
+    "atrs_resolution": {
+      "title": "Executed ATRS Resolution 2025-22",
+      "agency": "ATRS",
+      "date": "2025-06-02",
+      "locator": "Emails5, physical pages 5–6; signature on physical page 6",
+      "originalFile": "Emails5.pdf",
+      "recordUrl": "/documents/records/atrs-resolution/",
+      "summary": "Executed ATRS Resolution 2025-22. Read with the dated scope and locator.",
+      "treatment": "Executed pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/atrs-resolution-2025-22-executed-pages-5-6.pdf",
+      "documentType": "Board record",
+      "subject": "Investment decisions"
+    },
+    "atrs_funding": {
+      "title": "ATRS Board Update Liquidity",
+      "agency": "ATRS",
+      "date": "2025-12-29",
+      "locator": "Rod Graves email to Board Distribution List, 11:23 a.m. CST",
+      "originalFile": "ATRS Board Update-Liquidity.eml",
+      "recordUrl": "/documents/records/atrs-manager-funding/",
+      "summary": "Historical December 29 notice. Direct bank records now establish completion on January 2, 2026; the notice alone is not settlement proof.",
+      "treatment": "Campaign-typeset excerpt; recipient addresses and unrelated notice text omitted. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/atrs-manager-funding-email-excerpt.pdf",
+      "documentType": "Board record",
+      "subject": "Investment decisions"
+    },
+    "apers_authorization": {
+      "title": "APERS Investment Finance Subcommittee signed minutes",
+      "agency": "APERS",
+      "date": "2025-05-15",
+      "locator": "Signed minutes, physical pages 1 and 4; proxy role on page 1 and motion on page 4",
+      "originalFile": "Minutes_IFC_05.15.25.pdf",
+      "recordUrl": "/documents/records/apers-authorization/",
+      "summary": "APERS Investment Finance Subcommittee signed minutes. Read with the dated scope and locator.",
+      "treatment": "Selected pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/apers-authorization-minutes-pages-1-4.pdf",
+      "documentType": "Board record",
+      "subject": "Investment decisions"
+    },
+    "apers_analysis_email": {
+      "title": "APERS chief investment officer FOIA-search email",
+      "agency": "APERS",
+      "date": "2026-02-13",
+      "locator": "IB_FOIA_FINAL, physical page 3,081; duplicate at page 3,084",
+      "originalFile": "IB_FOIA_FINAL. 2.27.2026 Redacted.LMG.pdf",
+      "recordUrl": "/documents/records/apers-analysis-email/",
+      "summary": "APERS chief investment officer FOIA-search email. Read with the dated scope and locator.",
+      "treatment": "Campaign crop; direct contact information masked; quoted request omitted. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/apers-analysis-email-page-3081-masked.pdf",
+      "documentType": "Email",
+      "subject": "Investment decisions"
+    },
+    "apers_purchase": {
+      "title": "APERS $15 million purchase record",
+      "agency": "APERS",
+      "date": "2025-10-15",
+      "locator": "IB_FOIA_FINAL, physical page 6,925",
+      "originalFile": "IB_FOIA_FINAL. 2.27.2026 Redacted.LMG.pdf",
+      "recordUrl": "/documents/records/apers-purchase/",
+      "summary": "APERS $15 million purchase record. Read with the dated scope and locator.",
+      "treatment": "Campaign crop; account and operational identifiers masked. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/apers-purchase-record-page-6925-masked.pdf",
+      "documentType": "Transaction record",
+      "subject": "Funding, purchases and holdings"
+    },
+    "treasury_hold": {
+      "title": "Treasury internal credit overview",
+      "agency": "State Treasury",
+      "date": "2024-10-08",
+      "locator": "Two-page internal overview, conclusion on physical page 2",
+      "originalFile": "Israel Internal Credit overview 10-8-24.pdf",
+      "recordUrl": "/documents/records/treasury-hold-overview/",
+      "summary": "Treasury internal credit overview. Read with the dated scope and locator.",
+      "treatment": "Pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/treasury-internal-credit-overview.pdf",
+      "documentType": "Analysis and manager report",
+      "subject": "Investment decisions"
+    },
+    "treasury_holdings": {
+      "title": "Treasury June 30, 2025 bondholder statement",
+      "agency": "State Treasury",
+      "date": "2025-06-30",
+      "locator": "Bondholder statement, physical page 1; account identifiers omitted from excerpt",
+      "originalFile": "Israel Bondholder Statements_Redacted.pdf",
+      "recordUrl": "/documents/records/treasury-holdings/",
+      "summary": "Treasury June 30, 2025 bondholder statement. Read with the dated scope and locator.",
+      "treatment": "Campaign crop omits recipient, barcode, account, and return-mail data; agency masking retained. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/treasury-holdings-june-2025-cropped.pdf",
+      "documentType": "Holdings report",
+      "subject": "Funding, purchases and holdings"
+    },
+    "treasury_maturity": {
+      "title": "Treasury final-maturity cash-flow record",
+      "agency": "State Treasury",
+      "date": "2026-02-02",
+      "locator": "IA-Non-MBS Cash Flow workbook, Sheet1, row 14",
+      "originalFile": "2026 0202 IA- Non- MBS Cash Flow_Treasury Gen AGG- ISRAEL BONDS- PAR & MATURITY.xlsx",
+      "recordUrl": "/documents/records/treasury-maturity/",
+      "summary": "Treasury final-maturity cash-flow record. Read with the dated scope and locator.",
+      "treatment": "Campaign-typeset excerpt; account and security identifiers, coupon details, and unrelated rows omitted. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/treasury-final-maturity-excerpt.pdf",
+      "documentType": "Transaction record",
+      "subject": "Funding, purchases and holdings"
+    },
+    "treasury_processing": {
+      "title": "Treasury outgoing payment report",
+      "agency": "State Treasury",
+      "date": "2026-02-17",
+      "locator": "Outgoing Payments Report, physical page 1",
+      "originalFile": "Wire Confirm 2-17-26_Redacted.pdf",
+      "recordUrl": "/documents/records/treasury-processing-payment/",
+      "summary": "Treasury outgoing payment report. Read with the dated scope and locator.",
+      "treatment": "Campaign crop; requester and transaction identifiers masked; agency masking retained. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
+      "assetUrl": "/assets/documents/treasury-processing-payment-masked.pdf",
+      "documentType": "Transaction record",
+      "subject": "Funding, purchases and holdings"
+    },
+    "treasury_target_report": {
+      "title": "Seller report of Treasury portfolio target",
+      "agency": "State Treasury",
+      "date": "2025-04-16",
+      "locator": "FOIA Response 7-7-25 / Dunlap FOIA 7.,2.25.pdf, physical pages 7-8; seller email to Treasury investment staff",
+      "originalFile": "raw/treasury/FOIA Response 7-7-25/Dunlap FOIA 7.,2.25.pdf",
+      "recordUrl": "/documents/records/treasury-target-report/",
+      "summary": "Seller report of Treasury portfolio target. Read with the dated scope and locator.",
+      "treatment": "Physical page 7 email-body excerpt; sender/recipient direct-contact fields irreversibly masked; signature block on page 8 omitted. Seller statement, not a Treasury purchase authorization.",
+      "assetUrl": "/assets/documents/treasury-target-report-reviewed.pdf",
+      "documentType": "Email",
+      "subject": "Funding, purchases and holdings"
+    },
+    "capitol_itinerary": {
+      "title": "April 2025 Capitol itinerary",
+      "agency": "Auditor of State records produced by ATRS",
+      "date": "2025-04-11",
+      "locator": "FOIA Response 6-18-25 / State Auditors Emails / Spadoni / April 11, 2025 - 4.pdf, physical page 2",
+      "originalFile": "raw/atrs/FOIA Response 6-18-25/State Auditors Emails/Spadoni/April 11, 2025 - 4.pdf",
+      "recordUrl": "/documents/records/capitol-itinerary/",
+      "summary": "April 2025 Capitol itinerary. Read with the dated scope and locator.",
+      "treatment": "Physical page 2 rectangular itinerary/body crop. Signature contact block omitted. Schedule is not attendance proof.",
+      "assetUrl": "/assets/documents/capitol-itinerary-reviewed.pdf",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "hudson_babbitt_confirmation": {
+      "title": "Hudson-Babbitt meeting confirmation",
+      "agency": "DFA / ASHERS",
+      "date": "2025-04-16",
+      "locator": "FOIA Response 3-27-26 / RE_ Virtual Introductions.eml, Andy Babbitt message at 9:25 a.m. CDT",
+      "originalFile": "RE_ Virtual Introductions.eml",
+      "recordUrl": "/documents/records/hudson-babbitt-confirmation/",
+      "summary": "Hudson-Babbitt meeting confirmation. Read with the dated scope and locator.",
+      "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
+      "assetUrl": "/assets/documents/hudson-babbitt-confirmation-reviewed.txt",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "seller_reported_meetings": {
+      "title": "Seller-authored report of Fecher and Treasury-team encounters",
+      "agency": "APERS",
+      "date": "2025-04-17",
+      "locator": "FOIA Response 7-7-25 / IB_FOIA_MAY_25_Reviewed.pdf, physical page 589",
+      "originalFile": "raw/apers/FOIA Response 7-7-25/IB_FOIA_MAY_25_Reviewed.pdf",
+      "recordUrl": "/documents/records/seller-reported-meetings/",
+      "summary": "Seller-authored report of Fecher and Treasury-team encounters. Read with the dated scope and locator.",
+      "treatment": "Physical page 589 crop through message closing; direct email address and mail-security banner masked; contact signature omitted. Seller-authored claims retained as seller claims.",
+      "assetUrl": "/assets/documents/seller-reported-meetings-reviewed.pdf",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "atrs_auditor_designee": {
+      "title": "ATRS Auditor designee record",
+      "agency": "ATRS",
+      "date": "2025-04-07",
+      "locator": "FOIA Response 7-3-25 / 06-02-25_BOT_Packet.pdf, physical page 6 (embedded signed minutes); cross-check: Sign-In Sheets 6-2-2025.pdf, physical page 1",
+      "originalFile": "raw/atrs/FOIA Response 7-3-25/06-02-25_BOT_Packet.pdf",
+      "recordUrl": "/documents/records/atrs-auditor-designee/",
+      "summary": "ATRS Auditor designee record. Read with the dated scope and locator.",
+      "treatment": "Physical page 6, full minutes attendance page. Rasterized public derivative.",
+      "assetUrl": "/assets/documents/atrs-auditor-designee-reviewed.pdf",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "sfof_sponsor_listing": {
+      "title": "2020 SFOF event sponsor listing",
+      "agency": "State Treasury",
+      "date": "2020-12-17",
+      "locator": "End of Year Letter from Treasurer Milligan.pdf, physical page 1",
+      "originalFile": "raw/treasury/FOIA Response 2-19-26/End of Year Letter from Treasurer Milligan.pdf",
+      "recordUrl": "/documents/records/sfof-sponsor-listing/",
+      "summary": "2020 SFOF event sponsor listing. Read with the dated scope and locator.",
+      "treatment": "Full physical page 1. Public organization letter and sponsor list; rasterized.",
+      "assetUrl": "/assets/documents/sfof-sponsor-listing-reviewed.pdf",
+      "documentType": "Newsletter and event material",
+      "subject": "Roles and outreach"
+    },
+    "sfof_model_case": {
+      "title": "SFOF newsletter circulating a state purchase",
+      "agency": "Auditor of State records produced by ATRS",
+      "date": "2024-11-04",
+      "locator": "FOIA Response 6-18-25 / State Auditors Emails / Milligan / 🗳️ Pre-Election Update from the States - 4 nov 24.pdf, physical pages 4-6",
+      "originalFile": "raw/atrs/FOIA Response 6-18-25/State Auditors Emails/Milligan/🗳️ Pre-Election Update from the States - 4 nov 24.pdf",
+      "recordUrl": "/documents/records/sfof-model-case/",
+      "summary": "SFOF newsletter circulating a state purchase. Read with the dated scope and locator.",
+      "treatment": "Original physical pages 4-6, including newsletter organization context and footer. Public generic organization contact retained; no personal contacts displayed.",
+      "assetUrl": "/assets/documents/sfof-model-case-reviewed.pdf",
+      "documentType": "Newsletter and event material",
+      "subject": "Roles and outreach"
+    },
+    "sfof_speech_preparation": {
+      "title": "SFOF speech preparation and scheduled presentation",
+      "agency": "Auditor of State",
+      "date": "2025-04-03",
+      "locator": "FOIA Response 6-25-25 / Jason Brady mailbox / Sent Items / update sfof speech.pdf, physical page 1; schedule cross-check dated April 14 for an April 24 slot in Jason Brady mailbox / Inbox / FW Auditor Milligan - Presentation Time.pdf, physical page 1",
+      "originalFile": "update sfof speech.pdf",
+      "recordUrl": "/documents/records/sfof-speech-preparation/",
+      "summary": "SFOF speech preparation and scheduled presentation. Read with the dated scope and locator.",
+      "treatment": "Physical page 1 of draft speech email. Displayed header contains names, no direct addresses. Draft language is not proof of delivery.",
+      "assetUrl": "/assets/documents/sfof-speech-preparation-reviewed.pdf",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "sfof_post_action_facilitation": {
+      "title": "Post-action member-state contact facilitation",
+      "agency": "Auditor of State",
+      "date": "2025-06-04",
+      "locator": "FOIA Response 6-25-25 / Stacy Peterson mailbox / Sent Items / Re Policy Zoom_1.pdf, physical page 1",
+      "originalFile": "Re Policy Zoom_1.pdf",
+      "recordUrl": "/documents/records/sfof-post-action-facilitation/",
+      "summary": "Post-action member-state contact facilitation. Read with the dated scope and locator.",
+      "treatment": "Physical page 1 rectangular crop of June 4 message only. Quoted prior email, direct contact and meeting details omitted.",
+      "assetUrl": "/assets/documents/sfof-post-action-facilitation-reviewed.pdf",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "ashers_route": {
+      "title": "DFA introduction and seller pitch to ASHERS",
+      "agency": "ASHERS / DFA",
+      "date": "2025-04-16",
+      "locator": "FOIA Response 3-27-26 / RE_ Virtual Introductions.eml, Andy Babbitt message at 9:25 a.m. CDT and seller reply dated April 17, 2025 at 1:02 p.m., with attached eight-page presentation",
+      "originalFile": "RE_ Virtual Introductions.eml",
+      "recordUrl": "/documents/records/ashers-route/",
+      "summary": "DFA introduction and seller pitch to ASHERS. Read with the dated scope and locator.",
+      "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
+      "assetUrl": "/assets/documents/ashers-route-reviewed.txt",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "ashers_no_holding": {
+      "title": "ASHERS no-holding statement",
+      "agency": "ASHERS",
+      "date": "2025-05-15",
+      "locator": "FW_ wickline's questions.eml, Robyn Smith message at 8:32 a.m. CDT",
+      "originalFile": "FW_ wickline's questions.eml",
+      "recordUrl": "/documents/records/ashers-no-holding/",
+      "summary": "ASHERS no-holding statement. Read with the dated scope and locator.",
+      "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
+      "assetUrl": "/assets/documents/ashers-no-holding-reviewed.txt",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "ashers_no_purchase": {
+      "title": "ASHERS no-purchase statement",
+      "agency": "ASHERS",
+      "date": "2025-07-14",
+      "locator": "RE_ Arkansas Times article about state retirement systems purchasing Israeli bonds.eml, Robyn Smith message at 10:35 a.m. CDT",
+      "originalFile": "RE_ Arkansas Times article about state retirement systems purchasing Israeli bonds.eml",
+      "recordUrl": "/documents/records/ashers-no-purchase/",
+      "summary": "ASHERS no-purchase statement. Read with the dated scope and locator.",
+      "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
+      "assetUrl": "/assets/documents/ashers-no-purchase-reviewed.txt",
+      "documentType": "Email",
+      "subject": "Roles and outreach"
+    },
+    "apers_september_holdings": {
+      "title": "APERS September custody positions",
+      "agency": "APERS",
+      "date": "2026-09-07",
+      "locator": "Physical page 1, two State of Israel positions; page 2 account total",
+      "originalFile": "raw/apers/FOIA Response 9-9-26/Asset_and_Accrual_DetailMarket_values_AR Cash Bond Details_Redacted_final_Redacted.pdf",
+      "recordUrl": "/documents/records/apers-september-holdings/",
+      "assetUrl": "/assets/documents/apers-september-holdings-2026.pdf",
+      "summary": "$25 million par in two positions on a dated APERS custody report. APERS-administered pooled-account allocation is unresolved.",
+      "treatment": "Agency masking retained. Public derivative is rasterized to remove hidden text and metadata.",
+      "documentType": "Holdings report",
+      "subject": "Funding, purchases and holdings"
+    },
+    "apers_august_request": {
+      "title": "APERS second investment request",
+      "agency": "APERS",
+      "date": "2026-09-09",
+      "locator": "Physical page 1; separate execution timestamp not displayed",
+      "originalFile": "raw/apers/FOIA Response 9-9-26/APERS 8-26 CIR_Redacted_final.pdf",
+      "recordUrl": "/documents/records/apers-august-request/",
+      "assetUrl": "/assets/documents/apers-august-request-2026.pdf",
+      "summary": "$10 million two-year investment request; August 15 is the displayed custody-line date, not a timestamp established by this form.",
+      "treatment": "Rectangular request-form crop through bond total; direct seller contact block and footer omitted. Agency masking retained; rasterized.",
+      "documentType": "Transaction record",
+      "subject": "Funding, purchases and holdings"
+    },
+    "atrs_completed_funding": {
+      "title": "ATRS completed manager funding",
+      "agency": "ATRS",
+      "date": "2026-01-02",
+      "locator": "Physical page 3 status Completed; pages 1 and 6–7 transfer context",
+      "originalFile": "raw/atrs/FOIA Response 9-11-26/2026_Funding.pdf",
+      "recordUrl": "/documents/records/atrs-completed-funding/",
+      "assetUrl": "/assets/documents/atrs-completed-funding-2026.pdf",
+      "summary": "$50 million completed transfer to the Reams account on January 2, 2026.",
+      "treatment": "Physical page 3 only. Reference number, submitting staff identity, source/destination fund codes and clearing-house field irreversibly masked before rasterization. No other funding pages included.",
+      "documentType": "Transaction record",
+      "subject": "Funding, purchases and holdings"
+    },
+    "atrs_completed_purchase": {
+      "title": "ATRS completed Israel Bond purchase",
+      "agency": "ATRS",
+      "date": "2026-02-17",
+      "locator": "2026.0228.Reams ILS 4NZB Trade, row 2 (headers row 1)",
+      "originalFile": "raw/atrs/FOIA Response 9-11-26/2026_trade.xlsx",
+      "recordUrl": "/documents/records/atrs-completed-purchase/",
+      "assetUrl": "/assets/documents/atrs-completed-purchase-2026.pdf",
+      "summary": "$9.9 million trade and settlement on February 17 at par; 4.93% coupon, maturity February 1, 2031.",
+      "treatment": "Native LibreOffice spreadsheet PDF export of original rows 1-2. Only print-column widths widened in a working copy so source text is legible; cell values unchanged. Agency redaction retained. Rasterized public PDF.",
+      "documentType": "Transaction record",
+      "subject": "Funding, purchases and holdings"
+    },
+    "atrs_july_holdings": {
+      "title": "ATRS July manager-account holdings",
+      "agency": "ATRS",
+      "date": "2026-07-31",
+      "locator": "MasterGridXLS rows 7, 9–10 and 12; headers row 1",
+      "originalFile": "raw/atrs/FOIA Response 9-11-26/2026-07-31_Report.xlsx",
+      "recordUrl": "/documents/records/atrs-july-holdings/",
+      "assetUrl": "/assets/documents/atrs-july-holdings-2026.pdf",
+      "summary": "$9.9 million Israel Bond par within a $50,446,757.95 account valued with accrued income.",
+      "treatment": "Native LibreOffice spreadsheet PDF export, SinglePageSheets; original cells, headers and agency redactions preserved. Rasterized public PDF.",
+      "documentType": "Holdings report",
+      "subject": "Funding, purchases and holdings"
+    },
+    "atrs_cancellation": {
+      "title": "ATRS canceled first issuance",
+      "agency": "ATRS",
+      "date": "2026-02-13",
+      "locator": "Physical page 1, Cancel Bond Issuance",
+      "originalFile": "raw/atrs/FOIA Response 9-11-26/2026-02-13_13th Jubilee_cancellation.pdf",
+      "recordUrl": "/documents/records/atrs-cancellation/",
+      "assetUrl": "/assets/documents/atrs-cancellation-2026.pdf",
+      "summary": "The first $9.9 million issuance was canceled; exclude it from completed-purchase totals.",
+      "treatment": "Physical page 1 rectangular financial-table crop; recipient, account, barcode and return-mail blocks omitted. Agency masking retained. Rasterized public PDF.",
+      "documentType": "Transaction record",
+      "subject": "Funding, purchases and holdings"
+    },
+    "atrs_q2_report": {
+      "title": "Reams second-quarter report",
+      "agency": "ATRS",
+      "date": "2026-06-30",
+      "locator": "Performance summary and portfolio commentary",
+      "originalFile": "raw/atrs/FOIA Response 9-11-26/2026 Q2.pdf",
+      "recordUrl": "/documents/records/atrs-q2-report/",
+      "assetUrl": "/assets/documents/atrs-q2-report-2026.pdf",
+      "summary": "Manager reporting describes the Treasury ladder and Israel Bond implementation; it is distinct from an independent pre-decision credit recommendation.",
+      "treatment": "Selected full source pages 3, 7 and 8: performance, portfolio strategy and characteristics. Rasterized public derivative; no added source-page graphics.",
+      "documentType": "Analysis and manager report",
+      "subject": "Funding, purchases and holdings"
+    },
+    "atrs_contract_extension": {
+      "title": "Reams contract extension",
+      "agency": "ATRS",
+      "date": "2026-07-23",
+      "locator": "Amendment 2, contract-period and signature fields",
+      "originalFile": "raw/atrs/FOIA Response 9-11-26/4600057154_A2.pdf",
+      "recordUrl": "/documents/records/atrs-contract-extension/",
+      "assetUrl": "/assets/documents/atrs-contract-extension-2026.pdf",
+      "summary": "Extension through June 30, 2027; Reams signed June 9 and ATRS signed July 23, 2026.",
+      "treatment": "Physical pages 1 and 3. Department contact section irreversibly masked; official contract terms and signature section retained. Rasterized; form fields and metadata removed.",
+      "documentType": "Contract",
+      "subject": "Funding, purchases and holdings"
+    },
+    "securities_1986_orders": {
+      "title": "Arkansas 1986 suspension and reinstatement orders",
+      "agency": "Arkansas Securities Department",
+      "date": "1986-07-22",
+      "originalFile": "raw/securities/FOIA Response 4-20-26/ASD-120_Orders-86-27-S,-86-27a-S-1986.pdf",
+      "locator": "Orders 86-27-S and 86-27a-S",
+      "summary": "Principal-designation deficiency; suspension vacated and registration reinstated. No investor-harm finding in these orders.",
+      "recordUrl": "/documents/records/securities-1986-orders/",
+      "treatment": "All three original pages retained together: suspension and later vacatur/reinstatement. Rasterized public derivative.",
+      "assetUrl": "/assets/documents/securities-1986-orders-reviewed.pdf",
+      "documentType": "Regulatory record",
+      "subject": "Law and proposal development"
+    },
+    "atrs_rating_report": {
+      "title": "S&P sovereign-rating report in ATRS production",
+      "agency": "ATRS",
+      "date": "2024-04-18",
+      "originalFile": "raw/atrs/FOIA Response 6-18-25/Reports.pdf",
+      "locator": "Reports.pdf, physical page 2 (printed page 1); S&P RatingsDirect research update dated April 18, 2024",
+      "summary": "Historical S&P rating material produced by ATRS. Its presence establishes external credit material in the production, not a current rating or proof of trustee reliance.",
+      "recordUrl": "/documents/records/atrs-rating-report/",
+      "treatment": "Physical page 2, S&P research update dated April 18, 2024 (printed page 1). Analyst contact column masked. Historical report, not a current rating or pension-specific analysis.",
+      "assetUrl": "/assets/documents/atrs-rating-report-reviewed.pdf",
+      "documentType": "Analysis and manager report",
+      "subject": "Investment decisions"
+    },
+    "legislative_calendar": {
+      "title": "Official 2027 regular-session calendar",
+      "agency": "Arkansas Bureau of Legislative Research",
+      "date": "2026-09-15",
+      "locator": "Pages 1–2, prefiling and retirement-legislation deadlines",
+      "originalFile": "Session_Important_Dates_2027.pdf",
+      "recordUrl": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf",
+      "summary": "Official scheduled dates verified September 15, 2026.",
+      "treatment": "Official external primary source.",
+      "documentType": "Legislative calendar",
+      "subject": "Law and proposal development"
+    },
+    "finra_brokercheck": {
+      "title": "FINRA BrokerCheck: Development Corporation for Israel",
+      "agency": "FINRA",
+      "date": "2026-09-15",
+      "locator": "Report summary and disclosure-events section, CRD 11148",
+      "originalFile": "firm_11148.pdf",
+      "recordUrl": "https://files.brokercheck.finra.org/firm/firm_11148.pdf",
+      "summary": "Public regulatory history; distinguish allegations, disposition and dated status.",
+      "treatment": "Official external primary source reviewed September 15, 2026.",
+      "documentType": "Regulatory record",
+      "subject": "Law and proposal development"
+    }
+  },
+  "financialRecords": [
+    {
+      "id": "apers_september_holding",
+      "agency": "apers",
+      "amount": 25000000,
+      "currency": "USD",
+      "basis": "par",
+      "stage": "holding",
+      "effectiveDate": "2026-09-07",
+      "sourceIds": [
+        "apers_september_holdings"
+      ],
+      "accountScope": "Two positions in APERS custody reporting; allocation among APERS-administered systems unresolved",
+      "overlapsRecordIds": [
+        "apers_october_purchase"
+      ]
+    },
+    {
+      "id": "apers_october_purchase",
+      "agency": "apers",
+      "amount": 15000000,
+      "currency": "USD",
+      "basis": "par",
+      "stage": "purchase",
+      "effectiveDate": "2025-10-15",
+      "sourceIds": [
+        "apers_purchase"
+      ],
+      "accountScope": "Historical first purchase; included in September holdings",
+      "overlapsRecordIds": [
+        "apers_september_holding"
+      ]
+    },
+    {
+      "id": "apers_authorization_ceiling",
+      "agency": "apers",
+      "amount": 50000000,
+      "currency": "USD",
+      "basis": "authorization",
+      "stage": "authorization",
+      "effectiveDate": "2025-05-15",
+      "sourceIds": [
+        "apers_authorization"
+      ],
+      "accountScope": "IFSC stated $25 million to $50 million range; amount is ceiling"
+    },
+    {
+      "id": "atrs_authorization_ceiling",
+      "agency": "atrs",
+      "amount": 50000000,
+      "currency": "USD",
+      "basis": "authorization",
+      "stage": "authorization",
+      "effectiveDate": "2025-06-02",
+      "sourceIds": [
+        "atrs_resolution"
+      ],
+      "accountScope": "ATRS Board authorization ceiling"
+    },
+    {
+      "id": "atrs_january_funding",
+      "agency": "atrs",
+      "amount": 50000000,
+      "currency": "USD",
+      "basis": "funding",
+      "stage": "funding",
+      "effectiveDate": "2026-01-02",
+      "sourceIds": [
+        "atrs_completed_funding"
+      ],
+      "accountScope": "ATRS Reams separate account; includes subsequent Israel Bond and U.S. Treasuries"
+    },
+    {
+      "id": "atrs_february_purchase",
+      "agency": "atrs",
+      "amount": 9900000,
+      "currency": "USD",
+      "basis": "par",
+      "stage": "purchase",
+      "effectiveDate": "2026-02-17",
+      "sourceIds": [
+        "atrs_completed_purchase"
+      ],
+      "accountScope": "Completed replacement Israel Bond purchase",
+      "parentFundingId": "atrs_january_funding",
+      "securityId": "atrs-israel-february-2031"
+    },
+    {
+      "id": "atrs_july_holding",
+      "agency": "atrs",
+      "amount": 9900000,
+      "currency": "USD",
+      "basis": "par",
+      "stage": "holding",
+      "effectiveDate": "2026-07-31",
+      "sourceIds": [
+        "atrs_july_holdings"
+      ],
+      "accountScope": "Later observation of the February purchase; not additional exposure",
+      "parentFundingId": "atrs_january_funding",
+      "securityId": "atrs-israel-february-2031"
+    },
+    {
+      "id": "atrs_canceled_issuance",
+      "agency": "atrs",
+      "amount": 9900000,
+      "currency": "USD",
+      "basis": "par",
+      "stage": "canceled",
+      "effectiveDate": "2026-02-13",
+      "sourceIds": [
+        "atrs_cancellation"
+      ],
+      "accountScope": "Canceled first issuance; excluded from totals",
+      "parentFundingId": "atrs_january_funding"
+    },
+    {
+      "id": "treasury_june_holding",
+      "agency": "treasury",
+      "amount": 55000000,
+      "currency": "USD",
+      "basis": "par",
+      "stage": "holding",
+      "effectiveDate": "2025-06-30",
+      "sourceIds": [
+        "treasury_holdings"
+      ],
+      "accountScope": "Historical statement before documented $5 million maturity",
+      "overlapsRecordIds": [
+        "treasury_derived_residual"
+      ]
+    },
+    {
+      "id": "treasury_derived_residual",
+      "agency": "treasury",
+      "amount": 50000000,
+      "currency": "USD",
+      "basis": "par",
+      "stage": "derived-residual",
+      "effectiveDate": "2026-02-02",
+      "sourceIds": [
+        "treasury_holdings",
+        "treasury_maturity"
+      ],
+      "accountScope": "June 2025 statement less February 2026 maturity; later holdings unconfirmed",
+      "overlapsRecordIds": [
+        "treasury_june_holding"
+      ]
+    },
+    {
+      "id": "treasury_processing",
+      "agency": "treasury",
+      "amount": 10000000,
+      "currency": "USD",
+      "basis": "funding",
+      "stage": "processing",
+      "effectiveDate": "2026-02-17",
+      "sourceIds": [
+        "treasury_processing"
+      ],
+      "accountScope": "Payment instruction marked Processing By Bank; excluded from confirmed measures"
+    }
+  ],
+  "agencies": [
+    {
+      "id": "apers",
+      "name": "Arkansas Public Employees Retirement System",
+      "shortName": "APERS",
+      "description": "$25 million in two Israel Bond positions in September 7 custody reporting. Allocation among APERS-administered systems remains unresolved.",
+      "recordDate": "2026-09-07",
+      "sourceIds": [
+        "apers_september_holdings",
+        "apers_authorization",
+        "apers_analysis_email"
+      ]
+    },
+    {
+      "id": "atrs",
+      "name": "Arkansas Teacher Retirement System",
+      "shortName": "ATRS",
+      "description": "$50 million manager funding completed January 2; a $9.9 million Israel Bond purchase completed February 17 and appears in July holdings.",
+      "recordDate": "2026-07-31",
+      "sourceIds": [
+        "atrs_completed_funding",
+        "atrs_completed_purchase",
+        "atrs_july_holdings"
+      ]
+    },
+    {
+      "id": "treasury",
+      "name": "Arkansas State Treasury",
+      "shortName": "State Treasury",
+      "description": "Separately governed comparison: $50 million derived residual from historical records; another $10 million remains processing evidence.",
+      "recordDate": "2026-02-17",
+      "sourceIds": [
+        "treasury_holdings",
+        "treasury_maturity",
+        "treasury_processing"
+      ]
+    },
+    {
+      "id": "ashers",
+      "name": "Arkansas State Highway Employees Retirement System",
+      "shortName": "ASHERS",
+      "description": "Reported no Israel Bonds holdings in May 2025 and no purchases in July 2025. These are dated statements, not present-day holdings verification.",
+      "recordDate": "2025-07-14",
+      "sourceIds": [
+        "ashers_route",
+        "ashers_no_holding",
+        "ashers_no_purchase"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "id": "credit",
+      "title": "Written credit analysis",
+      "description": "Prepare a decision-specific account of repayment risk and material credit developments before a covered acquisition."
+    },
+    {
+      "id": "alternatives",
+      "title": "Compare reasonable alternatives",
+      "description": "Compare risk, expected return and liquidity with reasonably available fixed-income choices before acquisition."
+    },
+    {
+      "id": "liquidity",
+      "title": "Explain transfer restrictions",
+      "description": "Disclose limited marketability, transfer restrictions and the absence of a secondary market before acquisition."
+    },
+    {
+      "id": "fiduciary",
+      "title": "Record the financial judgment",
+      "description": "Make a written determination connecting the acquisition to material financial risk, return and portfolio fit before acquisition."
+    },
+    {
+      "id": "publication",
+      "title": "Publish within 30 days",
+      "description": "Post the core analysis and determination within 30 days after a covered acquisition, with narrow, explained redactions for protected details."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "apers_authorization_ceiling",
+      "date": "2025-05-15",
+      "label": "APERS subcommittee authorizes a range",
+      "agency": "apers",
+      "stage": "authorization",
+      "description": "IFSC stated $25 million to $50 million range; amount is ceiling",
+      "sourceIds": [
+        "apers_authorization"
+      ]
+    },
+    {
+      "id": "atrs_authorization_ceiling",
+      "date": "2025-06-02",
+      "label": "ATRS Board authorizes the strategy",
+      "agency": "atrs",
+      "stage": "authorization",
+      "description": "ATRS Board authorization ceiling",
+      "sourceIds": [
+        "atrs_resolution"
+      ]
+    },
+    {
+      "id": "apers_october_purchase",
+      "date": "2025-10-15",
+      "label": "The first APERS purchase",
+      "agency": "apers",
+      "stage": "purchase",
+      "description": "Historical first purchase; included in September holdings",
+      "sourceIds": [
+        "apers_purchase"
+      ]
+    },
+    {
+      "id": "atrs_january_funding",
+      "date": "2026-01-02",
+      "label": "ATRS manager funding completes",
+      "agency": "atrs",
+      "stage": "funding",
+      "description": "ATRS Reams separate account; includes subsequent Israel Bond and U.S. Treasuries",
+      "sourceIds": [
+        "atrs_completed_funding"
+      ]
+    },
+    {
+      "id": "treasury_derived_residual",
+      "date": "2026-02-02",
+      "label": "A dated Treasury residual is derived",
+      "agency": "treasury",
+      "stage": "derived-residual",
+      "description": "June 2025 statement less February 2026 maturity; later holdings unconfirmed",
+      "sourceIds": [
+        "treasury_holdings",
+        "treasury_maturity"
+      ]
+    },
+    {
+      "id": "atrs_canceled_issuance",
+      "date": "2026-02-13",
+      "label": "The first issuance is canceled",
+      "agency": "atrs",
+      "stage": "canceled",
+      "description": "Canceled first issuance; excluded from totals",
+      "sourceIds": [
+        "atrs_cancellation"
+      ]
+    },
+    {
+      "id": "atrs_february_purchase",
+      "date": "2026-02-17",
+      "label": "ATRS purchase and settlement recorded",
+      "agency": "atrs",
+      "stage": "purchase",
+      "description": "Completed replacement Israel Bond purchase",
+      "sourceIds": [
+        "atrs_completed_purchase"
+      ]
+    },
+    {
+      "id": "treasury_processing",
+      "date": "2026-02-17",
+      "label": "Treasury instruction remains at processing",
+      "agency": "treasury",
+      "stage": "processing",
+      "description": "Payment instruction marked Processing By Bank; excluded from confirmed measures",
+      "sourceIds": [
+        "treasury_processing"
+      ]
+    },
+    {
+      "id": "atrs_july_holding",
+      "date": "2026-07-31",
+      "label": "July report observes the account",
+      "agency": "atrs",
+      "stage": "holding",
+      "description": "Later observation of the February purchase; not additional exposure",
+      "sourceIds": [
+        "atrs_july_holdings"
+      ]
+    },
+    {
+      "id": "apers_september_holding",
+      "date": "2026-09-07",
+      "label": "September custody reports two positions",
+      "agency": "apers",
+      "stage": "holding",
+      "description": "Two positions in APERS custody reporting; allocation among APERS-administered systems unresolved",
+      "sourceIds": [
+        "apers_september_holdings"
+      ]
+    }
+  ],
+  "policy": {
+    "title": "Pension Investment Integrity Act",
+    "status": "Campaign proposal; no bill number or sponsor announced in this campaign brief",
+    "session": "2027 Arkansas regular session",
+    "reviewedAt": "2026-09-15",
+    "briefUrl": "/legislators/one-page/",
+    "summary": "Prospective, issuer-neutral safeguards for covered pension acquisitions of non-tradable sovereign debt. Trustees retain investment decisions; the State Treasury is a separately governed comparison."
+  },
+  "accountComposition": [
+    {
+      "id": "us_treasuries",
+      "label": "U.S. Treasuries",
+      "amount": 38586306.55,
+      "share": 76.48917315912246,
+      "asOf": "2026-07-31",
+      "sourceIds": [
+        "atrs_july_holdings"
+      ]
+    },
+    {
+      "id": "israel_bond",
+      "label": "State of Israel bond",
+      "amount": 9944447.05,
+      "share": 19.7127582395982,
+      "asOf": "2026-07-31",
+      "sourceIds": [
+        "atrs_july_holdings"
+      ]
+    },
+    {
+      "id": "cash",
+      "label": "Cash",
+      "amount": 1916004.35,
+      "share": 3.7980724667409738,
+      "asOf": "2026-07-31",
+      "sourceIds": [
+        "atrs_july_holdings"
+      ]
+    }
+  ]
+}

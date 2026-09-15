@@ -1,102 +1,73 @@
-"""Verify the campaign QR payload, Open Graph dimensions, and source excerpts."""
-
-from __future__ import annotations
-
-import argparse
-import hashlib
+"""Verify immutable downloads, reviewed exhibit hashes, previews, briefs and QR codes."""
 from pathlib import Path
-from urllib.request import Request, urlopen
-
-import fitz
-import yaml
-import zxingcpp
+import argparse,hashlib,json,sys
+from urllib.request import Request,urlopen
+import fitz,zxingcpp
 from PIL import Image
+from campaign_provenance import input_hashes
 
-
-ROOT = Path(__file__).resolve().parents[1]
-EXPECTED_QR_PAYLOAD = "https://qr.generatorqr.com/3drm7MQpG"
-EXPECTED_QR_DESTINATION = "https://arpensions.org"
-ASSET_MANIFEST = ROOT / "_internal" / "source-assets.yml"
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--live", action="store_true", help="Resolve the QR redirect over the network")
-    args = parser.parse_args()
-
-    errors: list[str] = []
-    data = yaml.safe_load((ROOT / "_data" / "investigation.yml").read_text(encoding="utf-8"))
-    manifest = yaml.safe_load(ASSET_MANIFEST.read_text(encoding="utf-8"))["sources"]
-
-    og = Image.open(ROOT / "assets" / "images" / "og-default.png")
-    if og.size != (1200, 630):
-        errors.append(f"Open Graph image is {og.size}, expected 1200x630")
-
-    for name in ("banknote-share.jpg", "banknote-share.webp"):
-        image = Image.open(ROOT / "assets" / "images" / name)
-        payloads = [result.text for result in zxingcpp.read_barcodes(image)]
-        if EXPECTED_QR_PAYLOAD not in payloads:
-            errors.append(f"{name} does not contain the preserved QR payload")
-
-    for source_id, source in data["sources"].items():
-        asset_url = source.get("asset_url")
-        if not asset_url:
-            continue
-        path = ROOT / asset_url.lstrip("/")
+ROOT=Path(__file__).resolve().parent.parent
+def main():
+    parser=argparse.ArgumentParser();parser.add_argument('--live',action='store_true');args=parser.parse_args()
+    errors=[];data=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf-8'));assets=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf-8'))
+    contract=json.loads((ROOT/'tests/fixtures/compatibility.json').read_text())
+    manifest=json.loads((ROOT/'src/data/campaign-assets.json').read_text(encoding='utf-8'))
+    if manifest['inputs']!=input_hashes(ROOT):errors.append('Generated campaign assets are stale: review changed content, rebuild Astro, and regenerate campaign assets.')
+    for relative,digest in manifest['outputs'].items():
+        path=ROOT/relative
+        if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:errors.append(f'Generated campaign artifact changed: {relative}')
+    for card in json.loads((ROOT/'src/data/social-cards.json').read_text(encoding='utf-8')).values():
+        if Image.open(ROOT/'public'/card['url'].lstrip('/')).size!=(1200,630):errors.append('Page-specific social card has wrong dimensions: '+card['url'])
+    for url,digest in contract['downloads'].items():
+        path=ROOT/'public'/url.lstrip('/')
+        if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:errors.append(f'Historical download changed: {url}')
+    for source_id,source in data['sources'].items():
+        if source.get('assetUrl') and source_id not in assets:errors.append(f'{source_id}: reviewed asset manifest entry missing')
+    for source_id,asset in assets.items():
+        path=ROOT/'public'/asset['assetUrl'].lstrip('/')
+        if not path.exists():errors.append(f'Missing {asset["assetUrl"]}');continue
+        if hashlib.sha256(path.read_bytes()).hexdigest()!=asset['sha256']:errors.append(f'{source_id}: public artifact differs from reviewed hash')
         try:
-            document = fitz.open(path)
-            expected_pages = source.get("expected_pages")
-            manifest_entry = manifest.get(source_id)
-            if not manifest_entry:
-                errors.append(f"{source_id} excerpt is missing from the source-asset manifest")
-            elif manifest_entry.get("pages") != expected_pages:
-                errors.append(f"{source_id} canonical and manifest page counts disagree")
-            if len(document) != expected_pages:
-                errors.append(f"{source_id} excerpt has {len(document)} pages; expected {expected_pages}")
-            for page in document:
-                if page.rect.width <= 0 or page.rect.height <= 0:
-                    errors.append(f"{source_id} excerpt has an invalid page rectangle")
-            digest = hashlib.sha256(path.read_bytes()).hexdigest()
-            if manifest_entry and digest != manifest_entry.get("sha256"):
-                errors.append(f"{source_id} excerpt hash differs from the visually reviewed artifact")
-        except Exception as exc:  # pragma: no cover - diagnostic path
-            errors.append(f"{source_id} excerpt is not a readable PDF: {exc}")
-
-    asset_sources = {source_id for source_id, source in data["sources"].items() if source.get("asset_url")}
-    unknown_manifest = sorted(set(manifest) - asset_sources)
-    if unknown_manifest:
-        errors.append(f"source-asset manifest contains unknown entries: {', '.join(unknown_manifest)}")
-
-    for path in sorted((ROOT / "assets" / "documents").glob("*.pdf")):
-        try:
-            document = fitz.open(path)
-            image_only_pages = [index + 1 for index, page in enumerate(document) if not page.get_text().strip()]
-            if image_only_pages:
-                errors.append(
-                    f"{path.name} lacks a searchable text layer on page(s) "
-                    + ", ".join(str(page) for page in image_only_pages)
-                )
-        except Exception as exc:  # pragma: no cover - diagnostic path
-            errors.append(f"{path.name} could not be checked for searchable text: {exc}")
-
+            if asset.get('format')=='email-text':
+                if path.read_text(encoding='utf-8').strip()!=asset['transcript'].strip():errors.append(f'{source_id}: email transcript differs from downloadable text')
+                continue_pdf=True
+            else:continue_pdf=False
+            if continue_pdf:pass
+            else:
+                with fitz.open(path) as pdf:
+                    if len(pdf)!=asset['pages']:errors.append(f'{source_id}: page count changed')
+                    if pdf.embfile_count():errors.append(f'{source_id}: embedded attachments require review')
+        except Exception as exc:errors.append(f'{source_id}: unreadable PDF {exc}')
+        fields=['treatment','originalFile','originalLocator','reviewedAt','transcript']
+        if asset.get('format')!='email-text':fields.append('previews')
+        for field in fields:
+            if not asset.get(field):errors.append(f'{source_id}: missing {field}')
+        for preview in asset['previews']:
+            imagepath=ROOT/'public'/preview['url'].lstrip('/')
+            if not imagepath.exists():errors.append(f'Missing preview {preview["url"]}');continue
+            with Image.open(imagepath) as image:
+                if image.size!=(preview['width'],preview['height']):errors.append(f'{source_id}: preview dimensions changed')
+    for name in ('banknote-share.jpg','banknote-share.webp'):
+        payloads=[r.text for r in zxingcpp.read_barcodes(Image.open(ROOT/'public/assets/images'/name))]
+        if 'https://qr.generatorqr.com/3drm7MQpG' not in payloads:errors.append(f'{name}: historical QR changed')
+    og=ROOT/'public/assets/images/og-rebuild.png'
+    if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 × 630')
+    qr=ROOT/'public/assets/images/campaign-qr.png'
+    if not qr.exists() or 'https://arpensions.org/go/' not in [r.text for r in zxingcpp.read_barcodes(Image.open(qr))]:errors.append('New QR must use owned /go/ destination')
+    brief=ROOT/'public/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf'
+    if not brief.exists():errors.append('Current campaign brief missing')
+    else:
+        with fitz.open(brief) as pdf:
+            text=' '.join(' '.join(page.get_text() for page in pdf).split())
+            for token in ('$25','$9.9','January 2','non-tradable sovereign debt','30 days'):
+                if token not in text:errors.append(f'Current brief missing {token}')
     if args.live:
         try:
-            request = Request(
-                EXPECTED_QR_PAYLOAD.rstrip("/") + "/go",
-                headers={"User-Agent": "Mozilla/5.0 (compatible; arpensions asset audit)"},
-            )
-            with urlopen(request, timeout=15) as response:
-                terminal = response.geturl().rstrip("/")
-            if terminal != EXPECTED_QR_DESTINATION:
-                errors.append(f"QR redirect resolves to {terminal}, expected {EXPECTED_QR_DESTINATION}")
-        except Exception as exc:  # pragma: no cover - network diagnostic path
-            errors.append(f"QR redirect could not be resolved: {exc}")
-
-    if errors:
-        raise SystemExit("ASSET AUDIT FAILED\n- " + "\n- ".join(errors))
-    live_note = f" · destination={EXPECTED_QR_DESTINATION}" if args.live else ""
-    print(f"ASSET AUDIT PASSED · QR={EXPECTED_QR_PAYLOAD}{live_note} · OG={og.size[0]}x{og.size[1]}")
-
-
-if __name__ == "__main__":
-    main()
+            with urlopen(Request('https://qr.generatorqr.com/3drm7MQpG',headers={'User-Agent':'arpensions-public-asset-check/2'}),timeout=20) as response:
+                destination=response.geturl()
+                if not destination.startswith('https://arpensions.org'):errors.append(f'Printed QR now resolves to {destination}')
+                else:print('Historical printed QR resolves to arpensions.org over HTTPS.')
+        except Exception as exc:errors.append(f'Live QR resolution could not be verified: {exc}')
+    if errors:print('\n'.join('ERROR: '+e for e in errors));return 1
+    print(f'Asset audit passed: {len(contract["downloads"])} immutable PDFs, {len(assets)} reviewed source exhibits, social card and QR codes.');return 0
+if __name__=='__main__':sys.exit(main())

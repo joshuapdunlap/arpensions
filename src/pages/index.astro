@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import Guilloche from '../components/Guilloche.astro';
+import SourceNote from '../components/SourceNote.astro';
+import {data,financialRecord} from '../lib/data';
+const paths=[
+  {title:'Educators',description:'Follow the ATRS decision and the account holding your retirement money.',url:'/educators/'},
+  {title:'Public employees & retirees',description:'See the APERS record and the safeguards we are asking for.',url:'/public-employees/'},
+  {title:'Legislators',description:'Read the proposal, the evidence, and the questions for drafting.',url:'/legislators/'},
+  {title:'Journalists',description:'Start with dated facts, primary documents, and clear attribution.',url:'/press/'},
+];
+---
+<Base title="Public money deserves a public investment record." description="Support the Pension Investment Integrity Act: a clear, public financial case for covered Arkansas pension investments. Explore the APERS and ATRS source records." wide>
+  <section class="hero" aria-labelledby="home-promise">
+    <div class="shell">
+      <div class="hero-topline"><span>ARKANSANS FOR PENSION INTEGRITY</span><span>A CAMPAIGN FOR THE PEOPLE BEHIND THE PENSIONS</span></div>
+      <div class="hero-body">
+        <div class="hero-copy">
+          <h1 id="home-promise">Public money deserves a <em>public investment record.</em></h1>
+          <p class="hero-deck">Our retirement funds carry a public trust. The Pension Investment Integrity Act would require a clear financial case for covered investments, and a record we can all read.</p>
+          <div class="actions"><a class="button" href="/take-action/">Support the Integrity Act</a><a class="button secondary" href="/evidence/">See the evidence</a></div>
+        </div>
+        <div class="hero-art" aria-hidden="true"><Guilloche/><div class="seal"><span class="micro">Arkansas public pensions</span><strong>PUBLIC<br/>TRUST</strong><img src="/assets/images/api-badge.svg" width="76" height="76" alt=""/></div><span class="seal-note">THE FINANCIAL CASE.<br/>IN THE PUBLIC RECORD.</span></div>
+      </div>
+      <div class="hero-bottom"><span><strong>THE INTEGRITY ACT</strong> · A campaign proposal for Arkansas</span><span>Follow the decision. Read the source. Ask for the record.</span></div>
+    </div>
+  </section>
+
+  <section class="shell intro" aria-labelledby="people-heading"><span class="eyebrow">The people behind the money</span><p id="people-heading">For the teacher planning retirement. The public employee building a future. Everyone owed an explanation of how their pension money is invested.</p></section>
+
+  <section class="section shell" aria-labelledby="documented-heading">
+    <div class="section-heading"><div><span class="eyebrow">01 / The documented decisions</span><h2 id="documented-heading">Two pension systems.<br/>A public question.</h2></div><p>Arkansas public records show pension money committed to Israel Bonds. Each decision deserves a financial explanation that connects risk, return, alternatives, and the ability to exit.</p></div>
+    <div class="fact-grid">
+      <article class="fact-panel"><div class="fact-top"><h3>Public employees · APERS</h3><span class="stamp">Custody observation</span></div><strong class="figure-value">${financialRecord('apers_september_holding').amount/1e6}<span> million</span></strong><p>Two Israel Bond positions in the September custody report. The original $15 million purchase remains a distinct historical event.</p><div class="fact-date">PAR VALUE · SEPTEMBER 7, 2026</div><div class="funding-note"><strong>Two positions</strong><span>$15 million + $10 million in the reported APERS-administered account.</span></div><a class="text-link" href="/evidence/apers/">Read the APERS record ↗</a></article>
+      <article class="fact-panel"><div class="fact-top"><h3>Teachers · ATRS / Reams</h3><span class="stamp">Completed purchase</span></div><strong class="figure-value">${financialRecord('atrs_february_purchase').amount/1e6}<span> million</span></strong><p>A completed Israel Bond purchase on February 17. The July account report independently identifies the position.</p><div class="fact-date">PAR VALUE · FEBRUARY 17, 2026</div><div class="funding-note"><strong>Inside $50 million</strong><span>The funded manager account also held U.S. Treasuries and cash.</span></div><a class="text-link" href="/evidence/atrs/">Follow the ATRS account ↗</a></article>
+    </div>
+    <p class="footnote">These figures have different record dates and measurement contexts. <a href="/evidence/#agency-by-agency">See the sources and definitions</a>. Treasury is treated separately as a comparison.</p>
+  </section>
+
+  <section class="section exhibit-section" aria-labelledby="exhibit-heading"><div class="shell exhibit-grid">
+    <figure class="document-mat"><a href="/documents/records/apers-september-holdings/" aria-label="Open the APERS September custody record"><img src="/assets/exhibits/apers-september-holdings-detail.png" alt="Literal excerpt of the September 7 custody report showing two State of Israel positions and a $25 million subtotal." width="1601" height="917" loading="lazy"/></a><figcaption><span class="micro">EXHIBIT 01 · APERS CUSTODY RECORD</span><br/>September 7, 2026. The report is marked preliminary. This is a crop of the source page; the full reviewed page is available.</figcaption></figure>
+    <div class="exhibit-copy"><span class="eyebrow">02 / Read it for yourself</span><h2 id="exhibit-heading">The record is the starting point.</h2><p>The September production changes the APERS account from the previously documented $15 million purchase to two positions totaling $25 million.</p><p>Our findings link to the source, identify its date, and explain what it can establish. A holding report answers one question. The financial case for the decision answers another.</p><SourceNote ids={['apers_september_holdings']}/></div>
+  </div></section>
+
+  <section class="section policy-band" aria-labelledby="safeguards-heading"><div class="shell">
+    <div class="section-heading"><div><span class="eyebrow">03 / A practical public standard</span><h2 id="safeguards-heading">Before the investment.<br/>Make the case.</h2></div><p>The Integrity Act would put five requirements around covered pension investments. Trustees keep the decision. The public gets the financial explanation.</p></div>
+    <ol class="requirements">{data.requirements.map((item,i)=><li class="requirement"><span class="number">0{i+1}</span><h3>{item.title}</h3><p>{item.description}</p></li>)}</ol>
+    <div class="policy-footer"><p><strong>Proposal in development.</strong> This is a campaign proposal for Arkansas’s 2027 legislative session. Coverage of delegated-manager acquisitions needs to be resolved in drafting.</p><a class="button" href="/the-act/">Explore the Integrity Act</a></div>
+  </div></section>
+
+  <section class="section shell" aria-labelledby="path-heading"><div class="section-heading"><div><span class="eyebrow">04 / Make this your issue</span><h2 id="path-heading">Your stake.<br/>Your next step.</h2></div><p>Start with the evidence that matters to you, then help make a public financial record the standard.</p></div><div class="path-grid">{paths.map(p=><a class="path" href={p.url}><h3>{p.title}</h3><p>{p.description}</p><span class="arrow" aria-hidden="true">↗</span></a>)}</div></section>
+
+  <section class="section shell" style="padding-top:0" aria-labelledby="latest-heading"><div class="update-feature"><div><span class="eyebrow">Latest verified development</span><p class="update-date">SEPTEMBER 15, 2026<br/>EVIDENCE UPDATE</p></div><div><h3 id="latest-heading">New records complete more of the pension investment trail.</h3><p>September productions document APERS’s second position, the completed ATRS funding transfer, and the bond held inside its manager account. Read what changed and why the decision record still matters.</p><a class="text-link" href="/news/september-2026-records/">Read the evidence update ↗</a></div></div></section>
+
+  <section class="closing"><Guilloche/><div class="shell"><h2>It’s our retirement.<br/>The record should be public.</h2><p>Help build support for the Pension Investment Integrity Act.</p><div class="actions"><a class="button" href="/take-action/">Support the Integrity Act</a><a class="text-link" href="/take-action/#contact-your-legislators">Contact your legislators ↗</a><a class="text-link" href="/take-action/#participate">Get involved ↗</a></div></div></section>
+</Base>

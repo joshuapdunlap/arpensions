@@ -1,0 +1,3 @@
+import {getCollection} from 'astro:content';
+import {sources} from '../lib/data';
+export async function GET(){const pages=await getCollection('pages');const paths=[...new Set(['/', '/documents/','/assets/documents/',...pages.map(p=>p.data.permalink),...Object.values(sources).map(s=>s.recordUrl).filter(url=>url.startsWith('/'))])];return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${paths.map(path=>`<url><loc>https://arpensions.org${path}</loc></url>`).join('')}</urlset>`,{headers:{'Content-Type':'application/xml'}})}

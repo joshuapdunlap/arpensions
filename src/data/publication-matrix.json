@@ -1,0 +1,3680 @@
+[
+  {
+    "id": "apers-september-par",
+    "claim": "APERS custody reporting shows two Israel Bond positions totaling $25 million par.",
+    "sourceIds": [
+      "apers_september_holdings"
+    ],
+    "locator": "Physical page 1, State of Israel lines",
+    "scope": "Dated APERS custody account",
+    "asOf": "2026-09-07",
+    "interpretation": "Sum $15M and $10M positions.",
+    "boundary": "Not a same-day cross-agency total; allocation among APERS-administered systems unresolved.",
+    "pages": [
+      "/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf",
+      "/corrections/",
+      "/evidence/",
+      "/evidence/apers/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/public-employees/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/public-employees/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/home.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/public-employees.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "apers-terms",
+    "claim": "The $15M position has a 4.060% coupon and October 1, 2027 maturity; the $10M position has a 4.670% coupon and August 1, 2028 maturity.",
+    "sourceIds": [
+      "apers_september_holdings"
+    ],
+    "locator": "Physical page 1, two security rows",
+    "scope": "Terms displayed on September custody statement",
+    "asOf": "2026-09-07",
+    "interpretation": "Direct report fields.",
+    "boundary": "Maturity dates do not prove future receipt or retention.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/apers/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/public-employees/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/public-employees/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/public-employees.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "apers-account-share",
+    "claim": "The Israel subtotal is 20.80% of the displayed custody account, not the entire pension portfolio.",
+    "sourceIds": [
+      "apers_september_holdings"
+    ],
+    "locator": "Pages 1–2, subtotal and account market value",
+    "scope": "Displayed $120,207,095.67 account market value",
+    "asOf": "2026-09-07",
+    "interpretation": "25M / 120,207,095.67, rounded.",
+    "boundary": "No allocation among administered systems or extrapolation to whole fund.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/apers/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/public-employees/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/public-employees/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/public-employees.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "apers-second-request",
+    "claim": "The second investment request specifies $10M for a two-year institutional bond; it has no separate execution timestamp.",
+    "sourceIds": [
+      "apers_august_request",
+      "apers_september_holdings"
+    ],
+    "locator": "Investment request p. 1; custody p. 1",
+    "scope": "Form and later custody record",
+    "asOf": "2026-09-09",
+    "interpretation": "Custody corroborates a held position.",
+    "boundary": "August 15 appears on custody line; do not recast as timestamp proved by form.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/apers/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/public-employees/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/public-employees/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/public-employees.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "apers-range-and-first-purchase",
+    "claim": "The May motion stated $25M to $50M; October purchase was $15M; September holdings reach $25M.",
+    "sourceIds": [
+      "apers_authorization",
+      "apers_purchase",
+      "apers_september_holdings"
+    ],
+    "locator": "Minutes pp. 1 and 4; purchase physical p. 6,925; custody p. 1",
+    "scope": "Historical sequence",
+    "asOf": "2026-09-07",
+    "interpretation": "The later holdings gap is resolved.",
+    "boundary": "No retrospective authorization-compliance conclusion.",
+    "pages": [
+      "/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf",
+      "/corrections/",
+      "/evidence/",
+      "/evidence/apers/",
+      "/findings/",
+      "/findings/auditor-channel/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/network/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/public-employees/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/auditor-channel/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/network/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/public-employees/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/home.png"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--auditor-channel.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/network.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/public-employees.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "apers-analysis-gap",
+    "claim": "Reviewed productions identify no independent consultant sovereign-credit memo tied to the APERS purchases; September response reported no responsive analysis for the addition.",
+    "sourceIds": [
+      "apers_analysis_email",
+      "apers_august_request"
+    ],
+    "locator": "February email physical p. 3,081; September response summarized in source record",
+    "scope": "Reviewed productions and bounded agency response",
+    "asOf": "2026-09-09",
+    "interpretation": "Absence in reviewed record and agency response statement.",
+    "boundary": "Not proof that oral or unproduced work did not exist. September response is correspondence, not a statement printed on investment form.",
+    "pages": [
+      "/evidence/",
+      "/evidence/apers/",
+      "/key-figures/",
+      "/methodology/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-funding-completed",
+    "claim": "The $50M ATRS-to-Reams funding completed January 2, 2026.",
+    "sourceIds": [
+      "atrs_completed_funding",
+      "atrs_funding"
+    ],
+    "locator": "2026_Funding.pdf p. 3 Completed; pp. 1 and 6–7 context",
+    "scope": "Manager-account transfer",
+    "asOf": "2026-01-02",
+    "interpretation": "Direct completion record supersedes notice as execution evidence.",
+    "boundary": "December 29 is notice date, not completion date; funding not all Israel Bonds.",
+    "pages": [
+      "/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf",
+      "/corrections/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/oversight-gap/",
+      "/glossary/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/glossary/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/home.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/glossary.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-replacement-purchase",
+    "claim": "A $9.9M Israel Bond purchase traded and settled February 17, 2026 at par, coupon 4.93%, maturity February 1, 2031.",
+    "sourceIds": [
+      "atrs_completed_purchase"
+    ],
+    "locator": "2026.0228.Reams ILS 4NZB Trade, headers row 1; transaction row 2",
+    "scope": "Original spreadsheet transaction",
+    "asOf": "2026-02-17",
+    "interpretation": "Direct cell values verified with openpyxl.",
+    "boundary": "Within $50M manager funding; no additional $9.9M above full funding.",
+    "pages": [
+      "/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf",
+      "/corrections/",
+      "/educators/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/",
+      "/findings/oversight-gap/",
+      "/findings/procedural-asymmetry/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/educators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/procedural-asymmetry/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/home.png"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/educators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--procedural-asymmetry.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-cancellation",
+    "claim": "The first $9.9M issuance was canceled before the replacement purchase.",
+    "sourceIds": [
+      "atrs_cancellation",
+      "atrs_completed_purchase"
+    ],
+    "locator": "Cancellation p. 1; completed trade row 2",
+    "scope": "Issuance sequence",
+    "asOf": "2026-02-17",
+    "interpretation": "Count replacement once.",
+    "boundary": "Canceled issuance contributes zero to completed holdings/purchase totals.",
+    "pages": [
+      "/corrections/",
+      "/educators/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/",
+      "/findings/oversight-gap/",
+      "/findings/procedural-asymmetry/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/educators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/procedural-asymmetry/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/educators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--procedural-asymmetry.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-july-observation",
+    "claim": "July reporting shows the same $9.9M par security.",
+    "sourceIds": [
+      "atrs_july_holdings",
+      "atrs_completed_purchase"
+    ],
+    "locator": "MasterGridXLS row 9; trade row 2",
+    "scope": "July manager holdings",
+    "asOf": "2026-07-31",
+    "interpretation": "Later observation corroborates February security.",
+    "boundary": "Do not sum observation and purchase as distinct assets.",
+    "pages": [
+      "/corrections/",
+      "/educators/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/",
+      "/findings/oversight-gap/",
+      "/findings/procedural-asymmetry/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/educators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/procedural-asymmetry/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/educators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--procedural-asymmetry.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-july-value",
+    "claim": "Israel Bond principal value $9,821,426.67 plus accrued $123,020.38 equals $9,944,447.05.",
+    "sourceIds": [
+      "atrs_july_holdings"
+    ],
+    "locator": "MasterGridXLS row 9, principal/accrued/market-value columns",
+    "scope": "July value with accrued income",
+    "asOf": "2026-07-31",
+    "interpretation": "Direct spreadsheet values and arithmetic.",
+    "boundary": "Not par; no additional purchase implied.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/oversight-gap/",
+      "/key-figures/",
+      "/news/september-2026-records/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-account-composition",
+    "claim": "July account includes U.S. Treasuries $38,586,306.55, Israel Bond $9,944,447.05 and cash $1,916,004.35, totaling $50,446,757.95.",
+    "sourceIds": [
+      "atrs_july_holdings"
+    ],
+    "locator": "MasterGridXLS rows 7, 9–10 and 12",
+    "scope": "Market value plus accrued income",
+    "asOf": "2026-07-31",
+    "interpretation": "Sum distinct asset categories; shares 76.4892%, 19.7128%, 3.7981%, rounded.",
+    "boundary": "Rounded shares may total 100.0001%; do not silently change component values.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/oversight-gap/",
+      "/key-figures/",
+      "/news/september-2026-records/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-q2-implementation",
+    "claim": "Q2 manager reporting describes Treasury-ladder deployment and shortest available Jubilee maturity under an annual constraint.",
+    "sourceIds": [
+      "atrs_q2_report"
+    ],
+    "locator": "Portfolio commentary",
+    "scope": "Manager reporting",
+    "asOf": "2026-06-30",
+    "interpretation": "Substantive implementation evidence.",
+    "boundary": "Not an independent pre-decision sovereign-credit merits recommendation; allowed/target wording difference remains.",
+    "pages": [
+      "/evidence/atrs/",
+      "/findings/oversight-gap/",
+      "/findings/procedural-asymmetry/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/procedural-asymmetry/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--procedural-asymmetry.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-contract-term",
+    "claim": "Amendment 2 extends the Reams contract through June 30, 2027.",
+    "sourceIds": [
+      "atrs_contract_extension"
+    ],
+    "locator": "Contract-period and signature fields",
+    "scope": "Executed contract amendment",
+    "asOf": "2026-07-23",
+    "interpretation": "Reams June 9 signature; ATRS July 23 signature.",
+    "boundary": "Does not alter investment guidelines or prove later purchases.",
+    "pages": [
+      "/evidence/atrs/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      }
+    ]
+  },
+  {
+    "id": "treasury-residual",
+    "claim": "Treasury $50M derived residual equals June 2025 $55M statement less documented February 2026 $5M maturity.",
+    "sourceIds": [
+      "treasury_holdings",
+      "treasury_maturity"
+    ],
+    "locator": "Statement p. 1; maturity workbook Sheet1 row 14",
+    "scope": "Historical derivation",
+    "asOf": "2026-02-02",
+    "interpretation": "55M - 5M = 50M.",
+    "boundary": "Current holdings not verified; subsequent transactions may change balance.",
+    "pages": [
+      "/evidence/",
+      "/evidence/treasury/",
+      "/glossary/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/glossary/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--treasury.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/glossary.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "treasury-processing",
+    "claim": "The extra $10M Treasury payment remains processing evidence.",
+    "sourceIds": [
+      "treasury_processing"
+    ],
+    "locator": "Outgoing Payments Report p. 1, Processing By Bank",
+    "scope": "Payment status at report date",
+    "asOf": "2026-02-17",
+    "interpretation": "Exclude from confirmed totals.",
+    "boundary": "No settlement, ownership or $60M current position established.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/treasury/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--treasury.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "direct-security-floor",
+    "claim": "The $84.9M direct-security floor sums Treasury $50M residual, APERS $25M and ATRS $9.9M.",
+    "sourceIds": [
+      "treasury_holdings",
+      "treasury_maturity",
+      "apers_september_holdings",
+      "atrs_july_holdings"
+    ],
+    "locator": "Component locators above",
+    "scope": "Evidence floor combining different record dates",
+    "asOf": "2026-09-15",
+    "interpretation": "50M + 25M + 9.9M = 84.9M.",
+    "boundary": "Not same-day portfolio valuation; excludes processing and canceled issuance.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/apers/",
+      "/evidence/atrs/",
+      "/evidence/treasury/",
+      "/findings/oversight-gap/",
+      "/glossary/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/public-employees/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/glossary/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/public-employees/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--treasury.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/glossary.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/public-employees.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "mixed-stage-measure",
+    "claim": "The $125M mixed-stage measure substitutes $50M ATRS funding for $9.9M ATRS security.",
+    "sourceIds": [
+      "treasury_holdings",
+      "treasury_maturity",
+      "apers_september_holdings",
+      "atrs_completed_funding"
+    ],
+    "locator": "Component locators above",
+    "scope": "Mixed dates and transaction stages",
+    "asOf": "2026-09-15",
+    "interpretation": "50M + 25M + 50M = 125M.",
+    "boundary": "Not $125M Israel Bonds holdings; ATRS security already inside funding.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/apers/",
+      "/evidence/atrs/",
+      "/evidence/treasury/",
+      "/findings/oversight-gap/",
+      "/glossary/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/public-employees/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/glossary/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/public-employees/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--treasury.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/glossary.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/public-employees.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "treasury-advice-sequence",
+    "claim": "Treasury internal HOLD/roll-off recommendation preceded $20M settled May 2025 positions; reviewed record lacks written reconciliation.",
+    "sourceIds": [
+      "treasury_hold",
+      "treasury_holdings"
+    ],
+    "locator": "Overview p. 2; statement p. 1",
+    "scope": "Dated advice and later transaction",
+    "asOf": "2025-06-30",
+    "interpretation": "Documented sequence and bounded gap.",
+    "boundary": "Not no-analysis claim or legal/fiduciary finding.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/treasury/",
+      "/glossary/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/glossary/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--treasury.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/glossary.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "treasury-maturity-dates",
+    "claim": "Historical statement lists $10M maturing October 1 and $10M November 1, 2026.",
+    "sourceIds": [
+      "treasury_holdings"
+    ],
+    "locator": "Statement p. 1, two $5M October rows and $10M November row",
+    "scope": "Contractual dates on historical holdings",
+    "asOf": "2025-06-30",
+    "interpretation": "Potential accountability window.",
+    "boundary": "No proof of continued ownership, redemption, receipt or reinvestment.",
+    "pages": [
+      "/evidence/",
+      "/evidence/treasury/",
+      "/glossary/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/glossary/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--treasury.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/glossary.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "aon-scope",
+    "claim": "Aon compared implementation options, recommended Reams and discussed limited marketability; merits and bond selection placed with trustees.",
+    "sourceIds": [
+      "atrs_aon"
+    ],
+    "locator": "June 2 packet physical pp. 149–150",
+    "scope": "Two-page memorandum read together",
+    "asOf": "2025-06-02",
+    "interpretation": "Substantive professional advice with scope boundary.",
+    "boundary": "Do not call zero advice or independent recommendation on underlying sovereign merits.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/",
+      "/findings/oversight-gap/",
+      "/findings/procedural-asymmetry/",
+      "/findings/regulatory-record/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/the-act/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/procedural-asymmetry/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/regulatory-record/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--procedural-asymmetry.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--regulatory-record.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      }
+    ]
+  },
+  {
+    "id": "external-credit-report",
+    "claim": "ATRS possessed an external S&P rating report in the reviewed production.",
+    "sourceIds": [
+      "atrs_rating_report"
+    ],
+    "locator": "Reports.pdf, S&P report",
+    "scope": "Produced external material",
+    "asOf": "2026-09-15",
+    "interpretation": "Existence refutes blanket no-external-analysis claim.",
+    "boundary": "Possession does not prove commissioning, presentation or reliance; no public rating-level claim.",
+    "pages": [
+      "/corrections/",
+      "/evidence/",
+      "/findings/procedural-asymmetry/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/procedural-asymmetry/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--procedural-asymmetry.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-authorization",
+    "claim": "ATRS adopted Resolution 2025-22 authorizing up to $50M.",
+    "sourceIds": [
+      "atrs_resolution"
+    ],
+    "locator": "Executed resolution physical pp. 5–6",
+    "scope": "Board authorization",
+    "asOf": "2025-06-02",
+    "interpretation": "Ceiling, not amount then purchased.",
+    "boundary": "No individual vote claim inferred.",
+    "pages": [
+      "/evidence/",
+      "/evidence/atrs/",
+      "/network/",
+      "/news/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/network/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/network.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      }
+    ]
+  },
+  {
+    "id": "brady-apers-role",
+    "claim": "Signed APERS minutes identify Brady as Auditor proxy and presenter/mover of authorization.",
+    "sourceIds": [
+      "apers_authorization"
+    ],
+    "locator": "Physical pp. 1 and 4",
+    "scope": "Recorded May meeting role",
+    "asOf": "2025-05-15",
+    "interpretation": "Formal role and recorded motion.",
+    "boundary": "No invented current-office status or individual dissent count.",
+    "pages": [
+      "/evidence/",
+      "/evidence/apers/",
+      "/findings/",
+      "/findings/auditor-channel/",
+      "/key-figures/",
+      "/network/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/apers/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/auditor-channel/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/network/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--apers.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--auditor-channel.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/network.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "brady-atrs-role",
+    "claim": "ATRS records identify Brady as Auditor designee.",
+    "sourceIds": [
+      "atrs_auditor_designee"
+    ],
+    "locator": "Packet physical p. 6; sign-in p. 1",
+    "scope": "Dated board records",
+    "asOf": "2025-06-02",
+    "interpretation": "Formal documented participation.",
+    "boundary": "No unsupported causal control claim.",
+    "pages": [
+      "/findings/auditor-channel/",
+      "/key-figures/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/auditor-channel/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--auditor-channel.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      }
+    ]
+  },
+  {
+    "id": "itinerary-scheduled",
+    "claim": "April itinerary scheduled eight stops.",
+    "sourceIds": [
+      "capitol_itinerary"
+    ],
+    "locator": "April 11 itinerary p. 2",
+    "scope": "Outreach plan for April 14–15",
+    "asOf": "2025-04-11",
+    "interpretation": "Schedule establishes intended encounters.",
+    "boundary": "Not eight confirmed meetings.",
+    "pages": [
+      "/corrections/",
+      "/findings/auditor-channel/",
+      "/key-figures/",
+      "/network/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/auditor-channel/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/network/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--auditor-channel.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/network.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "hudson-babbitt-confirmed",
+    "claim": "Babbitt participant message confirms prior-day meeting with Hudson and seller representatives.",
+    "sourceIds": [
+      "hudson_babbitt_confirmation"
+    ],
+    "locator": "April 16 message 9:25 a.m. CDT",
+    "scope": "Participant confirmation",
+    "asOf": "2025-04-16",
+    "interpretation": "Confirms encounter; signature identifies DFA role.",
+    "boundary": "Time/location conflicts remain; do not treat all itinerary parameters as confirmed.",
+    "pages": [
+      "/findings/auditor-channel/",
+      "/key-figures/",
+      "/network/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/auditor-channel/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/network/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--auditor-channel.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/network.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "seller-meetings-reported",
+    "claim": "Seller correspondence reports Fecher and Treasury-team encounters.",
+    "sourceIds": [
+      "seller_reported_meetings"
+    ],
+    "locator": "Physical p. 589",
+    "scope": "Seller-authored report",
+    "asOf": "2025-04-17",
+    "interpretation": "Attribute as reported.",
+    "boundary": "Not equivalent to participating-office confirmation.",
+    "pages": [
+      "/findings/auditor-channel/",
+      "/key-figures/",
+      "/network/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/auditor-channel/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/network/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--auditor-channel.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/network.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "ashers-pitch",
+    "claim": "DFA introduction was followed by seller reply and presentation to ASHERS.",
+    "sourceIds": [
+      "ashers_route"
+    ],
+    "locator": "April 16 introduction and April 17 reply",
+    "scope": "Produced correspondence",
+    "asOf": "2025-04-17",
+    "interpretation": "Documented sales approach.",
+    "boundary": "Does not prove completed meeting or adoption.",
+    "pages": [
+      "/findings/control-case/",
+      "/key-figures/",
+      "/network/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/control-case/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/network/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--control-case.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/network.png"
+      }
+    ]
+  },
+  {
+    "id": "ashers-dated-zero",
+    "claim": "ASHERS reported no bonds May 15 and no purchases July 14, 2025; May separately named equities.",
+    "sourceIds": [
+      "ashers_no_holding",
+      "ashers_no_purchase"
+    ],
+    "locator": "May 15 8:32 a.m.; July 14 10:35 a.m. messages",
+    "scope": "Dated agency statements",
+    "asOf": "2025-07-14",
+    "interpretation": "Descriptive non-adoption comparison.",
+    "boundary": "Not verified current zero or zero Israel-related exposure; no causal or affirmative-rejection inference.",
+    "pages": [
+      "/corrections/",
+      "/findings/",
+      "/findings/control-case/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/control-case/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--control-case.png"
+      }
+    ]
+  },
+  {
+    "id": "sfof-sponsor-listing",
+    "claim": "2020 SFOF event sponsor listing",
+    "sourceIds": [
+      "sfof_sponsor_listing"
+    ],
+    "locator": "End of Year Letter from Treasurer Milligan.pdf, physical page 1",
+    "scope": "Dated agency-held promotional record",
+    "asOf": "2020-12-17",
+    "interpretation": "Evidence of circulation, preparation or contacts as described.",
+    "boundary": "No proof of delivery from preparation, hidden payment or control of pension decision.",
+    "pages": [
+      "/findings/sfof-pipeline/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/sfof-pipeline/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--sfof-pipeline.png"
+      }
+    ]
+  },
+  {
+    "id": "sfof-model-case",
+    "claim": "SFOF newsletter circulating a state purchase",
+    "sourceIds": [
+      "sfof_model_case"
+    ],
+    "locator": "FOIA Response 6-18-25 / State Auditors Emails / Milligan / 🗳️ Pre-Election Update from the States - 4 nov 24.pdf, physical pages 4-6",
+    "scope": "Dated agency-held promotional record",
+    "asOf": "2024-11-04",
+    "interpretation": "Evidence of circulation, preparation or contacts as described.",
+    "boundary": "No proof of delivery from preparation, hidden payment or control of pension decision.",
+    "pages": [
+      "/findings/",
+      "/findings/sfof-pipeline/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/sfof-pipeline/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--sfof-pipeline.png"
+      }
+    ]
+  },
+  {
+    "id": "sfof-speech-preparation",
+    "claim": "SFOF speech preparation and scheduled presentation",
+    "sourceIds": [
+      "sfof_speech_preparation"
+    ],
+    "locator": "FOIA Response 6-25-25 / Jason Brady mailbox / Sent Items / update sfof speech.pdf, physical page 1; schedule cross-check dated April 14 for an April 24 slot in Jason Brady mailbox / Inbox / FW Auditor Milligan - Presentation Time.pdf, physical page 1",
+    "scope": "Dated agency-held promotional record",
+    "asOf": "2025-04-03",
+    "interpretation": "Evidence of circulation, preparation or contacts as described.",
+    "boundary": "No proof of delivery from preparation, hidden payment or control of pension decision.",
+    "pages": [
+      "/findings/sfof-pipeline/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/sfof-pipeline/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--sfof-pipeline.png"
+      }
+    ]
+  },
+  {
+    "id": "sfof-post-action-facilitation",
+    "claim": "Post-action member-state contact facilitation",
+    "sourceIds": [
+      "sfof_post_action_facilitation"
+    ],
+    "locator": "FOIA Response 6-25-25 / Stacy Peterson mailbox / Sent Items / Re Policy Zoom_1.pdf, physical page 1",
+    "scope": "Dated agency-held promotional record",
+    "asOf": "2025-06-04",
+    "interpretation": "Evidence of circulation, preparation or contacts as described.",
+    "boundary": "No proof of delivery from preparation, hidden payment or control of pension decision.",
+    "pages": [
+      "/findings/sfof-pipeline/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/sfof-pipeline/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--sfof-pipeline.png"
+      }
+    ]
+  },
+  {
+    "id": "regulatory-history",
+    "claim": "1986 suspension concerned principal designation; July order vacated it and reinstated registration.",
+    "sourceIds": [
+      "securities_1986_orders"
+    ],
+    "locator": "Orders 86-27-S and 86-27a-S",
+    "scope": "Arkansas regulatory historical record",
+    "asOf": "1986-07-22",
+    "interpretation": "Read suspension and cure together.",
+    "boundary": "No fraud or investor-harm finding in orders; not a current suspension claim.",
+    "pages": [
+      "/findings/",
+      "/findings/regulatory-record/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/regulatory-record/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--regulatory-record.png"
+      }
+    ]
+  },
+  {
+    "id": "finra-history",
+    "claim": "Official FINRA report identifies DCI CRD 11148 and regulatory disclosures.",
+    "sourceIds": [
+      "finra_brokercheck"
+    ],
+    "locator": "Report summary and disclosure events",
+    "scope": "Official report reviewed live",
+    "asOf": "2026-09-15",
+    "interpretation": "Public primary-source due-diligence record.",
+    "boundary": "Read allegations and dispositions together; historical record not proof of unlawful Arkansas investments.",
+    "pages": [
+      "/findings/regulatory-record/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/regulatory-record/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--regulatory-record.png"
+      }
+    ]
+  },
+  {
+    "id": "calendar",
+    "claim": "Official calendar lists Nov 16, 2026 prefiling; Jan 11, 2027 convening; Jan 25 ordinary retirement deadline.",
+    "sourceIds": [
+      "legislative_calendar"
+    ],
+    "locator": "Official calendar pp. 1–2",
+    "scope": "Scheduled legislative dates",
+    "asOf": "2026-09-15",
+    "interpretation": "Verified live official document.",
+    "boundary": "Calendar includes recess exception and late-introduction vote requirement; not bill status.",
+    "pages": [
+      "/legislators/",
+      "/legislators/one-page/",
+      "/the-act/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      }
+    ]
+  },
+  {
+    "id": "proposal-status",
+    "claim": "Integrity Act is a prospective issuer-neutral campaign proposal with no bill number or sponsor announced in this brief.",
+    "sourceIds": [],
+    "locator": "Campaign proposal and current brief",
+    "scope": "Campaign-controlled proposal status",
+    "asOf": "2026-09-15",
+    "interpretation": "Requested policy, not existing law.",
+    "boundary": "No claim of enactment, filing or legislator sponsorship.",
+    "pages": [
+      "/about/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/take-action/",
+      "/the-act/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/about/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/about.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      }
+    ]
+  },
+  {
+    "id": "cfc-attribution",
+    "claim": "According to API June 27 convention record, CFC selected pension integrity as a short-term 2027 priority.",
+    "sourceIds": [],
+    "locator": "Existing campaign legislation metadata, June 27 convention attribution",
+    "scope": "Campaign-reported coalition decision",
+    "asOf": "2026-06-27",
+    "interpretation": "Retains explicit attribution.",
+    "boundary": "Not independently verified CFC adoption text or legislative enactment.",
+    "pages": [
+      "/about/",
+      "/legislators/",
+      "/news/",
+      "/the-act/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/about/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/about.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      }
+    ]
+  },
+  {
+    "id": "five-safeguards",
+    "claim": "Proposed pre-acquisition analysis, alternatives, liquidity and determination; posting within 30 days after acquisition.",
+    "sourceIds": [],
+    "locator": "Current campaign policy requirements",
+    "scope": "Campaign proposal",
+    "asOf": "2026-09-15",
+    "interpretation": "Prospective issuer-neutral design, trustee decisions retained.",
+    "boundary": "Manager/pooled-vehicle coverage unresolved drafting question; Treasury separately governed.",
+    "pages": [
+      "/legislators/",
+      "/legislators/one-page/",
+      "/take-action/",
+      "/the-act/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      }
+    ]
+  },
+  {
+    "id": "petition-status",
+    "claim": "Action and privacy direct users to review actual Action Network subscription terms and preferences; visiting the thanks page does not verify a submission.",
+    "sourceIds": [],
+    "locator": "Staged docs/petition-revision.md; existing external URL",
+    "scope": "External release dependency",
+    "asOf": "2026-09-15",
+    "interpretation": "Neutral public wording; internal release gate requires verified external edits and settings.",
+    "boundary": "No assertion of optional email-update choice or confirmed submission from thanks-page visit.",
+    "pages": [
+      "/corrections/",
+      "/privacy/",
+      "/take-action/",
+      "/take-action/thanks/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/privacy/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/thanks/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/privacy.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action--thanks.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-merits-review-boundary",
+    "claim": "The specified materials do not identify a developed independent merits recommendation tied to the authorization or completed purchase.",
+    "sourceIds": [
+      "atrs_aon",
+      "atrs_rating_report",
+      "atrs_completed_purchase",
+      "atrs_q2_report"
+    ],
+    "locator": "June 2, 2025 Board packet physical pp.149–150; produced Reports.pdf rating material; September production 2026_trade.xlsx trade row2 and 2026 Q2.pdf manager report.",
+    "scope": "Materials cited in the Aon finding; review cutoff September 15, 2026, rather than all agency files.",
+    "asOf": "2026-09-15",
+    "interpretation": "Bounded absence within the identified review set. Analytical material exists; missing developed merits recommendation cannot be generalized to no analysis.",
+    "boundary": "Does not exclude oral advice, unproduced work, or documents outside the review scope.",
+    "pages": [
+      "/corrections/",
+      "/educators/",
+      "/evidence/",
+      "/evidence/atrs/",
+      "/findings/",
+      "/findings/oversight-gap/",
+      "/findings/procedural-asymmetry/",
+      "/findings/regulatory-record/",
+      "/key-figures/",
+      "/legislators/",
+      "/legislators/one-page/",
+      "/methodology/",
+      "/news/",
+      "/news/september-2026-records/",
+      "/press/",
+      "/take-action/",
+      "/the-act/",
+      "/the-issue/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/corrections/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/educators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/oversight-gap/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/procedural-asymmetry/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/findings/regulatory-record/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/key-figures/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/legislators/one-page/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/methodology/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/news/september-2026-records/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/press/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/take-action/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-act/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/the-issue/"
+      },
+      {
+        "kind": "staged-external-copy",
+        "location": "docs/petition-revision.md"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/corrections.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/educators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--oversight-gap.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--procedural-asymmetry.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/findings--regulatory-record.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/key-figures.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/legislators--one-page.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/methodology.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/news--september-2026-records.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/press.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/take-action.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-act.png"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/the-issue.png"
+      }
+    ]
+  },
+  {
+    "id": "atrs-deployment-intent",
+    "claim": "Reams describes Treasury maturities aligned with future Israel Bond purchases and eventual full Israel Bond deployment under its stated annual constraint.",
+    "sourceIds": [
+      "atrs_q2_report"
+    ],
+    "locator": "2026 Q2.pdf, physical p.7, market commentary and intended account deployment.",
+    "scope": "Manager-described intended use of the ATRS account.",
+    "asOf": "2026-06-30",
+    "interpretation": "Reported prospective deployment intent.",
+    "boundary": "Not proof of later purchases; preserve annual allowed-versus-target drafting discrepancy and July observation date.",
+    "pages": [
+      "/evidence/atrs/"
+    ],
+    "surfaces": [
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/atrs/"
+      },
+      {
+        "kind": "page-metadata-and-social-card",
+        "location": "/assets/images/social-cards/evidence--atrs.png"
+      }
+    ]
+  }
+]

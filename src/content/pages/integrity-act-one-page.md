@@ -1,0 +1,44 @@
+---
+title: 'Pension Investment Integrity Act: one-page brief'
+description: A printable September briefing on the proposed issuer-neutral pension
+  safeguards.
+permalink: /legislators/one-page/
+template: policy
+sourceIds:
+- apers_september_holdings
+- atrs_aon
+- atrs_completed_funding
+- atrs_completed_purchase
+- legislative_calendar
+reviewedAt: '2026-09-15'
+updatedAt: '2026-09-15'
+---
+
+
+**Campaign proposal for the 2027 Arkansas regular session. Reviewed September 15, 2026. No bill number or sponsor is announced in this brief.**
+
+## The principle
+
+Public money deserves a public investment record. Pension members should be able to connect an acquisition to its credit analysis, expected return, liquidity, alternatives and financial judgment.
+
+## The evidence
+
+APERS's September 7 custody report lists $25 million in two Israel Bond positions, with allocation among APERS-administered systems unresolved. ATRS's $50 million manager funding completed January 2; the eventual $9.9 million Israel Bond purchase is part of that account. [APERS, p. 1](/documents/records/apers-september-holdings/) · [ATRS funding, p. 3](/documents/records/atrs-completed-funding/) · [ATRS trade, row 2](/documents/records/atrs-completed-purchase/).
+
+## Five safeguards
+
+For covered pension acquisitions of **non-tradable sovereign debt**, the proposal would require:
+
+1. A written credit analysis before acquisition.
+2. A comparison with reasonably available alternatives on risk, expected return and liquidity.
+3. A plain-language explanation of transfer restrictions and limited marketability.
+4. A written financial determination connecting the decision to members' interests and portfolio fit.
+5. Public posting of the core analysis and determination within 30 days after a covered acquisition.
+
+## Design and request
+
+Prospective and issuer-neutral; trustees keep the investment decision. The proposal focuses on pension systems. Treasury is separately governed. Drafting must specify manager and pooled-vehicle coverage, responsibility for the analysis and the acquisition that triggers posting. Core conclusions should remain public with narrow, explained redactions.
+
+Consider sponsorship and request a drafting briefing. Official dates: prefiling November 16, 2026; session January 11, 2027; ordinary retirement-bill deadline January 25, 2027, subject to the calendar's exceptions. [Official calendar, pp. 1–2](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf).
+
+**Contact:** [info@arpensions.org](mailto:info@arpensions.org) · [Full policy brief](/legislators/). Use your browser's Print command for a copy of this version.

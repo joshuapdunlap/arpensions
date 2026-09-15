@@ -1,0 +1,14 @@
+---
+import {data,money} from '../lib/data';
+import SourceNote from './SourceNote.astro';
+const colors=['#1b5960','#82c995','#dbe4d2'];
+---
+<section class="composition" aria-labelledby="composition-heading">
+  <span class="micro">ATRS / REAMS · JULY 31, 2026</span><h2 id="composition-heading">Inside the funded account.</h2><p>The $50 million transfer funded one account. By July, that account held U.S. Treasuries, an Israel Bond, and cash. The bond is part of the account.</p>
+  <div class="composition-bar" aria-hidden="true">{data.accountComposition.map((row)=><div class="composition-segment" style={`width:${row.share}%`}>{row.share>10&&<span>{row.share.toFixed(1)}%</span>}</div>)}</div>
+  <div class="composition-key" role="group" aria-label="Explore July account composition">{data.accountComposition.map((row,i)=><button data-composition={`${row.label}: ${money(row.amount,2)} (${row.share.toFixed(2)}%). Market value plus accrued income, July 31, 2026.`}><i class="swatch" style={`background:${colors[i]}`} aria-hidden="true"/>{row.label}</button>)}</div>
+  <p class="composition-output" role="status">Select an asset category for its value. All figures are also in the table below.</p>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Account composition table"><table><caption class="sr-only">July 31, 2026 market value plus accrued income in the ATRS Reams account</caption><thead><tr><th scope="col">Asset category</th><th scope="col">Value including accrued</th><th scope="col">Share</th></tr></thead><tbody>{data.accountComposition.map(row=><tr><th scope="row">{row.label}</th><td>{money(row.amount,2)}</td><td>{row.share.toFixed(2)}%</td></tr>)}<tr><th scope="row">Total account</th><td>{money(data.accountComposition.reduce((sum,r)=>sum+r.amount,0),2)}</td><td>100.00%</td></tr></tbody></table></div>
+  <p style="margin-block:18px">The Israel Bond’s par value is $9,900,000. July principal market value is $9,821,426.67; accrued income adds $123,020.38. These are different measurements from the original $50 million funding.</p><SourceNote ids={['atrs_july_holdings','atrs_completed_purchase','atrs_completed_funding']}/>
+</section>
+<script>document.querySelectorAll<HTMLButtonElement>('[data-composition]').forEach(button=>button.addEventListener('click',()=>{const output=button.closest('.composition')?.querySelector('[role=status]');if(output)output.textContent=button.dataset.composition||''}));</script>

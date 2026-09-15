@@ -1,0 +1,44 @@
+---
+title: September records change the public account
+description: Completed funding, a replacement bond and later holdings change the previous
+  public account.
+permalink: /news/september-2026-records/
+template: updates
+sourceIds:
+- apers_authorization
+- apers_september_holdings
+- atrs_aon
+- atrs_cancellation
+- atrs_completed_funding
+- atrs_completed_purchase
+- atrs_july_holdings
+- treasury_hold
+- treasury_holdings
+- treasury_maturity
+- treasury_processing
+reviewedAt: '2026-09-15'
+updatedAt: '2026-09-15'
+---
+
+
+September 15, 2026: new APERS and ATRS productions establish holdings and completed transactions that earlier disclosures did not show.
+
+## APERS reaches $25 million
+
+September 7 custody reporting lists the original $15 million position and a second $10 million position. The report resolves the later holdings amount. It does not retroactively explain why the first purchase was below the stated authorization range. Allocation among APERS-administered systems remains unresolved. [Custody report, p. 1](/documents/records/apers-september-holdings/) · [May authorization](/documents/records/apers-authorization/).
+
+## ATRS funding and purchases are documented
+
+The $50 million Reams transfer completed January 2, 2026. The first $9.9 million issuance was canceled; a replacement $9.9 million purchase completed February 17. July reporting shows the same security alongside U.S. Treasuries and cash. [Funding, p. 3](/documents/records/atrs-completed-funding/) · [Cancellation, p. 1](/documents/records/atrs-cancellation/) · [Trade, row 2](/documents/records/atrs-completed-purchase/) · [July holdings, row 9](/documents/records/atrs-july-holdings/).
+
+The old statement that public disclosure ended at manager funding is superseded. The funding completion date is January 2, not the date of the December notice.
+
+## The totals have specific limits
+
+The revised direct-security evidence floor is $84.9 million: Treasury's $50 million derived residual, APERS's $25 million and ATRS's $9.9 million. It combines different record dates. Substituting ATRS's full funding gives a $125 million mixed-stage measure, not a holdings total. Treasury's separate $10 million processing instruction remains excluded. [Treasury derivation and source links](/evidence/treasury/).
+
+## The policy question is sharper
+
+Transactions and holdings now fill important gaps. The remaining question concerns the decision-specific financial case for the sovereign exposure. Aon supplied substantive manager advice; Treasury supplied internal analysis. The campaign seeks a consistent written credit, alternatives, liquidity and financial determination for future covered pension acquisitions.
+
+[Read all corrections](/corrections/) · [Read the policy proposal](/legislators/).

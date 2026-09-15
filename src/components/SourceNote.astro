@@ -1,0 +1,9 @@
+---
+import { sources } from '../lib/data';
+interface Props { ids: string[]; }
+const {ids} = Astro.props;
+---
+<div class="source-note">
+  <span class="micro">Source record{ids.length>1?'s':''}</span>
+  {ids.map(id=>sources[id]&&<a href={sources[id].recordUrl}>{sources[id].title}<span class="locator">{sources[id].locator}</span></a>)}
+</div>
