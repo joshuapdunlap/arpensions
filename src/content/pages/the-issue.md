@@ -13,9 +13,6 @@ sourceIds:
 - capitol_itinerary
 - hudson_babbitt_confirmation
 - seller_reported_meetings
-- treasury_holdings
-- treasury_maturity
-- treasury_processing
 reviewedAt: '2026-09-15'
 updatedAt: '2026-09-15'
 ---
@@ -38,12 +35,10 @@ The signed APERS minutes identify Jason Brady as the Auditor's proxy and the pre
 | APERS, September 7, 2026 | $25 million par | Two positions in a dated custody report; allocation among APERS-administered systems unresolved. |
 | ATRS, February 17 and July 31, 2026 | $9.9 million par | Completed purchase, then a later observation of the same security. |
 | ATRS, January 2, 2026 | $50 million funding | Completed manager transfer that includes the eventual $9.9 million security. |
-| Treasury, June 2025 less February 2026 maturity | $50 million derived residual | Historical statement less a documented maturity; current holdings need confirmation. |
-| Treasury, February 17, 2026 | $10 million processing | Instruction marked “Processing By Bank”; settlement unconfirmed. |
 
-The **$84.9 million direct-security evidence floor** adds the $50 million Treasury residual, $25 million APERS positions and $9.9 million ATRS security. It combines different record dates and is not a same-day portfolio valuation. The **$125 million mixed-stage measure** substitutes ATRS's full $50 million funding for its $9.9 million security. Do not add the security to its own funding. Neither measure includes the processing payment.
+The APERS and ATRS figures come from different record dates. ATRS’s $9.9 million bond is already included in its $50 million funded account, alongside U.S. Treasuries and cash. Adding the bond to that funding would count the same money twice.
 
-Sources: [APERS custody, p. 1](/documents/records/apers-september-holdings/); [ATRS trade, row 2](/documents/records/atrs-completed-purchase/); [ATRS July, row 9](/documents/records/atrs-july-holdings/); [funding, p. 3](/documents/records/atrs-completed-funding/); [Treasury statement, p. 1](/documents/records/treasury-holdings/); [maturity workbook, row 14](/documents/records/treasury-maturity/); [processing report, p. 1](/documents/records/treasury-processing-payment/).
+Sources: [APERS custody, p. 1](/documents/records/apers-september-holdings/); [ATRS trade, row 2](/documents/records/atrs-completed-purchase/); [ATRS July, row 9](/documents/records/atrs-july-holdings/); [funding, p. 3](/documents/records/atrs-completed-funding/).
 
 ## What we are asking for
 

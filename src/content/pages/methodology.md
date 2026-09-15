@@ -34,7 +34,7 @@ Signed minutes establish the motion recorded. A schedule establishes a planned m
 
 Authorization, funding, purchase, settlement, holding, maturity and processing are distinct. Par and value including accrued income are also distinct. A later holding of the same security is not an additional purchase.
 
-The $84.9 million direct-security floor combines different record dates. The $125 million mixed-stage measure substitutes ATRS funding for the ATRS security inside it. Treasury's processing payment is excluded. [See every component and source](/evidence/).
+The $84.9 million direct-security floor combines different record dates. The $125 million mixed-stage measure substitutes ATRS funding for the ATRS security inside it. Treasury's processing payment is excluded. [See the background measures, components and sources](/evidence/treasury/#cross-agency-measures).
 
 ## We bound absence findings
 

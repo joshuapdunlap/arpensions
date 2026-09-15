@@ -41,6 +41,12 @@ Functional checks verified:
 
 Visual review covered the desktop and phone homepage, agency facts, source exhibit, article/document/action page families, both color themes, the current one-page PDF and representative social artwork. Reduced-motion and print rules were inspected in source; the generated brief was rendered and visually inspected.
 
+## Pension focus follow-up
+
+The September 15 editorial follow-up centers the news feed, issue page, press summary and main evidence timeline on APERS and ATRS. Treasury remains a labeled governance comparison, with the combined financial measures in its background dossier. Original transaction data, source assets and proposal coverage are unchanged.
+
+Full validation passes after the revision. All six changed article/evidence pages were rechecked at 390 px in light theme and 1280 px in dark theme with no automated accessibility violations or horizontal page overflow. Native Treasury measure expansion and the pension timeline filters were exercised. A separate output check confirms that the main campaign pages omit the combined figures, the main timeline contains only APERS and ATRS, and changed fragment targets resolve.
+
 ## Manual release review still required
 
 Before approving publication, complete an actual assistive-technology pass (for example NVDA), browser zoom/text-enlargement checks and browser print pagination. The automation environment did not provide those complete user experiences. Review on a real mobile device is also valuable. These tasks are separate from the passing automated checks.

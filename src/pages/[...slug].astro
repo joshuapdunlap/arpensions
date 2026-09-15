@@ -7,6 +7,7 @@ import DecisionComparison from '../components/DecisionComparison.astro';
 import ActionPanel from '../components/ActionPanel.astro';
 import SourceNote from '../components/SourceNote.astro';
 import FinancialSummary from '../components/FinancialSummary.astro';
+import CrossAgencyMeasures from '../components/CrossAgencyMeasures.astro';
 import {assets} from '../lib/assets';
 import {sources} from '../lib/data';
 export async function getStaticPaths(){return (await getCollection('pages')).map(entry=>({params:{slug:entry.data.permalink.replace(/^\/|\/$/g,'')},props:{entry}}))}
@@ -21,20 +22,21 @@ const featured=featuredSourceId?assets[featuredSourceId]:undefined;
 <Base title={title} description={description} section={section||template} type="article">
   <div class="shell">
     {[...new Set(sourceIds.map(id=>sources[id]?.agency).filter(Boolean))].map(name=><span class="sr-only" data-pagefind-filter="Agency">{name}</span>)}
-    <header class="page-heading"><div class="breadcrumbs"><a href="/">Home</a><span>/</span><a href={isAgency?'/evidence/':pathname.startsWith('/findings/')?'/findings/':pathname}>{isAgency?'Evidence':section||'The public record'}</a></div><span class="eyebrow">{eyebrow||section||'Arkansans for Pension Integrity'}</span><h1>{title}</h1><p class="lede">{description}</p><div class="page-meta"><span>REVIEWED {reviewedAt}</span><span>{isPolicy?'CAMPAIGN PROPOSAL':isAgency?'AGENCY DOSSIER':template==='updates'?'DATED UPDATES':'PUBLIC RECORD & REFORM'}</span></div></header>
+    <header class="page-heading"><div class="breadcrumbs"><a href="/">Home</a><span>/</span><a href={isAgency?'/evidence/':pathname.startsWith('/findings/')?'/findings/':pathname}>{isAgency?'Evidence':section||'The public record'}</a></div><span class="eyebrow">{eyebrow||section||'Arkansans for Pension Integrity'}</span><h1>{title}</h1><p class="lede">{description}</p><div class="page-meta"><span>REVIEWED {reviewedAt}</span><span>{isPolicy?'CAMPAIGN PROPOSAL':isAgency?(agency==='treasury'?'BACKGROUND COMPARISON':'AGENCY DOSSIER'):template==='updates'?'DATED UPDATES':'PUBLIC RECORD & REFORM'}</span></div></header>
     <div class="article-grid">
       <div class="article-body">
         {pathname==='/take-action/'&&<ActionPanel/>}
-        {isEvidence&&<nav class="browse-links" aria-label="Agency dossiers"><a href="/evidence/apers/">APERS ↗</a><a href="/evidence/atrs/">ATRS / Reams ↗</a><a href="/evidence/treasury/">Treasury comparison ↗</a><a href="/documents/">Document library ↗</a></nav>}
+        {isEvidence&&<nav class="browse-links" aria-label="Agency dossiers"><a href="/evidence/apers/">APERS ↗</a><a href="/evidence/atrs/">ATRS / Reams ↗</a><a href="/documents/">Document library ↗</a></nav>}
         {isEvidence&&<FinancialSummary/>}
         {pathname==='/legislators/one-page/'&&<div class="brief-download actions"><a class="button" href="/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf">Download one-page PDF</a><a class="text-link" href="/assets/documents/legislator-letter-2026-09-15.txt">Download letter template</a></div>}
         <article class="prose"><Content/></article>
+        {agency==='treasury'&&<CrossAgencyMeasures/>}
         {(isEvidence||agency==='atrs')&&<AccountComposition/>}
-        {(isEvidence||isAgency)&&<DecisionTimeline agency={agency}/>}
+        {(isEvidence||isAgency)&&<DecisionTimeline agency={agency} pensionOnly={isEvidence}/>}
         {(isEvidence||pathname==='/the-act/')&&<DecisionComparison/>}
         {sourceIds.length>0&&<div style="margin-top:40px"><SourceNote ids={sourceIds}/></div>}
       </div>
-      <aside class="article-aside" data-pagefind-ignore><div class="aside-inner"><span class="micro">On this page</span><nav class="toc" aria-label="On this page">{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}{(isEvidence||agency==='atrs')&&<a href="#composition-heading">Inside the ATRS account</a>}{(isEvidence||isAgency)&&<a href="#timeline-heading">Decision timeline</a>}</nav>{featured&&featuredSourceId&&<figure class="source-thumb"><a href={sources[featuredSourceId].recordUrl}><img src={featured.previews[0].url} width={featured.previews[0].width} height={featured.previews[0].height} alt={`Reviewed exhibit: ${sources[featuredSourceId].title}`} loading="lazy"/></a><figcaption>{sources[featuredSourceId].title}</figcaption><a href={sources[featuredSourceId].recordUrl}>Read the source ↗</a></figure>}<div class="aside-action"><p>A public financial case for every covered investment.</p><a class="button" href="/take-action/">Support the Act</a></div></div></aside>
+      <aside class="article-aside" data-pagefind-ignore><div class="aside-inner"><span class="micro">On this page</span><nav class="toc" aria-label="On this page">{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}{(isEvidence||agency==='atrs')&&<a href="#composition-heading">Inside the ATRS account</a>}{agency==='treasury'&&<a href="#cross-agency-measures">Background financial measures</a>}{(isEvidence||isAgency)&&<a href="#timeline-heading">Decision timeline</a>}</nav>{featured&&featuredSourceId&&<figure class="source-thumb"><a href={sources[featuredSourceId].recordUrl}><img src={featured.previews[0].url} width={featured.previews[0].width} height={featured.previews[0].height} alt={`Reviewed exhibit: ${sources[featuredSourceId].title}`} loading="lazy"/></a><figcaption>{sources[featuredSourceId].title}</figcaption><a href={sources[featuredSourceId].recordUrl}>Read the source ↗</a></figure>}<div class="aside-action"><p>A public financial case for every covered investment.</p><a class="button" href="/take-action/">Support the Act</a></div></div></aside>
     </div>
   </div>
 </Base>

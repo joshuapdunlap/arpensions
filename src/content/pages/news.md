@@ -11,8 +11,6 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - atrs_resolution
-- treasury_hold
-- treasury_processing
 reviewedAt: '2026-09-15'
 updatedAt: '2026-09-15'
 ---
@@ -28,9 +26,9 @@ APERS reported $25 million in September custody positions. ATRS records now docu
 
 According to Arkansans for Pension Integrity's convention record, Citizens First Congress delegates selected pension investment integrity for its short-term 2027 priority platform. That coalition decision is distinct from a filed bill, sponsorship or enactment. [Read the current proposal](/legislators/).
 
-## February 17, 2026: different institutions, different stages
+## February 17, 2026: ATRS completes a $9.9 million bond purchase
 
-ATRS's $9.9 million purchase completed on this date. Treasury's separate $10 million outgoing report showed bank processing. Do not merge those statuses. [ATRS trade, row 2](/documents/records/atrs-completed-purchase/) · [Treasury processing, p. 1](/documents/records/treasury-processing-payment/).
+ATRS's manager completed a $9.9 million Israel Bond purchase using part of the $50 million transferred to Reams on January 2, 2026. The purchase and account funding describe two stages of the same investment process. [Completed trade, row 2](/documents/records/atrs-completed-purchase/) · [Account funding, p. 3](/documents/records/atrs-completed-funding/).
 
 ## January 2, 2026: manager funding completed
 
@@ -40,8 +38,8 @@ The later bank record establishes completion of ATRS's $50 million transfer to R
 
 APERS's May 15 subcommittee motion named a $25 million to $50 million range; ATRS's June 2 resolution authorized up to $50 million. APERS's first documented purchase was $15 million on October 15. [APERS authorization](/documents/records/apers-authorization/) · [ATRS resolution](/documents/records/atrs-resolution/) · [APERS purchase](/documents/records/apers-purchase/).
 
-## October 8, 2024: Treasury's internal overview
+## Background reference
 
-The overview recommended holding existing positions as scheduled maturities rolled off with continued surveillance. [Overview, p. 2](/documents/records/treasury-hold-overview/).
+Treasury records are available as a [separate governance comparison](/evidence/treasury/), where financial advice and later purchases help illustrate the need for a public decision record. Treasury is outside the pension proposal’s coverage.
 
 [How this site updates its claims](/corrections/).

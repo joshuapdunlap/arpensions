@@ -407,7 +407,9 @@
       "october-15--apers-completes-a-15-million-purchase",
       "october-8--treasury-overview-recommends-holding-existing-positions",
       "page-heading",
-      "theme-toggle"
+      "theme-toggle",
+      "february-17-2026-different-institutions-different-stages",
+      "october-8-2024-treasurys-internal-overview"
     ],
     "/press/": [
       "agency-by-agency",
@@ -506,6 +508,9 @@
       "what-were-asking-for",
       "whats-happening-in-arkansas",
       "your-retirement-money-should-never-run-on-trust-alone"
+    ],
+    "/news/september-2026-records/": [
+      "the-totals-have-specific-limits"
     ]
   },
   "targets": {
@@ -809,19 +814,21 @@
       "the-five-safeguards": "five-safeguards"
     },
     "/news/": {
-      "2024": "october-8-2024-treasurys-internal-overview",
+      "2024": "background-reference",
       "2025": "2025-authorizations-and-the-first-apers-purchase",
       "2026": "september-15-2026-the-new-records",
       "april-1415--israel-bonds-outreach-reaches-arkansas-offices": "2025-authorizations-and-the-first-apers-purchase",
       "december-29--atrs-reports-50-million-funded-to-the-reams-account": "january-2-2026-manager-funding-completed",
-      "february-13--apers-describes-the-board-material-prepared-for-the-decision": "february-17-2026-different-institutions-different-stages",
-      "february-17--treasury-payment-report-shows-another-10-million-in-process": "february-17-2026-different-institutions-different-stages",
+      "february-13--apers-describes-the-board-material-prepared-for-the-decision": "february-17-2026-atrs-completes-a-99-million-bond-purchase",
+      "february-17--treasury-payment-report-shows-another-10-million-in-process": "background-reference",
       "june-2--atrs-authorizes-up-to-50-million": "2025-authorizations-and-the-first-apers-purchase",
       "june-27--pension-investment-integrity-becomes-a-2027-priority": "june-27-2026-campaign-reported-coalition-selection",
-      "may--treasury-settles-20-million-in-new-positions": "2025-authorizations-and-the-first-apers-purchase",
+      "may--treasury-settles-20-million-in-new-positions": "background-reference",
       "may-15--apers-authorizes-a-2550-million-range": "2025-authorizations-and-the-first-apers-purchase",
       "october-15--apers-completes-a-15-million-purchase": "2025-authorizations-and-the-first-apers-purchase",
-      "october-8--treasury-overview-recommends-holding-existing-positions": "october-8-2024-treasurys-internal-overview"
+      "october-8--treasury-overview-recommends-holding-existing-positions": "background-reference",
+      "february-17-2026-different-institutions-different-stages": "february-17-2026-atrs-completes-a-99-million-bond-purchase",
+      "october-8-2024-treasurys-internal-overview": "background-reference"
     },
     "/privacy/": {
       "external-services-and-links": "petition-submissions",
@@ -836,6 +843,9 @@
     },
     "/take-action/thanks/": {
       "three-more-ways-to-help": "main-content"
+    },
+    "/news/september-2026-records/": {
+      "the-totals-have-specific-limits": "what-the-pension-figures-mean"
     }
   }
 }

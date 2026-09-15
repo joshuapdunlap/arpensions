@@ -9,9 +9,6 @@ sourceIds:
 - atrs_aon
 - atrs_completed_funding
 - atrs_completed_purchase
-- treasury_holdings
-- treasury_maturity
-- treasury_processing
 reviewedAt: '2026-09-15'
 updatedAt: '2026-09-15'
 ---
@@ -23,7 +20,7 @@ A source-backed guide for reporting on the Arkansas pension investment records a
 
 APERS reported $25 million in two positions on September 7, 2026. ATRS completed $50 million manager funding on January 2 and a $9.9 million Israel Bond purchase on February 17. The bond is inside the funding, not additional to it. [APERS source](/documents/records/apers-september-holdings/) · [Funding](/documents/records/atrs-completed-funding/) · [Trade](/documents/records/atrs-completed-purchase/).
 
-The $84.9 million direct-security floor combines those positions with Treasury's $50 million derived residual from older records. The $125 million alternative substitutes full ATRS manager funding. Neither is a same-day holdings valuation. Treasury's additional $10 million instruction remains processing evidence. [Full arithmetic and boundaries](/evidence/).
+These are dated pension records, not a same-day portfolio valuation. [Follow each pension account and its sources](/evidence/).
 
 ## Reporting guidance
 

@@ -12,10 +12,6 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - atrs_july_holdings
-- treasury_hold
-- treasury_holdings
-- treasury_maturity
-- treasury_processing
 reviewedAt: '2026-09-15'
 updatedAt: '2026-09-15'
 ---
@@ -33,12 +29,12 @@ The $50 million Reams transfer completed January 2, 2026. The first $9.9 million
 
 The old statement that public disclosure ended at manager funding is superseded. The funding completion date is January 2, not the date of the December notice.
 
-## The totals have specific limits
+## What the pension figures mean
 
-The revised direct-security evidence floor is $84.9 million: Treasury's $50 million derived residual, APERS's $25 million and ATRS's $9.9 million. It combines different record dates. Substituting ATRS's full funding gives a $125 million mixed-stage measure, not a holdings total. Treasury's separate $10 million processing instruction remains excluded. [Treasury derivation and source links](/evidence/treasury/).
+APERS’s $25 million is a September custody observation. ATRS’s $9.9 million is a completed February purchase, also identified in July holdings. Those dates describe different points in the record. The ATRS bond is already part of its $50 million funded account, which also held U.S. Treasuries and cash. Adding the bond to the funding would count the same money twice. [Read the pension accounts and their sources](/evidence/).
 
 ## The policy question is sharper
 
-Transactions and holdings now fill important gaps. The remaining question concerns the decision-specific financial case for the sovereign exposure. Aon supplied substantive manager advice; Treasury supplied internal analysis. The campaign seeks a consistent written credit, alternatives, liquidity and financial determination for future covered pension acquisitions.
+Transactions and holdings now fill important gaps. The remaining question concerns the decision-specific financial case for the sovereign exposure. Aon supplied substantive implementation and manager-selection advice, with a scope boundary that left the investment merits to trustees. [Aon memorandum, pp. 149–150](/documents/records/atrs-aon-memo/). The campaign seeks a consistent written credit, alternatives, liquidity and financial determination for future covered pension acquisitions.
 
 [Read all corrections](/corrections/) · [Read the policy proposal](/legislators/).

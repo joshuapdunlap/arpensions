@@ -25,7 +25,8 @@
       "/public-employees/",
       "/take-action/",
       "/the-act/",
-      "/the-issue/"
+      "/the-issue/",
+      "/evidence/treasury/"
     ],
     "surfaces": [
       {
@@ -147,6 +148,10 @@
       {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/the-issue.png"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
       }
     ]
   },
@@ -833,7 +838,8 @@
       "/press/",
       "/take-action/",
       "/the-act/",
-      "/the-issue/"
+      "/the-issue/",
+      "/evidence/treasury/"
     ],
     "surfaces": [
       {
@@ -971,6 +977,10 @@
       {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/the-issue.png"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
       }
     ]
   },
@@ -1004,7 +1014,8 @@
       "/press/",
       "/take-action/",
       "/the-act/",
-      "/the-issue/"
+      "/the-issue/",
+      "/evidence/treasury/"
     ],
     "surfaces": [
       {
@@ -1158,6 +1169,10 @@
       {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/the-issue.png"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/evidence/treasury/"
       }
     ]
   },
@@ -1748,18 +1763,10 @@
     "interpretation": "55M - 5M = 50M.",
     "boundary": "Current holdings not verified; subsequent transactions may change balance.",
     "pages": [
-      "/evidence/",
       "/evidence/treasury/",
-      "/glossary/",
-      "/news/september-2026-records/",
-      "/press/",
-      "/the-issue/"
+      "/glossary/"
     ],
     "surfaces": [
-      {
-        "kind": "page-or-public-asset",
-        "location": "/evidence/"
-      },
       {
         "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
@@ -1769,40 +1776,12 @@
         "location": "/glossary/"
       },
       {
-        "kind": "page-or-public-asset",
-        "location": "/news/september-2026-records/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/press/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-issue/"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence.png"
-      },
-      {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/evidence--treasury.png"
       },
       {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/glossary.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news--september-2026-records.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/press.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-issue.png"
       }
     ]
   },
@@ -1819,12 +1798,7 @@
     "boundary": "No settlement, ownership or $60M current position established.",
     "pages": [
       "/corrections/",
-      "/evidence/",
-      "/evidence/treasury/",
-      "/news/",
-      "/news/september-2026-records/",
-      "/press/",
-      "/the-issue/"
+      "/evidence/treasury/"
     ],
     "surfaces": [
       {
@@ -1833,27 +1807,7 @@
       },
       {
         "kind": "page-or-public-asset",
-        "location": "/evidence/"
-      },
-      {
-        "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/news/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/news/september-2026-records/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/press/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-issue/"
       },
       {
         "kind": "page-metadata-and-social-card",
@@ -1861,27 +1815,7 @@
       },
       {
         "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/evidence--treasury.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news--september-2026-records.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/press.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-issue.png"
       }
     ]
   },
@@ -1901,23 +1835,8 @@
     "boundary": "Not same-day portfolio valuation; excludes processing and canceled issuance.",
     "pages": [
       "/corrections/",
-      "/evidence/",
-      "/evidence/apers/",
-      "/evidence/atrs/",
       "/evidence/treasury/",
-      "/findings/oversight-gap/",
-      "/glossary/",
-      "/key-figures/",
-      "/legislators/",
-      "/legislators/one-page/",
-      "/methodology/",
-      "/news/",
-      "/news/september-2026-records/",
-      "/press/",
-      "/public-employees/",
-      "/take-action/",
-      "/the-act/",
-      "/the-issue/"
+      "/methodology/"
     ],
     "surfaces": [
       {
@@ -1926,75 +1845,11 @@
       },
       {
         "kind": "page-or-public-asset",
-        "location": "/evidence/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/evidence/apers/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/evidence/atrs/"
-      },
-      {
-        "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
       },
       {
         "kind": "page-or-public-asset",
-        "location": "/findings/oversight-gap/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/glossary/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/key-figures/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/legislators/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/legislators/one-page/"
-      },
-      {
-        "kind": "page-or-public-asset",
         "location": "/methodology/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/news/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/news/september-2026-records/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/press/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/public-employees/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/take-action/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-act/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-issue/"
-      },
-      {
-        "kind": "staged-external-copy",
-        "location": "docs/petition-revision.md"
       },
       {
         "kind": "page-metadata-and-social-card",
@@ -2002,71 +1857,11 @@
       },
       {
         "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence--apers.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence--atrs.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/evidence--treasury.png"
       },
       {
         "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/findings--oversight-gap.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/glossary.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/key-figures.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/legislators.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/legislators--one-page.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/methodology.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news--september-2026-records.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/press.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/public-employees.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/take-action.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-act.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-issue.png"
       }
     ]
   },
@@ -2086,23 +1881,9 @@
     "boundary": "Not $125M Israel Bonds holdings; ATRS security already inside funding.",
     "pages": [
       "/corrections/",
-      "/evidence/",
-      "/evidence/apers/",
-      "/evidence/atrs/",
       "/evidence/treasury/",
-      "/findings/oversight-gap/",
       "/glossary/",
-      "/key-figures/",
-      "/legislators/",
-      "/legislators/one-page/",
-      "/methodology/",
-      "/news/",
-      "/news/september-2026-records/",
-      "/press/",
-      "/public-employees/",
-      "/take-action/",
-      "/the-act/",
-      "/the-issue/"
+      "/methodology/"
     ],
     "surfaces": [
       {
@@ -2111,23 +1892,7 @@
       },
       {
         "kind": "page-or-public-asset",
-        "location": "/evidence/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/evidence/apers/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/evidence/atrs/"
-      },
-      {
-        "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/findings/oversight-gap/"
       },
       {
         "kind": "page-or-public-asset",
@@ -2135,51 +1900,7 @@
       },
       {
         "kind": "page-or-public-asset",
-        "location": "/key-figures/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/legislators/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/legislators/one-page/"
-      },
-      {
-        "kind": "page-or-public-asset",
         "location": "/methodology/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/news/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/news/september-2026-records/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/press/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/public-employees/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/take-action/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-act/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-issue/"
-      },
-      {
-        "kind": "staged-external-copy",
-        "location": "docs/petition-revision.md"
       },
       {
         "kind": "page-metadata-and-social-card",
@@ -2187,23 +1908,7 @@
       },
       {
         "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence--apers.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence--atrs.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/evidence--treasury.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/findings--oversight-gap.png"
       },
       {
         "kind": "page-metadata-and-social-card",
@@ -2211,47 +1916,7 @@
       },
       {
         "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/key-figures.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/legislators.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/legislators--one-page.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/methodology.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news--september-2026-records.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/press.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/public-employees.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/take-action.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-act.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-issue.png"
       }
     ]
   },
@@ -2272,11 +1937,7 @@
       "/evidence/",
       "/evidence/treasury/",
       "/glossary/",
-      "/methodology/",
-      "/news/",
-      "/news/september-2026-records/",
-      "/press/",
-      "/the-issue/"
+      "/methodology/"
     ],
     "surfaces": [
       {
@@ -2300,22 +1961,6 @@
         "location": "/methodology/"
       },
       {
-        "kind": "page-or-public-asset",
-        "location": "/news/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/news/september-2026-records/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/press/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-issue/"
-      },
-      {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/corrections.png"
       },
@@ -2334,22 +1979,6 @@
       {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/methodology.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news--september-2026-records.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/press.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-issue.png"
       }
     ]
   },
@@ -2362,21 +1991,13 @@
     "locator": "Statement p. 1, two $5M October rows and $10M November row",
     "scope": "Contractual dates on historical holdings",
     "asOf": "2025-06-30",
-    "interpretation": "Potential accountability window.",
+    "interpretation": "Contractual maturity dates in the historical statement.",
     "boundary": "No proof of continued ownership, redemption, receipt or reinvestment.",
     "pages": [
-      "/evidence/",
       "/evidence/treasury/",
-      "/glossary/",
-      "/news/september-2026-records/",
-      "/press/",
-      "/the-issue/"
+      "/glossary/"
     ],
     "surfaces": [
-      {
-        "kind": "page-or-public-asset",
-        "location": "/evidence/"
-      },
       {
         "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
@@ -2386,40 +2007,12 @@
         "location": "/glossary/"
       },
       {
-        "kind": "page-or-public-asset",
-        "location": "/news/september-2026-records/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/press/"
-      },
-      {
-        "kind": "page-or-public-asset",
-        "location": "/the-issue/"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/evidence.png"
-      },
-      {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/evidence--treasury.png"
       },
       {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/glossary.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/news--september-2026-records.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/press.png"
-      },
-      {
-        "kind": "page-metadata-and-social-card",
-        "location": "/assets/images/social-cards/the-issue.png"
       }
     ]
   },
