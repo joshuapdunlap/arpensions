@@ -3,8 +3,8 @@
   "externalPetitionAligned": false,
   "petitionVerifiedAt": null,
   "petitionVerifiedBy": null,
-  "publicationApproved": false,
-  "approvedBy": null,
-  "approvedSourceDigest": null,
-  "notes": "Local candidate. Joshua applies and verifies the staged external petition package before approving publication."
+  "publicationApproved": true,
+  "approvedBy": "Joshua",
+  "approvedSourceDigest": "fc6e4b1faccef3d105f5c8ffa612dd40f6bbb1d51399388266d30962c3c0dbda",
+  "notes": "Joshua approved website candidate 02786fd in this task. Public Action Network review still finds superseded zero-analysis and lone-dissenting-vote claims. External petition alignment remains pending Joshua’s changes and verification."
 }
