@@ -1,0 +1,10 @@
+---
+import Base from '../../../layouts/Base.astro';
+import {readdirSync} from 'node:fs';
+import {sources} from '../../../lib/data';
+const files=readdirSync('public/assets/documents').filter(f=>f.endsWith('.pdf')).sort();
+const titleFor=(file:string)=>Object.values(sources).find(s=>s.assetUrl===`/assets/documents/${file}`)?.title||file.replace(/\.pdf$/,'').replaceAll('-',' ');
+---
+<Base title="Downloads and historical materials" description="Preserved source PDFs and dated campaign materials, with the current legislative brief clearly identified." section="Documents">
+  <div class="shell"><header class="page-heading"><div class="breadcrumbs"><a href="/documents/">Document library</a><span>/</span><span>Downloads</span></div><span class="eyebrow">Public source files</span><h1>Downloads &<br/>historical materials.</h1><p class="lede">Original public download addresses are preserved. Use the current brief for current campaign facts; keep earlier briefs in their dated context.</p></header><div class="notice"><strong>Current campaign brief:</strong> <a href="/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf">Pension Investment Integrity Act, September 15, 2026 (PDF)</a>. <a href="/legislators/one-page/">Read the accessible web version</a>.</div><ul class="document-list">{files.map(file=><li class="document-entry"><span class="micro">PDF DOWNLOAD</span><div><h2><a href={`/assets/documents/${file}`}>{titleFor(file)} ↗</a></h2>{file.includes('brief-2026-07-16')&&<p><strong>Historical campaign brief · July 16, 2026.</strong> Contains earlier evidence figures. Superseded for current campaign use by the September 15 brief.</p>}</div><span class="record-date"><a href={`/assets/documents/${file}`} download>Download ↓</a></span></li>)}</ul></div>
+</Base>

@@ -1,0 +1,17 @@
+---
+interface Props { class?: string; }
+const {class:className=''} = Astro.props;
+const paths = Array.from({length:24},(_,j) => {
+  const pts = Array.from({length:481},(_,i) => {
+    const t=i*Math.PI/240;
+    const r=133+j*2.25+17*Math.sin(12*t+j*.2);
+    return `${i?'L':'M'}${(220+r*Math.cos(t)).toFixed(2)},${(220+r*Math.sin(t)).toFixed(2)}`;
+  });
+  return pts.join('')+'Z';
+});
+---
+<svg class:list={['guilloche',className]} viewBox="0 0 440 440" fill="none" aria-hidden="true" focusable="false">
+  {paths.map(d=><path d={d} stroke="currentColor" stroke-width=".55"/>)}
+  <circle cx="220" cy="220" r="105" stroke="currentColor" stroke-width=".8"/>
+  <circle cx="220" cy="220" r="101" stroke="currentColor" stroke-width=".4"/>
+</svg>

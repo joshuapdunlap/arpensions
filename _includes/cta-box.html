@@ -1,9 +1,0 @@
-{% comment %}
-  Reusable call-to-action box.
-  Usage: {% include cta-box.html heading="Take Action" text="Join the campaign." url="/take-action/" button="Get Involved" %}
-{% endcomment %}
-<aside class="cta-box" aria-label="{{ include.heading }}">
-  <h3>{{ include.heading }}</h3>
-  <p>{{ include.text }}</p>
-  <a href="{{ include.url | relative_url }}" class="btn btn-primary">{{ include.button }}</a>
-</aside>

@@ -28,3 +28,13 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Astro and local verification
+node_modules/
+dist/
+.astro/
+public/pagefind/
+output/
+tmp/
+__pycache__/
+*.pyc

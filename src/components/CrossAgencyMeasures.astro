@@ -1,0 +1,17 @@
+---
+import {directMeasure,mixedMeasure,money} from '../lib/data';
+import SourceNote from './SourceNote.astro';
+const sourceIds=[...new Set([...directMeasure.sourceIds,...mixedMeasure.sourceIds])];
+---
+<section class="composition" aria-labelledby="cross-agency-measures">
+  <span class="eyebrow">Background measures across institutions</span>
+  <h2 id="cross-agency-measures">Different measures answer different questions.</h2>
+  <p>These figures combine Treasury and pension records. They describe a broader set of institutions than the proposed pension law would cover.</p>
+  <details class="transcript">
+    <summary>How the $84.9 million and $125 million measures work</summary>
+    <p><strong>{money(directMeasure.amount)}: {directMeasure.label}.</strong> This adds Treasury’s dated $50 million derived residual, APERS’s September 7, 2026 reported positions of $25 million, and ATRS’s February 17, 2026 purchase of $9.9 million.</p>
+    <p style="margin-top:18px"><strong>{money(mixedMeasure.amount)}: {mixedMeasure.label}.</strong> This substitutes ATRS’s full $50 million manager funding, completed January 2, 2026, for its underlying bond. The funding includes the bond and other account assets, so this is not a securities holdings total.</p>
+    <p style="margin-top:18px">Both combine different record dates. Neither includes Treasury’s additional $10 million processing instruction. Neither establishes current same-day holdings.</p>
+    <SourceNote ids={sourceIds}/>
+  </details>
+</section>

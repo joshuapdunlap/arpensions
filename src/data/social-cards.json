@@ -1,0 +1,262 @@
+{
+  "/about/": {
+    "url": "/assets/images/social-cards/about.png",
+    "title": "About Arkansans for Pension Integrity"
+  },
+  "/assets/documents/": {
+    "url": "/assets/images/social-cards/assets--documents.png",
+    "title": "Downloads and historical materials"
+  },
+  "/corrections/": {
+    "url": "/assets/images/social-cards/corrections.png",
+    "title": "Corrections and evidence updates"
+  },
+  "/documents/": {
+    "url": "/assets/images/social-cards/documents.png",
+    "title": "The public document library"
+  },
+  "/documents/records/apers-analysis-email/": {
+    "url": "/assets/images/social-cards/documents--records--apers-analysis-email.png",
+    "title": "APERS chief investment officer FOIA-search email"
+  },
+  "/documents/records/apers-august-request/": {
+    "url": "/assets/images/social-cards/documents--records--apers-august-request.png",
+    "title": "APERS second investment request"
+  },
+  "/documents/records/apers-authorization/": {
+    "url": "/assets/images/social-cards/documents--records--apers-authorization.png",
+    "title": "APERS Investment Finance Subcommittee signed minutes"
+  },
+  "/documents/records/apers-purchase/": {
+    "url": "/assets/images/social-cards/documents--records--apers-purchase.png",
+    "title": "APERS $15 million purchase record"
+  },
+  "/documents/records/apers-september-holdings/": {
+    "url": "/assets/images/social-cards/documents--records--apers-september-holdings.png",
+    "title": "APERS September custody positions"
+  },
+  "/documents/records/ashers-no-holding/": {
+    "url": "/assets/images/social-cards/documents--records--ashers-no-holding.png",
+    "title": "ASHERS no-holding statement"
+  },
+  "/documents/records/ashers-no-purchase/": {
+    "url": "/assets/images/social-cards/documents--records--ashers-no-purchase.png",
+    "title": "ASHERS no-purchase statement"
+  },
+  "/documents/records/ashers-route/": {
+    "url": "/assets/images/social-cards/documents--records--ashers-route.png",
+    "title": "DFA introduction and seller pitch to ASHERS"
+  },
+  "/documents/records/atrs-aon-memo/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-aon-memo.png",
+    "title": "Aon implementation and manager-selection memorandum"
+  },
+  "/documents/records/atrs-auditor-designee/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-auditor-designee.png",
+    "title": "ATRS Auditor designee record"
+  },
+  "/documents/records/atrs-cancellation/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-cancellation.png",
+    "title": "ATRS canceled first issuance"
+  },
+  "/documents/records/atrs-completed-funding/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-completed-funding.png",
+    "title": "ATRS completed manager funding"
+  },
+  "/documents/records/atrs-completed-purchase/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-completed-purchase.png",
+    "title": "ATRS completed Israel Bond purchase"
+  },
+  "/documents/records/atrs-contract-extension/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-contract-extension.png",
+    "title": "Reams contract extension"
+  },
+  "/documents/records/atrs-july-holdings/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-july-holdings.png",
+    "title": "ATRS July manager-account holdings"
+  },
+  "/documents/records/atrs-manager-funding/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-manager-funding.png",
+    "title": "ATRS Board Update Liquidity"
+  },
+  "/documents/records/atrs-q2-report/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-q2-report.png",
+    "title": "Reams second-quarter report"
+  },
+  "/documents/records/atrs-rating-report/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-rating-report.png",
+    "title": "S&P sovereign-rating report in ATRS production"
+  },
+  "/documents/records/atrs-resolution/": {
+    "url": "/assets/images/social-cards/documents--records--atrs-resolution.png",
+    "title": "Executed ATRS Resolution 2025-22"
+  },
+  "/documents/records/capitol-itinerary/": {
+    "url": "/assets/images/social-cards/documents--records--capitol-itinerary.png",
+    "title": "April 2025 Capitol itinerary"
+  },
+  "/documents/records/hudson-babbitt-confirmation/": {
+    "url": "/assets/images/social-cards/documents--records--hudson-babbitt-confirmation.png",
+    "title": "Hudson-Babbitt meeting confirmation"
+  },
+  "/documents/records/securities-1986-orders/": {
+    "url": "/assets/images/social-cards/documents--records--securities-1986-orders.png",
+    "title": "Arkansas 1986 suspension and reinstatement orders"
+  },
+  "/documents/records/seller-reported-meetings/": {
+    "url": "/assets/images/social-cards/documents--records--seller-reported-meetings.png",
+    "title": "Seller-authored report of Fecher and Treasury-team encounters"
+  },
+  "/documents/records/sfof-model-case/": {
+    "url": "/assets/images/social-cards/documents--records--sfof-model-case.png",
+    "title": "SFOF newsletter circulating a state purchase"
+  },
+  "/documents/records/sfof-post-action-facilitation/": {
+    "url": "/assets/images/social-cards/documents--records--sfof-post-action-facilitation.png",
+    "title": "Post-action member-state contact facilitation"
+  },
+  "/documents/records/sfof-speech-preparation/": {
+    "url": "/assets/images/social-cards/documents--records--sfof-speech-preparation.png",
+    "title": "SFOF speech preparation and scheduled presentation"
+  },
+  "/documents/records/sfof-sponsor-listing/": {
+    "url": "/assets/images/social-cards/documents--records--sfof-sponsor-listing.png",
+    "title": "2020 SFOF event sponsor listing"
+  },
+  "/documents/records/treasury-hold-overview/": {
+    "url": "/assets/images/social-cards/documents--records--treasury-hold-overview.png",
+    "title": "Treasury internal credit overview"
+  },
+  "/documents/records/treasury-holdings/": {
+    "url": "/assets/images/social-cards/documents--records--treasury-holdings.png",
+    "title": "Treasury June 30, 2025 bondholder statement"
+  },
+  "/documents/records/treasury-maturity/": {
+    "url": "/assets/images/social-cards/documents--records--treasury-maturity.png",
+    "title": "Treasury final-maturity cash-flow record"
+  },
+  "/documents/records/treasury-processing-payment/": {
+    "url": "/assets/images/social-cards/documents--records--treasury-processing-payment.png",
+    "title": "Treasury outgoing payment report"
+  },
+  "/documents/records/treasury-target-report/": {
+    "url": "/assets/images/social-cards/documents--records--treasury-target-report.png",
+    "title": "Seller report of Treasury portfolio target"
+  },
+  "/educators/": {
+    "url": "/assets/images/social-cards/educators.png",
+    "title": "For educators and retirees"
+  },
+  "/evidence/apers/": {
+    "url": "/assets/images/social-cards/evidence--apers.png",
+    "title": "APERS: two positions, $25 million"
+  },
+  "/evidence/atrs/": {
+    "url": "/assets/images/social-cards/evidence--atrs.png",
+    "title": "ATRS: follow the funded account"
+  },
+  "/evidence/": {
+    "url": "/assets/images/social-cards/evidence.png",
+    "title": "Follow the public investment record"
+  },
+  "/evidence/treasury/": {
+    "url": "/assets/images/social-cards/evidence--treasury.png",
+    "title": "Treasury: a separate governance comparison"
+  },
+  "/findings/auditor-channel/": {
+    "url": "/assets/images/social-cards/findings--auditor-channel.png",
+    "title": "The Auditor's office and pension decisions"
+  },
+  "/findings/control-case/": {
+    "url": "/assets/images/social-cards/findings--control-case.png",
+    "title": "The ASHERS comparison"
+  },
+  "/findings/": {
+    "url": "/assets/images/social-cards/findings.png",
+    "title": "Six findings from the public record"
+  },
+  "/findings/oversight-gap/": {
+    "url": "/assets/images/social-cards/findings--oversight-gap.png",
+    "title": "Where ATRS's $50 million went"
+  },
+  "/findings/procedural-asymmetry/": {
+    "url": "/assets/images/social-cards/findings--procedural-asymmetry.png",
+    "title": "What Aon advised ATRS"
+  },
+  "/findings/regulatory-record/": {
+    "url": "/assets/images/social-cards/findings--regulatory-record.png",
+    "title": "The seller and the liquidity question"
+  },
+  "/findings/sfof-pipeline/": {
+    "url": "/assets/images/social-cards/findings--sfof-pipeline.png",
+    "title": "The national promotional network"
+  },
+  "/glossary/": {
+    "url": "/assets/images/social-cards/glossary.png",
+    "title": "A guide to the financial terms"
+  },
+  "/": {
+    "url": "/assets/images/social-cards/home.png",
+    "title": "Public money deserves a public investment record."
+  },
+  "/integrity-act-one-page/": {
+    "url": "/assets/images/social-cards/integrity-act-one-page.png",
+    "title": "Pension Investment Integrity Act brief"
+  },
+  "/key-figures/": {
+    "url": "/assets/images/social-cards/key-figures.png",
+    "title": "People and institutions in the record"
+  },
+  "/legislators/": {
+    "url": "/assets/images/social-cards/legislators.png",
+    "title": "Pension Investment Integrity Act"
+  },
+  "/legislators/one-page/": {
+    "url": "/assets/images/social-cards/legislators--one-page.png",
+    "title": "Pension Investment Integrity Act: one-page brief"
+  },
+  "/methodology/": {
+    "url": "/assets/images/social-cards/methodology.png",
+    "title": "How we work"
+  },
+  "/network/": {
+    "url": "/assets/images/social-cards/network.png",
+    "title": "How the proposal moved"
+  },
+  "/news/": {
+    "url": "/assets/images/social-cards/news.png",
+    "title": "Campaign updates"
+  },
+  "/news/september-2026-records/": {
+    "url": "/assets/images/social-cards/news--september-2026-records.png",
+    "title": "September records change the public account"
+  },
+  "/press/": {
+    "url": "/assets/images/social-cards/press.png",
+    "title": "Press and source briefings"
+  },
+  "/privacy/": {
+    "url": "/assets/images/social-cards/privacy.png",
+    "title": "Privacy"
+  },
+  "/public-employees/": {
+    "url": "/assets/images/social-cards/public-employees.png",
+    "title": "For public employees and retirees"
+  },
+  "/take-action/": {
+    "url": "/assets/images/social-cards/take-action.png",
+    "title": "Support a public pension investment record"
+  },
+  "/take-action/thanks/": {
+    "url": "/assets/images/social-cards/take-action--thanks.png",
+    "title": "Thank you for supporting pension integrity"
+  },
+  "/the-act/": {
+    "url": "/assets/images/social-cards/the-act.png",
+    "title": "The Pension Investment Integrity Act"
+  },
+  "/the-issue/": {
+    "url": "/assets/images/social-cards/the-issue.png",
+    "title": "Public money deserves a public investment record"
+  }
+}

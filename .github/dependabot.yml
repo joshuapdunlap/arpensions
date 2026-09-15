@@ -1,11 +1,22 @@
 version: 2
 updates:
-  # Keep the GitHub Actions used by the CI workflows patched.
-  # Scoped to github-actions only: the site's Ruby gems are pinned by the
-  # github-pages gem, so a bundler updater would only create conflicts.
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: npm
+    directory: /
     schedule:
-      interval: "monthly"
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      astro:
+        patterns: ['astro', '@astrojs/*']
+        update-types: [minor, patch]
+      fonts:
+        patterns: ['@fontsource*/*']
+        update-types: [minor, patch]
     commit-message:
-      prefix: "ci"
+      prefix: deps
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: ci

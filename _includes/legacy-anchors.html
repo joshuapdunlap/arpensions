@@ -1,7 +1,0 @@
-{% assign legacy_anchors = site.data.legacy_anchors[page.url] %}
-{% assign legacy_targets = site.data.legacy_anchor_targets[page.url] %}
-{% if legacy_anchors %}
-<div class="legacy-anchor-aliases" aria-hidden="true">
-  {% for legacy_id in legacy_anchors %}<span id="{{ legacy_id }}" class="legacy-anchor-alias" data-legacy-target="{{ legacy_targets[legacy_id] }}"></span>{% endfor %}
-</div>
-{% endif %}

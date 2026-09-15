@@ -1,0 +1,6 @@
+---
+import {financialRecord,money} from '../lib/data';
+const ids=['apers_september_holding','atrs_february_purchase','atrs_january_funding'];
+const labels=['APERS reported positions','ATRS completed bond purchase','ATRS manager funding, including its bond'];
+---
+<section class="composition" aria-labelledby="agency-by-agency" style="margin-top:0"><span class="eyebrow">Dates and definitions come first</span><h2 id="agency-by-agency">The pension record, agency by agency.</h2><div class="table-scroll" tabindex="0" role="region" aria-label="Dated pension financial record"><table><caption class="sr-only">Pension observations and events; amounts cannot all be added together</caption><thead><tr><th scope="col">Record</th><th scope="col">Amount</th><th scope="col">Date</th><th scope="col">Basis</th></tr></thead><tbody>{ids.map((id,i)=>{const r=financialRecord(id);return <tr><th scope="row">{labels[i]}</th><td>{money(r.amount)}</td><td>{r.effectiveDate}</td><td>{r.basis}</td></tr>})}</tbody></table></div><p style="margin-top:22px">ATRS’s $9.9 million bond is part of the $50 million funded account. July reporting identifies the same bond alongside U.S. Treasuries and cash; it does not record another purchase. The APERS and ATRS figures have different record dates.</p></section>

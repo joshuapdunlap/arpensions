@@ -1,0 +1,72 @@
+---
+import '../styles/fonts.css';
+import '../styles/global.css';
+import socialCards from '../data/social-cards.json';
+import displayFont from '@fontsource-variable/league-spartan/files/league-spartan-latin-wght-normal.woff2?url';
+import bodyFont from '@fontsource-variable/mulish/files/mulish-latin-wght-normal.woff2?url';
+interface Props {title:string;description:string;section?:string;wide?:boolean;noindex?:boolean;type?:string;}
+const {title,description,section='',wide=false,noindex=false,type='website'}=Astro.props;
+const canonical = new URL(Astro.url.pathname,'https://arpensions.org').href;
+const socialCard=(socialCards as Record<string,{url:string;title:string}>)[Astro.url.pathname];
+const nav=[['The Issue','/the-issue/'],['The Act','/the-act/'],['Evidence','/evidence/'],['Updates','/news/'],['Take Action','/take-action/']];
+const fullTitle=Astro.url.pathname==='/'?'Arkansans for Pension Integrity | Public money. Public record.':`${title} | Arkansans for Pension Integrity`;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="preload" href={displayFont} as="font" type="font/woff2" crossorigin/>
+  <link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin/>
+  <title>{fullTitle}</title><meta name="description" content={description}/>
+  <link rel="canonical" href={canonical}/><meta name="theme-color" content="#013237"/>
+  {noindex&&<meta name="robots" content="noindex,follow"/>}
+  <meta property="og:site_name" content="Arkansans for Pension Integrity"/>
+  <meta property="og:type" content={type}/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/>
+  <meta property="og:image" content={`https://arpensions.org${socialCard?.url||'/assets/images/og-rebuild.png'}`}/>
+  <meta property="og:image:alt" content={`${title}. Arkansans for Pension Integrity.`}/>
+  <meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml"/>
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
+  <link rel="alternate" type="application/rss+xml" title="API evidence and campaign updates" href="/feed.xml"/>
+  <script is:inline>try{const t=localStorage.getItem('api-theme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}catch{}</script>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@type':'WebPage',name:title,description,url:canonical,isPartOf:{'@type':'WebSite',name:'Arkansans for Pension Integrity',url:'https://arpensions.org/'}})}/>
+</head>
+<body class:list={[wide&&'wide-page',Astro.url.pathname==='/legislators/one-page/'&&'brief-page']}>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" data-pagefind-ignore>
+    <div class="masthead shell">
+      <a class="brand" href="/" aria-label="Arkansans for Pension Integrity, home">
+        <img src="/assets/images/api-badge.svg" width="62" height="62" alt=""/>
+        <span>ARKANSANS FOR<br/><strong>PENSION INTEGRITY</strong></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary">{nav.map(([label,url])=><a href={url} aria-current={Astro.url.pathname===url?'page':undefined}>{label}</a>)}</nav>
+      <div class="header-tools">
+        <a class="icon-button" href="/search/" aria-label="Search the public record"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a>
+        <button class="icon-button theme-toggle" aria-label="Switch to dark theme" title="Change color theme" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M12 5a7 7 0 0 1 0 14Z" fill="currentColor"/></svg></button>
+        <details class="mobile-nav"><summary aria-label="Open navigation"><span></span><span></span></summary><nav aria-label="Mobile primary">{nav.map(([label,url])=><a href={url}>{label}</a>)}<a href="/documents/">Document library</a><a href="/about/">About API</a></nav></details>
+      </div>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1" data-pagefind-body={noindex?undefined:true}>
+    {section&&<span class="sr-only" data-pagefind-filter="Section">{section}</span>}
+    <slot/>
+  </main>
+  <footer class="site-footer" data-pagefind-ignore>
+    <div class="shell footer-grid">
+      <div><a class="footer-name" href="/">A public record.<br/>A stronger retirement.</a><p>Arkansans for Pension Integrity works for a clear financial case behind covered public pension investments.</p><a class="text-link" href="mailto:info@arpensions.org">info@arpensions.org ↗</a></div>
+      <nav aria-label="Explore"><span class="micro">Explore</span><a href="/the-act/">The Integrity Act</a><a href="/documents/">Document library</a><a href="/findings/">The findings</a><a href="/key-figures/">People & institutions</a><a href="/news/">Updates & RSS</a></nav>
+      <nav aria-label="About and standards"><span class="micro">Our standards</span><a href="/about/">About API</a><a href="/press/">For the press</a><a href="/methodology/">Methodology</a><a href="/glossary/">Glossary</a><a href="/corrections/">Corrections & updates</a><a href="/privacy/">Privacy</a></nav>
+    </div>
+    <div class="shell colophon"><span>ARKANSAS · PUBLIC MONEY · PUBLIC ACCOUNTABILITY</span><span>No analytics. Open sources.</span></div>
+  </footer>
+  <script>
+    const toggle=document.querySelector<HTMLButtonElement>('.theme-toggle');
+    const update=()=>{if(toggle){toggle.hidden=false;toggle.setAttribute('aria-label',`Switch to ${document.documentElement.dataset.theme==='dark'?'light':'dark'} theme`)}};
+    update();
+    toggle?.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('api-theme',theme)}catch{}update()});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'){const menu=document.querySelector<HTMLDetailsElement>('.mobile-nav[open]');if(menu){menu.open=false;menu.querySelector('summary')?.focus()}}});
+    document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button=>{button.hidden=false;button.addEventListener('click',async()=>{const target=document.getElementById(button.dataset.copy||'');if(!target)return;const status=button.parentElement?.querySelector('[role="status"]');try{await navigator.clipboard.writeText(target.textContent||'');if(status)status.textContent='Copied. Review and personalize before sending.'}catch{if(status)status.textContent='Copy was unavailable. Select the text below and copy it.'}})});
+  </script>
+</body>
+</html>

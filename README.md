@@ -1,28 +1,49 @@
 # Arkansans for Pension Integrity
 
-Public-facing Jekyll site for [arpensions.org](https://arpensions.org), an Arkansas public-records and legislative campaign.
+The Astro static website for [arpensions.org](https://arpensions.org), an Arkansas public-records and pension-policy campaign. This repository contains a local release candidate. Its presence does not establish production deployment or completed browser review.
 
-## Site architecture
+## Run locally
 
-- `_data/investigation.yml` keeps recurring figures, source locators, and factual boundaries consistent.
-- `_includes/` and `_layouts/` preserve the campaign's original banknote-inspired visual system.
-- `assets/js/` contains the interactive charts, scrollytelling, timelines, and route graphic.
-- `documents/records/` contains plain-language pages for privacy-reviewed source excerpts.
-- `scripts/` contains automated site and public-asset checks.
-- `assets/documents/` preserves selected source excerpts and longstanding public document URLs.
+Use **Node.js 22, at least 22.12.0**, and **Python 3.13**. Run from the repository root with those versions on PATH:
 
-Do not edit generated `_site` output. Run the repository checks before publishing.
+```sh
+npm ci
+python -m pip install -r requirements-dev.txt
+python scripts/sync_campaign_content.py
+npm run validate
+npm run preview
+```
 
-## Stack
+Open the local address printed by Astro. `npm run dev` starts the development server; use a completed build and `npm run preview` for Pagefind search and final static output. Both servers bind to `127.0.0.1` by default.
 
-- Jekyll and GitHub Pages
-- Pico CSS v2 plus campaign styles
-- Progressive enhancement; every interactive graphic has readable surrounding prose or a table
+Ordinary builds use committed content and reviewed assets. They **do not require the research vault, LibreOffice or Tesseract**. Do not edit generated `dist/` output.
 
-## Contact
+## Where to make changes
 
-[info@arpensions.org](mailto:info@arpensions.org)
+| Location | Purpose |
+|---|---|
+| `src/content/pages/` | Public Markdown pages, validated frontmatter and stable permalinks |
+| `src/data/investigation.json` | Financial records, source locators, agency summaries and policy requirements |
+| `src/data/publication-matrix.json` | Claims, interpretations, boundaries and affected pages |
+| `src/data/campaign.json` | Shared campaign language and legislator letter |
+| `src/data/public-assets.json` | Reviewed exhibit hashes, treatments, previews and transcripts |
+| `src/data/legacy-anchors.json` | Compatibility fragments for earlier public links |
+| `src/pages/`, `src/layouts/`, `src/components/` | Astro routes and presentation |
+| `public/` | Published downloads, source exhibits and static assets |
+| `scripts/`, `tests/` | Validation, optional authoring and release checks |
 
-## License
+Preserve longstanding download URLs and historical PDF bytes. A correction gets a new dated file, an accurate source record and links from the current explanation.
 
-See [LICENSE](LICENSE) for the mixed licensing of code, site content, government records, third-party assets, and campaign marks.
+## Maintenance and release
+
+- [Maintenance guide](docs/maintenance.md): editing, source review and optional evidence workflows.
+- [Release guide](docs/release-guide.md): exact approval gates, Pages migration order and rollback.
+- [Validation and manual review](docs/validation-report.md): verified results, performance limits and release checks.
+- [Staged petition revision](docs/petition-revision.md): external Action Network changes Joshua must apply and verify.
+- [Rebuild plan](docs/rebuild-plan.md): scope and acceptance requirements.
+
+`npm run validate` checks tests, types, static output and assets. It does not send correspondence, update the petition or publish. `npm run release:check` separately requires recorded petition alignment and Joshua's approval of the exact candidate digest. Pages deployment is manual and restricted to `main`.
+
+## Contact and license
+
+[info@arpensions.org](mailto:info@arpensions.org). See [LICENSE](LICENSE) for the separate treatment of code, campaign content and marks, government records and third-party assets.

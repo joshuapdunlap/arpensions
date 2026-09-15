@@ -1,0 +1,13 @@
+---
+import {data} from '../lib/data';
+import SourceNote from './SourceNote.astro';
+interface Props { agency?: string; pensionOnly?: boolean; }
+const {agency,pensionOnly=false}=Astro.props;
+const events=data.timeline.filter(event=>(!agency||event.agency.toLowerCase()===agency.toLowerCase())&&(!pensionOnly||['apers','atrs'].includes(event.agency.toLowerCase()))).sort((a,b)=>a.date.localeCompare(b.date));
+const filters=['all',...new Set(events.map(event=>event.agency.toLowerCase()))];
+---
+<section class="timeline-section" aria-labelledby="timeline-heading"><span class="eyebrow">Follow the decision</span><h2 id="timeline-heading">An authorization is a beginning.</h2><p>Funding, purchase, settlement, and reporting answer different questions. Each event below carries its own date and source.</p>
+  {!agency&&<div class="timeline-controls" role="group" aria-label="Filter timeline by agency" hidden>{filters.map((id,i)=><button data-timeline-filter={id} aria-pressed={i===0}>{id==='all'?(pensionOnly?'All pensions':'All agencies'):id.toUpperCase()}</button>)}</div>}
+  <ol class="timeline">{events.map(event=><li data-agency={event.agency.toLowerCase()}><time datetime={event.date}>{event.date}</time><div><span class="stamp">{event.agency.toUpperCase()} · {event.stage}</span><h3>{event.label}</h3><p>{event.description}</p><SourceNote ids={event.sourceIds}/></div></li>)}</ol>
+</section>
+<script>document.querySelectorAll<HTMLElement>('.timeline-controls').forEach(control=>{control.hidden=false;control.querySelectorAll<HTMLButtonElement>('button').forEach(button=>button.addEventListener('click',()=>{control.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));control.closest('.timeline-section')?.querySelectorAll<HTMLElement>('.timeline li').forEach(row=>row.hidden=button.dataset.timelineFilter!=='all'&&row.dataset.agency!==button.dataset.timelineFilter)}))});</script>
