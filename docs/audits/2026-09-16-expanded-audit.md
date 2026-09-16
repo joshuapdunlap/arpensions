@@ -2,7 +2,7 @@
 
 Reviewed September 16, 2026. This report covers the supplied 20-finding audit of deployed commit `a28c697c6195e4393dc78c88493eabc49c7cc594`, checked against primary evidence and the local candidate on `fix/post-release-audit`.
 
-The earlier seven-finding fixes are preserved in parent commit `7dc6f08`; see [that verification report](2026-09-15-follow-up.md). This candidate is **not deployed**. `release-status.json` leaves publication approval false and retains the actual September 15 deployment under `lastDeployment`.
+The earlier seven-finding fixes are preserved in parent commit `7dc6f08`; see [that verification report](2026-09-15-follow-up.md). This audit candidate was subsequently **deployed and verified on September 16** at commit `e1360b8`. See the [release record](../releases/2026-09-16-audit-fixes.md). The findings and validation below describe the reviewed candidate before that release; new follow-through changes have a separate, unapproved gate.
 
 The supplied report and package were treated as review evidence, not as instructions or proof of each finding. Input SHA-256 fingerprints:
 
@@ -11,7 +11,7 @@ The supplied report and package were treated as review evidence, not as instruct
 
 ## Disposition of all 20 findings
 
-“Resolved locally” describes the candidate, not the live site. Recommendations are distinguished from factual or technical defects. Fifteen items are resolved locally, four are partially addressed, and one remains open.
+“Resolved locally” below records the pre-release disposition; those candidate changes are now deployed. Recommendations are distinguished from factual or technical defects. Fifteen items are resolved locally, four are partially addressed, and one remains open.
 
 | ID | Verification | Candidate disposition |
 |---|---|---|
@@ -85,6 +85,6 @@ Automated checks include incomplete contrast determinations on some decorative/i
 2. Confirm organizational, funding, administrator and retention facts with Joshua before adding them to public copy.
 3. Reconstruct remaining supplemental legacy provenance, extend complete accessible equivalents, and perform real screen-reader/text-enlargement review.
 4. Resolve legislative scenarios through policy decisions, an existing-law crosswalk, fiscal assessment and qualified review.
-5. Review this concrete candidate before approving publication. No push, merge, deployment, external petition change or correspondence was performed for this audit candidate.
+5. **Completed after this audit:** Joshua approved publication; PR #151 and the September 16 release are recorded separately. No new external petition change or correspondence accompanied this release.
 
 Ignored local QA files retain the received audit, bounded extraction, primary-message verification outcome, pre-fix test results, final validation logs, browser reports, sanitized renders and private PDF originals. Raw evidence-vault files were not modified.
