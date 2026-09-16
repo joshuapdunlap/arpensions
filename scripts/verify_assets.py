@@ -35,6 +35,16 @@ def main():
         for field in ('replacementSha256','reviewedAt','reason','originalRetained'):
             if not revision.get(field):errors.append(f'Historical revision lacks {field}: {url}')
         if revision.get('replacementSha256')==revision.get('originalSha256'):errors.append(f'Historical revision does not change the artifact: {url}')
+        # OCR can omit a visible account field. Check the reviewed image areas
+        # as well as the full-file fingerprint; no identifier is stored here.
+        with fitz.open(ROOT/'public'/url.lstrip('/')) as pdf:
+            for region in revision.get('redactedRegions',[]):
+                rect=fitz.Rect(region['rect'])
+                inner=fitz.Rect(rect.x0+1,rect.y0+1,rect.x1-1,rect.y1-1)
+                page=pdf[region['page']-1]
+                pixels=page.get_pixmap(clip=inner,colorspace=fitz.csGRAY,alpha=False)
+                if any(pixels.samples) or page.get_textbox(inner).strip():
+                    errors.append(f'Privacy field is not fully removed: {url}, page {region["page"]}')
     for url,digest in contract['downloads'].items():
         digest=revisions.get(url,{}).get('replacementSha256',digest)
         path=ROOT/'public'/url.lstrip('/')

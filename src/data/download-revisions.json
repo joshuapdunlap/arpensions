@@ -1,16 +1,54 @@
 {
   "/assets/documents/sovereign-bond-purchase-confirmation-may2025.pdf": {
     "originalSha256": "6bd771863cfb094671a25b98395dbb0b40930fda00c3463703fa5ca0793e229d",
-    "replacementSha256": "7552ba6896690f7f5cd9b880f4ccbbf572bb104f99e2c617dd492801de59d5c4",
+    "replacementSha256": "771c5a2cff1fdb485ac741cff1de361b9b57e8687512320cb98ef512a91368c1",
     "reviewedAt": "2026-09-16",
-    "reason": "Broker-account identifier on physical page 1 removed from the image and text layer. Matching extracted occurrences removed. PDF metadata cleared. Financial content and original download address retained.",
-    "originalRetained": "Original retained in private release archive; not served by this candidate."
+    "reason": "Broker-account fields on physical pages 1 and 2 removed from the image and any text layer. The second field was found during full-page visual follow-through after the first release. PDF metadata cleared; financial content and download URL retained.",
+    "originalRetained": "Original retained in private release archive; not served by this candidate.",
+    "redactedRegions": [
+      {
+        "page": 1,
+        "rect": [
+          18,
+          544,
+          68,
+          562
+        ]
+      },
+      {
+        "page": 2,
+        "rect": [
+          18,
+          543,
+          69,
+          559
+        ]
+      }
+    ],
+    "priorRevisions": [
+      {
+        "sha256": "7552ba6896690f7f5cd9b880f4ccbbf572bb104f99e2c617dd492801de59d5c4",
+        "reviewedAt": "2026-09-16",
+        "scope": "Page 1 removed; page 2 remained visible and is corrected in this revision."
+      }
+    ]
   },
   "/assets/documents/sovereign-bond-purchase-confirmation-nov2023.pdf": {
     "originalSha256": "656c9c35aa9bd99f3878058220a8c73803eacdf71ad0206d815aa42231201f21",
     "replacementSha256": "5c077bc09f1c9a2c8fd2767936ca495e6cfb3bad37b09c724c63675890d94561",
     "reviewedAt": "2026-09-16",
     "reason": "Broker-account identifier on physical page 1 removed from the image and text layer. Matching extracted occurrences removed. PDF metadata cleared. Financial content and original download address retained.",
-    "originalRetained": "Original retained in private release archive; not served by this candidate."
+    "originalRetained": "Original retained in private release archive; not served by this candidate.",
+    "redactedRegions": [
+      {
+        "page": 1,
+        "rect": [
+          26,
+          540,
+          74,
+          559
+        ]
+      }
+    ]
   }
 }
