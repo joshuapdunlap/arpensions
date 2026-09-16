@@ -1,20 +1,20 @@
 {
-  "release": "expanded-audit-2026-09-16",
+  "release": "audit-follow-through-2026-09-16",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
   "petitionVerifiedBy": "Codex, acting on Joshua’s explicit instruction",
-  "publicationApproved": true,
-  "approvedBy": "Joshua Dunlap, explicit instruction on September 16, 2026: Deploy then proceed with the remaining work.",
-  "approvedSourceDigest": "1b46a4711191b4a08971a41d2e4cd2821d0d6e2f6be0338ecb454d2471f6ffaa",
-  "notes": "Joshua explicitly approved deployment of reviewed candidate 7650edf on September 16, 2026. Local validation passed before integration. This approval covers the recorded source digest. The September 15 deployment remains in lastDeployment until this release is independently verified. Remaining Search Console access, organizational disclosures, legacy provenance, accessibility and legislative-development work is documented in docs/audits/2026-09-16-expanded-audit.md. Existing petition alignment remains recorded; no signature receipt or email delivery was tested.",
+  "publicationApproved": false,
+  "approvedBy": null,
+  "approvedSourceDigest": null,
+  "notes": "The approved September 16 audit release is deployed and independently verified; see lastDeployment. The current branch continues the remaining audit work. New changes have no recorded publication approval. Previous releases remain documented in docs/releases. Existing petition alignment remains recorded; no signature receipt or email delivery was tested.",
   "lastDeployment": {
-    "release": "astro-rebuild-2026-09-15",
-    "commit": "a28c697c6195e4393dc78c88493eabc49c7cc594",
-    "sourceDigest": "fc6e4b1faccef3d105f5c8ffa612dd40f6bbb1d51399388266d30962c3c0dbda",
-    "publishedAt": "2026-09-15T19:58:33Z",
-    "verifiedAt": "2026-09-15T20:03:12.905725+00:00",
-    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/35016601383",
-    "record": "docs/releases/2026-09-15-astro-rebuild.md",
+    "release": "expanded-audit-2026-09-16",
+    "commit": "e1360b8f4414926febc277ea6d6cef8112f4020e",
+    "sourceDigest": "1b46a4711191b4a08971a41d2e4cd2821d0d6e2f6be0338ecb454d2471f6ffaa",
+    "publishedAt": "2026-09-16T19:23:48Z",
+    "verifiedAt": "2026-09-16T19:24:27.734286+00:00",
+    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/35140199770",
+    "record": "docs/releases/2026-09-16-audit-fixes.md",
     "status": "deployed-and-verified"
   }
 }
