@@ -35,6 +35,10 @@
     "url": "/assets/images/social-cards/documents--records--apers-september-holdings.png",
     "title": "APERS September custody positions"
   },
+  "/documents/records/apers-september-response/": {
+    "url": "/assets/images/social-cards/documents--records--apers-september-response.png",
+    "title": "APERS September request and no-record response"
+  },
   "/documents/records/ashers-no-holding/": {
     "url": "/assets/images/social-cards/documents--records--ashers-no-holding.png",
     "title": "ASHERS no-holding statement"
@@ -133,7 +137,7 @@
   },
   "/documents/records/treasury-maturity/": {
     "url": "/assets/images/social-cards/documents--records--treasury-maturity.png",
-    "title": "Treasury final-maturity cash-flow record"
+    "title": "Treasury projected final-maturity cash flow"
   },
   "/documents/records/treasury-processing-payment/": {
     "url": "/assets/images/social-cards/documents--records--treasury-processing-payment.png",
@@ -209,7 +213,7 @@
   },
   "/legislators/": {
     "url": "/assets/images/social-cards/legislators.png",
-    "title": "Pension Investment Integrity Act"
+    "title": "A briefing for Arkansas legislators"
   },
   "/legislators/one-page/": {
     "url": "/assets/images/social-cards/legislators--one-page.png",
@@ -246,10 +250,6 @@
   "/take-action/": {
     "url": "/assets/images/social-cards/take-action.png",
     "title": "Support a public pension investment record"
-  },
-  "/take-action/thanks/": {
-    "url": "/assets/images/social-cards/take-action--thanks.png",
-    "title": "Thank you for supporting pension integrity"
   },
   "/the-act/": {
     "url": "/assets/images/social-cards/the-act.png",

@@ -10,8 +10,8 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - legislative_calendar
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -49,7 +49,7 @@ Publication would follow acquisition, within 30 days. Narrow, explained redactio
 
 ## Legislative calendar
 
-The official calendar lists **November 16, 2026** for prefiling, **January 11, 2027** for convening and **January 25, 2027** as the ordinary retirement-legislation filing deadline. The calendar notes possible deadline extension for a recess and a three-fourths vote of each chamber's full membership for later introduction. [Bureau of Legislative Research calendar, pp. 1–2](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf), verified September 15, 2026.
+The official calendar lists **November 16, 2026** for prefiling, **January 11, 2027** for convening and **January 25, 2027** as the ordinary retirement-legislation filing deadline. The calendar notes possible deadline extension if both chambers recess more than four days and a three-fourths vote of each chamber's full membership for later introduction. [Bureau of Legislative Research calendar, pp. 1–3](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf), verified September 16, 2026.
 
 ## Legislative ask
 

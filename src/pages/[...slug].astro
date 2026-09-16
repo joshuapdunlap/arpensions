@@ -20,7 +20,7 @@ const isAction=pathname==='/take-action/';
 const featuredSourceId=sourceIds.find(id=>assets[id]?.previews?.length);
 const featured=featuredSourceId?assets[featuredSourceId]:undefined;
 ---
-<Base title={title} description={description} section={section||template} type="article">
+<Base title={title} description={description} section={section||template} type="article" noindex={entry.data.noindex}>
   <div class="shell">
     {[...new Set(sourceIds.map(id=>sources[id]?.agency).filter(Boolean))].map(name=><span class="sr-only" data-pagefind-filter="Agency">{name}</span>)}
     <header class:list={['page-heading',isAction&&'action-heading']}><div class="breadcrumbs"><a href="/">Home</a><span>/</span><a href={isAgency?'/evidence/':pathname.startsWith('/findings/')?'/findings/':pathname}>{isAgency?'Evidence':section||'The public record'}</a></div><span class="eyebrow">{eyebrow||section||'Arkansans for Pension Integrity'}</span><h1>{title}</h1><p class="lede">{description}</p>{isAction&&<ActionPanel/>}<div class="page-meta"><span>REVIEWED {reviewedAt}</span><span>{isPolicy?'CAMPAIGN PROPOSAL':isAgency?(agency==='treasury'?'BACKGROUND COMPARISON':'AGENCY DOSSIER'):template==='updates'?'DATED UPDATES':'PUBLIC RECORD & REFORM'}</span></div></header>

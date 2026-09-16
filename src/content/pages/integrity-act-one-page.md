@@ -10,8 +10,8 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - legislative_calendar
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -39,6 +39,6 @@ For covered pension acquisitions of **non-tradable sovereign debt**, the proposa
 
 Prospective and issuer-neutral; trustees keep the investment decision. The proposal focuses on pension systems. Treasury is separately governed. Drafting must specify manager and pooled-vehicle coverage, responsibility for the analysis and the acquisition that triggers posting. Core conclusions should remain public with narrow, explained redactions.
 
-Consider sponsorship and request a drafting briefing. Official dates: prefiling November 16, 2026; session January 11, 2027; ordinary retirement-bill deadline January 25, 2027, subject to the calendar's exceptions. [Official calendar, pp. 1–2](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf).
+Consider sponsorship and request a drafting briefing. Official dates: prefiling November 16, 2026; session January 11, 2027; ordinary retirement-bill deadline January 25, 2027, subject to the calendar's exceptions. [Official calendar, pp. 1–3](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf).
 
-**Contact:** [info@arpensions.org](mailto:info@arpensions.org) · [Full policy brief](/legislators/). Use your browser's Print command for a copy of this version.
+**Contact:** [info@arpensions.org](mailto:info@arpensions.org) · [Full policy brief](/legislators/). Use the **Download one-page PDF** link above for the fixed one-page handout. Printing this longer web version may use more than one page.

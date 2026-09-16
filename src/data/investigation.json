@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-09-15",
+  "reviewedAt": "2026-09-16",
   "sources": {
     "atrs_aon": {
       "title": "Aon implementation and manager-selection memorandum",
@@ -12,7 +12,9 @@
       "treatment": "Pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/atrs-aon-memo-pages-149-150.pdf",
       "documentType": "Board record",
-      "subject": "Investment decisions"
+      "subject": "Investment decisions",
+      "dateType": "document",
+      "dateNote": "Date basis: document. See June 2, 2025 Board packet, physical pages 149–150."
     },
     "atrs_resolution": {
       "title": "Executed ATRS Resolution 2025-22",
@@ -25,7 +27,9 @@
       "treatment": "Executed pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/atrs-resolution-2025-22-executed-pages-5-6.pdf",
       "documentType": "Board record",
-      "subject": "Investment decisions"
+      "subject": "Investment decisions",
+      "dateType": "decision",
+      "dateNote": "Date basis: decision. See Emails5, physical pages 5–6; signature on physical page 6."
     },
     "atrs_funding": {
       "title": "ATRS Board Update Liquidity",
@@ -38,7 +42,9 @@
       "treatment": "Campaign-typeset excerpt; recipient addresses and unrelated notice text omitted. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/atrs-manager-funding-email-excerpt.pdf",
       "documentType": "Board record",
-      "subject": "Investment decisions"
+      "subject": "Investment decisions",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See Rod Graves email to Board Distribution List, 11:23 a.m. CST."
     },
     "apers_authorization": {
       "title": "APERS Investment Finance Subcommittee signed minutes",
@@ -51,7 +57,9 @@
       "treatment": "Selected pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/apers-authorization-minutes-pages-1-4.pdf",
       "documentType": "Board record",
-      "subject": "Investment decisions"
+      "subject": "Investment decisions",
+      "dateType": "decision",
+      "dateNote": "Date basis: decision. See Signed minutes, physical pages 1 and 4; proxy role on page 1 and motion on page 4."
     },
     "apers_analysis_email": {
       "title": "APERS chief investment officer FOIA-search email",
@@ -64,7 +72,9 @@
       "treatment": "Campaign crop; direct contact information masked; quoted request omitted. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/apers-analysis-email-page-3081-masked.pdf",
       "documentType": "Email",
-      "subject": "Investment decisions"
+      "subject": "Investment decisions",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See IB_FOIA_FINAL, physical page 3,081; duplicate at page 3,084."
     },
     "apers_purchase": {
       "title": "APERS $15 million purchase record",
@@ -77,7 +87,9 @@
       "treatment": "Campaign crop; account and operational identifiers masked. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/apers-purchase-record-page-6925-masked.pdf",
       "documentType": "Transaction record",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "transaction",
+      "dateNote": "Date basis: transaction. See IB_FOIA_FINAL, physical page 6,925."
     },
     "treasury_hold": {
       "title": "Treasury internal credit overview",
@@ -90,7 +102,9 @@
       "treatment": "Pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/treasury-internal-credit-overview.pdf",
       "documentType": "Analysis and manager report",
-      "subject": "Investment decisions"
+      "subject": "Investment decisions",
+      "dateType": "document",
+      "dateNote": "Date basis: document. See Two-page internal overview, conclusion on physical page 2."
     },
     "treasury_holdings": {
       "title": "Treasury June 30, 2025 bondholder statement",
@@ -103,20 +117,24 @@
       "treatment": "Campaign crop omits recipient, barcode, account, and return-mail data; agency masking retained. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/treasury-holdings-june-2025-cropped.pdf",
       "documentType": "Holdings report",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "account-as-of",
+      "dateNote": "Date basis: account as of. See Bondholder statement, physical page 1; account identifiers omitted from excerpt."
     },
     "treasury_maturity": {
-      "title": "Treasury final-maturity cash-flow record",
+      "title": "Treasury projected final-maturity cash flow",
       "agency": "State Treasury",
       "date": "2026-02-02",
       "locator": "IA-Non-MBS Cash Flow workbook, Sheet1, row 14",
       "originalFile": "2026 0202 IA- Non- MBS Cash Flow_Treasury Gen AGG- ISRAEL BONDS- PAR & MATURITY.xlsx",
       "recordUrl": "/documents/records/treasury-maturity/",
-      "summary": "Treasury final-maturity cash-flow record. Read with the dated scope and locator.",
+      "summary": "A projected cash-flow worksheet lists a $5 million Final Maturity row with a February 2, 2026 post date. It does not independently establish proceeds received or a later holdings balance.",
       "treatment": "Campaign-typeset excerpt; account and security identifiers, coupon details, and unrelated rows omitted. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/treasury-final-maturity-excerpt.pdf",
       "documentType": "Transaction record",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "scheduled-maturity",
+      "dateNote": "Row 14 Post Date in a report explicitly labeled Projected Cash-Flow Period, January 29, 2026 through January 28, 2027. The row does not independently establish completed proceeds."
     },
     "treasury_processing": {
       "title": "Treasury outgoing payment report",
@@ -129,7 +147,9 @@
       "treatment": "Campaign crop; requester and transaction identifiers masked; agency masking retained. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
       "assetUrl": "/assets/documents/treasury-processing-payment-masked.pdf",
       "documentType": "Transaction record",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "document",
+      "dateNote": "Report run date and displayed value date. The payment status is Processing By Bank; this does not establish settlement."
     },
     "treasury_target_report": {
       "title": "Seller report of Treasury portfolio target",
@@ -142,7 +162,9 @@
       "treatment": "Physical page 7 email-body excerpt; sender/recipient direct-contact fields irreversibly masked; signature block on page 8 omitted. Seller statement, not a Treasury purchase authorization.",
       "assetUrl": "/assets/documents/treasury-target-report-reviewed.pdf",
       "documentType": "Email",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 7-7-25 / Dunlap FOIA 7.,2.25.pdf, physical pages 7-8; seller email to Treasury investment staff."
     },
     "capitol_itinerary": {
       "title": "April 2025 Capitol itinerary",
@@ -155,7 +177,9 @@
       "treatment": "Physical page 2 rectangular itinerary/body crop. Signature contact block omitted. Schedule is not attendance proof.",
       "assetUrl": "/assets/documents/capitol-itinerary-reviewed.pdf",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 6-18-25 / State Auditors Emails / Spadoni / April 11, 2025 - 4.pdf, physical page 2."
     },
     "hudson_babbitt_confirmation": {
       "title": "Hudson-Babbitt meeting confirmation",
@@ -168,7 +192,9 @@
       "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
       "assetUrl": "/assets/documents/hudson-babbitt-confirmation-reviewed.txt",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 3-27-26 / RE_ Virtual Introductions.eml, Andy Babbitt message at 9:25 a.m. CDT."
     },
     "seller_reported_meetings": {
       "title": "Seller-authored report of Fecher and Treasury-team encounters",
@@ -181,7 +207,9 @@
       "treatment": "Physical page 589 crop through message closing; direct email address and mail-security banner masked; contact signature omitted. Seller-authored claims retained as seller claims.",
       "assetUrl": "/assets/documents/seller-reported-meetings-reviewed.pdf",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 7-7-25 / IB_FOIA_MAY_25_Reviewed.pdf, physical page 589."
     },
     "atrs_auditor_designee": {
       "title": "ATRS Auditor designee record",
@@ -194,7 +222,9 @@
       "treatment": "Physical page 6, full minutes attendance page. Rasterized public derivative.",
       "assetUrl": "/assets/documents/atrs-auditor-designee-reviewed.pdf",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "meeting",
+      "dateNote": "Meeting date in the embedded signed minutes. This is attendance evidence, not an independently established appointment date."
     },
     "sfof_sponsor_listing": {
       "title": "2020 SFOF event sponsor listing",
@@ -207,7 +237,9 @@
       "treatment": "Full physical page 1. Public organization letter and sponsor list; rasterized.",
       "assetUrl": "/assets/documents/sfof-sponsor-listing-reviewed.pdf",
       "documentType": "Newsletter and event material",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "document",
+      "dateNote": "Date basis: document. See End of Year Letter from Treasurer Milligan.pdf, physical page 1."
     },
     "sfof_model_case": {
       "title": "SFOF newsletter circulating a state purchase",
@@ -220,7 +252,9 @@
       "treatment": "Original physical pages 4-6, including newsletter organization context and footer. Public generic organization contact retained; no personal contacts displayed.",
       "assetUrl": "/assets/documents/sfof-model-case-reviewed.pdf",
       "documentType": "Newsletter and event material",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 6-18-25 / State Auditors Emails / Milligan / 🗳️ Pre-Election Update from the States - 4 nov 24.pdf, physical pages 4-6."
     },
     "sfof_speech_preparation": {
       "title": "SFOF speech preparation and scheduled presentation",
@@ -229,11 +263,13 @@
       "locator": "FOIA Response 6-25-25 / Jason Brady mailbox / Sent Items / update sfof speech.pdf, physical page 1; schedule cross-check dated April 14 for an April 24 slot in Jason Brady mailbox / Inbox / FW Auditor Milligan - Presentation Time.pdf, physical page 1",
       "originalFile": "update sfof speech.pdf",
       "recordUrl": "/documents/records/sfof-speech-preparation/",
-      "summary": "SFOF speech preparation and scheduled presentation. Read with the dated scope and locator.",
+      "summary": "Draft remarks about unclaimed property document SFOF speech preparation. The excerpt is contextual participation evidence, not an Israel Bonds sales pitch or proof of delivery.",
       "treatment": "Physical page 1 of draft speech email. Displayed header contains names, no direct addresses. Draft language is not proof of delivery.",
       "assetUrl": "/assets/documents/sfof-speech-preparation-reviewed.pdf",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 6-25-25 / Jason Brady mailbox / Sent Items / update sfof speech.pdf, physical page 1; schedule cross-check dated April 14 for an April 24 slot in Jason Brady mailbox / Inbox / FW Auditor Milligan - Presentation Time.pdf, physical page 1."
     },
     "sfof_post_action_facilitation": {
       "title": "Post-action member-state contact facilitation",
@@ -246,7 +282,9 @@
       "treatment": "Physical page 1 rectangular crop of June 4 message only. Quoted prior email, direct contact and meeting details omitted.",
       "assetUrl": "/assets/documents/sfof-post-action-facilitation-reviewed.pdf",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 6-25-25 / Stacy Peterson mailbox / Sent Items / Re Policy Zoom_1.pdf, physical page 1."
     },
     "ashers_route": {
       "title": "DFA introduction and seller pitch to ASHERS",
@@ -259,7 +297,9 @@
       "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
       "assetUrl": "/assets/documents/ashers-route-reviewed.txt",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FOIA Response 3-27-26 / RE_ Virtual Introductions.eml, Andy Babbitt message at 9:25 a.m. CDT and seller reply dated April 17, 2025 at 1:02 p.m., with attached eight-page presentation."
     },
     "ashers_no_holding": {
       "title": "ASHERS no-holding statement",
@@ -272,7 +312,9 @@
       "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
       "assetUrl": "/assets/documents/ashers-no-holding-reviewed.txt",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See FW_ wickline's questions.eml, Robyn Smith message at 8:32 a.m. CDT."
     },
     "ashers_no_purchase": {
       "title": "ASHERS no-purchase statement",
@@ -285,7 +327,9 @@
       "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
       "assetUrl": "/assets/documents/ashers-no-purchase-reviewed.txt",
       "documentType": "Email",
-      "subject": "Roles and outreach"
+      "subject": "Roles and outreach",
+      "dateType": "message",
+      "dateNote": "Date basis: message. See RE_ Arkansas Times article about state retirement systems purchasing Israeli bonds.eml, Robyn Smith message at 10:35 a.m. CDT."
     },
     "apers_september_holdings": {
       "title": "APERS September custody positions",
@@ -298,12 +342,14 @@
       "summary": "$25 million par in two positions on a dated APERS custody report. APERS-administered pooled-account allocation is unresolved.",
       "treatment": "Agency masking retained. Public derivative is rasterized to remove hidden text and metadata.",
       "documentType": "Holdings report",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "account-as-of",
+      "dateNote": "Date basis: account as of. See Physical page 1, two State of Israel positions; page 2 account total."
     },
     "apers_august_request": {
       "title": "APERS second investment request",
       "agency": "APERS",
-      "date": "2026-09-09",
+      "date": null,
       "locator": "Physical page 1; separate execution timestamp not displayed",
       "originalFile": "raw/apers/FOIA Response 9-9-26/APERS 8-26 CIR_Redacted_final.pdf",
       "recordUrl": "/documents/records/apers-august-request/",
@@ -311,7 +357,10 @@
       "summary": "$10 million two-year investment request; August 15 is the displayed custody-line date, not a timestamp established by this form.",
       "treatment": "Rectangular request-form crop through bond total; direct seller contact block and footer omitted. Agency masking retained; rasterized.",
       "documentType": "Transaction record",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "unknown",
+      "dateNote": "The form displays no separate document or execution date. September 9 is the agency response date, not a transaction date.",
+      "receivedDate": "2026-09-09"
     },
     "atrs_completed_funding": {
       "title": "ATRS completed manager funding",
@@ -324,7 +373,9 @@
       "summary": "$50 million completed transfer to the Reams account on January 2, 2026.",
       "treatment": "Physical page 3 only. Reference number, submitting staff identity, source/destination fund codes and clearing-house field irreversibly masked before rasterization. No other funding pages included.",
       "documentType": "Transaction record",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "transaction",
+      "dateNote": "Date basis: transaction. See Physical page 3 status Completed; pages 1 and 6–7 transfer context."
     },
     "atrs_completed_purchase": {
       "title": "ATRS completed Israel Bond purchase",
@@ -337,7 +388,9 @@
       "summary": "$9.9 million trade and settlement on February 17 at par; 4.93% coupon, maturity February 1, 2031.",
       "treatment": "Native LibreOffice spreadsheet PDF export of original rows 1-2. Only print-column widths widened in a working copy so source text is legible; cell values unchanged. Agency redaction retained. Rasterized public PDF.",
       "documentType": "Transaction record",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "transaction",
+      "dateNote": "Date basis: transaction. See 2026.0228.Reams ILS 4NZB Trade, row 2 (headers row 1)."
     },
     "atrs_july_holdings": {
       "title": "ATRS July manager-account holdings",
@@ -350,12 +403,14 @@
       "summary": "$9.9 million Israel Bond par within a $50,446,757.95 account valued with accrued income.",
       "treatment": "Native LibreOffice spreadsheet PDF export, SinglePageSheets; original cells, headers and agency redactions preserved. Rasterized public PDF.",
       "documentType": "Holdings report",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "account-as-of",
+      "dateNote": "Date basis: account as of. See MasterGridXLS rows 7, 9–10 and 12; headers row 1."
     },
     "atrs_cancellation": {
       "title": "ATRS canceled first issuance",
       "agency": "ATRS",
-      "date": "2026-02-13",
+      "date": "2026-02-03",
       "locator": "Physical page 1, Cancel Bond Issuance",
       "originalFile": "raw/atrs/FOIA Response 9-11-26/2026-02-13_13th Jubilee_cancellation.pdf",
       "recordUrl": "/documents/records/atrs-cancellation/",
@@ -363,7 +418,10 @@
       "summary": "The first $9.9 million issuance was canceled; exclude it from completed-purchase totals.",
       "treatment": "Physical page 1 rectangular financial-table crop; recipient, account, barcode and return-mail blocks omitted. Agency masking retained. Rasterized public PDF.",
       "documentType": "Transaction record",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "account-as-of",
+      "dateNote": "The Account Information field says 03 Feb 2026. This is not an established cancellation-effective date. February 13 occurs in the supplied filename only; the exact cancellation date remains unresolved.",
+      "receivedDate": "2026-09-11"
     },
     "atrs_q2_report": {
       "title": "Reams second-quarter report",
@@ -376,7 +434,9 @@
       "summary": "Manager reporting describes the Treasury ladder and Israel Bond implementation; it is distinct from an independent pre-decision credit recommendation.",
       "treatment": "Selected full source pages 3, 7 and 8: performance, portfolio strategy and characteristics. Rasterized public derivative; no added source-page graphics.",
       "documentType": "Analysis and manager report",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "period-end",
+      "dateNote": "Date basis: period end. See Performance summary and portfolio commentary."
     },
     "atrs_contract_extension": {
       "title": "Reams contract extension",
@@ -389,7 +449,9 @@
       "summary": "Extension through June 30, 2027; Reams signed June 9 and ATRS signed July 23, 2026.",
       "treatment": "Physical pages 1 and 3. Department contact section irreversibly masked; official contract terms and signature section retained. Rasterized; form fields and metadata removed.",
       "documentType": "Contract",
-      "subject": "Funding, purchases and holdings"
+      "subject": "Funding, purchases and holdings",
+      "dateType": "signature",
+      "dateNote": "Date basis: signature. See Amendment 2, contract-period and signature fields."
     },
     "securities_1986_orders": {
       "title": "Arkansas 1986 suspension and reinstatement orders",
@@ -402,7 +464,9 @@
       "treatment": "All three original pages retained together: suspension and later vacatur/reinstatement. Rasterized public derivative.",
       "assetUrl": "/assets/documents/securities-1986-orders-reviewed.pdf",
       "documentType": "Regulatory record",
-      "subject": "Law and proposal development"
+      "subject": "Law and proposal development",
+      "dateType": "document",
+      "dateNote": "The listed date belongs to the first order. The later vacatur/reinstatement order is included and must be read with it."
     },
     "atrs_rating_report": {
       "title": "S&P sovereign-rating report in ATRS production",
@@ -415,19 +479,23 @@
       "treatment": "Physical page 2, S&P research update dated April 18, 2024 (printed page 1). Analyst contact column masked. Historical report, not a current rating or pension-specific analysis.",
       "assetUrl": "/assets/documents/atrs-rating-report-reviewed.pdf",
       "documentType": "Analysis and manager report",
-      "subject": "Investment decisions"
+      "subject": "Investment decisions",
+      "dateType": "document",
+      "dateNote": "Date basis: document. See Reports.pdf, physical page 2 (printed page 1); S&P RatingsDirect research update dated April 18, 2024."
     },
     "legislative_calendar": {
       "title": "Official 2027 regular-session calendar",
       "agency": "Arkansas Bureau of Legislative Research",
-      "date": "2026-09-15",
-      "locator": "Pages 1–2, prefiling and retirement-legislation deadlines",
+      "date": "2026-09-16",
+      "locator": "Pages 1-2: prefiling, session and retirement-bill deadlines; page 3: recess qualification",
       "originalFile": "Session_Important_Dates_2027.pdf",
       "recordUrl": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf",
       "summary": "Official scheduled dates verified September 15, 2026.",
       "treatment": "Official external primary source.",
       "documentType": "Legislative calendar",
-      "subject": "Law and proposal development"
+      "subject": "Law and proposal development",
+      "dateType": "verified",
+      "dateNote": "Official reference checked September 16, 2026. This is the review date, not an asserted document publication date."
     },
     "finra_brokercheck": {
       "title": "FINRA BrokerCheck: Development Corporation for Israel",
@@ -439,7 +507,25 @@
       "summary": "Public regulatory history; distinguish allegations, disposition and dated status.",
       "treatment": "Official external primary source reviewed September 15, 2026.",
       "documentType": "Regulatory record",
-      "subject": "Law and proposal development"
+      "subject": "Law and proposal development",
+      "dateType": "verified",
+      "dateNote": "Official report checked September 15, 2026; this is the review date, not an asserted publication date."
+    },
+    "apers_september_response": {
+      "title": "APERS September request and no-record response",
+      "agency": "APERS",
+      "date": "2026-09-09",
+      "dateType": "message",
+      "dateNote": "Agency reply dated September 9, 2026 at 20:42:05 UTC; request sent September 8 at 12:56 p.m. CDT. The response answers the quoted category, not all possible analysis.",
+      "receivedDate": "2026-09-09",
+      "locator": "September 8 request, category 4; September 9 reply, category 4",
+      "originalFile": "APERS request and response correspondence, September 8-9, 2026",
+      "recordUrl": "/documents/records/apers-september-response/",
+      "assetUrl": "/assets/documents/apers-september-response-reviewed.txt",
+      "summary": "The request sought specified analyses and recommendations dated February 14 through September 7, 2026. APERS replied that no responsive records existed for that category.",
+      "treatment": "Reviewed plain-text request/response excerpts. Requester identity and contacts, identity attachment, signature contact details, unrelated categories and quoted chain omitted; no facsimile invented.",
+      "documentType": "FOIA request and response",
+      "subject": "Decision analysis"
     }
   },
   "financialRecords": [
@@ -551,11 +637,11 @@
       "currency": "USD",
       "basis": "par",
       "stage": "canceled",
-      "effectiveDate": "2026-02-13",
+      "effectiveDate": null,
       "sourceIds": [
         "atrs_cancellation"
       ],
-      "accountScope": "Canceled first issuance; excluded from totals",
+      "accountScope": "Canceled first issuance. Cancellation effective date not established; account-information date is February 3, 2026.",
       "parentFundingId": "atrs_january_funding"
     },
     {
@@ -586,10 +672,11 @@
         "treasury_holdings",
         "treasury_maturity"
       ],
-      "accountScope": "June 2025 statement less February 2026 maturity; later holdings unconfirmed",
+      "accountScope": "Conditional historical estimate adjusted for a scheduled maturity; not confirmed current holdings.",
       "overlapsRecordIds": [
         "treasury_june_holding"
-      ]
+      ],
+      "assumption": "Assumes the $5 million contractual maturity shown in projected cash flow reduced the June 2025 $55 million balance, with no other changes. Actual proceeds and later holdings are not established."
     },
     {
       "id": "treasury_processing",
@@ -730,10 +817,10 @@
     {
       "id": "treasury_derived_residual",
       "date": "2026-02-02",
-      "label": "A dated Treasury residual is derived",
+      "label": "Projected maturity used in a conditional estimate",
       "agency": "treasury",
       "stage": "derived-residual",
-      "description": "June 2025 statement less February 2026 maturity; later holdings unconfirmed",
+      "description": "The projected cash-flow worksheet lists $5 million Final Maturity with a February 2 post date. Actual proceeds or removal from holdings are not independently established.",
       "sourceIds": [
         "treasury_holdings",
         "treasury_maturity"
@@ -741,11 +828,11 @@
     },
     {
       "id": "atrs_canceled_issuance",
-      "date": "2026-02-13",
+      "date": null,
       "label": "The first issuance is canceled",
       "agency": "atrs",
       "stage": "canceled",
-      "description": "Canceled first issuance; excluded from totals",
+      "description": "The 4.86% first issuance is marked canceled. The account-information field says February 3; February 13 appears only in the filename. No cancellation-effective date is established. The completed replacement purchase is separately dated February 17.",
       "sourceIds": [
         "atrs_cancellation"
       ]

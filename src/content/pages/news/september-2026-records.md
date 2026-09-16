@@ -12,8 +12,8 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - atrs_july_holdings
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -35,6 +35,6 @@ APERS’s $25 million is a September custody observation. ATRS’s $9.9 million 
 
 ## The policy question is sharper
 
-Transactions and holdings now fill important gaps. The remaining question concerns the decision-specific financial case for the sovereign exposure. Aon supplied substantive implementation and manager-selection advice, with a scope boundary that left the investment merits to trustees. [Aon memorandum, pp. 149–150](/documents/records/atrs-aon-memo/). The campaign seeks a consistent written credit, alternatives, liquidity and financial determination for future covered pension acquisitions.
+Transactions and holdings now fill important gaps. The remaining question concerns the decision-specific financial case for the sovereign exposure. Aon supplied substantive implementation and manager-selection advice, while explicitly disclaiming a recommendation to invest or not invest in Israel Bonds or to purchase or sell individual securities. [Aon memorandum, pp. 149–150](/documents/records/atrs-aon-memo/). The campaign seeks a consistent written credit, alternatives, liquidity and financial determination for future covered pension acquisitions.
 
 [Read all corrections](/corrections/) · [Read the policy proposal](/legislators/).

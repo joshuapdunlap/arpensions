@@ -43,6 +43,11 @@ def audit(site=None):
             relative=str(path.relative_to(site))
             if len(soup.select('h1'))!=1:errors.append(f'{relative}: needs exactly one H1')
             if not soup.select_one('html[lang="en"]'):errors.append(f'{relative}: missing language')
+            if path.relative_to(site).as_posix()=='take-action/thanks/index.html' and not soup.select_one('meta[name="robots"][content^="noindex"]'):errors.append('Petition utility page must remain noindex')
+            if soup.select_one('meta[name="robots"][content^="noindex"]'):
+                canonical_url=soup.select_one('link[rel="canonical"]')
+                if canonical_url and canonical_url['href'] in (site/'sitemap.xml').read_text(encoding='utf-8'):errors.append(f'{relative}: noindex page appears in sitemap')
+                if soup.select_one('[data-pagefind-body]'):errors.append(f'{relative}: noindex page marked for search')
             for selector in ('title','meta[name="description"]','meta[property="og:image"]','main','a.skip-link'):
                 if not soup.select_one(selector): errors.append(f'{relative}: missing {selector}')
             canonical=soup.select_one('link[rel="canonical"]')

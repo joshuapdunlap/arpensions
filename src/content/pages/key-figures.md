@@ -17,8 +17,8 @@ sourceIds:
 - capitol_itinerary
 - hudson_babbitt_confirmation
 - seller_reported_meetings
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -32,7 +32,7 @@ These roles describe the people and institutions in the dated records. They are 
 
 ## Pension systems and advisers
 
-**Aon.** ATRS's consultant compared implementation options, recommended Reams and noted limited marketability. Its scope placed investment merits with trustees. [Memo, pp. 149–150](/documents/records/atrs-aon-memo/).
+**Aon.** ATRS's consultant compared implementation options, recommended Reams and noted limited marketability. Its disclaimer says the memo is not a recommendation to invest or not invest in Israel Bonds and disclaims recommendations on individual securities. [Memo, pp. 149–150](/documents/records/atrs-aon-memo/).
 
 **Reams Asset Management.** The ATRS manager account received $50 million on January 2, 2026. It bought a $9.9 million Israel Bond in February and reported that position alongside U.S. Treasuries and cash in July. [ATRS dossier](/evidence/atrs/).
 

@@ -758,16 +758,16 @@
   },
   {
     "id": "apers-analysis-gap",
-    "claim": "Reviewed productions identify no independent consultant sovereign-credit memo tied to the APERS purchases; September response reported no responsive analysis for the addition.",
+    "claim": "The reviewed APERS productions do not identify an independent consultant sovereign-credit memo tied to the purchases. APERS separately reported no responsive records for September request category 4.",
     "sourceIds": [
       "apers_analysis_email",
-      "apers_august_request"
+      "apers_september_response"
     ],
-    "locator": "February email physical p. 3,081; September response summarized in source record",
-    "scope": "Reviewed productions and bounded agency response",
+    "locator": "February email physical p. 3,081; September 8 request and September 9 reply, category 4",
+    "scope": "Category 4 covers specified analyses, recommendations, reviews and recorded decisions or instructions dated February 14 through September 7, 2026.",
     "asOf": "2026-09-09",
     "interpretation": "Absence in reviewed record and agency response statement.",
-    "boundary": "Not proof that oral or unproduced work did not exist. September response is correspondence, not a statement printed on investment form.",
+    "boundary": "The response is bounded by the actual request, dates and subjects; it does not exclude oral advice, unproduced records or records outside that category.",
     "pages": [
       "/evidence/",
       "/evidence/apers/",
@@ -807,7 +807,8 @@
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/methodology.png"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-16"
   },
   {
     "id": "atrs-funding-completed",
@@ -1752,16 +1753,16 @@
   },
   {
     "id": "treasury-residual",
-    "claim": "Treasury $50M derived residual equals June 2025 $55M statement less documented February 2026 $5M maturity.",
+    "claim": "Treasury $50M is a conditional estimate: June 2025 $55M less projected February 2026 $5M maturity.",
     "sourceIds": [
       "treasury_holdings",
       "treasury_maturity"
     ],
-    "locator": "Statement p. 1; maturity workbook Sheet1 row 14",
-    "scope": "Historical derivation",
+    "locator": "Statement p. 1; projected cash-flow workbook Sheet1 row 14 and report heading",
+    "scope": "Conditional historical calculation",
     "asOf": "2026-02-02",
-    "interpretation": "55M - 5M = 50M.",
-    "boundary": "Current holdings not verified; subsequent transactions may change balance.",
+    "interpretation": "55M - 5M = 50M, assuming the projected maturity reduced the balance and no other transactions changed it.",
+    "boundary": "The projection does not establish proceeds received, later holdings or a confirmed minimum.",
     "pages": [
       "/evidence/treasury/",
       "/glossary/"
@@ -1783,7 +1784,8 @@
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/glossary.png"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-16"
   },
   {
     "id": "treasury-processing",
@@ -1821,18 +1823,18 @@
   },
   {
     "id": "direct-security-floor",
-    "claim": "The $84.9M direct-security floor sums Treasury $50M residual, APERS $25M and ATRS $9.9M.",
+    "claim": "The $84.9M historical calculation sums a conditional Treasury $50M residual estimate, APERS $25M and ATRS $9.9M.",
     "sourceIds": [
       "treasury_holdings",
       "treasury_maturity",
       "apers_september_holdings",
-      "atrs_july_holdings"
+      "atrs_completed_purchase"
     ],
     "locator": "Component locators above",
-    "scope": "Evidence floor combining different record dates",
-    "asOf": "2026-09-15",
+    "scope": "Mixed-date calculation containing an assumption-dependent component",
+    "asOf": "2026-09-16",
     "interpretation": "50M + 25M + 9.9M = 84.9M.",
-    "boundary": "Not same-day portfolio valuation; excludes processing and canceled issuance.",
+    "boundary": "Not a confirmed floor, same-day holding or valuation. Treasury projected maturity and no-other-changes assumptions apply; processing and canceled issuance excluded.",
     "pages": [
       "/corrections/",
       "/evidence/treasury/",
@@ -1863,7 +1865,8 @@
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/methodology.png"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-16"
   },
   {
     "id": "mixed-stage-measure",
@@ -1878,7 +1881,7 @@
     "scope": "Mixed dates and transaction stages",
     "asOf": "2026-09-15",
     "interpretation": "50M + 25M + 50M = 125M.",
-    "boundary": "Not $125M Israel Bonds holdings; ATRS security already inside funding.",
+    "boundary": "Not $125M Israel Bonds holdings; ATRS security already inside funding. The Treasury residual is conditional on the projected maturity reducing the prior balance and no other changes; not a confirmed lower bound.",
     "pages": [
       "/corrections/",
       "/evidence/treasury/",
@@ -2018,7 +2021,7 @@
   },
   {
     "id": "aon-scope",
-    "claim": "Aon compared implementation options, recommended Reams and discussed limited marketability; merits and bond selection placed with trustees.",
+    "claim": "Aon compared implementation options, recommended Reams and discussed limited marketability. Page 150 disclaims a recommendation to invest or not invest in Israel Bonds and individual-security purchase or sale recommendations.",
     "sourceIds": [
       "atrs_aon"
     ],
@@ -2026,7 +2029,7 @@
     "scope": "Two-page memorandum read together",
     "asOf": "2025-06-02",
     "interpretation": "Substantive professional advice with scope boundary.",
-    "boundary": "Do not call zero advice or independent recommendation on underlying sovereign merits.",
+    "boundary": "Aon’s disclaimer limits its memo; it does not affirmatively assign legal duties to trustees. The Board’s authorization is established separately by the executed resolution. Substantive advice exists.",
     "pages": [
       "/corrections/",
       "/evidence/",
@@ -2160,7 +2163,8 @@
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/the-act.png"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-16"
   },
   {
     "id": "external-credit-report",
@@ -2701,15 +2705,15 @@
   },
   {
     "id": "sfof-speech-preparation",
-    "claim": "SFOF speech preparation and scheduled presentation",
+    "claim": "April 2025 preparation of an unclaimed-property speech and scheduling provide context for the official’s SFOF relationship.",
     "sourceIds": [
       "sfof_speech_preparation"
     ],
     "locator": "FOIA Response 6-25-25 / Jason Brady mailbox / Sent Items / update sfof speech.pdf, physical page 1; schedule cross-check dated April 14 for an April 24 slot in Jason Brady mailbox / Inbox / FW Auditor Milligan - Presentation Time.pdf, physical page 1",
-    "scope": "Dated agency-held promotional record",
+    "scope": "Contextual institutional relationship evidence",
     "asOf": "2025-04-03",
     "interpretation": "Evidence of circulation, preparation or contacts as described.",
-    "boundary": "No proof of delivery from preparation, hidden payment or control of pension decision.",
+    "boundary": "Published draft is not an Israel Bonds pitch; preparation or scheduling does not prove delivery, hidden payment or control of pension decisions.",
     "pages": [
       "/findings/sfof-pipeline/"
     ],
@@ -2722,7 +2726,8 @@
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/findings--sfof-pipeline.png"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-16"
   },
   {
     "id": "sfof-post-action-facilitation",
@@ -2814,9 +2819,9 @@
     "sourceIds": [
       "legislative_calendar"
     ],
-    "locator": "Official calendar pp. 1–2",
+    "locator": "Official calendar pp. 1–2 for dates and late-introduction vote; p. 3 final asterisk for a recess of more than four days",
     "scope": "Scheduled legislative dates",
-    "asOf": "2026-09-15",
+    "asOf": "2026-09-16",
     "interpretation": "Verified live official document.",
     "boundary": "Calendar includes recess exception and late-introduction vote requirement; not bill status.",
     "pages": [
@@ -2849,7 +2854,8 @@
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/the-act.png"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-16"
   },
   {
     "id": "proposal-status",

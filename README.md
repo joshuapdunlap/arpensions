@@ -26,13 +26,15 @@ Ordinary builds use committed content and reviewed assets. They **do not require
 | `src/data/investigation.json` | Financial records, source locators, agency summaries and policy requirements |
 | `src/data/publication-matrix.json` | Claims, interpretations, boundaries and affected pages |
 | `src/data/campaign.json` | Shared campaign language and legislator letter |
-| `src/data/public-assets.json` | Reviewed exhibit hashes, treatments, previews and transcripts |
+| `src/data/public-assets.json` | Reviewed exhibit hashes, treatments, previews, selected transcripts and checked source tables |
+| `src/data/download-catalog.json` | Category and contextual record for every public PDF and text download |
+| `src/data/download-revisions.json` | Exact original-to-replacement hash exceptions for reviewed privacy corrections |
 | `src/data/legacy-anchors.json` | Compatibility fragments for earlier public links |
 | `src/pages/`, `src/layouts/`, `src/components/` | Astro routes and presentation |
 | `public/` | Published downloads, source exhibits and static assets |
 | `scripts/`, `tests/` | Validation, optional authoring and release checks |
 
-Preserve longstanding download URLs and historical PDF bytes. A correction gets a new dated file, an accurate source record and links from the current explanation.
+Preserve longstanding download URLs and historical PDF bytes. Substantive evidence changes normally get new dated files. A verified privacy exposure may require replacing a public derivative at its existing URL: retain the original privately, record both hashes and the reason in `download-revisions.json`, update the catalog, and validate the sanitized replacement. Do not silently rebaseline the historical fixture.
 
 ## Maintenance and release
 

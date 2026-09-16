@@ -6,8 +6,11 @@ permalink: /educators/
 template: article
 sourceIds:
 - atrs_completed_purchase
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+- atrs_completed_funding
+- atrs_july_holdings
+- atrs_q2_report
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -16,6 +19,10 @@ Your retirement money deserves a financial decision record you can read.
 ## What the records show
 
 ATRS completed $50 million in manager funding on January 2, 2026. The $9.9 million Israel Bond purchase completed February 17 and appears in July holdings. The rest of the account included U.S. Treasuries and cash. [Read the primary record](/documents/records/atrs-completed-purchase/) and the [full ATRS dossier](/evidence/atrs/).
+
+## What the manager said it planned
+
+Reams’s June 30 report describes a Treasury ladder aligned with future Israel Bond purchases and a long-term objective of a laddered Israel Bond portfolio. It says no more than $10 million is “allowed” each calendar year; the earlier guideline used “target.” July’s approximately 19.7% Israel Bond share is a dated observation, not a permanent ceiling. The stated strategy does not prove any later purchase. [Manager strategy, physical p. 7](/documents/records/atrs-q2-report/) · [July holdings](/documents/records/atrs-july-holdings/).
 
 ## Questions worth asking
 

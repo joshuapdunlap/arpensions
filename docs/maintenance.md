@@ -40,14 +40,14 @@ An absence within a reviewed production is not proof that a record never existed
 
 ## Keep the financial model honest
 
-`financialRecords` separates authorization, funding, purchase, holding, cancellation, processing and derived residual. Each amount has a basis, date, account scope and source IDs. Observations of the same security share a `securityId`; a security inside manager funding has a `parentFundingId`. Aggregate reports and their earlier transactions or statements use `overlapsRecordIds` to prevent counting the same positions twice.
+`financialRecords` separates authorization, funding, purchase, holding, cancellation, processing and derived residual. Each amount has a basis, account scope and source IDs. An unestablished effective date is null, not a filename or production date. Sources separately label document/message/transaction/account/report dates, with an optional received date. Observations of the same security share a `securityId`; a security inside manager funding has a `parentFundingId`. Aggregate reports and their earlier transactions or statements use `overlapsRecordIds` to prevent counting the same positions twice.
 
 September baseline boundaries:
 
 - APERS's $25 million is a dated custody amount; allocation among APERS-administered systems is unresolved.
 - ATRS's $9.9 million bond is inside its $50 million funding. Purchase and later holding are observations of the same asset.
-- Treasury's $50 million is derived from historical records. Its separate $10 million processing payment is excluded from confirmed measures.
-- The $84.9 million evidence floor combines different dates. The $125 million alternative substitutes full ATRS funding; it is a mixed-stage measure, not a holdings valuation.
+- Treasury's $50 million is conditional on a projected $5 million maturity reducing a historical $55 million statement and no other transactions. The projection does not establish receipt or later holdings. Its separate $10 million processing payment remains excluded.
+- The $84.9 million historical calculation and $125 million mixed-stage illustration combine different dates and share the Treasury assumption. Neither is a confirmed floor or current holding. Derived residuals are ineligible for direct-evidence measures; historical calculations require their assumption.
 
 Never sum all financial records indiscriminately. Follow explicit inclusion rules in the financial code and tests. Separate par from value including accrued income. Source percentages may contain rounding error; preserve values and label the display basis.
 
@@ -79,9 +79,9 @@ Run only after reviewing structured copy and the generator's output paths. Inspe
 
 ## Preserve historical downloads and evidence
 
-Existing public PDFs remain byte-for-byte historical artifacts even when new evidence changes the narrative. Do not replace their contents or reuse an old dated filename. Publish a new dated derivative and explain the correction.
+For substantive evidence updates, preserve historical public artifacts and publish a new dated version. A confirmed privacy exposure is an explicit exception: retain the original privately, remove the sensitive pixels and hidden text, verify the replacement, and record the original fixture hash, replacement hash, date and reason in `src/data/download-revisions.json`. Serve the reviewed replacement at the existing URL and describe it in Corrections and the download catalog. Do not rewrite the original fixture hash or claim that previously distributed copies were erased.
 
-`src/data/public-assets.json` records public-file hashes, original locators, treatments, previews and transcripts. Review these together. Distinguish quoted source text, omissions and commentary. Plain-text email excerpts are not original agency PDFs. Evidence images must be literal rendered pages or rectangular crops, with explanatory captions outside them.
+`src/data/download-catalog.json` must enumerate every public PDF and TXT exactly once, with its category, source record or explicit provenance limits, and stable context anchor. `src/data/public-assets.json` records public-file hashes, original locators, treatments, previews, selected transcripts and checked HTML tables. The manual authoring script retains separately reviewed email excerpts and table metadata; it is not a complete reconstruction of every public artifact from the raw corpus. Review these together. Distinguish quoted source text, omissions and commentary. Plain-text email excerpts are not original agency PDFs. Evidence images must be literal rendered pages or rectangular crops, with explanatory captions outside them.
 
 Remove sensitive information from both published pixels and hidden layers. Never publish requester identity material, account identifiers or private contact fields. Asset verification does not replace substantive source and visual review.
 

@@ -8,8 +8,8 @@ sourceIds:
 - atrs_completed_purchase
 - atrs_q2_report
 - atrs_rating_report
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -21,7 +21,7 @@ Page 149 discusses the separate-account route, compares BlackRock and Reams, rec
 
 ## Page 150: trustees own the investment decision
 
-Page 150 places the investment merits and selection of an individual bond with ATRS trustees. It would be inaccurate to call this no advice or no analysis.
+Page 150 states that the memo is not a recommendation to invest or not invest in Israel Bonds and that Aon does not make purchase or sale recommendations for individual securities. That is a limit on this memo’s scope, not an affirmative assignment of legal duties to trustees. The Board’s authorization appears separately in the [executed resolution, pp. 5–6](/documents/records/atrs-resolution/). It would be inaccurate to call the memo no advice or no analysis.
 
 ## Credit material also exists
 

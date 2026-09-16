@@ -30,6 +30,11 @@
 @layer components{
   .action-panel,.policy-band{--ink:#013237;--muted:#3c5a46;--accent:#216b44;--rule:#97b39a;--surface:#fff;--paper:#e6f9e4}
   .article-body,.record-preview,.record-details{min-width:0}
+  .record-preview{width:100%}
+  .record-preview table{font-size:15px;line-height:1.55;text-align:left}
+  .record-preview th,.record-preview td{padding:12px 14px;border-bottom:1px solid var(--rule);vertical-align:top}
+  .record-preview caption{text-align:left;font:400 14px/1.6 var(--mono);margin-bottom:16px}
+  .timeline li>.micro{font-size:10px;letter-spacing:.03em}
   .composition-key button{display:flex;align-items:center;gap:8px;min-height:44px;padding:8px 12px;border:1px solid var(--rule);font-size:14px;text-align:left}
   .composition-key button:hover{background:var(--paper);border-color:var(--accent)}
   .seal{position:relative;background:var(--pine)}

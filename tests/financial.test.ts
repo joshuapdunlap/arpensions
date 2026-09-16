@@ -10,6 +10,16 @@ const record = (id: string, changes: Partial<FinancialRecord> = {}): FinancialRe
 test('direct evidence can include a completed pension-manager acquisition', () => {
   assert.equal(assembleMeasure([record('bond')], ['bond'], 'direct-evidence').amount, 9_900_000);
 });
+
+test('conditional residuals require an explicit assumption and cannot become direct holdings', () => {
+  const residual=record('residual',{stage:'derived-residual',amount:50_000_000});
+  assert.throws(()=>assembleMeasure([residual],['residual'],'historical-comparison'),/assumption/i);
+  residual.assumption='Scheduled maturity completed with no other transactions.';
+  assert.equal(assembleMeasure([residual],['residual'],'historical-comparison').amount,50_000_000);
+  assert.throws(()=>assembleMeasure([residual],['residual'],'direct-evidence'),/not eligible/i);
+  residual.effectiveDate=null;
+  assert.throws(()=>assembleMeasure([residual],['residual'],'historical-comparison'),/dated source/i);
+});
 test('processing and canceled instructions cannot enter confirmed direct evidence', () => {
   for (const stage of ['processing', 'canceled', 'authorization', 'funding'] as const)
     assert.throws(() => assembleMeasure([record('pending', {stage})], ['pending'], 'direct-evidence'));

@@ -11,8 +11,8 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - treasury_hold
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -20,7 +20,7 @@ Good advocacy depends on source-faithful claims and a public record readers can 
 
 ## We request the decision records
 
-The investigation collects agency productions covering packets, minutes, correspondence, contracts, analysis, transactions and holdings. Original evidence is preserved separately from published derivatives. A source record identifies its agency, date, original filename and locator.
+The investigation collects agency productions covering packets, minutes, correspondence, contracts, analysis, transactions and holdings. Original evidence is preserved separately from published derivatives. A source record identifies its agency, original filename and locator, and labels what its date represents: a message, decision, transaction, account snapshot, reporting period, scheduled maturity or reference check. Production receipt and filename dates do not establish transaction dates.
 
 ## We read the file in context
 
@@ -34,7 +34,7 @@ Signed minutes establish the motion recorded. A schedule establishes a planned m
 
 Authorization, funding, purchase, settlement, holding, maturity and processing are distinct. Par and value including accrued income are also distinct. A later holding of the same security is not an additional purchase.
 
-The $84.9 million direct-security floor combines different record dates. The $125 million mixed-stage measure substitutes ATRS funding for the ATRS security inside it. Treasury's processing payment is excluded. [See the background measures, components and sources](/evidence/treasury/#cross-agency-measures).
+The $84.9 million historical calculation combines different record dates and a conditional Treasury residual. It is not a confirmed lower bound. The $125 million mixed-stage illustration substitutes ATRS funding for the ATRS security inside it; it shares the same Treasury assumption. Treasury's processing payment is excluded. [See the background measures, components and sources](/evidence/treasury/#cross-agency-measures).
 
 ## We bound absence findings
 
@@ -46,6 +46,6 @@ Published derivatives exclude private and operational identifiers where required
 
 ## We correct the public account
 
-New evidence can resolve earlier gaps. [Corrections](/corrections/) explains the September changes. Historical dated downloads remain historical; the current explanation is this site's reviewed September content. No archive-wide record-count headline is used without a new count audit.
+New evidence can resolve earlier gaps. [Corrections](/corrections/) explains the September changes. Privacy corrections can replace a public derivative at its existing address, with the original hash and reason recorded in the download history. Original evidence is retained privately. Historical dated downloads remain historical; the current explanation is this site's reviewed September content. No archive-wide record-count headline is used without a new count audit.
 
 Send source questions or corrections to [info@arpensions.org](mailto:info@arpensions.org).

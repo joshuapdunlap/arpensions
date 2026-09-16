@@ -12,13 +12,31 @@ def main():
     errors=[];data=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf-8'));assets=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf-8'))
     contract=json.loads((ROOT/'tests/fixtures/compatibility.json').read_text())
     manifest=json.loads((ROOT/'src/data/campaign-assets.json').read_text(encoding='utf-8'))
+    catalog=json.loads((ROOT/'src/data/download-catalog.json').read_text(encoding='utf-8'))
+    actual_downloads={'/assets/documents/'+p.name for p in (ROOT/'public/assets/documents').iterdir() if p.suffix in ('.pdf','.txt')}
+    catalog_urls=[item['url'] for item in catalog]
+    if len(catalog_urls)!=len(set(catalog_urls)) or set(catalog_urls)!=actual_downloads:errors.append('Download catalog must cover each public PDF and TXT exactly once')
+    for item in catalog:
+        if not item.get('category') or not item.get('contextId'):errors.append(f'Download lacks a category or context: {item["url"]}')
+        if item.get('sourceId'):
+            if assets.get(item['sourceId'],{}).get('assetUrl')!=item['url']:errors.append(f'Download source does not resolve: {item["url"]}')
+        else:
+            if not item.get('provenance') or not item.get('scope'):errors.append(f'Download lacks provenance limitations: {item["url"]}')
+            if item.get('reviewedPublicSha256') and hashlib.sha256((ROOT/'public'/item['url'].lstrip('/')).read_bytes()).hexdigest()!=item['reviewedPublicSha256']:errors.append(f'Catalog artifact differs from reviewed hash: {item["url"]}')
     if manifest['inputs']!=input_hashes(ROOT):errors.append('Generated campaign assets are stale: review changed content, rebuild Astro, and regenerate campaign assets.')
     for relative,digest in manifest['outputs'].items():
         path=ROOT/relative
         if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:errors.append(f'Generated campaign artifact changed: {relative}')
     for card in json.loads((ROOT/'src/data/social-cards.json').read_text(encoding='utf-8')).values():
         if Image.open(ROOT/'public'/card['url'].lstrip('/')).size!=(1200,630):errors.append('Page-specific social card has wrong dimensions: '+card['url'])
+    revisions=json.loads((ROOT/'src/data/download-revisions.json').read_text(encoding='utf-8'))
+    for url,revision in revisions.items():
+        if url not in contract['downloads'] or revision.get('originalSha256')!=contract['downloads'].get(url):errors.append(f'Invalid historical revision baseline: {url}')
+        for field in ('replacementSha256','reviewedAt','reason','originalRetained'):
+            if not revision.get(field):errors.append(f'Historical revision lacks {field}: {url}')
+        if revision.get('replacementSha256')==revision.get('originalSha256'):errors.append(f'Historical revision does not change the artifact: {url}')
     for url,digest in contract['downloads'].items():
+        digest=revisions.get(url,{}).get('replacementSha256',digest)
         path=ROOT/'public'/url.lstrip('/')
         if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:errors.append(f'Historical download changed: {url}')
     for source_id,source in data['sources'].items():
@@ -69,5 +87,5 @@ def main():
                 else:print('Historical printed QR resolves to arpensions.org over HTTPS.')
         except Exception as exc:errors.append(f'Live QR resolution could not be verified: {exc}')
     if errors:print('\n'.join('ERROR: '+e for e in errors));return 1
-    print(f'Asset audit passed: {len(contract["downloads"])} immutable PDFs, {len(assets)} reviewed source exhibits, social card and QR codes.');return 0
+    print(f'Asset audit passed: {len(contract["downloads"])} historical PDFs ({len(revisions)} documented privacy revisions), {len(assets)} reviewed source exhibits, social card and QR codes.');return 0
 if __name__=='__main__':sys.exit(main())

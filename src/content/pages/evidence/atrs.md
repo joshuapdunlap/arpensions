@@ -15,8 +15,8 @@ sourceIds:
 - atrs_july_holdings
 - atrs_q2_report
 - atrs_resolution
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 agency: atrs
 ---
 
@@ -27,7 +27,7 @@ ATRS authorized up to $50 million in June 2025 and established a Reams manager a
 
 ## One completed Israel Bond
 
-The first $9.9 million issuance at 4.86% was canceled on February 13. The completed replacement purchase was **$9.9 million at par on February 17, 2026**, with a **4.93% coupon** and **February 1, 2031 maturity**. The trade row gives February 17 as both trade and settlement date. [Cancellation, p. 1](/documents/records/atrs-cancellation/) · [Trade sheet, row 2](/documents/records/atrs-completed-purchase/).
+The first $9.9 million issuance at 4.86% was canceled. The advice shows February 3 in its account-information date field; February 13 appears in the supplied filename. Neither establishes the cancellation’s effective date. The completed replacement purchase was **$9.9 million at par on February 17, 2026**, with a **4.93% coupon** and **February 1, 2031 maturity**. The trade row gives February 17 as both trade and settlement date. [Cancellation, p. 1](/documents/records/atrs-cancellation/) · [Trade sheet, row 2](/documents/records/atrs-completed-purchase/).
 
 The canceled issuance contributes nothing to completed-purchase totals. The completed bond is part of the $50 million funding, so adding both would count the same money twice.
 
@@ -48,6 +48,6 @@ The Q2 manager report describes initial deployment into a U.S. Treasury ladder a
 
 ## The question that remains
 
-Aon compared managers, recommended Reams and discussed limited marketability; it placed the underlying investment merits with trustees. September now supplies transactions and holdings that earlier disclosures lacked. The remaining question is the decision-specific financial case for the sovereign exposure, including which analysis trustees relied on. [Aon's memo, pp. 149–150](/documents/records/atrs-aon-memo/).
+Aon compared managers, recommended Reams and discussed limited marketability. Its page 150 disclaimer says the memo is not a recommendation to invest or not invest in Israel Bonds and that Aon does not recommend purchases or sales of individual securities. The Board’s authorization is documented separately in the [executed resolution, pp. 5–6](/documents/records/atrs-resolution/). September now supplies transactions and holdings that earlier disclosures lacked. The remaining question is the decision-specific financial case for the sovereign exposure, including which analysis trustees relied on. [Aon's memo, pp. 149–150](/documents/records/atrs-aon-memo/).
 
 [Read the corrected funding finding](/findings/oversight-gap/) · [Read September's update](/news/september-2026-records/).

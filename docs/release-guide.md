@@ -100,7 +100,7 @@ Check the live domain rather than relying only on a successful workflow:
 - HTTPS and canonical domain; home, agency dossiers and brief show the intended release.
 - Search returns results; document filters, record URLs, PDFs, text downloads and previews work.
 - Representative legacy routes and fragments resolve, including the former one-page brief and historical downloads.
-- Current amounts retain dates and stages; historical PDFs remain byte-identical to recorded artifacts.
+- Current amounts retain dates and stages; historical PDFs match their recorded hashes or an explicitly reviewed privacy revision with both hashes preserved.
 - Action Network text, direct link and subscription disclosure agree with the approved package. Joshua performs any authorized test submission himself.
 - Keyboard/mobile navigation, both themes, print, no-JavaScript reading, sitemap, RSS and social metadata behave as expected.
 
@@ -119,5 +119,7 @@ Joshua authorizes and performs external recovery actions if production has a mat
    - **Restore branch publishing:** restore the complete known-good legacy Jekyll source on main using a reviewable recovery commit, then restore Pages to main / root. Do not enable branch publishing while main still contains only the Astro replacement.
 4. Preserve or restore domain and HTTPS settings, confirm the active publishing mechanism and observe the recovery deployment.
 5. Repeat live smoke checks, record the recovered version and explain the incident. Keep the rebuild candidate and evidence corrections for a reviewed repair.
+
+A rollback must carry forward the reviewed privacy corrections in `src/data/download-revisions.json`; blindly restoring an older public PDF can re-expose its removed identifier. Keep the original recovery artifact private and build a sanitized rollback candidate before publication.
 
 Restoring a site artifact does not undo external Action Network edits. Reconcile discrepancies explicitly; do not automatically restore superseded petition claims. Approval fields should describe the next intended candidate, never masquerade as evidence that rollback or publication has already occurred.

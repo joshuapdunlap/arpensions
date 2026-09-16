@@ -11,8 +11,9 @@ sourceIds:
 - apers_authorization
 - apers_purchase
 - apers_september_holdings
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+- apers_september_response
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 agency: apers
 ---
 
@@ -35,6 +36,6 @@ The report's Israel subtotal is 20.80% of its displayed $120.2 million account m
 
 ## The remaining documentation question
 
-The reviewed productions do not identify a Callan or other independent consultant sovereign-credit memorandum tied to either purchase. In February, the chief investment officer described the material prepared for the Board in a FOIA-search email. September's response reported no responsive analysis or recommendation for the addition. These are bounded production and response findings; oral or unproduced work is not excluded. [February search email, physical p. 3,081](/documents/records/apers-analysis-email/) · [September source record](/documents/records/apers-august-request/).
+The reviewed productions do not identify a Callan or other independent consultant sovereign-credit memorandum tied to either purchase. In February, the chief investment officer described the material prepared for the Board in a FOIA-search email. In its September 9 reply, APERS said no responsive records existed for request category 4: existing analyses, consultant recommendations, reviews and recorded decisions or instructions dated February 14 through September 7, 2026, concerning the specified Israel Bonds investment questions. These are bounded production and response findings; oral or unproduced work is not excluded. [February search email, physical p. 3,081](/documents/records/apers-analysis-email/) · [September request and reply, category 4](/documents/records/apers-september-response/).
 
 A useful next public record would connect credit risk, expected return, liquidity, alternatives and the authorization terms to each purchase. [Read the proposed safeguard](/legislators/).

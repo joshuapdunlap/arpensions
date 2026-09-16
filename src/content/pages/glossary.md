@@ -8,8 +8,8 @@ sourceIds:
 - atrs_completed_funding
 - treasury_holdings
 - treasury_maturity
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -45,7 +45,7 @@ How readily an asset can be converted to cash, on what terms and with what price
 
 ## Derived residual
 
-A calculation from older evidence. Treasury's $50 million residual subtracts one documented $5 million maturity from a $55 million historical statement. A later holdings report is still needed.
+A calculation from older evidence. Treasury's conditional $50 million estimate subtracts a projected $5 million maturity from a $55 million historical statement. It assumes the maturity occurred and no other changes. The projection does not independently confirm proceeds or subsequent holdings.
 
 ## Mixed-stage measure
 
