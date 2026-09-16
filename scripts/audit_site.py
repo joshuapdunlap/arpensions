@@ -43,10 +43,14 @@ def audit(site=None):
             relative=str(path.relative_to(site))
             if len(soup.select('h1'))!=1:errors.append(f'{relative}: needs exactly one H1')
             if not soup.select_one('html[lang="en"]'):errors.append(f'{relative}: missing language')
-            for selector in ('title','meta[name="description"]','link[rel="canonical"]','meta[property="og:image"]','main','a.skip-link'):
+            for selector in ('title','meta[name="description"]','meta[property="og:image"]','main','a.skip-link'):
                 if not soup.select_one(selector): errors.append(f'{relative}: missing {selector}')
+            canonical=soup.select_one('link[rel="canonical"]')
+            if canonical:
+                if not target(canonical['href']).exists():errors.append(f'{relative}: canonical does not resolve to a generated page')
+            elif relative!='404.html':errors.append(f'{relative}: missing canonical')
             if not soup.select_one('meta[name="robots"][content^="noindex"]'):
-                route=urlsplit(soup.select_one('link[rel="canonical"]')['href']).path
+                route=urlsplit(canonical['href']).path if canonical else ''
                 card=cards.get(route)
                 if not card or card['title']!=soup.select_one('meta[property="og:title"]')['content']:errors.append(f'{relative}: social card title is stale; rebuild Astro, regenerate campaign assets, then validate.')
                 elif soup.select_one('meta[property="og:image"]')['content']!='https://arpensions.org'+card['url']:errors.append(f'{relative}: page-specific social card metadata missing')
@@ -91,6 +95,9 @@ def audit(site=None):
             if js>budget:errors.append(f'{path.name}: compressed initial JS {js} exceeds {budget}')
             print(f'{path.relative_to(site)} initial compressed first-party JavaScript: {js:,} bytes')
         css=sum(len(gzip.compress(p.read_bytes(),mtime=0)) for p in (site/'_astro').glob('*.css'))
+        home_html=len((site/'index.html').read_bytes())
+        if home_html>50*1024:errors.append(f'Homepage HTML {home_html} exceeds 50 KB; keep decorative geometry in reusable assets')
+        print(f'Homepage HTML: {home_html:,} bytes')
         if css>40*1024:errors.append(f'Shared compressed CSS {css} exceeds 40 KB')
         if not (site/'pagefind/pagefind.js').exists():errors.append('Pagefind search bundle missing')
         if (site/'CNAME').read_text().strip()!='arpensions.org':errors.append('Custom domain missing')

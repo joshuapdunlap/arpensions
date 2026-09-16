@@ -51,3 +51,27 @@
 @layer print{
   @media print{:root,:root[data-theme=dark]{--paper:#fff;--surface:#fff;--ink:#152019;--muted:#42564a;--rule:#a0b5a6;--accent:#145c36}}
 }
+
+@layer components {
+  .guilloche{display:block;aspect-ratio:1;background:currentColor;mask:url('/assets/images/guilloche-rosette.svg') center/contain no-repeat}
+  .hero-facts{list-style:none;padding:0;margin-top:24px;max-width:49ch;border-top:1px solid #397061;color:#dcefdc;font-size:16px;line-height:1.55}
+  .hero-facts li{padding-top:12px}.hero-facts a{font-weight:800;color:var(--pale)}
+  .action-heading .action-panel{max-width:760px;margin:28px 0 24px;padding:26px}
+  .action-heading .action-panel .footnote{margin:18px 0 0;font-size:14px;max-width:65ch}
+  .action-heading .action-panel [role=status]:empty{display:none}
+  .record-tools{display:flex;align-items:center;flex-wrap:wrap;gap:18px 24px;margin:-20px 0 34px;padding-bottom:24px;border-bottom:1px solid var(--rule)}
+  .record-tools .text-link{font-size:14px}.source-citation{padding:22px 0;border-top:1px solid var(--rule)}
+  .source-citation h3{font-size:24px;margin-bottom:14px}.source-citation p{font-size:14px;overflow-wrap:anywhere}
+}
+@layer responsive {
+  @media(max-width:540px){
+    .hero h1{font-size:48px;max-width:13ch}.hero-body{padding-block:28px 32px}
+    .hero-deck{margin-top:18px;line-height:1.55}.hero-facts{font-size:14px;line-height:1.5;margin-top:18px}
+    .hero-facts li{padding-top:10px}.hero .actions{margin-top:20px}
+    .action-heading{padding-top:28px}.action-heading .eyebrow{margin-bottom:18px}
+    .action-heading .action-panel{padding:20px;margin-top:22px}.action-heading .page-meta{margin-top:18px}
+    .record-tools{gap:18px;margin-top:-10px}.record-tools .button{font-size:13px;gap:18px}
+  }
+  @media(max-width:355px){.hero h1{font-size:43px}}
+}
+@layer print{@media print{.guilloche{display:none}.hero-facts{color:#152019}.hero-facts a{color:inherit}.record-tools{margin:0 0 20px}.record-tools .button{color:#152019;background:white;border-color:#152019}.source-citation .copy-row{display:none}}}

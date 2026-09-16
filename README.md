@@ -1,6 +1,6 @@
 # Arkansans for Pension Integrity
 
-The Astro static website for [arpensions.org](https://arpensions.org), an Arkansas public-records and pension-policy campaign. This repository contains a local release candidate. Its presence does not establish production deployment or completed browser review.
+The Astro static website for [arpensions.org](https://arpensions.org), an Arkansas public-records and pension-policy campaign. Production migrated to Astro on September 15, 2026, through [release run 35016601383](https://github.com/joshuapdunlap/arpensions/actions/runs/35016601383). See the [verified release record](docs/releases/2026-09-15-astro-rebuild.md). Branches can contain unreleased changes; `release-status.json` separates the last deployment from approval of the next candidate.
 
 ## Run locally
 
@@ -39,7 +39,7 @@ Preserve longstanding download URLs and historical PDF bytes. A correction gets 
 - [Maintenance guide](docs/maintenance.md): editing, source review and optional evidence workflows.
 - [Release guide](docs/release-guide.md): exact approval gates, Pages migration order and rollback.
 - [Validation and manual review](docs/validation-report.md): verified results, performance limits and release checks.
-- [Staged petition revision](docs/petition-revision.md): external Action Network changes Joshua must apply and verify.
+- [Petition revision record](docs/petition-revision.md): applied Action Network copy and the scope of its verification.
 - [Rebuild plan](docs/rebuild-plan.md): scope and acceptance requirements.
 
 `npm run validate` checks tests, types, static output and assets. It does not send correspondence, update the petition or publish. `npm run release:check` separately requires recorded petition alignment and Joshua's approval of the exact candidate digest. Pages deployment is manual and restricted to `main`.

@@ -1,8 +1,10 @@
 # Release and rollback
 
-This guide describes the legacy Jekyll to Astro transition. It does not certify completed browser QA, an updated external petition or production publication. No external mutations were performed during the documented read-only hosting inspection.
+Production migrated from Jekyll to Astro on September 15, 2026. GitHub Pages now builds through Actions, with the existing custom domain and HTTPS. The [verified release record](releases/2026-09-15-astro-rebuild.md) documents the deployed commit, petition verification, and live smoke checks. The transition steps below remain a historical migration and rollback reference; they are not a statement that the site is still awaiting its first deployment.
 
-## Starting state: verify again before action
+For subsequent releases, verify current remote state, validate and review the changed candidate, record Joshua’s approval of its exact digest, then use the existing Actions workflow. `release-status.json` keeps `lastDeployment` as history while top-level approval fields apply only to the next candidate. A successful build alone does not update that deployment history.
+
+## Pre-migration state: historical reference
 
 The read-only GitHub inspection established:
 

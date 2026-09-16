@@ -4,9 +4,9 @@ import '../styles/global.css';
 import socialCards from '../data/social-cards.json';
 import displayFont from '@fontsource-variable/league-spartan/files/league-spartan-latin-wght-normal.woff2?url';
 import bodyFont from '@fontsource-variable/mulish/files/mulish-latin-wght-normal.woff2?url';
-interface Props {title:string;description:string;section?:string;wide?:boolean;noindex?:boolean;type?:string;}
-const {title,description,section='',wide=false,noindex=false,type='website'}=Astro.props;
-const canonical = new URL(Astro.url.pathname,'https://arpensions.org').href;
+interface Props {title:string;description:string;section?:string;wide?:boolean;noindex?:boolean;type?:string;canonicalPath?:string|false;}
+const {title,description,section='',wide=false,noindex=false,type='website',canonicalPath}=Astro.props;
+const canonical = canonicalPath===false?undefined:new URL(canonicalPath||Astro.url.pathname,'https://arpensions.org').href;
 const socialCard=(socialCards as Record<string,{url:string;title:string}>)[Astro.url.pathname];
 const nav=[['The Issue','/the-issue/'],['The Act','/the-act/'],['Evidence','/evidence/'],['Updates','/news/'],['Take Action','/take-action/']];
 const fullTitle=Astro.url.pathname==='/'?'Arkansans for Pension Integrity | Public money. Public record.':`${title} | Arkansans for Pension Integrity`;
@@ -18,10 +18,10 @@ const fullTitle=Astro.url.pathname==='/'?'Arkansans for Pension Integrity | Publ
   <link rel="preload" href={displayFont} as="font" type="font/woff2" crossorigin/>
   <link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin/>
   <title>{fullTitle}</title><meta name="description" content={description}/>
-  <link rel="canonical" href={canonical}/><meta name="theme-color" content="#013237"/>
+  {canonical&&<link rel="canonical" href={canonical}/>}<meta name="theme-color" content="#013237"/>
   {noindex&&<meta name="robots" content="noindex,follow"/>}
   <meta property="og:site_name" content="Arkansans for Pension Integrity"/>
-  <meta property="og:type" content={type}/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/>
+  <meta property="og:type" content={type}/><meta property="og:title" content={title}/><meta property="og:description" content={description}/>{canonical&&<meta property="og:url" content={canonical}/>}
   <meta property="og:image" content={`https://arpensions.org${socialCard?.url||'/assets/images/og-rebuild.png'}`}/>
   <meta property="og:image:alt" content={`${title}. Arkansans for Pension Integrity.`}/>
   <meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/>
@@ -66,7 +66,7 @@ const fullTitle=Astro.url.pathname==='/'?'Arkansans for Pension Integrity | Publ
     update();
     toggle?.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('api-theme',theme)}catch{}update()});
     document.addEventListener('keydown',e=>{if(e.key==='Escape'){const menu=document.querySelector<HTMLDetailsElement>('.mobile-nav[open]');if(menu){menu.open=false;menu.querySelector('summary')?.focus()}}});
-    document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button=>{button.hidden=false;button.addEventListener('click',async()=>{const target=document.getElementById(button.dataset.copy||'');if(!target)return;const status=button.parentElement?.querySelector('[role="status"]');try{await navigator.clipboard.writeText(target.textContent||'');if(status)status.textContent='Copied. Review and personalize before sending.'}catch{if(status)status.textContent='Copy was unavailable. Select the text below and copy it.'}})});
+    document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button=>{button.hidden=false;button.addEventListener('click',async()=>{const target=document.getElementById(button.dataset.copy||'');if(!target)return;const status=button.parentElement?.querySelector('[role="status"]');try{await navigator.clipboard.writeText(target.textContent||'');if(status)status.textContent=button.dataset.copySuccess||'Copied. Review and personalize before sending.'}catch{if(status)status.textContent='Copy was unavailable. Select the text below and copy it.'}})});
   </script>
 </body>
 </html>

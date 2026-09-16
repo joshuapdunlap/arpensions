@@ -117,4 +117,4 @@ python scripts/publish_sources.py --wiki "<local-evidence-vault>" --reviewed
 
 Record changed files, source checks, validation and remaining browser review. Inspect mobile widths, both themes, keyboard focus, reduced motion, no-JavaScript reading, search, print and downloads. Automated success alone does not establish completed browser QA or accessibility.
 
-Follow [the release guide](release-guide.md). Source changes after approval require a new digest and approval. External correspondence, petition changes and publication remain Joshua's actions.
+Follow [the release guide](release-guide.md). Source changes after approval require a new digest and approval. External correspondence, petition changes and publication require Joshua’s authorization. Keep historical deployment evidence separate from approval of a changed candidate.

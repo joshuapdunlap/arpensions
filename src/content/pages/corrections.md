@@ -28,7 +28,7 @@ Reviewed September 15, 2026. This log explains substantive changes to the public
 | ATRS funding was attributed to December 29, 2025 | That was the notice date. Bank records establish January 2, 2026 completion. |
 | ATRS public reporting ended at manager funding | September production supplies transactions, cancellation, holdings through July and Q2 manager reporting. |
 | ATRS's full $50 million could be read as Israel Bonds | The completed security is $9.9 million within the funded account. July also shows U.S. Treasuries and cash. |
-| $65 million / $115 million headlines | Superseded by $84.9 million direct-security floor / $125 million mixed-stage measure, with differing record dates and no double counting. Neither is a same-day portfolio valuation. |
+| $65 million / $115 million headlines | Retired as campaign headlines. APERS and ATRS are presented separately. The Treasury background comparison explains the $84.9 million direct-security floor and $125 million mixed-stage measure; neither is a same-day portfolio valuation. |
 | Treasury processing treated as a purchase | The separate $10 million remains processing evidence and is excluded. |
 | Blanket zero-analysis language | Aon manager advice, Treasury internal analysis and ATRS rating material exist. The question is decision-specific analysis and reliance. |
 | A named lone dissenter or every itinerary stop treated as completed | No unsupported individual-vote claim is retained. Scheduled, participant-confirmed and seller-reported encounters are distinguished. |
@@ -40,7 +40,7 @@ Sources: [APERS custody](/documents/records/apers-september-holdings/), [ATRS fu
 
 Historical downloads retain their original dates and may contain superseded figures. Use the current [evidence overview](/evidence/) and [printable policy brief](/legislators/one-page/) for the revised account.
 
-An external petition is maintained separately. The revised website does not establish that the external petition has been updated. Its text and subscription settings must be checked before this release is published.
+**September 15, 2026:** this revised evidence account was published, and the petition description and letter were updated to reflect these corrections and the prospective, issuer-neutral proposal. [Read the current petition on Action Network](https://actionnetwork.org/petitions/stand-for-pension-integrity?source=arpensions). Email updates are selected by default; use “Edit Subscription Preferences” before signing to review or change that choice.
 
 ## Report a correction
 
