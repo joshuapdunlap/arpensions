@@ -1,12 +1,12 @@
 {
-  "release": "audit-follow-through-2026-09-16",
+  "release": "confirmation-privacy-completion-2026-09-16",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
   "petitionVerifiedBy": "Codex, acting on Joshua’s explicit instruction",
-  "publicationApproved": false,
-  "approvedBy": null,
-  "approvedSourceDigest": null,
-  "notes": "The approved September 16 audit release is deployed and independently verified; see lastDeployment. The current branch continues the remaining audit work. New changes have no recorded publication approval. Previous releases remain documented in docs/releases. Existing petition alignment remains recorded; no signature receipt or email delivery was tested.",
+  "publicationApproved": true,
+  "approvedBy": "Joshua Dunlap authorized deployment and continued implementation of confirmed fixes on September 16, 2026; this narrowly scoped follow-through removes the remaining visible account field from the same historical confirmation.",
+  "approvedSourceDigest": "9f9e753e4c9b4801a91e68bad04f86f530128be625250c53b2d59a0d7aab9c10",
+  "notes": "Minimal privacy completion discovered during the authorized post-deployment audit follow-through. May confirmation page 2 is redacted, with a visual regression guard and documented prior hashes. The completed e1360b8 deployment is recorded under lastDeployment. Separate provenance, accessibility and legislative-development work is not part of this release.",
   "lastDeployment": {
     "release": "expanded-audit-2026-09-16",
     "commit": "e1360b8f4414926febc277ea6d6cef8112f4020e",
