@@ -6,8 +6,8 @@ permalink: /public-employees/
 template: article
 sourceIds:
 - apers_september_holdings
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -28,7 +28,7 @@ These questions ask for the reasoning behind a decision. They do not establish a
 
 ## What the proposal would change
 
-The Pension Investment Integrity Act would make written financial work and public posting a standard part of future covered acquisitions. Trustees would retain investment authority. [Read the five safeguards](/legislators/).
+The Pension Investment Integrity Act would make written financial work and public posting a standard part of future covered acquisitions. Trustees would set policy and oversee managers trading within approved limits. The pension system would publish the record. [Read the five safeguards](/legislators/).
 
 ## Take the next step
 

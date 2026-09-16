@@ -8,8 +8,8 @@ sourceIds:
 - apers_september_holdings
 - atrs_completed_funding
 - atrs_completed_purchase
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -21,16 +21,18 @@ Find your representatives through the [Arkansas Legislature's directory](https:/
 <div class="copy-row"><button type="button" hidden data-copy="legislator-letter">Copy letter template</button><span role="status" aria-live="polite"></span></div>
 <blockquote class="letter-box" id="legislator-letter">Dear Senator or Representative,
 
-I am asking you to help develop and support the Pension Investment Integrity Act proposal for the 2027 session. Pension members deserve a written financial case for covered acquisitions of non-tradable sovereign debt.
+I am asking you to help develop and support the Pension Investment Integrity Act proposal for the 2027 session. Pension members deserve a written financial case for covered investments in non-tradable sovereign debt.
 
-Please require credit analysis, a comparison of alternatives, a liquidity explanation and a financial determination before a covered acquisition, with public posting of the core record within 30 days afterward. The requirements should be prospective and issuer-neutral, and trustees should retain the investment decision.
+Please require credit analysis, a comparison of alternatives, a liquidity explanation and a financial determination before the binding commitment to a covered investment, with public posting within 30 calendar days of that commitment. The requirements should be prospective and issuer-neutral.
 
-September records document APERS’s $25 million in positions and ATRS’s $9.9 million purchase within a $50 million funded account. These figures have different record dates. Please request a source and drafting briefing, including a clear rule for manager acquisitions and pooled vehicles.
+Trustees should set policy and oversee managers trading within approved limits. Each covered purchase should have a financial record. Controlled pension pools should be able to share research with plan-specific allocations and findings. Genuinely external funds should receive review at the system&#x27;s commitment, with ongoing reporting of known covered exposure. The pension system should remain responsible for publication.
+
+September records document APERS&#x27;s $25 million in positions and ATRS&#x27;s $9.9 million purchase within a $50 million funded account. These figures have different record dates. Please request a source and drafting briefing, including legal review of manager duties, enforcement, contract transition and costs.
 
 Sincerely,
 [Your name and city]</blockquote>
 
-[Download the plain-text letter](/assets/documents/legislator-letter-2026-09-15.txt). Personalize it before sending.
+[Download the plain-text letter](/assets/documents/legislator-letter-2026-09-16.txt). Personalize it before sending.
 <!-- campaign-letter:end -->
 
 Sources for the letter: [APERS custody](/documents/records/apers-september-holdings/), [ATRS trade](/documents/records/atrs-completed-purchase/), [ATRS funding](/documents/records/atrs-completed-funding/).

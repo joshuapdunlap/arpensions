@@ -1,10 +1,12 @@
 # Integrity Act: statutory crosswalk and operational working paper
 
-**Working draft, September 16, 2026.** This paper prepares the unresolved drafting work identified in audit API-15. It is not introduced bill text, an adopted coalition position, an official fiscal note or a legal opinion. The public campaign's existing five safeguards remain the approved direction. No sponsor or institutional endorsement is asserted here.
+**Campaign design updated September 16, 2026; statutory drafting remains open.** Joshua approved implementing and publishing the researched operating approach: delegated trading within an approved mandate, purchase-specific records, shared analysis for controlled pools and commitment-level review for genuinely external funds. This paper records that campaign direction and the remaining legal work. It is not introduced bill text, an adopted coalition position, an official fiscal note or a legal opinion. No sponsor or institutional endorsement is asserted here.
 
 ## 1. What the proposal would add
 
-The intended change is a repeatable, decision-specific financial record for covered pension acquisitions of non-tradable sovereign debt: credit analysis, reasonable alternatives, transfer restrictions, a written financial determination and publication within 30 days after acquisition. Staff or an adviser can prepare the work; trustees retain the investment decision. The State Treasury remains a separately governed comparison outside this proposed pension coverage.
+The intended change is a repeatable financial record for covered pension investments in non-tradable sovereign debt: credit analysis, reasonable alternatives, transfer restrictions and a financial determination before the binding commitment, followed by publication within 30 calendar days of that commitment with settlement status identified. Qualified staff, an adviser or a manager may prepare the work. Trustees set policy, authorize manager limits and oversee compliance; managers may make covered purchases within that delegated authority. The pension system remains responsible for publication. The State Treasury remains outside this proposed pension coverage.
+
+The public [operating explanation](https://arpensions.org/the-act/how-it-works/) and [legislative briefing](https://arpensions.org/legislators/) distinguish direct purchases, separate accounts, controlled pools and external funds. The legal definition of the binding event, signatories, disclosure limits, enforcement and contract transition remain drafting tasks.
 
 The drafting problem is practical: define who must do what, at which event, when a manager or pooled account sits between a pension system and the security. A manager's funding receipt cannot serve as a substitute for an acquisition record, and a pension system's share cannot be inferred from the name on a pooled custody account.
 
@@ -41,7 +43,7 @@ The official [2025 regular-session amendment index](https://www.arkleg.state.ar.
 
 ## 3. Recommended working definitions, for review
 
-These are drafting recommendations, not settled campaign policy:
+The approved campaign direction and remaining definitions are:
 
 1. **Covered plan:** enumerate each legal pension plan and its governing board, then provide a catch-all or deliberate exclusions. The campaign's intended list is ATRS, APERS, ASHERS, ASPRS, AJRS and LOPFI. Confirm local plans, closed plans, successor entities and individually directed arrangements. A common administrator does not merge beneficiaries or assets.
 2. **Covered instrument:** define sovereign obligor/guarantor and the material absence of an ordinary secondary-market exit. Decide how contractual transfer limits, issuer-consent transfers, redemption rights, government-related issuers and newly illiquid instruments count. Avoid naming a country or a seller as the coverage test.
@@ -51,14 +53,14 @@ These are drafting recommendations, not settled campaign policy:
 
 ## 4. Acquisition scenarios and responsibility
 
-The following is a recommended operating model to test with boards, staff, managers and legislative counsel. It requires decisions about delegation before becoming bill language.
+The following campaign operating model must be tested with boards, staff, managers and legislative counsel before becoming bill language. Existing research can be reused with current transaction terms and material changes checked. Initial mandates, new issuers and material changes receive substantive review independent of the issuer and seller; the record names the preparer, approving authority and relevant conflicts.
 
 | Scenario | Before commitment | After the event | Decision still required |
 |---|---|---|---|
-| Direct board-directed purchase | Staff/adviser prepares the record; the authorized decision-maker makes the financial finding. | Plan publisher posts the completed public record within the statutory window. | Whether a formal Board vote is required for every covered purchase. |
-| Separately managed account | Board-approved mandate assigns manager analysis and delivery duties; acquire only through a defined compliant process. | Manager delivers trade evidence promptly; plan staff reconcile and publish it. | Transaction-specific Board finding versus a permitted mandate-level finding plus transaction certification. |
+| Direct board-directed purchase | Qualified staff/adviser prepares the record; the authorized decision-maker makes the financial finding. | Plan publisher posts within 30 calendar days of the binding commitment, identifying settlement status. | Plan-specific approval and signatory authority. |
+| Separately managed account | Board approves mandate and limits; manager prepares each purchase record and certifies compliance before committing. Routine trades within authority do not require a new Board vote. | Manager delivers the record promptly; the pension system publishes within the same 30-day window. | Express delegation authority, review triggers, signatories and contractual delivery deadlines. |
 | Multi-plan pooled account | Identify participating legal plans and allocation method; designate a lead preparer. | Publish one shared analysis with plan-specific allocation schedules and accountable officials. | Who may sign for each plan, and how allocations can be independently checked. |
-| External commingled fund | Analyze fund subscription, mandate exposure and available manager reporting before committing. | Publish the plan-level decision and information lawfully available to the plan. | Look-through coverage, thresholds and reporting rights; do not promise control over every underlying trade. |
+| External commingled fund | Review the covered fund commitment, including mandate, credit-risk approach, permitted exposure, fees, liquidity, alternatives and reporting rights. Controlled sleeves and targeted vehicles retain underlying-investment requirements. | Publish the plan-level decision and periodically report known exposure, dates and information gaps. | Control and targeted-vehicle definitions, any materiality threshold, frequency and information rights. |
 | New manager funding, no covered security acquired | Document the funding/mandate decision under its applicable rules. | Record funding separately; trigger the covered-security process if and when a bond is acquired. | Whether creation or expansion of a covered mandate has an additional publication duty. |
 | Rollover or reinvestment | Treat a new commitment as a new decision unless the final law defines a limited renewal procedure. | Record the maturity of the old position and acquisition of the new one separately. | How much prior analysis may be incorporated, and how current terms are checked. |
 | Add-on purchase | Refresh price, concentration, liquidity, credit developments and comparison inputs. | Link the add-on record to the earlier analysis and identify the incremental amount. | Material-change and time limits for abbreviated updates; prevent purchase-splitting evasion. |
@@ -76,14 +78,14 @@ The following is a recommended operating model to test with boards, staff, manag
 
 ## 5. Enforcement and implementation choices
 
-**Recommended starting point:** give the pension system a named compliance owner and a public correction process, then specify oversight and remedies in consultation with legislative counsel. Do not silently convert missed publication into automatic liquidation or retroactive transaction invalidity; those remedies have different financial and legal consequences.
+**Campaign direction:** give the pension system a named compliance owner, public compliance register, complaint/response process and audit sampling of whether the required process occurred. A late publication can be corrected; missing pre-commitment analysis requires a truthful violation report, Board review and corrective action. A later memo cannot be represented as prior analysis. Manager contracts require delivery, cooperation, relevant submanager obligations and remedies for repeated or material failures. Counsel must specify oversight and enforceable remedies. Do not convert missed publication into automatic liquidation or retroactive transaction invalidity. Paperwork compliance does not excuse existing fiduciary duties.
 
 Choices requiring explicit resolution:
 
 - Rulemaking authority, minimum content, uniform forms and the official publication location.
 - An administrative cure period, complaint channel, oversight reporting and escalation for repeated failures.
 - Interaction with existing fiduciary liability, the Attorney General's authority, judicial remedies, standing and sovereign immunity. This paper does not resolve those legal questions.
-- Whether a Board must ratify each manager acquisition or can approve a mandate-level process, and who remains responsible for publication failures.
+- Expressly authorize covered manager trades within a Board-approved mandate, with purchase-specific findings and pension-system publication responsibility.
 - The effective date, time to amend manager contracts, transition treatment of existing agreements and whether any initial inventory is required.
 - Retention period, accessible versions, update history, narrowly specified delayed disclosures and eventual publication of temporarily withheld material.
 
@@ -109,12 +111,12 @@ Model at least a low-volume direct-purchase case, a high-volume manager-trade ca
 
 ## 7. Review packet and completion gate
 
-The next substantive review should include this paper, the current public proposal, the verified financial/source ledger and draft alternatives for the unresolved scenarios. Joshua handles outreach; no correspondence has been sent.
+The next substantive review should include this paper, the current public proposal, the verified financial/source ledger and draft alternatives for the remaining definitions and remedies. A willing legislator can request BLR assistance; its current [general drafting directory](https://www.arkleg.state.ar.us/Bureau/KeyStaff/General), checked September 16, assigns retirement matters to Sarah Cunningham. Independent Arkansas and public-pension investment counsel should provide a scoped review after conflict screening. No reviewer is engaged or endorsed here. Joshua handles outreach; no correspondence has been sent.
 
 Before calling the proposal filing-ready:
 
 1. Obtain a complete current statutory and rule crosswalk for each covered plan, including the post-Act-419 procurement references and the complete delegation section.
-2. Decide instrument coverage, the binding acquisition event, pooled/delegated responsibility, update rules, enforcement, transition and redaction provisions.
+2. Convert the approved operating approach into precise instrument/control definitions, a binding-event rule, signatory duties, update rules, enforcement, transition and redaction provisions.
 3. Walk the actual APERS and ATRS sequences through the draft, plus a canceled trade and a hypothetical commingled-fund purchase. Confirm who can satisfy each duty on time.
 4. Obtain plan/staff/manager workload inputs and external fee assumptions; produce a scenario-based fiscal assessment with measured and assumed values separated.
 5. Obtain qualified Arkansas legislative/legal review, revise the text and confirm sponsorship/status through official records before changing the public claim of readiness.

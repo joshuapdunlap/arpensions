@@ -11,12 +11,16 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - atrs_resolution
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
 Dated developments in the records and the campaign for a public pension investment record.
+
+## September 16, 2026: how the proposed Act would work
+
+The campaign proposal now explains outside-manager purchases, shared pension pools and external funds. Trustees would set the rules; managers would document covered purchases; the pension system would publish the record. Legal drafting and cost review remain ahead. [Read the operating examples](/the-act/how-it-works/).
 
 ## September 15, 2026: the new records
 

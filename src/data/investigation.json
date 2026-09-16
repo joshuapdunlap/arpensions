@@ -746,27 +746,27 @@
     {
       "id": "credit",
       "title": "Written credit analysis",
-      "description": "Prepare a decision-specific account of repayment risk and material credit developments before a covered acquisition."
+      "description": "Prepare a decision-specific account of repayment risk and material credit developments before a binding commitment."
     },
     {
       "id": "alternatives",
       "title": "Compare reasonable alternatives",
-      "description": "Compare risk, expected return and liquidity with reasonably available fixed-income choices before acquisition."
+      "description": "Compare risk, expected return and liquidity with reasonably available fixed-income choices before a binding commitment."
     },
     {
       "id": "liquidity",
       "title": "Explain transfer restrictions",
-      "description": "Disclose limited marketability, transfer restrictions and the absence of a secondary market before acquisition."
+      "description": "Disclose limited marketability, transfer restrictions and the absence of a secondary market before a binding commitment."
     },
     {
       "id": "fiduciary",
       "title": "Record the financial judgment",
-      "description": "Make a written determination connecting the acquisition to material financial risk, return and portfolio fit before acquisition."
+      "description": "Make a written determination connecting the acquisition to material financial risk, return and portfolio fit before a binding commitment."
     },
     {
       "id": "publication",
       "title": "Publish within 30 days",
-      "description": "Post the core analysis and determination within 30 days after a covered acquisition, with narrow, explained redactions for protected details."
+      "description": "Post the core record within 30 calendar days of the binding commitment, identify settlement status and explain any lawful redactions."
     }
   ],
   "timeline": [
@@ -886,9 +886,9 @@
     "title": "Pension Investment Integrity Act",
     "status": "Campaign proposal; no bill number or sponsor announced in this campaign brief",
     "session": "2027 Arkansas regular session",
-    "reviewedAt": "2026-09-15",
+    "reviewedAt": "2026-09-16",
     "briefUrl": "/legislators/one-page/",
-    "summary": "Prospective, issuer-neutral safeguards for covered pension acquisitions of non-tradable sovereign debt. Trustees retain investment decisions; the State Treasury is a separately governed comparison."
+    "summary": "Prospective, issuer-neutral safeguards for covered pension investments in non-tradable sovereign debt. Trustees set policy and oversee managers; the pension system publishes the record. Treasury remains outside pension coverage."
   },
   "accountComposition": [
     {

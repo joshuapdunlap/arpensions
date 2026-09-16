@@ -29,5 +29,5 @@ const financialRecords = defineCollection({loader:file('src/data/investigation.j
   stage:z.enum(['holding','funding','purchase','processing','canceled','authorization','derived-residual']),
   effectiveDate:date.nullable(),assumption:z.string().optional(),sourceIds:z.array(z.string()).min(1),parentFundingId:z.string().optional(),securityId:z.string().optional(),overlapsRecordIds:z.array(z.string()).optional(),
 })});
-const policyVersions = defineCollection({loader:file('src/data/investigation.json',{parser:text=>[{id:'2026-09-15',...JSON.parse(text).policy}]}),schema:z.object({title:z.string(),status:z.string(),session:z.string(),reviewedAt:date,briefUrl:z.string(),summary:z.string()})});
+const policyVersions = defineCollection({loader:file('src/data/investigation.json',{parser:text=>[{id:JSON.parse(text).policy.reviewedAt,...JSON.parse(text).policy}]}),schema:z.object({title:z.string(),status:z.string(),session:z.string(),reviewedAt:date,briefUrl:z.string(),summary:z.string()})});
 export const collections = {pages,findings,updates,sources,claims,financialRecords,policyVersions};
