@@ -13,14 +13,6 @@ updatedAt: '2026-09-15'
 ---
 
 
-Ask Arkansas legislators to help develop and support the Pension Investment Integrity Act proposal for 2027.
-
-## Sign the petition
-
-The petition asks legislators to support a written financial record for covered pension acquisitions. Read the [evidence overview](/evidence/) and [proposal](/legislators/).
-
-[Open the petition on Action Network](https://actionnetwork.org/petitions/stand-for-pension-integrity?source=arpensions). Review Action Network's subscription terms and preferences before signing. [Privacy information](/privacy/).
-
 ## Contact your legislators
 
 Find your representatives through the [Arkansas Legislature's directory](https://www.arkleg.state.ar.us/Legislators). You can adapt this message:

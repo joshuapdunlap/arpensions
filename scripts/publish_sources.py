@@ -94,7 +94,7 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--wiki',type=Path);ap.add_argument('--reviewed',action='store_true');ap.add_argument('--only',nargs='+');a=ap.parse_args()
  if not a.wiki or not a.reviewed:ap.error('Explicit --wiki and --reviewed required; review exact originals and private exports before generation.')
- sources=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf8'))['sources'];data=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf8')) if a.only else {};out=ROOT/'public/assets/exhibits';out.mkdir(parents=True,exist_ok=True)
+ sources=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf8'))['sources'];data=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf8'));out=ROOT/'public/assets/exhibits';out.mkdir(parents=True,exist_ok=True)
  legacy=LEGACY_MANIFEST
  for key in list(legacy)+list(NEW):
   if a.only and key not in a.only:continue
@@ -130,6 +130,12 @@ def main():
    texts.append(f'PUBLIC EXHIBIT PAGE {j+1}\n'+result.stdout.strip())
   item={'assetUrl':asset_url,'sha256':sha(path),'pages':len(doc),'reviewedAt':'2026-09-15','originalFile':original_file,'originalLocator':src['locator'],'treatment':treatment,'previews':previews,'transcript':TRANSCRIPT_OVERRIDES.get(key,'\n\n'.join(texts))}
   if original_hash:item['originalSha256']=original_hash
+  retained=data.get(key,{})
+  if (retained.get('tables') or key in ('treasury_maturity','treasury_holdings','apers_purchase')) and retained.get('sha256')!=item['sha256']:
+   raise RuntimeError(f'{key}: source artifact changed; re-review the retained transcription and tables before replacing their reviewed hash.')
+  for field in ('tables','transcriptScope'):
+   if field in data.get(key,{}):item[field]=data[key][field]
+  if key in ('treasury_maturity','treasury_holdings','apers_purchase'):item['transcript']=data[key]['transcript']
   data[key]=item
   print(key,len(doc),'pages')
   if key=='apers_september_holdings':

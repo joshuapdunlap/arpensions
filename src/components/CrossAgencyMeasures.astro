@@ -9,9 +9,9 @@ const sourceIds=[...new Set([...directMeasure.sourceIds,...mixedMeasure.sourceId
   <p>These figures combine Treasury and pension records. They describe a broader set of institutions than the proposed pension law would cover.</p>
   <details class="transcript">
     <summary>How the $84.9 million and $125 million measures work</summary>
-    <p><strong>{money(directMeasure.amount)}: {directMeasure.label}.</strong> This adds Treasury’s dated $50 million derived residual, APERS’s September 7, 2026 reported positions of $25 million, and ATRS’s February 17, 2026 purchase of $9.9 million.</p>
+    <p><strong>{money(directMeasure.amount)}: {directMeasure.label}.</strong> This adds Treasury’s conditional $50 million residual estimate, APERS’s September 7, 2026 reported positions of $25 million, and ATRS’s February 17, 2026 purchase of $9.9 million.</p>
     <p style="margin-top:18px"><strong>{money(mixedMeasure.amount)}: {mixedMeasure.label}.</strong> This substitutes ATRS’s full $50 million manager funding, completed January 2, 2026, for its underlying bond. The funding includes the bond and other account assets, so this is not a securities holdings total.</p>
-    <p style="margin-top:18px">Both combine different record dates. Neither includes Treasury’s additional $10 million processing instruction. Neither establishes current same-day holdings.</p>
+    <p style="margin-top:18px">Both assume that a projected $5 million Treasury maturity reduced a June 2025 $55 million balance, with no other changes. The projection does not establish proceeds received or a later holdings balance. Both combine different record dates; neither is a confirmed lower bound. Neither includes Treasury’s additional $10 million processing instruction. Neither establishes current same-day holdings.</p>
     <SourceNote ids={sourceIds}/>
   </details>
 </section>

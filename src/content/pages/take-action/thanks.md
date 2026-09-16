@@ -2,10 +2,11 @@
 title: Thank you for supporting pension integrity
 description: Next steps and contact information after taking part in the campaign.
 permalink: /take-action/thanks/
+noindex: true
 template: action
 sourceIds: []
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 

@@ -13,11 +13,12 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - atrs_july_holdings
+- atrs_q2_report
 - atrs_rating_report
 - atrs_resolution
 - treasury_hold
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 

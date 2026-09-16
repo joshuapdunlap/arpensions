@@ -1,6 +1,6 @@
-# Staged external petition revision
+# External petition revision and verification record
 
-Prepared September 15, 2026. Joshua applies external changes. No external edits or submissions were made during this task.
+Prepared and applied September 15, 2026. On Joshua’s explicit instruction, Codex updated the petition and verified the public description, letter, subscription disclosure, and saved administrator confirmation/share settings at 19:42 UTC. Subsequent production smoke checks confirmed that the revised petition loaded from the live action page. No signature or test email was submitted; receipt and email delivery remain untested. See the [release record](releases/2026-09-15-astro-rebuild.md).
 
 Public petition: [Stand for Pension Integrity](https://actionnetwork.org/petitions/stand-for-pension-integrity?source=arpensions).
 

@@ -24,6 +24,12 @@ We explain public records, publish source exhibits, organize pension members and
 
 We seek prospective, issuer-neutral safeguards: written financial analysis before a covered acquisition and public posting of the core decision record within 30 days afterward. Trustees would retain investment decisions. [Read the proposal](/legislators/).
 
+## How we publish
+
+This site combines public-records research with advocacy for the Integrity Act. Our policy position is explicit. Readers can inspect the records supporting a finding, its date and institutional scope, and the limits of what it establishes.
+
+Our [methodology](/methodology/) explains source review, financial distinctions and privacy treatment. The [corrections and updates log](/corrections/) records substantive changes while preserving dated historical publications. Source exhibits and accessible text let readers check our account for themselves.
+
 ## Frequently asked questions
 
 **What prompted the campaign?** The Arkansas Israel Bonds records show substantial commitments and a financial decision trail members must reconstruct from multiple kinds of documents. September records add important transactions and holdings; our [evidence overview](/evidence/) reflects them.
@@ -36,4 +42,4 @@ We seek prospective, issuer-neutral safeguards: written financial analysis befor
 
 ## Contact
 
-[info@arpensions.org](mailto:info@arpensions.org)
+For corrections, source questions or media inquiries, email [info@arpensions.org](mailto:info@arpensions.org). For a correction, include the page, the statement at issue and the supporting record or locator so the concern can be checked. Journalists can find dated figures and source links in our [press briefing](/press/).

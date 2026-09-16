@@ -12,7 +12,7 @@ Approved implementation specification: the user's September 15, 2026 plan in thi
 
 ## Constraints
 
-Pension reform is the primary objective. Treasury is a separately governed comparison. APERS has a $25M September 7 position; ATRS funding completed January 2 and includes the $9.9M February 17 security. The $84.9M direct-security floor combines differing record dates; $125M substitutes full ATRS manager funding. Treasury's extra $10M payment remains processing evidence.
+Pension reform is the primary objective. Treasury is a separately governed comparison. APERS has a $25M September 7 position; ATRS funding completed January 2 and includes the $9.9M February 17 security. Updated September 16: $84.9M is a conditional historical calculation combining different dates, not a confirmed floor; $125M substitutes full ATRS manager funding. Both depend on the Treasury projected-maturity and no-other-changes assumptions. Treasury's extra $10M payment remains processing evidence.
 
 Preserve original evidence and historical public downloads. Publish only reviewed derivatives. Source images are literal rendered pages or rectangular crops with captions outside. No invented testimony, primary evidence, individual votes, adoption, sponsorship, or settlement. No analytics, CMS, new supporter database, paid service, or automatic correspondence.
 

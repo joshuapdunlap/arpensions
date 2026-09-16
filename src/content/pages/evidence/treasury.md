@@ -13,8 +13,8 @@ sourceIds:
 - apers_september_holdings
 - atrs_completed_purchase
 - atrs_completed_funding
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 agency: treasury
 ---
 
@@ -25,13 +25,13 @@ This dossier provides background for the pension-governance question: can the pu
 
 Treasury's October 8, 2024 internal overview contained substantive credit discussion and recommended holding existing positions as maturities rolled off with continued surveillance. Two new positions totaling $20 million settled in May 2025 and appear in the June statement. The reviewed record does not identify a written reconciliation connecting that purchase to the earlier recommendation. That is a documentation question; it is not proof that nobody analyzed the decision. [Overview, p. 2](/documents/records/treasury-hold-overview/) · [June statement, p. 1](/documents/records/treasury-holdings/).
 
-## How the $50 million residual is derived
+## What the $50 million estimate assumes
 
-A June 30, 2025 bondholder statement listed **$55 million**. A February 2, 2026 cash-flow row documents a **$5 million final maturity**. Subtracting that maturity gives a **$50 million derived residual**, subject to later changes that a current holdings statement would resolve. This is not a newly verified September balance. [Statement, p. 1](/documents/records/treasury-holdings/) · [Cash-flow workbook, Sheet1 row 14](/documents/records/treasury-maturity/).
+A June 30, 2025 bondholder statement listed **$55 million**. A **projected cash-flow report** includes a **$5 million final maturity** with a February 2, 2026 post date. Subtracting that scheduled amount gives a **conditional $50 million residual estimate**, assuming the maturity reduced the June balance and no other transactions changed it. The projection does not establish proceeds received or a later holdings balance. The estimate is neither a confirmed minimum nor a newly verified September balance. [Statement, p. 1](/documents/records/treasury-holdings/) · [Cash-flow workbook, Sheet1 row 14](/documents/records/treasury-maturity/).
 
 ## Why another $10 million is excluded
 
-The February 17 outgoing payment report says **“Processing By Bank.”** It establishes a payment instruction at that stage. It does not establish settlement, ownership or a $60 million current position. Both the $84.9 million direct-security floor and $125 million mixed-stage measure exclude it. [Payment report, p. 1](/documents/records/treasury-processing-payment/).
+The February 17 outgoing payment report says **“Processing By Bank.”** It establishes a payment instruction at that stage. It does not establish settlement, ownership or a $60 million current position. Both the $84.9 million historical calculation and $125 million mixed-stage illustration exclude it and remain conditional on the Treasury residual assumption. [Payment report, p. 1](/documents/records/treasury-processing-payment/).
 
 ## Contractual maturities are not completed events
 

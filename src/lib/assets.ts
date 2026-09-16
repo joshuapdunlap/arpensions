@@ -4,6 +4,8 @@ export interface PublicAsset {
   originalFile: string; originalLocator: string; treatment: string;
   previews: {url:string;width:number;height:number;caption:string}[];
   transcript: string;
+  transcriptScope?: string;
+  tables?: {caption:string;columns:string[];rows:string[][];note:string}[];
   originalSha256?: string;
   format?: 'pdf'|'email-text';
 }

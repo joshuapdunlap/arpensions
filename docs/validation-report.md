@@ -1,6 +1,6 @@
-# Rebuild validation and review handoff
+# Rebuild validation record
 
-Candidate reviewed September 15, 2026. This report describes local implementation and verification. It does not establish production deployment, petition alignment or complete WCAG conformance.
+Candidate reviewed September 15, 2026. This report preserves the original local implementation and verification results. The subsequent petition alignment, deployment and production checks are recorded in the [September 15 release record](releases/2026-09-15-astro-rebuild.md). These checks do not establish complete WCAG conformance.
 
 ## Automated checks
 
@@ -18,7 +18,7 @@ Candidate reviewed September 15, 2026. This report describes local implementatio
 | Initial compressed JavaScript | Home 659 bytes; evidence 1,047 bytes. Search and the explicitly requested petition load separately |
 | Shared compressed CSS | 7,759 bytes, below the 40 KB budget |
 | Dependencies | npm audit reports zero vulnerabilities, including development dependencies |
-| Release gate | Correctly rejects the unapproved candidate and unverified external petition |
+| Release gate | During pre-release testing, correctly rejected the then-unapproved candidate and unverified external petition; later approval and deployment are recorded separately |
 
 Ordinary validation runs entirely from the repository, without the evidence vault. The optional metadata inventory covers 1,980 files across the raw agency directories. Inventory presence is not a certificate that every file was substantively reviewed.
 
@@ -47,11 +47,11 @@ The September 15 editorial follow-up centers the news feed, issue page, press su
 
 Full validation passes after the revision. All six changed article/evidence pages were rechecked at 390 px in light theme and 1280 px in dark theme with no automated accessibility violations or horizontal page overflow. Native Treasury measure expansion and the pension timeline filters were exercised. A separate output check confirms that the main campaign pages omit the combined figures, the main timeline contains only APERS and ATRS, and changed fragment targets resolve.
 
-## Manual release review still required
+## Manual review limitations
 
-Before approving publication, complete an actual assistive-technology pass (for example NVDA), browser zoom/text-enlargement checks and browser print pagination. The automation environment did not provide those complete user experiences. Review on a real mobile device is also valuable. These tasks are separate from the passing automated checks.
+An actual assistive-technology pass (for example NVDA), browser zoom/text-enlargement checks and browser print pagination were not completed in the original automated review. The automation environment did not provide those complete user experiences. Review on a real mobile device is also valuable. These tasks are separate from the passing automated checks and remain limitations of this report.
 
-Joshua must apply and verify the [external petition package](petition-revision.md), then approve the concrete candidate. GitHub Pages settings, required checks and deployment remain the release steps in [release-guide.md](release-guide.md). HTTPS/domain and end-to-end production checks follow the actual deployment.
+The [external petition package](petition-revision.md) was subsequently applied and checked, Joshua approved publication, and GitHub Pages deployed the rebuild. See the [release record](releases/2026-09-15-astro-rebuild.md) for exact identifiers and production-check boundaries. No test signature or receipt/email delivery check was performed. Future candidates follow the [release guide](release-guide.md) and require their own approval.
 
 ## Historical QR behavior
 

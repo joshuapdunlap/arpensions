@@ -3,7 +3,7 @@
     "assetUrl": "/assets/documents/atrs-aon-memo-pages-149-150.pdf",
     "sha256": "656078606e180693d6634e369d5fd808a306a0b6d950e2e23a60546cd4878609",
     "pages": 2,
-    "reviewedAt": "2026-09-15",
+    "reviewedAt": "2026-09-16",
     "originalFile": "06-02-25_BOT_Packet.pdf",
     "originalLocator": "June 2, 2025 Board packet, physical pages 149–150",
     "treatment": "Pages reproduced in full; no campaign masking applied. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
@@ -21,7 +21,46 @@
         "caption": "Existing public exhibit page 2; June 2, 2025 Board packet, physical pages 149–150. "
       }
     ],
-    "transcript": "REVIEWED TRANSCRIPTION OF SELECTED TEXT\nPhysical page 149\nATRS Board has expressed an interest in investing in State of Israel bonds. ATRS and Aon\ndiscussed ways in which to implement this mandate. Aon advised ATRS to use an investment\n\nmanager to implement and manage the portfolio on an ongoing basis. Given ATRS currently has a\n\nsizable roster of bond managers with the requisite experience and resources to implement such a\nmandate, Aon further recommended leveraging these current relationships. Aon and ATRS staff\nconducted calls with each of the ATRS managers and solicited proposals from the investment\nmanagers that expressed interest in managing this mandate. The table below is a summary of\n\nthose findings:\n\n\nConclusion\nAon and the ATRS team found both proposals compelling; however, given the more attractive fee\nproposal from Reams, we recommend ATRS hire Reams for this mandate. Provided that these\nbonds are primarily bought directly and not able to be sold in the market, there is little traditional\nactive management that is needed. If approved, Aon and the ATRS Team will work with the\nmanager to finalize guidelines for the mandate and report back to the Board with any specific\n\nrecommendations.\n\n\nPhysical page 150\nNote: This memo does not serve as a recommendation to invest or not to invest in Israel Bonds. Aon does not make recommendations on the purchase or sale of individual securities.\n[Comparison table and remaining disclaimers omitted from this selected transcription.]"
+    "transcript": "REVIEWED TRANSCRIPTION OF SELECTED TEXT\nPhysical page 149\nATRS Board has expressed an interest in investing in State of Israel bonds. ATRS and Aon\ndiscussed ways in which to implement this mandate. Aon advised ATRS to use an investment\n\nmanager to implement and manage the portfolio on an ongoing basis. Given ATRS currently has a\n\nsizable roster of bond managers with the requisite experience and resources to implement such a\nmandate, Aon further recommended leveraging these current relationships. Aon and ATRS staff\nconducted calls with each of the ATRS managers and solicited proposals from the investment\nmanagers that expressed interest in managing this mandate. The table below is a summary of\n\nthose findings:\n\n\nConclusion\nAon and the ATRS team found both proposals compelling; however, given the more attractive fee\nproposal from Reams, we recommend ATRS hire Reams for this mandate. Provided that these\nbonds are primarily bought directly and not able to be sold in the market, there is little traditional\nactive management that is needed. If approved, Aon and the ATRS Team will work with the\nmanager to finalize guidelines for the mandate and report back to the Board with any specific\n\nrecommendations.\n\n\nPhysical page 150\nNote: This memo does not serve as a recommendation to invest or not to invest in Israel Bonds. Aon does not make recommendations on the purchase or sale of individual securities.\n[Comparison table and remaining disclaimers omitted from this selected transcription.]",
+    "tables": [
+      {
+        "caption": "Aon manager comparison, June 2, 2025 memorandum, physical page 149",
+        "columns": [
+          "Manager",
+          "Blackrock",
+          "Reams"
+        ],
+        "rows": [
+          [
+            "Experience with similar mandates",
+            "Yes",
+            "No"
+          ],
+          [
+            "Experience buying Israel sovereign debt",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Emerging Market Debt capabilities, resources and research",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Securities to be used in proposed mandate",
+            "State of Israel Private and Publicly Traded Debt, U.S. Dollar and Local based, U.S. Treasury securities",
+            "State of Israel Private and Publicly Traded Debt, U.S. Dollar and Local based, U.S. Treasury securities"
+          ],
+          [
+            "Proposed Fee (bps)",
+            "8",
+            "3"
+          ]
+        ],
+        "note": "Source wording and capitalization retained. One basis point is 0.01 percentage point. These are proposed fees in the memorandum, not a statement of fees actually paid."
+      }
+    ],
+    "transcriptScope": "Selected narrative passages. The complete manager comparison is reproduced in the HTML table. General legal and distribution boilerplate remains in the PDF."
   },
   "atrs_resolution": {
     "assetUrl": "/assets/documents/atrs-resolution-2025-22-executed-pages-5-6.pdf",
@@ -111,7 +150,7 @@
     "assetUrl": "/assets/documents/apers-purchase-record-page-6925-masked.pdf",
     "sha256": "503b0782844239b5cb7146c7424fbb5f0b67588a1edac91518f8be7b8a9c6f0f",
     "pages": 1,
-    "reviewedAt": "2026-09-15",
+    "reviewedAt": "2026-09-16",
     "originalFile": "IB_FOIA_FINAL. 2.27.2026 Redacted.LMG.pdf",
     "originalLocator": "IB_FOIA_FINAL, physical page 6,925",
     "treatment": "Campaign crop; account and operational identifiers masked. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
@@ -123,7 +162,7 @@
         "caption": "Existing public exhibit page 1; IB_FOIA_FINAL, physical page 6,925. "
       }
     ],
-    "transcript": "PUBLIC EXHIBIT PAGE 1\nNARR: DR-MONEY TRANSFER DEBIT DESC: BNF: COMPUTERSHARE INC.AAF SOI\n\nTRANSACTION NU\nACCOUNT NUMBE\nPOSTED DATE....:\n\nURRENCY ID.: USD\nACCOUNT NAME: ARKANSAS PERS ARKANSAS CASH\nE DATE..: 150CT25\n\nDESCR1...: BNF: COMPUTERSHARE INC.AAF SO! WIRE PURCHASE ACCOUNT\nDESCR2...: DETAIL: APERS 2 YR BOND CUSIP 46514X2A6\n\nSource: IB_FOIA_FINAL. 2.27.2026 Redacted.LMG.pdf - physical PDF page 6925\n\nCampaign crop; transaction and account identifiers masked."
+    "transcript": "REVIEWED TRANSCRIPTION OF VISIBLE FINANCIAL FIELDS\nOriginal physical page 6,925\nTRN AMT: 15000000.00\nDB/CR IND: DR\nNARR: DR-MONEY TRANSFER DEBIT\nDESC: BNF: COMPUTERSHARE INC.AAF SOI\nCURRENCY ID: USD\nACCOUNT NAME: ARKANSAS PERS ARKANSAS CASH\nPOSTED DATE: 15OCT25\nVALUE DATE: 15OCT25\nDESCR1: BNF: COMPUTERSHARE INC.AAF SOI WIRE PURCHASE ACCOUNT\nDESCR2: DETAIL: APERS 2 YR BOND CUSIP 46514X2A6\n[Transaction and account identifiers masked in the exhibit; duplicate date fields and campaign footer omitted.]\n"
   },
   "treasury_hold": {
     "assetUrl": "/assets/documents/treasury-internal-credit-overview.pdf",
@@ -153,7 +192,7 @@
     "assetUrl": "/assets/documents/treasury-holdings-june-2025-cropped.pdf",
     "sha256": "589098c1f5e5c6a97865d6f8befe560c690688bdf76c650dbfb43a86136f4305",
     "pages": 1,
-    "reviewedAt": "2026-09-15",
+    "reviewedAt": "2026-09-16",
     "originalFile": "Israel Bondholder Statements_Redacted.pdf",
     "originalLocator": "Bondholder statement, physical page 1; account identifiers omitted from excerpt",
     "treatment": "Campaign crop omits recipient, barcode, account, and return-mail data; agency masking retained. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
@@ -165,13 +204,94 @@
         "caption": "Existing public exhibit page 1; Bondholder statement, physical page 1; account identifiers omitted from excerpt. "
       }
     ],
-    "transcript": "PUBLIC EXHIBIT PAGE 1\nAccount Information: (Excludes transactions pending settlement)\n\nTotal Total Total Total i\nele i | gehen sue | Currency | Certificated | Book Based Current Maturity Manu | cusiP\nP Amount ($) © . Amount ($) Value ($) Value (5)\n\n41TH JUBILEE FIX 10Y 2.83% 15 Jan 2020 USD 10,000,000.00 0.00 10,000,000,00 10,000,000,00 01 Jan 2030 46513JHA2\n2.83 2030/01/01\n92TH INSTITUTIONAL 4.66% — 01 May 2025 USD 0.00 10,000,000,00 10,000,000,00 10,000,000.00. 01 May 2028 46514X2P3\nJUBILEE FIX 3¥ 4.66\n2028/05/01\n42TH INSTITUTIONAL 5.17% 01 May 2025 usd 0.00 10,000,000.00 10,000,000,00 10,000,000.00 01 May 2030  46514X3P2\nJUBILEE FIX 5Y 5.17\n2030/05/01\n11TH INSTITUTIONAL 5.40% Of Nov 2023 USD 10,000,000.00 0.00 10,000,00.00 10,000,000.00 01:Nov 2026 46514AM22\nJUBILEE FIX 3¥ 5.40\n2026/11/01\n8TH INSTITUTIONAL 1.35% 01 Feb 2021 USD. §,000,000.00 0.00 §,000,000.00 §,000,000.00 01 Feb 2026 . 46514TZG6\nJUBILEE FIX 5Y 1.35\n2026/02/01\n412TH JUBILEE FIX 5Y 1.92% 15 Oct 2021 USD §5,000,000.00 0.00 5,000,000.00 §,000,000,00 01 Oct 2026 46514TQN1\n41.92 2026/10/01\n10TH INSTITUTIONAL 2.07% 15 Oct 2021 usD §,000,000,00 0,00 5,000,000.00 5,000,000,00 01 Oct 2026 465147ZZ4\nUBILEE FIX 5Y 2.07\n\n}0/0\"\n\neee\nSource: Israel Bondholder Statements_Redacted_pdf - physical PDF page 1\n\nCampaign crop omits recipient, barcode, account, and return-mail data; agency mask retained"
+    "transcript": "REVIEWED TRANSCRIPTION OF HEADING AND FINANCIAL TABLE\nState of Israel - Bondholder Statement 30 Jun 2025\nAccount Information: (Excludes transactions pending settlement)\nAll seven security rows are reproduced in the HTML financial table on this page. All amounts are USD. The table preserves the statement’s labels: current value is not independently verified market value.\n[Recipient, barcode, account and return-mail data omitted from the public crop. Repeated bond-description text and CUSIP identifiers are omitted from this selected transcription.]\n",
+    "tables": [
+      {
+        "caption": "June 30, 2025 Treasury statement: all seven financial rows (USD)",
+        "columns": [
+          "Security / coupon",
+          "Issue date",
+          "Certificated amount",
+          "Book based amount",
+          "Current value",
+          "Maturity value",
+          "Maturity date"
+        ],
+        "rows": [
+          [
+            "11th Jubilee Fix 10Y / 2.83%",
+            "January 15, 2020",
+            "$10,000,000.00",
+            "$0.00",
+            "$10,000,000.00",
+            "$10,000,000.00",
+            "January 1, 2030"
+          ],
+          [
+            "12th Institutional Jubilee Fix 3Y / 4.66%",
+            "May 1, 2025",
+            "$0.00",
+            "$10,000,000.00",
+            "$10,000,000.00",
+            "$10,000,000.00",
+            "May 1, 2028"
+          ],
+          [
+            "12th Institutional Jubilee Fix 5Y / 5.17%",
+            "May 1, 2025",
+            "$0.00",
+            "$10,000,000.00",
+            "$10,000,000.00",
+            "$10,000,000.00",
+            "May 1, 2030"
+          ],
+          [
+            "11th Institutional Jubilee Fix 3Y / 5.40%",
+            "November 1, 2023",
+            "$10,000,000.00",
+            "$0.00",
+            "$10,000,000.00",
+            "$10,000,000.00",
+            "November 1, 2026"
+          ],
+          [
+            "8th Institutional Jubilee Fix 5Y / 1.35%",
+            "February 1, 2021",
+            "$5,000,000.00",
+            "$0.00",
+            "$5,000,000.00",
+            "$5,000,000.00",
+            "February 1, 2026"
+          ],
+          [
+            "12th Jubilee Fix 5Y / 1.92%",
+            "October 15, 2021",
+            "$5,000,000.00",
+            "$0.00",
+            "$5,000,000.00",
+            "$5,000,000.00",
+            "October 1, 2026"
+          ],
+          [
+            "10th Institutional Jubilee Fix 5Y / 2.07%",
+            "October 15, 2021",
+            "$5,000,000.00",
+            "$0.00",
+            "$5,000,000.00",
+            "$5,000,000.00",
+            "October 1, 2026"
+          ]
+        ],
+        "note": "Physical page 1. Display dates expanded for readability. The campaign calculates $55 million by summing these rows; the source does not print that total in this crop. Contractual maturities do not establish receipt of proceeds or subsequent holdings."
+      }
+    ],
+    "transcriptScope": "Selected heading and all seven financial rows, with the financial table in HTML above. Source labels are retained; dates are expanded. Repeated descriptions and security identifiers are omitted as noted."
   },
   "treasury_maturity": {
     "assetUrl": "/assets/documents/treasury-final-maturity-excerpt.pdf",
     "sha256": "c08a6ea05e98152064b228dfdf7bbae21e1a6262b568b5604c2132456c2982dc",
     "pages": 1,
-    "reviewedAt": "2026-09-15",
+    "reviewedAt": "2026-09-16",
     "originalFile": "2026 0202 IA- Non- MBS Cash Flow_Treasury Gen AGG- ISRAEL BONDS- PAR & MATURITY.xlsx",
     "originalLocator": "IA-Non-MBS Cash Flow workbook, Sheet1, row 14",
     "treatment": "Campaign-typeset excerpt; account and security identifiers, coupon details, and unrelated rows omitted. Existing public PDF preserved byte-for-byte; preview renders that exhibit.",
@@ -183,7 +303,7 @@
         "caption": "Existing public exhibit page 1; IA-Non-MBS Cash Flow workbook, Sheet1, row 14. "
       }
     ],
-    "transcript": "PUBLIC EXHIBIT PAGE 1\nTREASURY FINAL-MATURITY RECORD\n\nPublication excerpt from an agency-produced cash-flow workbook\n\nREPORT IA-Non-MBS Cash Flow\nPROJECTED CASH-FLOW PERIOD 01/29/2026 - 01/28/2027\n\nSOURCE LOCATOR Sheet - row 14\n\nTRANSACTION TYPE Final Maturity\n\nSECURITY CATEGORY Non-US Gov\n\nDESCRIPTION Israel, State Of (Government)\nPOST DATE February 2, 2026\n\nAMOUNT $5,000,000\n\nPUBLICATION TREATMENT\n\nCampaign-typeset excerpt. Account identifiers, the security identifier, coupon details,\n\nand unrelated formula or adjustment rows are omitted.\n\nSource: 2026 0202 IA- Non- MBS Cash Flow_Treasury Gen AGG- ISRAEL BONDS- PAR & MATURITY.xIsx\n\nExact locator: Sheet1, row 14 - produced by the Arkansa ate Treasury"
+    "transcript": "REVIEWED TRANSCRIPTION OF SELECTED WORKSHEET FIELDS\nReport: IA-Non-MBS Cash Flow\nProjected Cash-Flow Period: 01/29/2026 - 01/28/2027\nSheet1, row 14\nTransaction Type: Final Maturity\nSecurity Category: Non-US Gov\nDescription: Israel, State Of (Government)\nPost Date: February 2, 2026\nAmount: $5,000,000\n[Account and security identifiers, coupon details and unrelated rows omitted.]\nPublication note: The public PDF is a campaign-typeset excerpt. These fields do not independently establish actual proceeds received or a later holdings balance."
   },
   "treasury_processing": {
     "assetUrl": "/assets/documents/treasury-processing-payment-masked.pdf",
@@ -644,5 +764,17 @@
     "treatment": "Faithful plain-text excerpt from the agency-produced EML. Line breaks normalized; direct contact information, transport headers and unrelated or quoted material omitted as marked. No PDF or source-page image invented.",
     "previews": [],
     "transcript": "REVIEWED EMAIL EXCERPT\nPlain-text transcription; this is not an agency PDF. Brackets identify omissions.\n\nSubject: RE: Arkansas Times article about state retirement systems purchasing Israeli bonds\nDate: July 14, 2025, 15:35:50 +0000 (10:35:50 a.m. CDT)\nFrom: Robyn M. Smith, ASHERS Executive Secretary\n\nWe are not.\n\nEarlier message: July 14, 2025, 10:35 a.m. (displayed message time)\nFrom: Crystal C. Woods\n\nJust curious... Are we also purchasing Israeli bonds?\n\n[Contact fields and earlier forwarding chain omitted.]\n"
+  },
+  "apers_september_response": {
+    "assetUrl": "/assets/documents/apers-september-response-reviewed.txt",
+    "sha256": "7169f86443ba8dd9c22773e17d1cc70af9da7df63feb6e40d38e382e295d873b",
+    "pages": 0,
+    "format": "email-text",
+    "reviewedAt": "2026-09-16",
+    "originalFile": "APERS request and response correspondence, September 8-9, 2026",
+    "originalLocator": "September 8 request, category 4; September 9 reply, category 4",
+    "treatment": "Reviewed plain-text request/response excerpts. Requester identity and contacts, identity attachment, signature contact details, unrelated categories and quoted chain omitted; no facsimile invented.",
+    "previews": [],
+    "transcript": "REVIEWED REQUEST AND AGENCY RESPONSE EXCERPTS\nPlain-text transcription, not an agency PDF. Line wrapping normalized; brackets identify omissions.\n\nSubject: Arkansas FOIA request - September 2026 APERS Israel Bonds holdings and governing records\nRequest sent: September 8, 2026, 12:56 p.m. CDT\n[Requester identity, contact details, identity attachment and unrelated request categories omitted.]\n\nRequest category 4:\nExisting analyses, consultant recommendations, reviews, and recorded decisions or instructions dated February 14 through September 7, 2026 concerning APERS’s Israel Bonds exposure, suitable alternative investments, credit, yield/return, fees, liquidity, concentration, cash requirements, additional purchases, renewal, maturity proceeds or non-reinvestment.\n\nAgency response: September 9, 2026, 20:42:05 UTC (3:42 p.m. CDT)\nFrom: Laura Gilson, APERS General Counsel\n\n4. Existing analyses, consultant recommendations, reviews, and recorded decisions or instructions dated February 14 through September 7, 2026 concerning APERS’s Israel Bonds exposure, suitable alternative investments, credit, yield/return, fees, liquidity, concentration, cash requirements, additional purchases, renewal, maturity proceeds or non-reinvestment. No responsive APERS records exist for this requested category.\n\n[Salutation, other request categories and answers, signature contact details and quoted message chain omitted. The response also supplied two attachments for the holdings and transaction categories; those are separately available in the source library.]\n"
   }
 }

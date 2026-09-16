@@ -1,0 +1,403 @@
+[
+  {
+    "url": "/assets/documents/apers-analysis-email-page-3081-masked.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "apers-analysis-email-page-3081-masked",
+    "title": "APERS chief investment officer FOIA-search email",
+    "sourceId": "apers_analysis_email"
+  },
+  {
+    "url": "/assets/documents/apers-august-request-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "apers-august-request-2026",
+    "title": "APERS second investment request",
+    "sourceId": "apers_august_request"
+  },
+  {
+    "url": "/assets/documents/apers-authorization-minutes-page-4.pdf",
+    "category": "Alternate extract",
+    "contextId": "apers-authorization-minutes-page-4",
+    "title": "apers authorization minutes page 4",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Earlier extract preserved for compatibility. Read the linked reviewed source record for the complete current context.",
+    "relatedSourceId": "apers_authorization",
+    "reviewedPublicSha256": "b47bdda2e80da385488aa72d1cd0992ef584ee65b140cd8c654d4b25bd2eaafa"
+  },
+  {
+    "url": "/assets/documents/apers-authorization-minutes-pages-1-4.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "apers-authorization-minutes-pages-1-4",
+    "title": "APERS Investment Finance Subcommittee signed minutes",
+    "sourceId": "apers_authorization"
+  },
+  {
+    "url": "/assets/documents/apers-purchase-record-page-6925-masked.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "apers-purchase-record-page-6925-masked",
+    "title": "APERS $15 million purchase record",
+    "sourceId": "apers_purchase"
+  },
+  {
+    "url": "/assets/documents/apers-september-holdings-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "apers-september-holdings-2026",
+    "title": "APERS September custody positions",
+    "sourceId": "apers_september_holdings"
+  },
+  {
+    "url": "/assets/documents/apers-september-response-reviewed.txt",
+    "category": "Reviewed evidence",
+    "contextId": "apers-september-response-reviewed",
+    "title": "APERS September request and no-record response",
+    "sourceId": "apers_september_response"
+  },
+  {
+    "url": "/assets/documents/ashers-no-holding-reviewed.txt",
+    "category": "Reviewed evidence",
+    "contextId": "ashers-no-holding-reviewed",
+    "title": "ASHERS no-holding statement",
+    "sourceId": "ashers_no_holding"
+  },
+  {
+    "url": "/assets/documents/ashers-no-purchase-reviewed.txt",
+    "category": "Reviewed evidence",
+    "contextId": "ashers-no-purchase-reviewed",
+    "title": "ASHERS no-purchase statement",
+    "sourceId": "ashers_no_purchase"
+  },
+  {
+    "url": "/assets/documents/ashers-route-reviewed.txt",
+    "category": "Reviewed evidence",
+    "contextId": "ashers-route-reviewed",
+    "title": "DFA introduction and seller pitch to ASHERS",
+    "sourceId": "ashers_route"
+  },
+  {
+    "url": "/assets/documents/atrs-aon-memo-pages-149-150.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-aon-memo-pages-149-150",
+    "title": "Aon implementation and manager-selection memorandum",
+    "sourceId": "atrs_aon"
+  },
+  {
+    "url": "/assets/documents/atrs-auditor-designee-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-auditor-designee-reviewed",
+    "title": "ATRS Auditor designee record",
+    "sourceId": "atrs_auditor_designee"
+  },
+  {
+    "url": "/assets/documents/atrs-cancellation-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-cancellation-2026",
+    "title": "ATRS canceled first issuance",
+    "sourceId": "atrs_cancellation"
+  },
+  {
+    "url": "/assets/documents/atrs-completed-funding-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-completed-funding-2026",
+    "title": "ATRS completed manager funding",
+    "sourceId": "atrs_completed_funding"
+  },
+  {
+    "url": "/assets/documents/atrs-completed-purchase-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-completed-purchase-2026",
+    "title": "ATRS completed Israel Bond purchase",
+    "sourceId": "atrs_completed_purchase"
+  },
+  {
+    "url": "/assets/documents/atrs-contract-extension-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-contract-extension-2026",
+    "title": "Reams contract extension",
+    "sourceId": "atrs_contract_extension"
+  },
+  {
+    "url": "/assets/documents/atrs-july-holdings-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-july-holdings-2026",
+    "title": "ATRS July manager-account holdings",
+    "sourceId": "atrs_july_holdings"
+  },
+  {
+    "url": "/assets/documents/atrs-manager-funding-email-excerpt.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-manager-funding-email-excerpt",
+    "title": "ATRS Board Update Liquidity",
+    "sourceId": "atrs_funding"
+  },
+  {
+    "url": "/assets/documents/atrs-q2-report-2026.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-q2-report-2026",
+    "title": "Reams second-quarter report",
+    "sourceId": "atrs_q2_report"
+  },
+  {
+    "url": "/assets/documents/atrs-rating-report-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-rating-report-reviewed",
+    "title": "S&P sovereign-rating report in ATRS production",
+    "sourceId": "atrs_rating_report"
+  },
+  {
+    "url": "/assets/documents/atrs-resolution-2025-22-executed-pages-5-6.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "atrs-resolution-2025-22-executed-pages-5-6",
+    "title": "Executed ATRS Resolution 2025-22",
+    "sourceId": "atrs_resolution"
+  },
+  {
+    "url": "/assets/documents/atrs-resolution-2025-22-pages-151-152.pdf",
+    "category": "Alternate extract",
+    "contextId": "atrs-resolution-2025-22-pages-151-152",
+    "title": "atrs resolution 2025 22 pages 151 152",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Earlier extract preserved for compatibility. Read the linked reviewed source record for the complete current context.",
+    "relatedSourceId": "atrs_resolution",
+    "reviewedPublicSha256": "0f4f2fb73e6defb6aad7fffbb8a1abd0a30b8fa12f77d43c4fa88f583029d2e0"
+  },
+  {
+    "url": "/assets/documents/berman-invokes-deceased-lowery-2023.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "berman-invokes-deceased-lowery-2023",
+    "title": "berman invokes deceased lowery 2023",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "a3803c8a074d76117ffc69c2b9877d47fc62b67ce77b66888536d0e46572e87e"
+  },
+  {
+    "url": "/assets/documents/berman-thank-you-apers-staff-2024.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "berman-thank-you-apers-staff-2024",
+    "title": "berman thank you apers staff 2024",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "a5f520b7f1ff39c21caab128851ba7a89400dc0581424840d368a2481ed602fc"
+  },
+  {
+    "url": "/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "berman-thank-you-fecher-20m-pitch-2025",
+    "title": "berman thank you fecher 20m pitch 2025",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "8b84adb2c17f1e0cda2295fad07c4e5b09aae42c6e301dabf9acf9d3b97e890b"
+  },
+  {
+    "url": "/assets/documents/berman-young-congratulations-milligan-2018.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "berman-young-congratulations-milligan-2018",
+    "title": "berman young congratulations milligan 2018",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "74eee40c25d9b22caa57dcc91eef1f306bb3bcb145641a48256a87e4d4858efe"
+  },
+  {
+    "url": "/assets/documents/capitol-itinerary-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "capitol-itinerary-reviewed",
+    "title": "April 2025 Capitol itinerary",
+    "sourceId": "capitol_itinerary"
+  },
+  {
+    "url": "/assets/documents/hudson-babbitt-confirmation-reviewed.txt",
+    "category": "Reviewed evidence",
+    "contextId": "hudson-babbitt-confirmation-reviewed",
+    "title": "Hudson-Babbitt meeting confirmation",
+    "sourceId": "hudson_babbitt_confirmation"
+  },
+  {
+    "url": "/assets/documents/legislator-letter-2026-09-15.txt",
+    "category": "Campaign material",
+    "contextId": "legislator-letter-2026-09-15",
+    "title": "legislator letter 2026 09 15",
+    "provenance": "Campaign-authored material, not an agency record.",
+    "scope": "Current proposal briefing or letter. Generated from the shared approved campaign content; statutory drafting remains unresolved."
+  },
+  {
+    "url": "/assets/documents/milligan-happy-to-help-internal-email-2025.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "milligan-happy-to-help-internal-email-2025",
+    "title": "milligan happy to help internal email 2025",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "ae1ab4746a0dafdc4de3ad557f70257a13e3ba554a3588796c53e9340fda7339"
+  },
+  {
+    "url": "/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "milligan-oct7-anniversary-berman-reply-2024",
+    "title": "milligan oct7 anniversary berman reply 2024",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "d00b0c4420cd328af5740f0fb1c06028b415de0e424edfb32dc8df86c8aa8fad"
+  },
+  {
+    "url": "/assets/documents/pension-investment-integrity-act-brief-2026-07-16.pdf",
+    "category": "Campaign material",
+    "contextId": "pension-investment-integrity-act-brief-2026-07-16",
+    "title": "pension investment integrity act brief 2026 07 16",
+    "provenance": "Campaign-authored material, not an agency record.",
+    "scope": "Historical July 16 evidence snapshot; superseded for current campaign use."
+  },
+  {
+    "url": "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf",
+    "category": "Campaign material",
+    "contextId": "pension-investment-integrity-act-brief-2026-09-15",
+    "title": "pension investment integrity act brief 2026 09 15",
+    "provenance": "Campaign-authored material, not an agency record.",
+    "scope": "Current proposal briefing or letter. Generated from the shared approved campaign content; statutory drafting remains unresolved."
+  },
+  {
+    "url": "/assets/documents/private-economic-briefing-invitation-2025.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "private-economic-briefing-invitation-2025",
+    "title": "private economic briefing invitation 2025",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "476b1425b8a11da972ed3836651ec04c8234845efb69e546005aa87b2b23cf85"
+  },
+  {
+    "url": "/assets/documents/securities-1986-orders-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "securities-1986-orders-reviewed",
+    "title": "Arkansas 1986 suspension and reinstatement orders",
+    "sourceId": "securities_1986_orders"
+  },
+  {
+    "url": "/assets/documents/seller-reported-meetings-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "seller-reported-meetings-reviewed",
+    "title": "Seller-authored report of Fecher and Treasury-team encounters",
+    "sourceId": "seller_reported_meetings"
+  },
+  {
+    "url": "/assets/documents/sfof-model-case-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "sfof-model-case-reviewed",
+    "title": "SFOF newsletter circulating a state purchase",
+    "sourceId": "sfof_model_case"
+  },
+  {
+    "url": "/assets/documents/sfof-nominates-milligan-chair-2020.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "sfof-nominates-milligan-chair-2020",
+    "title": "sfof nominates milligan chair 2020",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "7be5783b6ebfb23d496eadaaabcee0a0c1ec4a066e1e53926c5fb610d5b69403"
+  },
+  {
+    "url": "/assets/documents/sfof-post-action-facilitation-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "sfof-post-action-facilitation-reviewed",
+    "title": "Post-action member-state contact facilitation",
+    "sourceId": "sfof_post_action_facilitation"
+  },
+  {
+    "url": "/assets/documents/sfof-speech-preparation-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "sfof-speech-preparation-reviewed",
+    "title": "SFOF speech preparation and scheduled presentation",
+    "sourceId": "sfof_speech_preparation"
+  },
+  {
+    "url": "/assets/documents/sfof-sponsor-listing-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "sfof-sponsor-listing-reviewed",
+    "title": "2020 SFOF event sponsor listing",
+    "sourceId": "sfof_sponsor_listing"
+  },
+  {
+    "url": "/assets/documents/sovereign-bond-marketing-to-milligan-2025.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "sovereign-bond-marketing-to-milligan-2025",
+    "title": "sovereign bond marketing to milligan 2025",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "b4e0a0c7a963ec76a8f0948e4c4507cd24d48c9dedc248e68e8a8d531756f3c7"
+  },
+  {
+    "url": "/assets/documents/sovereign-bond-purchase-confirmation-may2025.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "sovereign-bond-purchase-confirmation-may2025",
+    "title": "sovereign bond purchase confirmation may2025",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "7552ba6896690f7f5cd9b880f4ccbbf572bb104f99e2c617dd492801de59d5c4"
+  },
+  {
+    "url": "/assets/documents/sovereign-bond-purchase-confirmation-nov2023.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "sovereign-bond-purchase-confirmation-nov2023",
+    "title": "sovereign bond purchase confirmation nov2023",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "5c077bc09f1c9a2c8fd2767936ca495e6cfb3bad37b09c724c63675890d94561"
+  },
+  {
+    "url": "/assets/documents/treasury-final-maturity-excerpt.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "treasury-final-maturity-excerpt",
+    "title": "Treasury projected final-maturity cash flow",
+    "sourceId": "treasury_maturity"
+  },
+  {
+    "url": "/assets/documents/treasury-holdings-june-2025-cropped.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "treasury-holdings-june-2025-cropped",
+    "title": "Treasury June 30, 2025 bondholder statement",
+    "sourceId": "treasury_holdings"
+  },
+  {
+    "url": "/assets/documents/treasury-internal-credit-overview.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "treasury-internal-credit-overview",
+    "title": "Treasury internal credit overview",
+    "sourceId": "treasury_hold"
+  },
+  {
+    "url": "/assets/documents/treasury-investment-policy-2022.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "treasury-investment-policy-2022",
+    "title": "treasury investment policy 2022",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "0f140d32f7919c9a353fd91ba8dca85cbdca8499c3fab4c80bc6766842decc25"
+  },
+  {
+    "url": "/assets/documents/treasury-processing-payment-masked.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "treasury-processing-payment-masked",
+    "title": "Treasury outgoing payment report",
+    "sourceId": "treasury_processing"
+  },
+  {
+    "url": "/assets/documents/treasury-target-report-reviewed.pdf",
+    "category": "Reviewed evidence",
+    "contextId": "treasury-target-report-reviewed",
+    "title": "Seller report of Treasury portfolio target",
+    "sourceId": "treasury_target_report"
+  },
+  {
+    "url": "/assets/documents/walther-10m-purchase-news-coverage-2023.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "walther-10m-purchase-news-coverage-2023",
+    "title": "walther 10m purchase news coverage 2023",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "b301bfe15e61466952c519b13041a367c11e3a1589a4bf73b98e8cf8bf6685c5"
+  },
+  {
+    "url": "/assets/documents/white-foia-denial-december-2024.pdf",
+    "category": "Supplemental historical evidence",
+    "contextId": "white-foia-denial-december-2024",
+    "title": "white foia denial december 2024",
+    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
+    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "reviewedPublicSha256": "9ea9d80c037741c004785a03a8b3d188d2cbc8ec20d75563bdd931327354d17b"
+  }
+]

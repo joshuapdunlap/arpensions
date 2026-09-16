@@ -1,0 +1,16 @@
+{
+  "/assets/documents/sovereign-bond-purchase-confirmation-may2025.pdf": {
+    "originalSha256": "6bd771863cfb094671a25b98395dbb0b40930fda00c3463703fa5ca0793e229d",
+    "replacementSha256": "7552ba6896690f7f5cd9b880f4ccbbf572bb104f99e2c617dd492801de59d5c4",
+    "reviewedAt": "2026-09-16",
+    "reason": "Broker-account identifier on physical page 1 removed from the image and text layer. Matching extracted occurrences removed. PDF metadata cleared. Financial content and original download address retained.",
+    "originalRetained": "Original retained in private release archive; not served by this candidate."
+  },
+  "/assets/documents/sovereign-bond-purchase-confirmation-nov2023.pdf": {
+    "originalSha256": "656c9c35aa9bd99f3878058220a8c73803eacdf71ad0206d815aa42231201f21",
+    "replacementSha256": "5c077bc09f1c9a2c8fd2767936ca495e6cfb3bad37b09c724c63675890d94561",
+    "reviewedAt": "2026-09-16",
+    "reason": "Broker-account identifier on physical page 1 removed from the image and text layer. Matching extracted occurrences removed. PDF metadata cleared. Financial content and original download address retained.",
+    "originalRetained": "Original retained in private release archive; not served by this candidate."
+  }
+}

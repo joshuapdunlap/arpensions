@@ -6,11 +6,14 @@ const records=data.financialRecords as FinancialRecord[];
 const get=(id:string)=>records.find(r=>r.id===id)!;
 test('portfolio observations cannot double count their earlier purchase or statement',()=>{
   assert.throws(()=>assembleMeasure(records,['apers_october_purchase','apers_september_holding'],'direct-evidence'),/overlapping/i);
-  assert.throws(()=>assembleMeasure(records,['treasury_june_holding','treasury_derived_residual'],'direct-evidence'),/overlapping/i);
+  assert.throws(()=>assembleMeasure(records,['treasury_june_holding','treasury_derived_residual'],'historical-comparison'),/overlapping/i);
 });
-test('September reconciled totals use distinct eligible records',()=>{
-  const direct=assembleMeasure(records,['treasury_derived_residual','apers_september_holding','atrs_february_purchase'],'direct-evidence');
+test('historical calculations identify the conditional Treasury component',()=>{
+  assert.throws(()=>assembleMeasure(records,['treasury_derived_residual'],'direct-evidence'),/not eligible/i);
+  const direct=assembleMeasure(records,['treasury_derived_residual','apers_september_holding','atrs_february_purchase'],'historical-comparison');
   assert.equal(direct.amount,84_900_000);assert.equal(direct.mixedDates,true);
+  assert.match(direct.label,/historical/i);assert.doesNotMatch(direct.label,/floor|confirmed/i);
+  assert.ok(get('treasury_derived_residual').assumption);
   assert.equal(assembleMeasure(records,['treasury_derived_residual','apers_september_holding','atrs_january_funding'],'mixed-funding').amount,125_000_000);
 });
 test('historical APERS purchase and later holding remain distinguishable',()=>{
@@ -24,6 +27,11 @@ test('ATRS settlement, cancellation and parent funding are explicit',()=>{
   assert.equal(get('atrs_february_purchase').amount,9_900_000);
   assert.equal(get('atrs_february_purchase').parentFundingId,'atrs_january_funding');
   assert.equal(get('atrs_canceled_issuance').stage,'canceled');
+  assert.equal(get('atrs_canceled_issuance').effectiveDate,null);
+  assert.equal(data.sources.atrs_cancellation.date,'2026-02-03');
+  assert.equal(data.sources.atrs_cancellation.dateType,'account-as-of');
+  assert.equal(data.sources.apers_august_request.date,null);
+  assert.equal(data.sources.apers_august_request.receivedDate,'2026-09-09');
   assert.equal(get('treasury_processing').stage,'processing');
 });
 test('July composition is market value plus accrued income, not par or funding',()=>{
