@@ -17,9 +17,9 @@
     "url": "/assets/documents/apers-authorization-minutes-page-4.pdf",
     "category": "Alternate extract",
     "contextId": "apers-authorization-minutes-page-4",
-    "title": "apers authorization minutes page 4",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Earlier extract preserved for compatibility. Read the linked reviewed source record for the complete current context.",
+    "title": "APERS authorization: signed minutes, page 4",
+    "provenance": "Matched to the APERS FOIA production dated 2026-02-27; physical pdf page 4 of Minutes_IFC_05.15.25.pdf.",
+    "scope": "An earlier single-page extract of the signed Investment Finance Subcommittee minutes. The four-page reviewed source provides the meeting context.",
     "relatedSourceId": "apers_authorization",
     "reviewedPublicSha256": "b47bdda2e80da385488aa72d1cd0992ef584ee65b140cd8c654d4b25bd2eaafa"
   },
@@ -153,9 +153,9 @@
     "url": "/assets/documents/atrs-resolution-2025-22-pages-151-152.pdf",
     "category": "Alternate extract",
     "contextId": "atrs-resolution-2025-22-pages-151-152",
-    "title": "atrs resolution 2025 22 pages 151 152",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Earlier extract preserved for compatibility. Read the linked reviewed source record for the complete current context.",
+    "title": "ATRS Resolution 2025-22: unsigned board-packet copy",
+    "provenance": "Matched to the ATRS FOIA production dated 2025-07-03; physical pdf pages 151–152 of 06-02-25_BOT_Packet.pdf.",
+    "scope": "The unsigned resolution in the board packet. The executed resolution is published separately and supports the authorization account.",
     "relatedSourceId": "atrs_resolution",
     "reviewedPublicSha256": "0f4f2fb73e6defb6aad7fffbb8a1abd0a30b8fa12f77d43c4fa88f583029d2e0"
   },
@@ -163,36 +163,37 @@
     "url": "/assets/documents/berman-invokes-deceased-lowery-2023.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "berman-invokes-deceased-lowery-2023",
-    "title": "berman invokes deceased lowery 2023",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Berman’s account of Lowery’s interest, May 2023",
+    "provenance": "Matched to the TREASURY FOIA production dated 2025-09-23; physical pdf pages 50–51 of A-He COMBINED & REDACTED 9-22-25_Redacted_AO.pdf.",
+    "scope": "A seller’s account of a conversation with Treasurer Lowery, offered while pitching rates to Treasury staff.",
     "reviewedPublicSha256": "a3803c8a074d76117ffc69c2b9877d47fc62b67ce77b66888536d0e46572e87e"
   },
   {
     "url": "/assets/documents/berman-thank-you-apers-staff-2024.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "berman-thank-you-apers-staff-2024",
-    "title": "berman thank you apers staff 2024",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Berman’s thank-you and manager-introduction request to APERS",
+    "provenance": "Matched to the APERS FOIA production dated 2025-07-07; physical pdf page 26 of IB_FOIA_MAY_25_Reviewed.pdf.",
+    "scope": "Seller-authored follow-up to APERS staff, describing an Election Day visit and asking for introductions to fixed-income managers.",
     "reviewedPublicSha256": "a5f520b7f1ff39c21caab128851ba7a89400dc0581424840d368a2481ed602fc"
   },
   {
     "url": "/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "berman-thank-you-fecher-20m-pitch-2025",
-    "title": "berman thank you fecher 20m pitch 2025",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
-    "reviewedPublicSha256": "8b84adb2c17f1e0cda2295fad07c4e5b09aae42c6e301dabf9acf9d3b97e890b"
+    "title": "Berman’s April 2025 follow-up to Fecher and Treasury comparison",
+    "provenance": "Matched to the APERS FOIA production dated 2025-07-07; physical pdf pages 589–590 of IB_FOIA_MAY_25_Reviewed.pdf.",
+    "scope": "Berman’s report of encounters earlier that week and his use of a Treasury purchase claim in a pitch to APERS.",
+    "reviewedPublicSha256": "8b84adb2c17f1e0cda2295fad07c4e5b09aae42c6e301dabf9acf9d3b97e890b",
+    "relatedSourceId": "seller_reported_meetings"
   },
   {
     "url": "/assets/documents/berman-young-congratulations-milligan-2018.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "berman-young-congratulations-milligan-2018",
-    "title": "berman young congratulations milligan 2018",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Berman and Young congratulate Milligan after the 2018 election",
+    "provenance": "Matched to the TREASURY FOIA production dated 2025-09-23; physical pdf pages 19–21 of A-He COMBINED & REDACTED 9-22-25_Redacted_AO.pdf.",
+    "scope": "Historical correspondence between sellers and Milligan, including his November 8 reply.",
     "reviewedPublicSha256": "74eee40c25d9b22caa57dcc91eef1f306bb3bcb145641a48256a87e4d4858efe"
   },
   {
@@ -221,18 +222,18 @@
     "url": "/assets/documents/milligan-happy-to-help-internal-email-2025.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "milligan-happy-to-help-internal-email-2025",
-    "title": "milligan happy to help internal email 2025",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Internal Auditor email preparing Israel Bonds social copy",
+    "provenance": "Matched to the AUDITOR FOIA production dated 2025-06-25; physical pdf page 1 of Israel social.pdf.",
+    "scope": "Stacy Peterson’s internal email containing proposed social copy associated with Milligan.",
     "reviewedPublicSha256": "ae1ab4746a0dafdc4de3ad557f70257a13e3ba554a3588796c53e9340fda7339"
   },
   {
     "url": "/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "milligan-oct7-anniversary-berman-reply-2024",
-    "title": "milligan oct7 anniversary berman reply 2024",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Berman’s reply to Milligan’s October 7 anniversary message",
+    "provenance": "Matched to the AUDITOR FOIA production dated 2025-06-25; physical pdf pages 1–2 of RE A message from Arkansas Auditor Dennis Milligan.pdf.",
+    "scope": "A seller’s response to an Auditor message, preserved in the Auditor’s production.",
     "reviewedPublicSha256": "d00b0c4420cd328af5740f0fb1c06028b415de0e424edfb32dc8df86c8aa8fad"
   },
   {
@@ -255,9 +256,9 @@
     "url": "/assets/documents/private-economic-briefing-invitation-2025.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "private-economic-briefing-invitation-2025",
-    "title": "private economic briefing invitation 2025",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Invitation to a January 2025 Israel Bonds economic briefing",
+    "provenance": "Matched to the AUDITOR FOIA production dated 2025-06-25; physical pdf pages 1–2 of Isreal Bonds - Private & Exclusive Economic Briefing.pdf.",
+    "scope": "Calendar invitation and registration information for a planned online economic briefing.",
     "reviewedPublicSha256": "476b1425b8a11da972ed3836651ec04c8234845efb69e546005aa87b2b23cf85"
   },
   {
@@ -285,9 +286,9 @@
     "url": "/assets/documents/sfof-nominates-milligan-chair-2020.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "sfof-nominates-milligan-chair-2020",
-    "title": "sfof nominates milligan chair 2020",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Nomination of Milligan for SFOF national chair",
+    "provenance": "Matched to the TREASURY FOIA production dated 2026-02-19; physical pdf pages 307–308 of Redacted communications.pdf.",
+    "scope": "Kelly Mitchell’s nomination, with a quoted message about the 2021 officer-election process.",
     "reviewedPublicSha256": "7be5783b6ebfb23d496eadaaabcee0a0c1ec4a066e1e53926c5fb610d5b69403"
   },
   {
@@ -315,27 +316,27 @@
     "url": "/assets/documents/sovereign-bond-marketing-to-milligan-2025.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "sovereign-bond-marketing-to-milligan-2025",
-    "title": "sovereign bond marketing to milligan 2025",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Israel Bonds marketing email in Milligan’s mailbox",
+    "provenance": "Matched to the AUDITOR FOIA production dated 2025-06-25; physical pdf pages 1–3 of Strong Rates. Strategic Options. Invest in Israel.pdf.",
+    "scope": "The “Strong Rates. Strategic Options. Invest in Israel” marketing email preserved in the Auditor production.",
     "reviewedPublicSha256": "b4e0a0c7a963ec76a8f0948e4c4507cd24d48c9dedc248e68e8a8d531756f3c7"
   },
   {
     "url": "/assets/documents/sovereign-bond-purchase-confirmation-may2025.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "sovereign-bond-purchase-confirmation-may2025",
-    "title": "sovereign bond purchase confirmation may2025",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Treasury purchase confirmations: two May 2025 bonds",
+    "provenance": "Matched to the TREASURY FOIA production dated 2025-09-23; physical pdf pages 1–12 of Israel Purchase 05-01-2025_Redacted.pdf.",
+    "scope": "Two $10 million Treasury bond confirmations and supporting order, payment-instruction and investor materials. Treasury is a separate comparison account, outside the pension proposal.",
     "reviewedPublicSha256": "771c5a2cff1fdb485ac741cff1de361b9b57e8687512320cb98ef512a91368c1"
   },
   {
     "url": "/assets/documents/sovereign-bond-purchase-confirmation-nov2023.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "sovereign-bond-purchase-confirmation-nov2023",
-    "title": "sovereign bond purchase confirmation nov2023",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Treasury purchase confirmation: November 2023 bond",
+    "provenance": "Matched to the TREASURY FOIA production dated 2025-09-23; physical pdf pages 1–9 of Israel Purchase 11-01-2023_Redacted.pdf.",
+    "scope": "A $10 million Treasury bond confirmation with supporting order and payment material. This is historical Treasury context, separate from pension holdings.",
     "reviewedPublicSha256": "5c077bc09f1c9a2c8fd2767936ca495e6cfb3bad37b09c724c63675890d94561"
   },
   {
@@ -363,9 +364,9 @@
     "url": "/assets/documents/treasury-investment-policy-2022.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "treasury-investment-policy-2022",
-    "title": "treasury investment policy 2022",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "Treasury investment policy approved in February 2022",
+    "provenance": "Matched to the TREASURY FOIA production dated 2025-09-23; physical pdf pages 1–14 of 5-Investment-Policy-clean-2022-02-08-approved-by-SBF-2.pdf.",
+    "scope": "The 14-page historical Treasury investment policy supplied in the September 2025 production.",
     "reviewedPublicSha256": "0f140d32f7919c9a353fd91ba8dca85cbdca8499c3fab4c80bc6766842decc25"
   },
   {
@@ -386,18 +387,18 @@
     "url": "/assets/documents/walther-10m-purchase-news-coverage-2023.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "walther-10m-purchase-news-coverage-2023",
-    "title": "walther 10m purchase news coverage 2023",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "October 2023 news coverage of Walther’s $10 million purchase announcement",
+    "provenance": "Matched to the TREASURY FOIA production dated 2025-09-23; physical pdf pages 1–3 of Israel update 11-16-24.pdf.",
+    "scope": "An Arkansas Democrat-Gazette article preserved in a Treasury-produced compilation. It is secondary reporting, not an agency transaction record.",
     "reviewedPublicSha256": "b301bfe15e61466952c519b13041a367c11e3a1589a4bf73b98e8cf8bf6685c5"
   },
   {
     "url": "/assets/documents/white-foia-denial-december-2024.pdf",
     "category": "Supplemental historical evidence",
     "contextId": "white-foia-denial-december-2024",
-    "title": "white foia denial december 2024",
-    "provenance": "Preserved public artifact from the earlier website. Underlying original-file and production locators have not yet been reconstructed in this catalog.",
-    "scope": "Historical context. Use the reviewed agency dossiers for current claims; a filename date is not independent proof of an event date.",
+    "title": "ATRS December 2024 request, specificity response and clarification chain",
+    "provenance": "Matched to the ATRS FOIA production dated 2025-06-18; physical pdf pages 5–10 of Emails1.pdf.",
+    "scope": "Request and response correspondence in which Mark White asked for a more specific description and supplied investment information.",
     "reviewedPublicSha256": "9ea9d80c037741c004785a03a8b3d188d2cbc8ec20d75563bdd931327354d17b"
   }
 ]

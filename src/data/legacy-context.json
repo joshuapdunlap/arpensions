@@ -1,0 +1,377 @@
+{
+  "apers-authorization-minutes-page-4": {
+    "originalFile": "Minutes_IFC_05.15.25.pdf",
+    "production": "APERS FOIA production, 2026-02-27",
+    "originalLocator": "Physical PDF page 4",
+    "originalPages": [
+      4
+    ],
+    "originalSha256": "bc2d445fd48d6938d623b38de4942c7da31e583b1c28a81ae555b8293c9c4d5a",
+    "reviewedPublicSha256": "b47bdda2e80da385488aa72d1cd0992ef584ee65b140cd8c654d4b25bd2eaafa",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Source content and page locator checked against the original. This earlier derivative changes the page canvas and includes campaign-added footer material.",
+    "dateLabel": "Meeting: May 15, 2025",
+    "readerNotes": [
+      "The extract records approval of an Israel Bonds investment recommendation. Authorization is a decision stage; it does not establish the later purchase date or the September 2026 custody amount.",
+      "This earlier derivative includes a campaign-added footer. Read the linked four-page source for the reviewed authorization account."
+    ]
+  },
+  "atrs-resolution-2025-22-pages-151-152": {
+    "originalFile": "06-02-25_BOT_Packet.pdf",
+    "production": "ATRS FOIA production, 2025-07-03",
+    "originalLocator": "Physical PDF pages 151–152",
+    "originalPages": [
+      151,
+      152
+    ],
+    "originalSha256": "311fdcacb29f286bd068858eceb88bf875adc5bf27bba386aad7eee60010e906",
+    "reviewedPublicSha256": "0f4f2fb73e6defb6aad7fffbb8a1abd0a30b8fa12f77d43c4fa88f583029d2e0",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Source content and page locator checked against the original. This earlier derivative changes the page canvas and includes campaign-added footer material.",
+    "dateLabel": "Board packet: June 2, 2025",
+    "readerNotes": [
+      "These pages describe the proposed non-tradable fixed-income mandate and manager implementation. The signature area in this packet copy is blank.",
+      "The earlier extract includes campaign-added footers. Use the linked executed resolution to verify the signed Board action; neither version alone proves funding or a completed bond purchase."
+    ]
+  },
+  "berman-invokes-deceased-lowery-2023": {
+    "originalFile": "A-He COMBINED & REDACTED 9-22-25_Redacted_AO.pdf",
+    "production": "TREASURY FOIA production, 2025-09-23",
+    "originalLocator": "Physical PDF pages 50–51",
+    "originalPages": [
+      50,
+      51
+    ],
+    "originalSha256": "5700553205b211b59605c0aac1a7b2055c12531403b5e9b540df5d96a1a4e2fd",
+    "reviewedPublicSha256": "a3803c8a074d76117ffc69c2b9877d47fc62b67ce77b66888536d0e46572e87e",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Message: May 31, 2023; forwarded June 2, 2023",
+    "readerNotes": [
+      "Larry Berman described a conversation at an SFOF conference and attributed an interest in reinvestment to Lowery, conditional on a solid return. This is Berman’s account, not an independently recorded instruction from Lowery.",
+      "The message pitches a three-year Jubilee yield of 5.10% and a two-year yield of 4.91%. Those are offered rates in a May 2023 message, not proof of an executed transaction.",
+      "The old download filename is preserved for existing links. Its wording is not used to establish the chronology of Lowery’s death."
+    ]
+  },
+  "berman-thank-you-apers-staff-2024": {
+    "originalFile": "IB_FOIA_MAY_25_Reviewed.pdf",
+    "production": "APERS FOIA production, 2025-07-07",
+    "originalLocator": "Physical PDF page 26",
+    "originalPages": [
+      26
+    ],
+    "originalSha256": "39dea6dc55602a586bd25326f27999b65e89553db984badaf5541ff3bc85767e",
+    "reviewedPublicSha256": "a5f520b7f1ff39c21caab128851ba7a89400dc0581424840d368a2481ed602fc",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Message: November 7, 2024",
+    "readerNotes": [
+      "Berman thanked Carlos and Ashley for time with him and Brad on Election Day. He asked for initial manager conversations, preferably meetings in December, ahead of expected January coupons.",
+      "The message documents the seller’s account and request. The requested manager meetings and any subsequent acquisition require separate evidence."
+    ]
+  },
+  "berman-thank-you-fecher-20m-pitch-2025": {
+    "originalFile": "IB_FOIA_MAY_25_Reviewed.pdf",
+    "production": "APERS FOIA production, 2025-07-07",
+    "originalLocator": "Physical PDF pages 589–590",
+    "originalPages": [
+      589,
+      590
+    ],
+    "originalSha256": "39dea6dc55602a586bd25326f27999b65e89553db984badaf5541ff3bc85767e",
+    "reviewedPublicSha256": "8b84adb2c17f1e0cda2295fad07c4e5b09aae42c6e301dabf9acf9d3b97e890b",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Message: April 17, 2025",
+    "readerNotes": [
+      "Berman thanked Amy Fecher for a meeting, offered a Board or staff presentation, and invoked a $20 million Treasury investment while asking APERS to consider the product.",
+      "The encounter and Treasury-purchase assertions are attributed to the seller. This email alone does not prove settlement on April 17 or establish that Treasury’s action caused a pension-system decision."
+    ]
+  },
+  "berman-young-congratulations-milligan-2018": {
+    "originalFile": "A-He COMBINED & REDACTED 9-22-25_Redacted_AO.pdf",
+    "production": "TREASURY FOIA production, 2025-09-23",
+    "originalLocator": "Physical PDF pages 19–21",
+    "originalPages": [
+      19,
+      20,
+      21
+    ],
+    "originalSha256": "5700553205b211b59605c0aac1a7b2055c12531403b5e9b540df5d96a1a4e2fd",
+    "reviewedPublicSha256": "74eee40c25d9b22caa57dcc91eef1f306bb3bcb145641a48256a87e4d4858efe",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Messages: November 7–8, 2018",
+    "readerNotes": [
+      "The chain records congratulatory messages and a reply in Milligan’s Treasury tenure. It helps date the professional relationship.",
+      "It does not establish a later pension authorization, financial analysis or monetary transfer."
+    ]
+  },
+  "milligan-happy-to-help-internal-email-2025": {
+    "originalFile": "Israel social.pdf",
+    "production": "AUDITOR FOIA production, 2025-06-25",
+    "originalLocator": "Physical PDF page 1",
+    "originalPages": [
+      1
+    ],
+    "originalSha256": "ae1ab4746a0dafdc4de3ad557f70257a13e3ba554a3588796c53e9340fda7339",
+    "reviewedPublicSha256": "ae1ab4746a0dafdc4de3ad557f70257a13e3ba554a3588796c53e9340fda7339",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Internal message: April 14, 2025",
+    "readerNotes": [
+      "The internal message contains the proposed “happy to help” language. It is evidence of communications preparation.",
+      "The record does not by itself establish that the social post was published, or that any pension investment was authorized."
+    ]
+  },
+  "milligan-oct7-anniversary-berman-reply-2024": {
+    "originalFile": "RE A message from Arkansas Auditor Dennis Milligan.pdf",
+    "production": "AUDITOR FOIA production, 2025-06-25",
+    "originalLocator": "Physical PDF pages 1–2",
+    "originalPages": [
+      1,
+      2
+    ],
+    "originalSha256": "d00b0c4420cd328af5740f0fb1c06028b415de0e424edfb32dc8df86c8aa8fad",
+    "reviewedPublicSha256": "d00b0c4420cd328af5740f0fb1c06028b415de0e424edfb32dc8df86c8aa8fad",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Reply: October 7, 2024",
+    "readerNotes": [
+      "The email chain shows the public-message context and Berman’s reply. It is historical relationship evidence.",
+      "It contains no pension acquisition instruction and is not a financial decision memo."
+    ]
+  },
+  "private-economic-briefing-invitation-2025": {
+    "originalFile": "Isreal Bonds - Private & Exclusive Economic Briefing.pdf",
+    "production": "AUDITOR FOIA production, 2025-06-25",
+    "originalLocator": "Physical PDF pages 1–2",
+    "originalPages": [
+      1,
+      2
+    ],
+    "originalSha256": "476b1425b8a11da972ed3836651ec04c8234845efb69e546005aa87b2b23cf85",
+    "reviewedPublicSha256": "476b1425b8a11da972ed3836651ec04c8234845efb69e546005aa87b2b23cf85",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Scheduled briefing: January 15, 2025, 10:30–11:30 a.m.",
+    "readerNotes": [
+      "The scheduled time appears in the invitation. Its presence in the calendar production establishes an invitation record.",
+      "An invitation, registration link or calendar entry is not confirmation of attendance or proof that the briefing occurred as planned."
+    ]
+  },
+  "sfof-nominates-milligan-chair-2020": {
+    "originalFile": "Redacted communications.pdf",
+    "production": "TREASURY FOIA production, 2026-02-19",
+    "originalLocator": "Physical PDF pages 307–308",
+    "originalPages": [
+      307,
+      308
+    ],
+    "originalSha256": "6f673fe27e09efcdad0c39242addf39d53fb2d845a6fcd5373856eab7f97defd",
+    "reviewedPublicSha256": "7be5783b6ebfb23d496eadaaabcee0a0c1ec4a066e1e53926c5fb610d5b69403",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Nomination message: July 1, 2020",
+    "readerNotes": [
+      "The July 1 message nominates Milligan for national chair. The quoted administrative message describes elections planned for September 30, 2020.",
+      "A nomination does not establish the election result. This correspondence does not document a financial flow or a pension investment decision."
+    ]
+  },
+  "sovereign-bond-marketing-to-milligan-2025": {
+    "originalFile": "Strong Rates. Strategic Options. Invest in Israel.pdf",
+    "production": "AUDITOR FOIA production, 2025-06-25",
+    "originalLocator": "Physical PDF pages 1–3",
+    "originalPages": [
+      1,
+      2,
+      3
+    ],
+    "originalSha256": "b4e0a0c7a963ec76a8f0948e4c4507cd24d48c9dedc248e68e8a8d531756f3c7",
+    "reviewedPublicSha256": "b4e0a0c7a963ec76a8f0948e4c4507cd24d48c9dedc248e68e8a8d531756f3c7",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Marketing message: May 29, 2025",
+    "readerNotes": [
+      "The production preserves the marketing message and its investment solicitation. The record can establish the message’s content and mailbox context.",
+      "Delivery to a mailbox does not establish readership, endorsement or an investment decision. Offered rates are dated marketing information."
+    ]
+  },
+  "sovereign-bond-purchase-confirmation-may2025": {
+    "originalFile": "Israel Purchase 05-01-2025_Redacted.pdf",
+    "production": "TREASURY FOIA production, 2025-09-23",
+    "originalLocator": "Physical PDF pages 1–12",
+    "originalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "originalSha256": "f3f0c58270f008fc789c8a1e15a7b15cb90f1ba68f69f65abddaf463fb832718",
+    "reviewedPublicSha256": "771c5a2cff1fdb485ac741cff1de361b9b57e8687512320cb98ef512a91368c1",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every source page visually reviewed. Page images match the original outside the documented account-field redactions; other source pages are unchanged. OCR and PDF packaging may differ.",
+    "dateLabel": "Bond issue dates: May 1, 2025; supporting correspondence: April 2025",
+    "readerNotes": [
+      "Pages 1 and 2 identify the two bonds below. Their $20 million combined face amount is a calculation from two confirmation records, not a separate pension holding.",
+      "The packet also contains customer requests (pages 3–4), payment instructions (page 5), April 16 order correspondence (pages 6–9), and investor-certification material (pages 10–12). These documents have different dates and functions.",
+      "Account fields have been removed from the public derivative. This table preserves the material security fields; it omits account, address, signature and administrative information. Historical confirmations do not establish present-day ownership."
+    ],
+    "table": {
+      "caption": "Security fields transcribed from the May 2025 confirmation pages",
+      "headers": [
+        "Public PDF page",
+        "Face amount (USD)",
+        "CUSIP",
+        "Coupon",
+        "Issue date",
+        "Maturity date"
+      ],
+      "rows": [
+        [
+          "1",
+          "$10,000,000",
+          "46514X2P3",
+          "4.66%",
+          "May 1, 2025",
+          "May 1, 2028"
+        ],
+        [
+          "2",
+          "$10,000,000",
+          "46514X3P2",
+          "5.17%",
+          "May 1, 2025",
+          "May 1, 2030"
+        ]
+      ]
+    }
+  },
+  "sovereign-bond-purchase-confirmation-nov2023": {
+    "originalFile": "Israel Purchase 11-01-2023_Redacted.pdf",
+    "production": "TREASURY FOIA production, 2025-09-23",
+    "originalLocator": "Physical PDF pages 1–9",
+    "originalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "originalSha256": "e31a3c2ad73f736fbcb4d37f06c3170d34345c3c4c8b8bb7bb423357e6e15b27",
+    "reviewedPublicSha256": "5c077bc09f1c9a2c8fd2767936ca495e6cfb3bad37b09c724c63675890d94561",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every source page visually reviewed. Page images match the original outside the documented account-field redactions; other source pages are unchanged. OCR and PDF packaging may differ.",
+    "dateLabel": "Bond issue date: November 1, 2023; order correspondence: October 2023",
+    "readerNotes": [
+      "Page 1 identifies the bond below. The packet also includes offered rates, investor-certification material and October 24 purchase-planning correspondence.",
+      "Page 9 is an outgoing-payments report run November 1, 2023. It records $10 million, a November 1 value date and the status “Processing By Bank.” That status does not independently prove completed settlement. The confirmation on page 1 is a different document.",
+      "The public derivative removes an account field. This selected table omits account, address, signature and administrative details and does not establish current ownership."
+    ],
+    "table": {
+      "caption": "Security fields transcribed from the November 2023 confirmation",
+      "headers": [
+        "Public PDF page",
+        "Face amount (USD)",
+        "CUSIP",
+        "Coupon",
+        "Issue date",
+        "Maturity date"
+      ],
+      "rows": [
+        [
+          "1",
+          "$10,000,000",
+          "46514AM22",
+          "5.40%",
+          "November 1, 2023",
+          "November 1, 2026"
+        ]
+      ]
+    }
+  },
+  "treasury-investment-policy-2022": {
+    "originalFile": "5-Investment-Policy-clean-2022-02-08-approved-by-SBF-2.pdf",
+    "production": "TREASURY FOIA production, 2025-09-23",
+    "originalLocator": "Physical PDF pages 1–14",
+    "originalPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "originalSha256": "0f140d32f7919c9a353fd91ba8dca85cbdca8499c3fab4c80bc6766842decc25",
+    "reviewedPublicSha256": "0f140d32f7919c9a353fd91ba8dca85cbdca8499c3fab4c80bc6766842decc25",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Policy approval date shown: February 8, 2022",
+    "readerNotes": [
+      "This is the policy version identified by its February 8, 2022 approval date. It provides historical context for Treasury investment administration.",
+      "Treasury funds and pension-system assets have separate governance. This file is not the pension proposal, a pension-system policy, or certification of the law or Treasury policy currently in effect."
+    ]
+  },
+  "walther-10m-purchase-news-coverage-2023": {
+    "originalFile": "Israel update 11-16-24.pdf",
+    "production": "TREASURY FOIA production, 2025-09-23",
+    "originalLocator": "Physical PDF pages 1–3",
+    "originalPages": [
+      1,
+      2,
+      3
+    ],
+    "originalSha256": "b301bfe15e61466952c519b13041a367c11e3a1589a4bf73b98e8cf8bf6685c5",
+    "reviewedPublicSha256": "b301bfe15e61466952c519b13041a367c11e3a1589a4bf73b98e8cf8bf6685c5",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Article date: October 28, 2023",
+    "readerNotes": [
+      "The article reports the announced $10 million Treasury investment and its public explanation. Use the separate confirmation and financial records to verify transaction terms and stages.",
+      "The original compilation filename includes November 16, 2024; that is not the article’s publication date. The article’s own header identifies October 28, 2023."
+    ]
+  },
+  "white-foia-denial-december-2024": {
+    "originalFile": "Emails1.pdf",
+    "production": "ATRS FOIA production, 2025-06-18",
+    "originalLocator": "Physical PDF pages 5–10",
+    "originalPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "originalSha256": "873f4438e94a8f6561136e9d4198d63fbe7fd69f7b2a2d8fa13783d383df4fb4",
+    "reviewedPublicSha256": "9ea9d80c037741c004785a03a8b3d188d2cbc8ec20d75563bdd931327354d17b",
+    "reviewedAt": "2026-09-16",
+    "reviewMethod": "Every published page matches the corresponding original page when rendered at 72 dpi. OCR and PDF packaging may differ; the original-file and public-file hashes identify separate artifacts.",
+    "dateLabel": "Correspondence: December 5–10, 2024",
+    "readerNotes": [
+      "In the December 6 reply, White said the request was not sufficiently specific to locate records with reasonable effort. He also said he had created a list of investments directly held by ATRS in Israel-based companies as of November 1 and invited clarification.",
+      "This is a bounded response to that request. It is not a blanket statement that ATRS had no records or no investments. The summary does not adjudicate whether the response complied with FOIA.",
+      "This readable summary omits requester identity, contact information, quoted repetitions and signatures. The supplied PDF retains the historical correspondence and agency redactions."
+    ]
+  }
+}

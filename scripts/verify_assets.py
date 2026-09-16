@@ -1,6 +1,6 @@
 """Verify immutable downloads, reviewed exhibit hashes, previews, briefs and QR codes."""
 from pathlib import Path
-import argparse,hashlib,json,sys
+import argparse,hashlib,json,sys,re
 from urllib.request import Request,urlopen
 import fitz,zxingcpp
 from PIL import Image
@@ -13,6 +13,22 @@ def main():
     contract=json.loads((ROOT/'tests/fixtures/compatibility.json').read_text())
     manifest=json.loads((ROOT/'src/data/campaign-assets.json').read_text(encoding='utf-8'))
     catalog=json.loads((ROOT/'src/data/download-catalog.json').read_text(encoding='utf-8'))
+    legacy=json.loads((ROOT/'src/data/legacy-context.json').read_text(encoding='utf-8'))
+    expected_legacy={item['contextId'] for item in catalog if item['category'] in ('Alternate extract','Supplemental historical evidence')}
+    if set(legacy)!=expected_legacy:errors.append('Every legacy evidence extract must have exactly one verified original context')
+    for item in catalog:
+        context=legacy.get(item['contextId'])
+        if not context:continue
+        for field in ('originalFile','production','originalLocator','originalPages','reviewedAt','reviewMethod','dateLabel','readerNotes'):
+            if not context.get(field):errors.append(f'Legacy context lacks {field}: {item["url"]}')
+        if not re.fullmatch(r'[a-f0-9]{64}',context.get('originalSha256','')):errors.append(f'Legacy source fingerprint is invalid: {item["url"]}')
+        if context.get('reviewedPublicSha256')!=item.get('reviewedPublicSha256'):errors.append(f'Legacy context and reviewed artifact diverge: {item["url"]}')
+        if '/' in context.get('originalFile','') or '\\' in context.get('originalFile',''):errors.append(f'Legacy original filename must not expose local paths: {item["url"]}')
+        with fitz.open(ROOT/'public'/item['url'].lstrip('/')) as pdf:
+            pages=context.get('originalPages',[])
+            if len(pages)!=len(pdf) or any(not isinstance(page,int) or page<1 for page in pages):errors.append(f'Legacy original page mapping is invalid: {item["url"]}')
+        table=context.get('table')
+        if table and (not table.get('caption') or not table.get('headers') or not table.get('rows') or any(len(row)!=len(table['headers']) for row in table['rows'])):errors.append(f'Legacy security table is malformed: {item["url"]}')
     actual_downloads={'/assets/documents/'+p.name for p in (ROOT/'public/assets/documents').iterdir() if p.suffix in ('.pdf','.txt')}
     catalog_urls=[item['url'] for item in catalog]
     if len(catalog_urls)!=len(set(catalog_urls)) or set(catalog_urls)!=actual_downloads:errors.append('Download catalog must cover each public PDF and TXT exactly once')

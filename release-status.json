@@ -1,20 +1,20 @@
 {
-  "release": "confirmation-privacy-completion-2026-09-16",
+  "release": "legacy-provenance-and-drafting-2026-09-16",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
   "petitionVerifiedBy": "Codex, acting on Joshua’s explicit instruction",
-  "publicationApproved": true,
-  "approvedBy": "Joshua Dunlap authorized deployment and continued implementation of confirmed fixes on September 16, 2026; this narrowly scoped follow-through removes the remaining visible account field from the same historical confirmation.",
-  "approvedSourceDigest": "9f9e753e4c9b4801a91e68bad04f86f530128be625250c53b2d59a0d7aab9c10",
-  "notes": "Minimal privacy completion discovered during the authorized post-deployment audit follow-through. May confirmation page 2 is redacted, with a visual regression guard and documented prior hashes. The completed e1360b8 deployment is recorded under lastDeployment. Separate provenance, accessibility and legislative-development work is not part of this release.",
+  "publicationApproved": false,
+  "approvedBy": null,
+  "approvedSourceDigest": null,
+  "notes": "Follow-through candidate after the authorized privacy completion. Provenance, readable historical context and drafting working papers are under review; no new release approval is assumed.",
   "lastDeployment": {
-    "release": "expanded-audit-2026-09-16",
-    "commit": "e1360b8f4414926febc277ea6d6cef8112f4020e",
-    "sourceDigest": "1b46a4711191b4a08971a41d2e4cd2821d0d6e2f6be0338ecb454d2471f6ffaa",
-    "publishedAt": "2026-09-16T19:23:48Z",
-    "verifiedAt": "2026-09-16T19:24:27.734286+00:00",
-    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/35140199770",
-    "record": "docs/releases/2026-09-16-audit-fixes.md",
+    "release": "confirmation-privacy-completion-2026-09-16",
+    "commit": "1237d0cd6aeacd4ac68fa2247904610bd30fb8b9",
+    "sourceDigest": "9f9e753e4c9b4801a91e68bad04f86f530128be625250c53b2d59a0d7aab9c10",
+    "publishedAt": "2026-09-16T19:50:16Z",
+    "verifiedAt": "2026-09-16T19:51:50.514721+00:00",
+    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/35142844123",
+    "record": "docs/releases/2026-09-16-privacy-completion.md",
     "status": "deployed-and-verified"
   }
 }
