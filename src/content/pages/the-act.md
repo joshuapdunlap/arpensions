@@ -1,7 +1,7 @@
 ---
 title: The Pension Investment Integrity Act
-description: The proposed safeguards, coverage questions, official calendar and request
-  for legislative support.
+description: How the proposed pension safeguards would work with outside managers and pooled
+  funds, with responsibilities, public records and next drafting steps.
 permalink: /the-act/
 template: policy
 sourceIds:
@@ -27,11 +27,11 @@ According to Arkansans for Pension Integrity's June 27, 2026 convention record, 
 
 For covered pension acquisitions of **non-tradable sovereign debt**, the proposal would require:
 
-1. A written credit analysis before acquisition.
+1. A written credit analysis before the binding commitment to a covered investment.
 2. A comparison with reasonably available alternatives on risk, expected return and liquidity.
 3. A plain-language explanation of transfer restrictions and limited marketability.
 4. A written financial determination connecting the decision to members' interests and portfolio fit.
-5. Public posting of the core analysis and determination within 30 days after a covered acquisition.
+5. Public posting of the core analysis and determination within 30 calendar days of that commitment, with settlement status identified.
 
 ## Why the records make the case
 
@@ -41,11 +41,34 @@ Aon supplied substantive manager-selection and implementation advice. The reform
 
 ## Scope and design
 
-The proposal is prospective and issuer-neutral. Staff or an independent adviser could prepare the financial work; trustees would be responsible for the written fiduciary finding and investment judgment. The intended coverage is Arkansas pension benefit plans, including ATRS, APERS, ASHERS, ASPRS, AJRS and LOPFI. Trustees would retain the final buy, hold or sell decision. The separately governed State Treasury is a comparison, not a covered pension plan under this proposal.
+The proposal is prospective and issuer-neutral. Intended coverage includes ATRS, APERS, ASHERS, ASPRS, AJRS and LOPFI. Trustees would set investment policy, approve the limits given to outside managers and oversee compliance. A manager could make covered purchases within that approved authority, with a written financial case for each purchase. The pension system would remain responsible for publishing the record. The State Treasury is separately governed and outside this pension proposal.
 
-Bill drafting must resolve **manager coverage**: when a separate-account manager acquires a covered security, who prepares the analysis, who signs the determination and what triggers public posting? An authorization or transfer to a manager should not be mistaken for the underlying security acquisition. Pooled investment vehicles also require a clear, workable coverage definition. These are drafting questions, not settled statutory text.
+The September 16 campaign proposal specifies four arrangements:
 
-Publication would follow acquisition, within 30 days. Narrow, explained redactions may protect legally confidential account, operational or proprietary details. The public should still receive the amount, acquisition date, credit conclusion, material risks, alternatives and liquidity comparison, and financial determination.
+| Who makes the investment? | What the proposal would require |
+|---|---|
+| The pension board buys directly | Qualified staff or an adviser prepares the analysis; the authorized decision-maker approves the financial finding before committing. |
+| An outside manager runs a separate pension account | The board sets the mandate: permitted investments and financial limits. The manager documents each covered purchase and certifies that it fits those limits. |
+| Pension systems share a pool they control | One shared analysis, with each system's allocation, portfolio fit and responsible official identified separately. |
+| A pension system joins an external fund | Review the commitment to that fund, including permitted covered exposure, fees, liquidity, alternatives and reporting rights. Report known underlying exposure over time. |
+
+A controlled investment sleeve or a vehicle primarily created to hold covered debt would remain subject to underlying-investment requirements. Fund structure alone should not create an exemption. Incidental exposure in a genuinely external diversified fund would receive fund-level review and reporting, with information gaps disclosed.
+
+These are campaign design choices for legal drafting. They do not establish current legal duties or show that the coalition has separately adopted these details. [Read how the proposed rules would work](/the-act/how-it-works/).
+
+## Who prepares the record, and when?
+
+Qualified investment staff, a retained adviser or the outside manager could prepare the analysis. The record would name its author and approving authority and disclose relevant conflicts. Initial mandates, new issuers and material changes would receive substantive review independent of the issuer and seller. Existing research could be reused, with purchase-specific terms and material changes checked before each commitment.
+
+The analysis and financial finding would precede the **binding commitment**: the order or agreement that commits the system to the covered investment. The proposed publication clock would be **30 calendar days from that commitment**, with settlement, cancellation or other later status shown accurately. A transfer of cash to a manager is not itself the underlying bond purchase. For a genuinely external fund, review would attach to the covered fund commitment.
+
+The pension system would publish the amount, commitment date, credit conclusion, material risks, alternatives, liquidity comparison and financial determination. Narrow, explained redactions could protect legally confidential details while keeping the reasoning understandable. Exact definitions and contract-delivery deadlines still need legal drafting.
+
+## Compliance and costs
+
+The pension system would name a compliance official and publish missing or late records. A late posting could be corrected; a purchase made without prior analysis would require a violation report and corrective action. The proposal calls for contractual manager duties, audit oversight and escalation for repeated failures. Counsel must resolve the available remedies. It does not call for automatic liquidation because of a paperwork delay.
+
+Shared research, standard forms and existing advisers would reduce duplication. Staff time, contract changes, outside fees and oversight still cost money. Agency estimates and an official fiscal assessment are needed; no zero-cost claim is made.
 
 ## Legislative calendar
 
@@ -53,6 +76,6 @@ The official calendar lists **November 16, 2026** for prefiling, **January 11, 2
 
 ## Legislative ask
 
-Request a source and drafting briefing, help resolve manager coverage, and consider sponsoring the proposal for the 2027 regular session. Ask for a consistent public procedure while preserving trustees' responsibility for investment decisions.
+Request a source and drafting briefing, review the proposed manager and pooled-fund rules, and consider sponsorship for the 2027 regular session. Trustees would retain policy and oversight responsibility while qualified managers could trade within approved limits.
 
 [Print the one-page brief](/legislators/one-page/) · [Request a briefing](mailto:info@arpensions.org?subject=Pension%20Investment%20Integrity%20Act%20briefing) · [Review agency dossiers](/evidence/).

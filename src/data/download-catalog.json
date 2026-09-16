@@ -212,11 +212,11 @@
   },
   {
     "url": "/assets/documents/legislator-letter-2026-09-15.txt",
-    "category": "Campaign material",
+    "category": "Historical campaign materials",
     "contextId": "legislator-letter-2026-09-15",
     "title": "legislator letter 2026 09 15",
     "provenance": "Campaign-authored material, not an agency record.",
-    "scope": "Current proposal briefing or letter. Generated from the shared approved campaign content; statutory drafting remains unresolved."
+    "scope": "September 15 campaign version, preserved unchanged. Superseded for current outreach by the September 16 manager and pooled-fund proposal."
   },
   {
     "url": "/assets/documents/milligan-happy-to-help-internal-email-2025.pdf",
@@ -246,11 +246,11 @@
   },
   {
     "url": "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf",
-    "category": "Campaign material",
+    "category": "Historical campaign materials",
     "contextId": "pension-investment-integrity-act-brief-2026-09-15",
     "title": "pension investment integrity act brief 2026 09 15",
     "provenance": "Campaign-authored material, not an agency record.",
-    "scope": "Current proposal briefing or letter. Generated from the shared approved campaign content; statutory drafting remains unresolved."
+    "scope": "September 15 campaign version, preserved unchanged. Superseded for current outreach by the September 16 manager and pooled-fund proposal."
   },
   {
     "url": "/assets/documents/private-economic-briefing-invitation-2025.pdf",
@@ -400,5 +400,21 @@
     "provenance": "Matched to the ATRS FOIA production dated 2025-06-18; physical pdf pages 5–10 of Emails1.pdf.",
     "scope": "Request and response correspondence in which Mark White asked for a more specific description and supplied investment information.",
     "reviewedPublicSha256": "9ea9d80c037741c004785a03a8b3d188d2cbc8ec20d75563bdd931327354d17b"
+  },
+  {
+    "url": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf",
+    "category": "Current campaign materials",
+    "contextId": "pension-investment-integrity-act-brief-2026-09-16",
+    "title": "Pension Investment Integrity Act: September 16, 2026 brief",
+    "provenance": "Generated from the September 16 campaign proposal and reviewed public evidence. Campaign material, not an agency record.",
+    "scope": "Current operating proposal: manager duties, controlled pools, external funds and publication responsibility. Legal drafting and fiscal review remain pending."
+  },
+  {
+    "url": "/assets/documents/legislator-letter-2026-09-16.txt",
+    "category": "Current campaign materials",
+    "contextId": "legislator-letter-2026-09-16",
+    "title": "Legislator letter: September 16, 2026",
+    "provenance": "Generated from the September 16 campaign proposal and reviewed public evidence. Campaign material, not an agency record.",
+    "scope": "Current operating proposal: manager duties, controlled pools, external funds and publication responsibility. Legal drafting and fiscal review remain pending."
   }
 ]

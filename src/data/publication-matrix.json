@@ -26,7 +26,8 @@
       "/take-action/",
       "/the-act/",
       "/the-issue/",
-      "/evidence/treasury/"
+      "/evidence/treasury/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
     ],
     "surfaces": [
       {
@@ -152,6 +153,10 @@
       {
         "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
       }
     ]
   },
@@ -599,7 +604,8 @@
       "/public-employees/",
       "/take-action/",
       "/the-act/",
-      "/the-issue/"
+      "/the-issue/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
     ],
     "surfaces": [
       {
@@ -753,6 +759,10 @@
       {
         "kind": "page-metadata-and-social-card",
         "location": "/assets/images/social-cards/the-issue.png"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
       }
     ]
   },
@@ -840,7 +850,8 @@
       "/take-action/",
       "/the-act/",
       "/the-issue/",
-      "/evidence/treasury/"
+      "/evidence/treasury/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
     ],
     "surfaces": [
       {
@@ -982,6 +993,10 @@
       {
         "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
       }
     ]
   },
@@ -1016,7 +1031,8 @@
       "/take-action/",
       "/the-act/",
       "/the-issue/",
-      "/evidence/treasury/"
+      "/evidence/treasury/",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
     ],
     "surfaces": [
       {
@@ -1174,6 +1190,10 @@
       {
         "kind": "page-or-public-asset",
         "location": "/evidence/treasury/"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
       }
     ]
   },

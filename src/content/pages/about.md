@@ -5,8 +5,8 @@ description: Our mission, research practice and campaign for transparent pension
 permalink: /about/
 template: article
 sourceIds: []
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-16'
+updatedAt: '2026-09-16'
 ---
 
 
@@ -22,7 +22,7 @@ We explain public records, publish source exhibits, organize pension members and
 
 ## What we are asking for
 
-We seek prospective, issuer-neutral safeguards: written financial analysis before a covered acquisition and public posting of the core decision record within 30 days afterward. Trustees would retain investment decisions. [Read the proposal](/legislators/).
+We seek prospective, issuer-neutral safeguards: written financial analysis before a binding commitment to a covered investment and publication within 30 calendar days of that commitment. Trustees would set policy and oversee managers operating within approved limits. [Read the proposal](/legislators/).
 
 ## How we publish
 

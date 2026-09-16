@@ -40,6 +40,8 @@ npm run preview
 
 Read [the validation report](validation-report.md), then review the actual static candidate. Record browser checks at mobile 320/390/768 and desktop 1280/1536 widths, in both themes. Include keyboard focus, reduced motion, no-JavaScript reading, search, source filters/previews, print, action fallbacks and old routes/fragments. Check PDFs, text downloads, metadata, sitemap and RSS. Resolve material failures before approval.
 
+For a new dated campaign brief, first update `src/data/campaign.json`, current download links and the download catalog. Preserve earlier dated files and label them historical. With the authoring dependencies installed, run `python scripts/generate_campaign_assets.py --brief-only` to create the new PDF and letter before the catalog build reads them; then run `npm exec -- astro build`, the full `python scripts/generate_campaign_assets.py`, and `npm run validate`. The full generator refreshes social cards and provenance. Render and inspect the new PDF before publication. Ordinary CI builds continue to use the checked-in approved assets.
+
 CI uploads `arpensions-static-candidate` with 30-day retention. CI artifacts and local ZIPs support review; neither establishes publication. The build needs no local evidence vault.
 
 ## Joshua aligns the external petition

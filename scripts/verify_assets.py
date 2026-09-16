@@ -98,12 +98,14 @@ def main():
     if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 × 630')
     qr=ROOT/'public/assets/images/campaign-qr.png'
     if not qr.exists() or 'https://arpensions.org/go/' not in [r.text for r in zxingcpp.read_barcodes(Image.open(qr))]:errors.append('New QR must use owned /go/ destination')
-    brief=ROOT/'public/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf'
+    campaign=json.loads((ROOT/'src/data/campaign.json').read_text(encoding='utf-8'))
+    brief=ROOT/f'public/assets/documents/pension-investment-integrity-act-brief-{campaign["date"]}.pdf'
     if not brief.exists():errors.append('Current campaign brief missing')
     else:
         with fitz.open(brief) as pdf:
+            if len(pdf)!=1:errors.append('Current one-page campaign brief must have exactly one page')
             text=' '.join(' '.join(page.get_text() for page in pdf).split())
-            for token in ('$25','$9.9','January 2','non-tradable sovereign debt','30 days'):
+            for token in ('$25','$9.9','January 2','non-tradable sovereign debt','30 calendar days','Controlled pools','External funds',campaign['date']):
                 if token not in text:errors.append(f'Current brief missing {token}')
     if args.live:
         try:

@@ -50,7 +50,7 @@ The narrower question is what decision-specific credit, alternatives, liquidity 
 
 ## A practical safeguard
 
-The [Pension Investment Integrity Act proposal](/legislators/) would require the financial work before a covered pension acquisition and public posting afterward. Trustees would retain the investment decision.
+The [Pension Investment Integrity Act proposal](/legislators/) would require financial work before a binding commitment to a covered investment and publication within 30 calendar days of that commitment. Trustees would set policy and oversee managers trading within approved limits. [How managers and pooled funds would be covered](/the-act/how-it-works/).
 
 ## Background comparison: Treasury
 

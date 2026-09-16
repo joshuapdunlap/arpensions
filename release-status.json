@@ -1,12 +1,12 @@
 {
-  "release": "legacy-provenance-and-drafting-2026-09-16",
+  "release": "practical-manager-proposal-2026-09-16",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
   "petitionVerifiedBy": "Codex, acting on Joshua\u2019s explicit instruction",
   "publicationApproved": true,
-  "approvedBy": "Joshua Dunlap explicitly approved publication of the next batch in PR #153 on September 16, 2026.",
-  "approvedSourceDigest": "6539c5c7aef46b446a6b700147e0e84a8cbadd4258dc6f91d4f5f1f3fbf99d1b",
-  "notes": "Deployed and verified: legacy source provenance, readable historical context and security fields, and enlarged-text fixes. The legislative crosswalk remains a working paper in repository documentation, not adopted policy or public campaign copy. The approved digest covers the published source; any source change requires a fresh review and approval.",
+  "approvedBy": "Joshua Dunlap explicitly instructed Codex to implement the recommended operating model locally, push to GitHub and publish on September 16, 2026.",
+  "approvedSourceDigest": "2f167bd82550ea66d8d3b87140a769347cbc60eb9d55b081944c2bdafda15309",
+  "notes": "Reviewed implementation of the authorized manager and pooled-fund operating proposal. Legal drafting, enforceable remedies, contract transition and costs remain pending. Public petition copy was rechecked and remains the broad five-safeguard request; this website adds the detailed model. Petition settings were last verified September 15 and were not changed. lastDeployment still identifies the prior live release until this candidate is actually deployed and verified.",
   "lastDeployment": {
     "release": "legacy-provenance-and-drafting-2026-09-16",
     "commit": "443fad3fe2e359051c22b9445dc9f0562858f477",
@@ -26,5 +26,6 @@
       "mobileNavigationAndThemeControls": true,
       "browserWarningsOrErrors": 0
     }
-  }
+  },
+  "petitionPublicCopyVerifiedAt": "2026-09-16T23:47:17.172066+00:00"
 }
