@@ -2,19 +2,29 @@
   "release": "legacy-provenance-and-drafting-2026-09-16",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
-  "petitionVerifiedBy": "Codex, acting on Joshua’s explicit instruction",
+  "petitionVerifiedBy": "Codex, acting on Joshua\u2019s explicit instruction",
   "publicationApproved": true,
   "approvedBy": "Joshua Dunlap explicitly approved publication of the next batch in PR #153 on September 16, 2026.",
   "approvedSourceDigest": "6539c5c7aef46b446a6b700147e0e84a8cbadd4258dc6f91d4f5f1f3fbf99d1b",
-  "notes": "Approved for deployment: verified legacy provenance, readable historical context and security fields, and enlarged-text fixes. The legislative crosswalk remains a working paper in repository documentation, not adopted policy or public campaign copy. The preceding deployed release remains recorded under lastDeployment until this release is verified.",
+  "notes": "Deployed and verified: legacy source provenance, readable historical context and security fields, and enlarged-text fixes. The legislative crosswalk remains a working paper in repository documentation, not adopted policy or public campaign copy. The approved digest covers the published source; any source change requires a fresh review and approval.",
   "lastDeployment": {
-    "release": "confirmation-privacy-completion-2026-09-16",
-    "commit": "1237d0cd6aeacd4ac68fa2247904610bd30fb8b9",
-    "sourceDigest": "9f9e753e4c9b4801a91e68bad04f86f530128be625250c53b2d59a0d7aab9c10",
-    "publishedAt": "2026-09-16T19:50:16Z",
-    "verifiedAt": "2026-09-16T19:51:50.514721+00:00",
-    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/35142844123",
-    "record": "docs/releases/2026-09-16-privacy-completion.md",
-    "status": "deployed-and-verified"
+    "release": "legacy-provenance-and-drafting-2026-09-16",
+    "commit": "443fad3fe2e359051c22b9445dc9f0562858f477",
+    "sourceDigest": "6539c5c7aef46b446a6b700147e0e84a8cbadd4258dc6f91d4f5f1f3fbf99d1b",
+    "publishedAt": "2026-09-16T20:47:33Z",
+    "verifiedAt": "2026-09-16T20:53:50.840108+00:00",
+    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/35148580586",
+    "record": "https://github.com/joshuapdunlap/arpensions/pull/153",
+    "artifactSha256": "762b33736fabea62c242618729690b045a06b14173f0419b53e27498d34e5d72",
+    "status": "deployed-and-verified",
+    "checks": {
+      "htmlPages": 69,
+      "assetsComparedByteForByteWithArtifact": 61,
+      "custom404": true,
+      "mobileViewport": "390 x 844",
+      "keyboardTableScrolling": true,
+      "mobileNavigationAndThemeControls": true,
+      "browserWarningsOrErrors": 0
+    }
   }
 }
