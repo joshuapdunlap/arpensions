@@ -1,0 +1,58 @@
+---
+import contextData from '../data/legacy-context.json';
+type Context = {
+  originalFile: string;
+  production: string;
+  originalLocator: string;
+  originalSha256: string;
+  reviewedAt: string;
+  reviewMethod: string;
+  dateLabel: string;
+  readerNotes: string[];
+  table?: {caption: string; headers: string[]; rows: string[][]};
+};
+const {contextId} = Astro.props;
+const context = (contextData as Record<string, Context>)[contextId];
+---
+{context && <div class="legacy-context">
+  <p class="dated-context">{context.dateLabel}</p>
+  <details id={`${contextId}-reading`}>
+    <summary>Read the historical context{context.table ? ' and security fields' : ''}</summary>
+    <p class="scope-note">Reviewed summary and selected fields. The PDF contains additional text and administrative material.</p>
+    {context.readerNotes.map(note => <p>{note}</p>)}
+    {context.table && <div class="table-scroll" tabindex="0" role="region" aria-label={context.table.caption}>
+      <table>
+        <caption>{context.table.caption}</caption>
+        <thead><tr>{context.table.headers.map(label => <th scope="col">{label}</th>)}</tr></thead>
+        <tbody>{context.table.rows.map(row => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody>
+      </table>
+    </div>}
+  </details>
+  <details>
+    <summary>Verified original file and page locator</summary>
+    <dl>
+      <dt>Production</dt><dd>{context.production}</dd>
+      <dt>Original filename</dt><dd>{context.originalFile}</dd>
+      <dt>Locator</dt><dd>{context.originalLocator}</dd>
+      <dt>Reviewed</dt><dd>{context.reviewedAt}</dd>
+    </dl>
+    <p>{context.reviewMethod}</p>
+    <p>Original source-file SHA-256: <code>{context.originalSha256}</code></p>
+    <p class="scope-note">The original fingerprint identifies the file checked during source review. The public derivative has its own fingerprint in the download history below.</p>
+  </details>
+</div>}
+<style>
+  .legacy-context{max-width:100%;min-width:0}
+  .dated-context{font-family:var(--mono);font-size:.8rem;color:var(--muted);margin-top:.75rem}
+  details{margin-top:1rem}
+  details p{margin-top:.8rem}
+  .scope-note{font-size:.85rem;color:var(--muted)}
+  dl{margin-top:1rem}
+  dt{font-weight:800;margin-top:.75rem}
+  dd{margin:.2rem 0 0;overflow-wrap:anywhere}
+  code{overflow-wrap:anywhere;font-size:.8rem}
+  table{border-collapse:collapse;width:100%;font-size:.85rem}
+  caption{text-align:left;font-weight:800;padding-bottom:.8rem}
+  th,td{padding:.7rem;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+  thead th{background:var(--surface)}
+</style>
