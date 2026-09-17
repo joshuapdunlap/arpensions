@@ -27,7 +27,8 @@
       "/the-act/",
       "/the-issue/",
       "/evidence/treasury/",
-      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
     ],
     "surfaces": [
       {
@@ -157,6 +158,10 @@
       {
         "kind": "page-or-public-asset",
         "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
       }
     ]
   },
@@ -605,7 +610,8 @@
       "/take-action/",
       "/the-act/",
       "/the-issue/",
-      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
     ],
     "surfaces": [
       {
@@ -763,6 +769,10 @@
       {
         "kind": "page-or-public-asset",
         "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
       }
     ]
   },
@@ -851,7 +861,8 @@
       "/the-act/",
       "/the-issue/",
       "/evidence/treasury/",
-      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
     ],
     "surfaces": [
       {
@@ -997,6 +1008,10 @@
       {
         "kind": "page-or-public-asset",
         "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
       }
     ]
   },
@@ -1032,7 +1047,8 @@
       "/the-act/",
       "/the-issue/",
       "/evidence/treasury/",
-      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf",
+      "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
     ],
     "surfaces": [
       {
@@ -1194,6 +1210,10 @@
       {
         "kind": "page-or-public-asset",
         "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf"
+      },
+      {
+        "kind": "page-or-public-asset",
+        "location": "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf"
       }
     ]
   },
