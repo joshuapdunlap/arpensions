@@ -338,14 +338,19 @@
       "wendy-spadoni"
     ],
     "/legislators/": [
+      "decisions-for-the-drafting-table",
+      "enforcement-and-cost-direction",
       "executive-summary",
       "key-facts",
       "landing-heading",
+      "legal-review-route",
       "legislative-ask",
+      "legislative-calendar",
       "main-content",
       "nav-menu",
       "request-a-briefing",
       "scope-and-design",
+      "status-and-request",
       "suggested-questions-for-agencies",
       "the-committee-pathway",
       "the-exclusive-agency-provision",
@@ -353,19 +358,25 @@
       "the-financial-profile-of-these-bonds",
       "the-five-provisions",
       "the-pension-investment-integrity-act",
+      "the-proposed-decision-record",
       "the-standard-already-exists",
       "theme-toggle",
       "three-actions-we-are-calling-for",
+      "who-prepares-the-record-and-when",
       "why-existing-law-needs-a-usable-procedure",
       "why-pension-boards-need-this-standard",
-      "why-the-arkansas-transactions-make-the-case"
+      "why-the-arkansas-transactions-make-the-case",
+      "why-the-records-make-the-case"
     ],
     "/legislators/one-page/": [
+      "design-and-request",
+      "five-safeguards",
       "legislative-request",
       "main-content",
       "nav-menu",
       "page-heading",
       "scope-and-design",
+      "the-evidence",
       "the-five-safeguards",
       "the-principle",
       "theme-toggle"
@@ -393,23 +404,30 @@
     "/news/": [
       "2024",
       "2025",
+      "2025-authorizations-and-the-first-apers-purchase",
       "2026",
       "april-1415--israel-bonds-outreach-reaches-arkansas-offices",
+      "background-reference",
       "december-29--atrs-reports-50-million-funded-to-the-reams-account",
       "february-13--apers-describes-the-board-material-prepared-for-the-decision",
       "february-17--treasury-payment-report-shows-another-10-million-in-process",
+      "february-17-2026-atrs-completes-a-99-million-bond-purchase",
+      "february-17-2026-different-institutions-different-stages",
+      "january-2-2026-manager-funding-completed",
       "june-2--atrs-authorizes-up-to-50-million",
       "june-27--pension-investment-integrity-becomes-a-2027-priority",
+      "june-27-2026-campaign-reported-coalition-selection",
       "main-content",
       "may--treasury-settles-20-million-in-new-positions",
       "may-15--apers-authorizes-a-2550-million-range",
       "nav-menu",
       "october-15--apers-completes-a-15-million-purchase",
       "october-8--treasury-overview-recommends-holding-existing-positions",
+      "october-8-2024-treasurys-internal-overview",
       "page-heading",
-      "theme-toggle",
-      "february-17-2026-different-institutions-different-stages",
-      "october-8-2024-treasurys-internal-overview"
+      "september-15-2026-the-new-records",
+      "september-16-2026-how-the-proposed-act-would-work",
+      "theme-toggle"
     ],
     "/press/": [
       "agency-by-agency",
@@ -511,6 +529,27 @@
     ],
     "/news/september-2026-records/": [
       "the-totals-have-specific-limits"
+    ],
+    "/the-act/": [
+      "compliance-and-costs",
+      "executive-summary",
+      "legislative-ask",
+      "legislative-calendar",
+      "scope-and-design",
+      "the-five-safeguards",
+      "who-prepares-the-record-and-when",
+      "why-the-records-make-the-case"
+    ],
+    "/the-act/how-it-works/": [
+      "1-the-board-sets-the-rules-a-manager-can-make-purchases",
+      "2-each-covered-purchase-gets-a-record",
+      "3-a-controlled-pool-can-share-the-research",
+      "4-an-external-fund-is-reviewed-when-the-system-commits-to-it",
+      "the-short-version",
+      "what-comes-next",
+      "what-happens-when-the-rules-are-missed",
+      "what-would-it-cost",
+      "who-would-prepare-and-check-the-work"
     ]
   },
   "targets": {

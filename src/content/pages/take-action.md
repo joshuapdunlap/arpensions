@@ -8,8 +8,8 @@ sourceIds:
 - apers_september_holdings
 - atrs_completed_funding
 - atrs_completed_purchase
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
 
@@ -21,18 +21,20 @@ Find your representatives through the [Arkansas Legislature's directory](https:/
 <div class="copy-row"><button type="button" hidden data-copy="legislator-letter">Copy letter template</button><span role="status" aria-live="polite"></span></div>
 <blockquote class="letter-box" id="legislator-letter">Dear Senator or Representative,
 
-I am asking you to help develop and support the Pension Investment Integrity Act proposal for the 2027 session. Pension members deserve a written financial case for covered investments in non-tradable sovereign debt.
+Please help bring the Pension Investment Integrity Act to Arkansas&#x27;s 2027 legislative session. Pension members deserve to know why their retirement money is invested and how those decisions serve them.
 
-Please require credit analysis, a comparison of alternatives, a liquidity explanation and a financial determination before the binding commitment to a covered investment, with public posting within 30 calendar days of that commitment. The requirements should be prospective and issuer-neutral.
+For covered investments in non-tradable sovereign debt, require a written explanation of repayment risk, reasonable alternatives, access to the money and the financial case for the investment. That work should happen before the system commits to the investment, with publication within 30 calendar days of that binding commitment. The same standards should apply regardless of the issuer.
 
-Trustees should set policy and oversee managers trading within approved limits. Each covered purchase should have a financial record. Controlled pension pools should be able to share research with plan-specific allocations and findings. Genuinely external funds should receive review at the system&#x27;s commitment, with ongoing reporting of known covered exposure. The pension system should remain responsible for publication.
+Boards should set the rules and oversee managers, with a record for each covered purchase. Pension systems sharing an account they control should be able to share research while showing each system&#x27;s share and approval. For outside funds they do not control, systems should explain why they are committing money and report known covered investments. The pension system should publish the record.
 
-September records document APERS&#x27;s $25 million in positions and ATRS&#x27;s $9.9 million purchase within a $50 million funded account. These figures have different record dates. Please request a source and drafting briefing, including legal review of manager duties, enforcement, contract transition and costs.
+September records show $25 million in APERS custody positions and a $9.9 million ATRS bond purchase within a $50 million funded account. These figures come from different record dates. Members should be able to read the financial reasoning behind these decisions.
+
+Please request a briefing and consider sponsoring the proposal.
 
 Sincerely,
 [Your name and city]</blockquote>
 
-[Download the plain-text letter](/assets/documents/legislator-letter-2026-09-16.txt). Personalize it before sending.
+[Download the plain-text letter](/assets/documents/legislator-letter-2026-09-17.txt). Personalize it before sending.
 <!-- campaign-letter:end -->
 
 Sources for the letter: [APERS custody](/documents/records/apers-september-holdings/), [ATRS trade](/documents/records/atrs-completed-purchase/), [ATRS funding](/documents/records/atrs-completed-funding/).

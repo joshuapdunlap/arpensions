@@ -105,8 +105,9 @@ def main():
         with fitz.open(brief) as pdf:
             if len(pdf)!=1:errors.append('Current one-page campaign brief must have exactly one page')
             text=' '.join(' '.join(page.get_text() for page in pdf).split())
-            for token in ('$25','$9.9','January 2','non-tradable sovereign debt','30 calendar days','Controlled pools','External funds',campaign['date']):
+            for token in ('$25','$9.9','January 2','non-tradable sovereign debt','30 calendar days',campaign['date']):
                 if token not in text:errors.append(f'Current brief missing {token}')
+            if ' '.join(campaign['operatingSummary'].split()) not in text:errors.append('Current brief does not match the approved campaign explanation')
     if args.live:
         try:
             with urlopen(Request('https://qr.generatorqr.com/3drm7MQpG',headers={'User-Agent':'arpensions-public-asset-check/2'}),timeout=20) as response:

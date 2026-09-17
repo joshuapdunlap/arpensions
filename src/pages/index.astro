@@ -6,7 +6,7 @@ import {data,financialRecord} from '../lib/data';
 const paths=[
   {title:'Educators',description:'Follow the ATRS decision and the account holding your retirement money.',url:'/educators/'},
   {title:'Public employees & retirees',description:'See the APERS record and the safeguards we are asking for.',url:'/public-employees/'},
-  {title:'Legislators',description:'Read the proposal, the evidence, and the questions for drafting.',url:'/legislators/'},
+  {title:'Legislators',description:'See what the Act would change and how to support it.',url:'/legislators/'},
   {title:'Journalists',description:'Start with dated facts, primary documents, and clear attribution.',url:'/press/'},
 ];
 ---
@@ -47,9 +47,9 @@ const paths=[
   </div></section>
 
   <section class="section policy-band" aria-labelledby="safeguards-heading"><div class="shell">
-    <div class="section-heading"><div><span class="eyebrow">03 / A practical public standard</span><h2 id="safeguards-heading">Before the investment.<br/>Make the case.</h2></div><p>The Integrity Act would put five requirements around covered pension investments. Trustees keep the decision. The public gets the financial explanation.</p></div>
+    <div class="section-heading"><div><span class="eyebrow">03 / A practical public standard</span><h2 id="safeguards-heading">Before the investment.<br/>Make the case.</h2></div><p>The Integrity Act would put five requirements around covered pension investments. Trustees set the rules and oversee managers. Members get the financial explanation.</p></div>
     <ol class="requirements">{data.requirements.map((item,i)=><li class="requirement"><span class="number">0{i+1}</span><h3>{item.title}</h3><p>{item.description}</p></li>)}</ol>
-    <div class="policy-footer"><p><strong>Proposal in development.</strong> This is a campaign proposal for Arkansas’s 2027 legislative session. Coverage of delegated-manager acquisitions needs to be resolved in drafting.</p><a class="button" href="/the-act/">Explore the Integrity Act</a></div>
+    <div class="policy-footer"><p><strong>A proposal for Arkansas’s 2027 legislative session.</strong> Help make a public financial explanation the standard for these pension investments.</p><a class="button" href="/the-act/">Explore the Integrity Act</a></div>
   </div></section>
 
   <section class="section shell" aria-labelledby="path-heading"><div class="section-heading"><div><span class="eyebrow">04 / Make this your issue</span><h2 id="path-heading">Your stake.<br/>Your next step.</h2></div><p>Start with the evidence that matters to you, then help make a public financial record the standard.</p></div><div class="path-grid">{paths.map(p=><a class="path" href={p.url}><h3>{p.title}</h3><p>{p.description}</p><span class="arrow" aria-hidden="true">↗</span></a>)}</div></section>

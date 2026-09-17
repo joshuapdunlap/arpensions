@@ -15,12 +15,12 @@ sourceIds:
 - capitol_itinerary
 - treasury_hold
 - treasury_processing
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
 
-Reviewed September 16, 2026. This log explains substantive changes to the public account and the limits that remain.
+Reviewed September 17, 2026. This log explains substantive changes to the public account and the limits that remain.
 
 | Earlier account | Current evidence and correction |
 |---|---|
@@ -45,11 +45,13 @@ Sources: [APERS custody](/documents/records/apers-september-holdings/), [ATRS fu
 - **Historical PDF privacy:** broker-account fields were removed from the May 2025 and November 2023 purchase-confirmation derivatives. The financial evidence and original URLs remain available. Original and replacement hashes and the reason are recorded in the [download history](/assets/documents/). Originals are retained privately; this does not erase copies previously distributed.
 - **Context and locators:** the SFOF speech is identified as unclaimed-property preparation, and the legislative calendar citation includes the page 3 recess qualification.
 
+## September 17: clearer explanations of the proposal
+
+The Act pages and current handout now use simpler language to explain the same proposed safeguards. Detailed legal-review and implementation questions remain in the campaign's working documents. Earlier dated downloads remain available as historical versions.
+
 ## September 16 proposal development
 
-The campaign proposal now specifies delegated trading within board-approved limits, purchase-specific records, shared research for controlled pools and commitment-level review for genuinely external funds. It identifies the pension system as publisher and proposes a 30-calendar-day clock from the binding commitment, with settlement shown separately. These are prospective campaign design choices, not findings of existing legal duties or a claim of coalition adoption of the detailed rules.
-
-The September 16 brief and letter replace the earlier versions for current outreach. September 15 downloads remain available with historical labels. The external petition continues to state the five safeguards and ask legislators to resolve manager and pooled-vehicle coverage; it does not present this detailed operating design. [Read the expanded proposal](/the-act/how-it-works/).
+The proposal now explains how the rules would apply when outside managers buy investments, pension systems share an account, or a system joins an outside fund. The pension system would publish the record within 30 calendar days of committing to the investment, showing settlement separately. [Read the examples](/the-act/how-it-works/).
 
 ## Dated downloads and external petition
 

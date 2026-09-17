@@ -17,8 +17,8 @@ sourceIds:
 - atrs_rating_report
 - atrs_resolution
 - treasury_hold
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
 
@@ -50,7 +50,7 @@ The narrower question is what decision-specific credit, alternatives, liquidity 
 
 ## A practical safeguard
 
-The [Pension Investment Integrity Act proposal](/legislators/) would require financial work before a binding commitment to a covered investment and publication within 30 calendar days of that commitment. Trustees would set policy and oversee managers trading within approved limits. [How managers and pooled funds would be covered](/the-act/how-it-works/).
+The [Pension Investment Integrity Act proposal](/legislators/) would require a financial explanation before the system commits to a covered investment, with publication within 30 calendar days of that commitment. Trustees would set the rules and oversee managers working within approved limits. [How managers and pooled funds would be covered](/the-act/how-it-works/).
 
 ## Background comparison: Treasury
 

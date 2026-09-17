@@ -5,8 +5,8 @@ description: Our mission, research practice and campaign for transparent pension
 permalink: /about/
 template: article
 sourceIds: []
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
 
@@ -14,7 +14,7 @@ A volunteer-led campaign for transparent, financially sound stewardship of Arkan
 
 ## Our mission
 
-Teachers, public employees, retirees and taxpayers deserve a written account of the risks, expected return, liquidity, alternatives and financial judgment behind covered pension acquisitions.
+Teachers, public employees and retirees deserve to know why their retirement money is invested, what risks it carries, and how those decisions serve them.
 
 ## What we do
 
@@ -22,7 +22,7 @@ We explain public records, publish source exhibits, organize pension members and
 
 ## What we are asking for
 
-We seek prospective, issuer-neutral safeguards: written financial analysis before a binding commitment to a covered investment and publication within 30 calendar days of that commitment. Trustees would set policy and oversee managers operating within approved limits. [Read the proposal](/legislators/).
+We want a written financial explanation before a pension system commits to a covered investment, with publication within 30 calendar days. The same standards would apply regardless of the issuer. Trustees would set the rules and oversee managers. [Read the proposal](/legislators/).
 
 ## How we publish
 
@@ -34,9 +34,9 @@ Our [methodology](/methodology/) explains source review, financial distinctions 
 
 **What prompted the campaign?** The Arkansas Israel Bonds records show substantial commitments and a financial decision trail members must reconstruct from multiple kinds of documents. September records add important transactions and holdings; our [evidence overview](/evidence/) reflects them.
 
-**Is this adopted law?** No. This is a campaign proposal for 2027. According to the campaign's June 27, 2026 convention record, Citizens First Congress selected pension investment integrity for its short-term 2027 priority platform. Coalition selection and legislative adoption are distinct.
+**Is the Act law yet?** No. We are building support for the proposal for Arkansas's 2027 legislative session.
 
-**Who decides what a pension fund buys?** The proposal leaves the ultimate investment judgment with trustees and makes the financial work visible.
+**Who decides what a pension fund buys?** Trustees would set policy and oversee managers, who could make purchases within approved limits. The pension system would publish the financial explanation.
 
 **How can I help?** [Contact your legislators or volunteer](/take-action/). Bring a colleague into the conversation and share the source records.
 

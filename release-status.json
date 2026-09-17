@@ -1,12 +1,12 @@
 {
-  "release": "practical-manager-proposal-2026-09-16",
+  "release": "public-facing-policy-copy-2026-09-17",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
-  "petitionVerifiedBy": "Codex, acting on Joshua\u2019s explicit instruction",
+  "petitionVerifiedBy": "Codex, acting on Joshua’s explicit instruction",
   "publicationApproved": true,
-  "approvedBy": "Joshua Dunlap explicitly instructed Codex to implement the recommended operating model locally, push to GitHub and publish on September 16, 2026.",
-  "approvedSourceDigest": "2f167bd82550ea66d8d3b87140a769347cbc60eb9d55b081944c2bdafda15309",
-  "notes": "Deployed and verified: practical manager and pooled-fund operating proposal, plain-language guide, aligned current pages and September 16 brief/letter. Legal drafting, enforcement details, contract transition and official cost review remain pending. Earlier dated downloads are preserved unchanged. The public petition remains the broad five-safeguard request; its fields and settings were not changed.",
+  "approvedBy": "Joshua Dunlap's instruction to implement and publish the proposal, continued by his September 17 request to remove excessive operational language from the public site.",
+  "approvedSourceDigest": "315e0e8e2083e204005a0a9a7f1a187e20738f349d0ea8770c2831b05f14e40f",
+  "notes": "Reviewed editorial revision responding to September 17 feedback. Public pages explain the same proposal in plain language; legal and implementation questions remain in the working paper. Earlier dated assets are preserved. The existing petition and its settings are unchanged. lastDeployment identifies the prior live release until this candidate is deployed and verified.",
   "lastDeployment": {
     "release": "practical-manager-proposal-2026-09-16",
     "commit": "9deafa7e134b9b736ab31c93b3643c073a07841e",

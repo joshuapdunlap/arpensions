@@ -82,13 +82,13 @@ y=para('THE DOCUMENTED PENSION RECORD',38,y,536,'h2')-10
 pdf.setStrokeColor(rule);pdf.line(38,y,574,y);y-=13
 y=para(f'<b>APERS: {millions("apers_september_holding")} par.</b> Two positions in the {record_date("apers_september_holding")} custody report, marked preliminary. The earlier {millions("apers_october_purchase")} purchase is a historical event. Allocation among APERS-administered systems remains unresolved.',38,y,536)-8
 y=para(f'<b>ATRS: {millions("atrs_february_purchase")} par.</b> Completed bond purchase {record_date("atrs_february_purchase")}, inside the {millions("atrs_january_funding")} manager account funded {record_date("atrs_january_funding")}. The account also held U.S. Treasuries and cash. Funding and its underlying bond must not be added together.',38,y,536)-15
-y=para('FIVE REQUIREMENTS FOR COVERED ACQUISITIONS',38,y,536,'h2')-9
+y=para('FIVE SAFEGUARDS FOR PENSION MEMBERS',38,y,536,'h2')-9
 for i,item in enumerate(data['requirements']):
     y=para(f'<b>{i+1}. {escape(item["title"])}.</b> {escape(item["description"])}',38,y,536)-7
 y-=6
 y=para('HOW THE PROPOSAL WOULD WORK',38,y,536,'h2')-8
 y=para(escape(campaign['operatingSummary']),38,y,536)-8
-y=para('Help develop the proposal and consider sponsorship. Legal drafting, enforcement, contract transition and cost review remain pending. Request a briefing: <b>info@arpensions.org</b>. Full coverage, operating examples and calendar: <b>arpensions.org/the-act/</b>.',38,y,536)-14
+y=para('Help bring the Integrity Act to the 2027 session. Ask your legislators to support it, share this brief, or request a conversation at <b>info@arpensions.org</b>. Read the proposal and examples at <b>arpensions.org/the-act/</b>.',38,y,536)-14
 pdf.setStrokeColor(rule);pdf.line(38,y,574,y);y-=10
 y=para('<b>Source trail:</b> APERS September custody, physical p.1; ATRS completed funding, p.3; ATRS completed trade, transaction row2. Aon’s implementation and manager-selection advice is substantive; the campaign asks for a consistent decision-specific financial explanation. Reviewed source exhibits: <b>arpensions.org/documents/</b>.',38,y,450,'small')-8
 pdf.drawImage(str(images/'campaign-qr.png'),515,y+8,width=58,height=58)

@@ -4,11 +4,11 @@ description: Find the current one-page policy brief and full legislative explana
 permalink: /integrity-act-one-page/
 template: policy
 sourceIds: []
-reviewedAt: '2026-09-15'
-updatedAt: '2026-09-15'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
 
 The current printable brief is at [Pension Investment Integrity Act: one-page brief](/legislators/one-page/).
 
-The September 15, 2026 version incorporates the APERS and ATRS records and identifies unresolved manager-coverage drafting questions. [Read the full proposal](/legislators/).
+The current brief explains the five safeguards and how they would apply to outside managers and shared funds. [Read the full proposal](/legislators/).

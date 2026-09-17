@@ -1,88 +1,77 @@
 ---
 title: How the proposed Act would work
-description: The board sets the rules. Managers explain covered purchases. Shared pools can share research. The pension system publishes the record.
+description: A clear financial explanation for pension members, whether the board or an outside manager makes the investment.
 permalink: /the-act/how-it-works/
 template: policy
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
-**Campaign proposal, updated September 16, 2026.** These are proposed operating rules, not enacted law or introduced bill text. The detailed design still needs Arkansas legal review, cost estimates and legislative drafting. The coalition's earlier selection of pension integrity does not establish its adoption of these details.
+Pension members deserve to know why an investment was chosen, what risks it carries, and how it serves their retirement. The Integrity Act would make that explanation public, whether a board or an outside manager makes the purchase.
 
 ## The short version
 
-The pension board sets the investment rules. A manager can work within those rules, but each covered purchase needs a written financial explanation. When pension systems share an investment they control, they can share the research. When a pension system joins an outside fund it does not control, it must explain the decision to join and report what it knows about covered exposure. **The pension system remains responsible for publishing the record.**
+The board sets the investment rules. Managers explain their covered purchases. Pension systems sharing an account can share the research, while showing each system's stake. When a system joins an outside fund, it explains why that choice serves its members.
 
-The proposal concerns covered investments in **non-tradable sovereign debt**: government borrowing without an ordinary market exit. The legal definition still needs drafting. The requirements would be prospective and issuer-neutral. Treasury is outside the proposed pension coverage.
+**The pension system is responsible for making the record public.**
+
+The proposal covers future pension investments in **non-tradable sovereign debt**: government borrowing without an ordinary market exit. The same rules would apply regardless of the issuer. State Treasury investments are outside its pension focus.
 
 ## 1. The board sets the rules; a manager can make purchases
 
-An approved **mandate** is the set of instructions and limits the board gives an investment manager. It would identify permitted investments, exposure limits, maturity and liquidity limits, and when a decision must return for additional review.
+The board would decide what a manager may buy and set limits on risk, the amount invested, and how long money can be tied up. The manager could then make purchases within those limits, without a new board vote for every routine trade.
 
-Within that authority, a qualified manager could buy a covered security without a new board vote for every routine trade. Before committing, the manager would prepare the purchase-specific financial record and certify that the purchase fits the approved limits. A new issuer, material risk change or proposed departure from those limits would trigger additional review.
+Each covered purchase would still need a financial explanation and confirmation that it follows the board's rules. A new issuer, a significant change in risk, or a purchase outside the approved limits would need additional review.
 
-The board would remain responsible for setting the mandate, selecting the manager and overseeing compliance. The pension system would publish the record.
-
-**Hypothetical example:** a board funds a $50 million account. Months later, its manager buys a $10 million covered bond. The account mandate and funding record explain the manager's authority. The bond purchase still needs its own financial explanation. Those amounts describe related stages; they are not $60 million of investment.
+**Example:** a board puts $50 million into a manager's account. The manager later buys a $10 million bond using that money. The bond needs its own explanation. It is part of the $50 million account, not an additional $10 million. This is an illustration, not a reported transaction.
 
 ## 2. Each covered purchase gets a record
 
-The record would explain repayment risk, reasonable alternatives, transfer restrictions and liquidity, and why the investment fits members' financial interests. It would identify the amount, terms, evidence, author, approving authority and relevant conflicts.
+Before agreeing to an investment, the decision-maker would explain:
 
-Existing research could be reused. Each new commitment, including an additional purchase or renewal, would still require current terms and a check for material changes in credit risk, alternatives, concentration and liquidity.
+- The risk that the borrower will not repay.
+- How the investment compares with reasonable alternatives.
+- Whether the money can be recovered before maturity, and at what cost.
+- Why this investment, at these terms, serves pension members.
 
-The analysis and finding would come **before the binding commitment**: the order or agreement committing the system to the investment. The public record would follow within **30 calendar days of that commitment**. Settlement would be identified separately. A cancellation would be recorded accurately, and a replacement commitment would need its own check. Account funding alone would not count as a bond purchase.
+The explanation must be ready **before the binding commitment**: the order or agreement committing the system to the investment. The pension system would publish it within **30 calendar days of that commitment**, identifying whether the transaction has settled. Cancellations and replacement purchases would be recorded accurately.
 
-For a direct purchase, qualified staff or an adviser would prepare the work and the authorized decision-maker would approve the finding. For a delegated purchase, the manager would perform the assigned duties and deliver the record to the system in time for publication.
+Existing research could be reused, but each additional purchase or renewal would need a check of current terms, risks, alternatives and the system's overall exposure. The record would name who prepared and approved it and disclose relevant conflicts of interest.
 
 ## 3. A controlled pool can share the research
 
-A **controlled pool** combines pension systems' money in an account whose investment instructions they can set, directly or through their authorized administrator.
+When pension systems combine money in an account whose investment rules they control, they could share one analysis. Each system would still explain its share, why the investment fits its needs, and who approved its financial finding.
 
-One common analysis could explain the security. An appendix would identify each system's share, portfolio fit and responsible official. Each system's financial finding would be adopted through its own authorized process. The final statute must specify who may sign or delegate that responsibility.
-
-**Hypothetical example:** two systems share a $10 million covered purchase, allocated $6 million and $4 million. They could publish one core analysis with two allocation entries. The pool and its shares are the same $10 million, not $20 million.
-
-Shared research would reduce duplicate work without hiding which retirement system bears the exposure.
+**Example:** two systems split a $10 million purchase, with $6 million belonging to one and $4 million to the other. One analysis could serve both, with their shares shown separately. The total is still $10 million. This is an illustration.
 
 ## 4. An external fund is reviewed when the system commits to it
 
-A **genuinely external fund** combines money from investors who do not individually control its underlying trades. The pension system usually decides whether to commit money to the fund, rather than whether the fund buys each security.
+A pension system may join a fund with many investors, where it cannot direct individual trades. In that case, it would explain **why it is committing money to the fund**: the permitted investments, credit risks, fees, withdrawal limits and alternatives.
 
-The proposed review would attach to that commitment. It would examine the fund's mandate, permitted covered exposure, credit-risk approach, fees, withdrawal restrictions, alternatives and information rights. The system would publish its decision record and periodically report known covered exposure, with dates and information gaps clearly identified.
+It would also seek reporting rights and regularly disclose what it knows about the fund's covered investments, with dates and gaps in the information clearly stated.
 
-A vehicle created primarily to hold covered debt, or an investment sleeve the system controls, would remain subject to underlying-investment requirements. Moving a purchase into a wrapper should not remove the obligation.
-
-**Hypothetical example:** a system commits to a diversified external bond fund that may hold some covered debt. It must explain why joining the fund fits its financial objectives and what reporting it can obtain. It would not certify that it approved every trade or that unknown exposure is zero.
-
-Counsel must define control, targeted vehicles, any materiality threshold, reporting frequency and transition for existing contracts. No percentage threshold has been selected.
+A fund set up mainly to hold covered debt, or an account the system controls within a fund, would still need records for the underlying investments. Changing the account structure should not remove the duty to explain a purchase.
 
 ## Who would prepare and check the work?
 
-Qualified investment staff, a retained consultant or the outside manager could prepare the analysis. Each record would name its author and approving authority. Relevant compensation and conflicts would be disclosed.
+Investment staff, an adviser or the manager could prepare the analysis. The board's initial instructions, a new issuer or a significant change would receive review independent of the issuer and seller. An existing qualified adviser could do that work.
 
-Initial mandates, new issuers and material changes would receive substantive review independent of the issuer and seller. An existing qualified adviser could perform that review. The proposal would not require hiring a new firm for every routine trade.
-
-Choosing a manager and assessing a particular bond answer different questions. A manager-selection memo or a credit rating alone would not supply the complete purchase-specific explanation.
+Choosing a manager and choosing a bond are different decisions. A manager-selection memo or credit rating alone would not explain why a particular purchase serves members.
 
 ## What happens when the rules are missed?
 
-The system would name a compliance official and maintain a public register of required records, publication dates and deficiencies. People could report a missing record and receive a written response.
+Each system would name someone responsible for publication, list missing or late records, and respond to requests for them.
 
-- **Late publication:** correct the omission and identify the delay.
-- **No analysis before the purchase:** report the failure, require board review and corrective action. A memo written afterward cannot be presented as prior review.
-- **Repeated or material failures:** escalate through contract remedies and legally authorized oversight. Manager agreements would require timely records, cooperation and appropriate duties for submanagers.
+A late posting could be corrected. A purchase made without prior analysis would require the failure to be reported and the board to take corrective action. A memo written later cannot stand in for work that should have happened beforehand.
 
-The campaign proposes audit sampling of whether the required process occurred. Legal review must settle oversight powers, correction periods and available remedies, including the limits on court actions. There would be no automatic liquidation for a paperwork delay, and filling out a form would not excuse a breach of existing fiduciary duties.
+Manager contracts and oversight would address repeated or serious failures. Audits would check whether the required work occurred. A paperwork delay would not automatically force a sale, and completing a form would not excuse a breach of existing duties to members.
 
 ## What would it cost?
 
-The main cost would be staff and professional time: preparing and reviewing records, obtaining manager information, publishing, monitoring and correcting problems. Setup could include contract changes, templates and training.
-
-Shared research, reusable current analysis and existing advisers would limit duplication. Work absorbed by current staff still uses resources. No official fiscal estimate or zero-cost finding has been obtained. Plan and manager workload estimates are needed before filing.
+Preparing, reviewing and publishing records takes staff time and professional work. Shared research, standard forms and existing advisers would help avoid duplication. Implementation costs still need to be estimated as the bill is developed.
 
 ## What comes next?
 
-Arkansas legislative and public-pension counsel need to test these rules against current law, actual manager agreements and each plan's authority. The review must resolve definitions, signatories, enforcement, contract transition and costs before the proposal becomes filing-ready.
+We are building support for the Integrity Act for Arkansas's **2027 legislative session**. Help make a public financial explanation the standard for these pension investments.
 
-[Read the five safeguards](/the-act/) · [Legislative briefing](/legislators/) · [Support the proposal](/take-action/).
+[Support the Integrity Act](/take-action/) · [Read the five safeguards](/the-act/) · [Legislative briefing](/legislators/).

@@ -11,8 +11,8 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - atrs_resolution
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
 
@@ -20,15 +20,15 @@ Dated developments in the records and the campaign for a public pension investme
 
 ## September 16, 2026: how the proposed Act would work
 
-The campaign proposal now explains outside-manager purchases, shared pension pools and external funds. Trustees would set the rules; managers would document covered purchases; the pension system would publish the record. Legal drafting and cost review remain ahead. [Read the operating examples](/the-act/how-it-works/).
+The campaign proposal now explains outside-manager purchases, shared pension pools and external funds. Trustees would set the rules; managers would document covered purchases; the pension system would publish the record. [See how it would work](/the-act/how-it-works/).
 
 ## September 15, 2026: the new records
 
 APERS reported $25 million in September custody positions. ATRS records now document completed January funding, the February replacement purchase and July holdings. [Read the September update](/news/september-2026-records/).
 
-## June 27, 2026: campaign-reported coalition selection
+## June 27, 2026: pension integrity joins the coalition platform
 
-According to Arkansans for Pension Integrity's convention record, Citizens First Congress delegates selected pension investment integrity for its short-term 2027 priority platform. That coalition decision is distinct from a filed bill, sponsorship or enactment. [Read the current proposal](/legislators/).
+Arkansans for Pension Integrity's June 27 convention record reports that Citizens First Congress delegates selected pension investment integrity for its short-term 2027 priority platform. [Read the proposal we are advancing](/the-act/).
 
 ## February 17, 2026: ATRS completes a $9.9 million bond purchase
 

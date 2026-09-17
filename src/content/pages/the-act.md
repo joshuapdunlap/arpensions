@@ -1,7 +1,6 @@
 ---
 title: The Pension Investment Integrity Act
-description: How the proposed pension safeguards would work with outside managers and pooled
-  funds, with responsibilities, public records and next drafting steps.
+description: Pension members deserve to know why their money is invested. Five safeguards would make the financial reasoning public.
 permalink: /the-act/
 template: policy
 sourceIds:
@@ -10,72 +9,63 @@ sourceIds:
 - atrs_completed_funding
 - atrs_completed_purchase
 - legislative_calendar
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
+**Public money deserves a public investment record.** Teachers, public employees and retirees should be able to see why an investment was chosen and how it serves their retirement.
 
-A prospective, issuer-neutral campaign proposal for a written pension investment record.
-
-## Executive summary
-
-**Public money deserves a public investment record.** The Pension Investment Integrity Act is a campaign proposal for the 2027 Arkansas regular session. This brief announces no bill number or legislative sponsor. It does not represent enacted law or a filed bill.
-
-According to Arkansans for Pension Integrity's June 27, 2026 convention record, Citizens First Congress delegates selected pension investment integrity for the coalition's short-term 2027 priority platform. That is campaign-reported coalition selection, not legislative adoption.
+The Pension Investment Integrity Act is our proposal for Arkansas's **2027 legislative session**. It would make a written financial explanation a standard part of covered pension investments.
 
 ## The five safeguards
 
-For covered pension acquisitions of **non-tradable sovereign debt**, the proposal would require:
+For covered pension investments in **non-tradable sovereign debt**, the proposal would require:
 
-1. A written credit analysis before the binding commitment to a covered investment.
-2. A comparison with reasonably available alternatives on risk, expected return and liquidity.
-3. A plain-language explanation of transfer restrictions and limited marketability.
-4. A written financial determination connecting the decision to members' interests and portfolio fit.
-5. Public posting of the core analysis and determination within 30 calendar days of that commitment, with settlement status identified.
+1. **Explain repayment risk.** Prepare a written credit analysis before agreeing to the investment.
+2. **Compare the options.** Show how reasonable alternatives compare on risk, expected return and access to the money.
+3. **Explain the exit.** Describe restrictions on selling or transferring the investment before maturity.
+4. **Make the financial case.** Explain why this investment serves members' interests and fits the pension portfolio.
+5. **Publish the record.** Post the analysis and decision within 30 calendar days of the binding commitment, showing whether the transaction has settled.
 
 ## Why the records make the case
 
-APERS reported $25 million in two positions on September 7. ATRS's $50 million manager funding completed January 2, and the account bought a $9.9 million Israel Bond on February 17. Members should be able to connect those commitments to the financial work underlying the decisions. [APERS custody, p. 1](/documents/records/apers-september-holdings/) · [ATRS funding, p. 3](/documents/records/atrs-completed-funding/) · [ATRS trade, row 2](/documents/records/atrs-completed-purchase/).
+APERS reported $25 million in two positions on September 7. ATRS's $50 million manager funding completed January 2, and the account bought a $9.9 million Israel Bond on February 17. Members should be able to see the financial reasoning behind these decisions. [APERS custody, p. 1](/documents/records/apers-september-holdings/) · [ATRS funding, p. 3](/documents/records/atrs-completed-funding/) · [ATRS trade, row 2](/documents/records/atrs-completed-purchase/).
 
-Aon supplied substantive manager-selection and implementation advice. The reform asks for an identifiable decision-specific credit, alternatives and liquidity case alongside that advice. [Aon memo, pp. 149–150](/documents/records/atrs-aon-memo/).
+Aon supplied substantive advice about selecting a manager and carrying out the investment. The reform asks for a clear, purchase-specific explanation of credit risk, alternatives and liquidity alongside that advice. [Aon memo, pp. 149–150](/documents/records/atrs-aon-memo/).
 
-## Scope and design
+## Who the Act would cover
 
-The proposal is prospective and issuer-neutral. Intended coverage includes ATRS, APERS, ASHERS, ASPRS, AJRS and LOPFI. Trustees would set investment policy, approve the limits given to outside managers and oversee compliance. A manager could make covered purchases within that approved authority, with a written financial case for each purchase. The pension system would remain responsible for publishing the record. The State Treasury is separately governed and outside this pension proposal.
+The proposal would apply to future covered investments by Arkansas pension systems, including ATRS, APERS, ASHERS, ASPRS, AJRS and LOPFI. It focuses on government debt without an ordinary market exit. The same financial standards would apply regardless of the issuer. State Treasury investments are outside this pension proposal.
 
-The September 16 campaign proposal specifies four arrangements:
+Trustees would set investment policy and oversee managers working within approved limits. The pension system would make the financial record public.
 
-| Who makes the investment? | What the proposal would require |
+## When a manager or shared fund is involved
+
+| How the money is invested | What members should be able to see |
 |---|---|
-| The pension board buys directly | Qualified staff or an adviser prepares the analysis; the authorized decision-maker approves the financial finding before committing. |
-| An outside manager runs a separate pension account | The board sets the mandate: permitted investments and financial limits. The manager documents each covered purchase and certifies that it fits those limits. |
-| Pension systems share a pool they control | One shared analysis, with each system's allocation, portfolio fit and responsible official identified separately. |
-| A pension system joins an external fund | Review the commitment to that fund, including permitted covered exposure, fees, liquidity, alternatives and reporting rights. Report known underlying exposure over time. |
+| The board buys directly | The analysis and the authorized decision-maker's financial approval. |
+| A manager buys for the pension system | A record for each covered purchase, showing it fits the board's approved limits. |
+| Pension systems share an account they control | One shared analysis, with each system's share, financial finding and responsible official identified. |
+| The system joins an outside fund it does not control | Why joining the fund serves members, what reporting it can obtain, and regular updates on known covered investments. |
 
-A controlled investment sleeve or a vehicle primarily created to hold covered debt would remain subject to underlying-investment requirements. Fund structure alone should not create an exemption. Incidental exposure in a genuinely external diversified fund would receive fund-level review and reporting, with information gaps disclosed.
-
-These are campaign design choices for legal drafting. They do not establish current legal duties or show that the coalition has separately adopted these details. [Read how the proposed rules would work](/the-act/how-it-works/).
+Funds created mainly to hold covered debt and accounts the system controls within a fund would still need records for the underlying investments. [See the examples](/the-act/how-it-works/).
 
 ## Who prepares the record, and when?
 
-Qualified investment staff, a retained adviser or the outside manager could prepare the analysis. The record would name its author and approving authority and disclose relevant conflicts. Initial mandates, new issuers and material changes would receive substantive review independent of the issuer and seller. Existing research could be reused, with purchase-specific terms and material changes checked before each commitment.
+Investment staff, an adviser or the manager could prepare the work. The record would name its author and approving authority and disclose relevant conflicts. Initial manager instructions, new issuers and significant changes would receive review independent of the issuer and seller.
 
-The analysis and financial finding would precede the **binding commitment**: the order or agreement that commits the system to the covered investment. The proposed publication clock would be **30 calendar days from that commitment**, with settlement, cancellation or other later status shown accurately. A transfer of cash to a manager is not itself the underlying bond purchase. For a genuinely external fund, review would attach to the covered fund commitment.
+The analysis must come **before the binding commitment**: the order or agreement committing the system to the investment. Publication would follow within **30 calendar days of that commitment**, with settlement and any cancellation clearly identified. Transferring money to a manager would not count as the underlying bond purchase.
 
-The pension system would publish the amount, commitment date, credit conclusion, material risks, alternatives, liquidity comparison and financial determination. Narrow, explained redactions could protect legally confidential details while keeping the reasoning understandable. Exact definitions and contract-delivery deadlines still need legal drafting.
+The public record would explain the amount, date, risks, alternatives, access to the money and financial judgment. Any legally required redactions would be narrow and explained.
 
-## Compliance and costs
+## Accountability and costs
 
-The pension system would name a compliance official and publish missing or late records. A late posting could be corrected; a purchase made without prior analysis would require a violation report and corrective action. The proposal calls for contractual manager duties, audit oversight and escalation for repeated failures. Counsel must resolve the available remedies. It does not call for automatic liquidation because of a paperwork delay.
+Members would have someone to contact about missing records, and systems would report late or missing work. A late posting could be corrected; a purchase made without prior analysis would require the failure to be reported and the board to take corrective action. Manager contracts and audits would help hold decision-makers accountable.
 
-Shared research, standard forms and existing advisers would reduce duplication. Staff time, contract changes, outside fees and oversight still cost money. Agency estimates and an official fiscal assessment are needed; no zero-cost claim is made.
+Shared research and existing advisers would reduce duplication. Preparing and publishing records still takes time and money; implementation costs need to be estimated as the bill is developed.
 
-## Legislative calendar
+## Help make it happen
 
-The official calendar lists **November 16, 2026** for prefiling, **January 11, 2027** for convening and **January 25, 2027** as the ordinary retirement-legislation filing deadline. The calendar notes possible deadline extension if both chambers recess more than four days and a three-fourths vote of each chamber's full membership for later introduction. [Bureau of Legislative Research calendar, pp. 1–3](https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2Fassembly%2F2027%2FDocuments%2FSession_Important_Dates_2027.pdf), verified September 16, 2026.
+Ask your legislators to support the proposal for 2027. Share it with a coworker or fellow retiree, and help make the financial reasoning behind pension investments public.
 
-## Legislative ask
-
-Request a source and drafting briefing, review the proposed manager and pooled-fund rules, and consider sponsorship for the 2027 regular session. Trustees would retain policy and oversight responsibility while qualified managers could trade within approved limits.
-
-[Print the one-page brief](/legislators/one-page/) · [Request a briefing](mailto:info@arpensions.org?subject=Pension%20Investment%20Integrity%20Act%20briefing) · [Review agency dossiers](/evidence/).
+[Support the Integrity Act](/take-action/) · [Print the one-page brief](/legislators/one-page/) · [Legislative calendar and briefing](/legislators/#legislative-calendar).

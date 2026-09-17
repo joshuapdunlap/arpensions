@@ -13,8 +13,8 @@ sourceIds:
 - capitol_itinerary
 - hudson_babbitt_confirmation
 - seller_reported_meetings
-reviewedAt: '2026-09-16'
-updatedAt: '2026-09-16'
+reviewedAt: '2026-09-17'
+updatedAt: '2026-09-17'
 ---
 
 
@@ -42,6 +42,6 @@ Sources: [APERS custody, p. 1](/documents/records/apers-september-holdings/); [A
 
 ## What we are asking for
 
-The campaign proposes an issuer-neutral procedure for future covered pension acquisitions of non-tradable sovereign debt. Qualified staff, advisers or managers would prepare the financial work before a binding commitment. The pension system would publish the core record within 30 calendar days of that commitment. Trustees would set policy and oversee managers, who could trade within approved limits. [How manager purchases and pooled funds would be handled](/the-act/how-it-works/).
+The Integrity Act would require a clear financial explanation before a pension system commits to a covered investment in non-tradable sovereign debt. The system would publish it within 30 calendar days of that commitment. The same standards would apply regardless of the issuer. Trustees would set the rules and oversee managers working within approved limits. [How manager purchases and pooled funds would be handled](/the-act/how-it-works/).
 
 [Read the five safeguards](/legislators/) · [Take action](/take-action/).

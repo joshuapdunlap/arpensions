@@ -403,18 +403,34 @@
   },
   {
     "url": "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf",
-    "category": "Current campaign materials",
+    "category": "Historical campaign materials",
     "contextId": "pension-investment-integrity-act-brief-2026-09-16",
     "title": "Pension Investment Integrity Act: September 16, 2026 brief",
     "provenance": "Generated from the September 16 campaign proposal and reviewed public evidence. Campaign material, not an agency record.",
-    "scope": "Current operating proposal: manager duties, controlled pools, external funds and publication responsibility. Legal drafting and fiscal review remain pending."
+    "scope": "September 16 campaign version, preserved unchanged. Use the September 17 version for current outreach."
   },
   {
     "url": "/assets/documents/legislator-letter-2026-09-16.txt",
-    "category": "Current campaign materials",
+    "category": "Historical campaign materials",
     "contextId": "legislator-letter-2026-09-16",
     "title": "Legislator letter: September 16, 2026",
     "provenance": "Generated from the September 16 campaign proposal and reviewed public evidence. Campaign material, not an agency record.",
-    "scope": "Current operating proposal: manager duties, controlled pools, external funds and publication responsibility. Legal drafting and fiscal review remain pending."
+    "scope": "September 16 campaign version, preserved unchanged. Use the September 17 version for current outreach."
+  },
+  {
+    "url": "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf",
+    "category": "Current campaign materials",
+    "contextId": "pension-investment-integrity-act-brief-2026-09-17",
+    "title": "Pension Investment Integrity Act: September 17, 2026 brief",
+    "provenance": "Campaign-authored explanation of the proposal, using reviewed public evidence.",
+    "scope": "The five safeguards and how they would apply to outside managers and shared funds. A proposal for the 2027 legislative session."
+  },
+  {
+    "url": "/assets/documents/legislator-letter-2026-09-17.txt",
+    "category": "Current campaign materials",
+    "contextId": "legislator-letter-2026-09-17",
+    "title": "Legislator letter: September 17, 2026",
+    "provenance": "Campaign-authored explanation of the proposal, using reviewed public evidence.",
+    "scope": "The five safeguards and how they would apply to outside managers and shared funds. A proposal for the 2027 legislative session."
   }
 ]

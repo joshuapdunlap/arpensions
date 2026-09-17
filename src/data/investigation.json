@@ -746,27 +746,27 @@
     {
       "id": "credit",
       "title": "Written credit analysis",
-      "description": "Prepare a decision-specific account of repayment risk and material credit developments before a binding commitment."
+      "description": "Explain the risk that the borrower will not repay, before committing to the investment."
     },
     {
       "id": "alternatives",
       "title": "Compare reasonable alternatives",
-      "description": "Compare risk, expected return and liquidity with reasonably available fixed-income choices before a binding commitment."
+      "description": "Compare reasonable choices on risk, expected return and access to the money before committing."
     },
     {
       "id": "liquidity",
       "title": "Explain transfer restrictions",
-      "description": "Disclose limited marketability, transfer restrictions and the absence of a secondary market before a binding commitment."
+      "description": "Explain restrictions on selling or transferring the investment before maturity."
     },
     {
       "id": "fiduciary",
       "title": "Record the financial judgment",
-      "description": "Make a written determination connecting the acquisition to material financial risk, return and portfolio fit before a binding commitment."
+      "description": "Explain why this investment, at these terms, serves members' financial interests before committing."
     },
     {
       "id": "publication",
       "title": "Publish within 30 days",
-      "description": "Post the core record within 30 calendar days of the binding commitment, identify settlement status and explain any lawful redactions."
+      "description": "Publish the record within 30 calendar days of the binding commitment. Show whether the transaction has settled and explain any lawful redactions."
     }
   ],
   "timeline": [
@@ -886,9 +886,9 @@
     "title": "Pension Investment Integrity Act",
     "status": "Campaign proposal; no bill number or sponsor announced in this campaign brief",
     "session": "2027 Arkansas regular session",
-    "reviewedAt": "2026-09-16",
+    "reviewedAt": "2026-09-17",
     "briefUrl": "/legislators/one-page/",
-    "summary": "Prospective, issuer-neutral safeguards for covered pension investments in non-tradable sovereign debt. Trustees set policy and oversee managers; the pension system publishes the record. Treasury remains outside pension coverage."
+    "summary": "A public financial explanation for future covered pension investments in non-tradable sovereign debt, with the same standards regardless of issuer. Treasury remains outside the pension proposal."
   },
   "accountComposition": [
     {
