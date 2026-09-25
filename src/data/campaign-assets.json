@@ -1,7 +1,6 @@
 {
   "inputs": {
-    "package-lock.json": "3711e6c62880b2a2d23d949b251e1051410556167e6db108003a10c8df3c422a",
-    "scripts/campaign_provenance.py": "97358a50f8fe70d36674520babe160e098e9b066dab7aab52eea6ced10005078",
+    "scripts/campaign_provenance.py": "48b2c959278485cb94474627332c5685b7595a164758679d3031873d909dc703",
     "scripts/generate_campaign_assets.py": "a029feacbbc395c6ca6c0f300ddc1fecde072340e67a3033486e08a6ebe82cc4",
     "src/components/AccountComposition.astro": "c7dd6980221cbea3e77551ab6287c1be4a2cb414dae21484f9b4c097d173871a",
     "src/components/ActionPanel.astro": "9002e1fe8ed64039a1f18c2af87fd84735257e706c2d3ffba2183de393c8354c",
