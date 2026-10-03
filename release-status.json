@@ -1,12 +1,12 @@
 {
-  "release": "public-facing-policy-copy-2026-09-17",
+  "release": "design-critique-fixes-2026-10-03",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
   "petitionVerifiedBy": "Codex, acting on Joshua\u00e2\u20ac\u2122s explicit instruction",
   "publicationApproved": true,
-  "approvedBy": "Joshua Dunlap's instruction to implement and publish the proposal, continued by his September 17 request to remove excessive operational language from the public site.",
-  "approvedSourceDigest": "315e0e8e2083e204005a0a9a7f1a187e20738f349d0ea8770c2831b05f14e40f",
-  "notes": "Deployed and verified September 17 editorial revision. Public pages lead with pension members and explain the same proposed rules in plain language. Detailed legal and implementation questions remain in working documents. Earlier downloads and heading links are preserved; evidence and external petition settings are unchanged.",
+  "approvedBy": "Joshua Dunlap's October 3, 2026 approval (\"Approved.\") after reviewing the before-and-after review page and the list of new wording, and merging #162, #163 and Dependabot #159-#161.",
+  "approvedSourceDigest": "dd0e03800ce1d9e0e17500bd37bb567574b5b2a1d7fdc7b18f96953eff5b3d50",
+  "notes": "Design critique fixes within the current identity: Take Action leads with one petition action; legislator page opens with a one-page briefing; legible home exhibit and typed key-record cards; plain-terms openers drawn from existing claims; 12 px label floor, 44 px targets and dark-theme fixes; consistent safeguard names, arrows, dates and breadcrumbs. Records, figures, titles, URLs, historical downloads and petition settings are unchanged. See docs/releases/2026-10-03-design-critique-fixes.md.",
   "lastDeployment": {
     "release": "public-facing-policy-copy-2026-09-17",
     "commit": "a7c7a23daede0b450310a9a620fe35b4cfdd2935",
