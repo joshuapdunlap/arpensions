@@ -44,7 +44,7 @@
     "src/content/pages/the-issue.md": "a88e6113c4b7793646f9ca58a51c6f8034302b78ae7ed8fd3cee194180084eba",
     "src/data/campaign.json": "be28bfe2bc7d4fd8b968bab0165b5f48e2fd918c137335a1c59a66edd6ead0c8",
     "src/data/investigation.json": "7039f2ce70b865ad5da2a212bf4ae769c04aca8409770c7542827a91b837ab06",
-    "src/layouts/Base.astro": "8d69bf86d29c33d941c2112b1d7f946baf10797fff273289baa5c5a081b76e35",
+    "src/layouts/Base.astro": "ee9b13114e0e2363c96a730e5ec97a4eb3509054e5815dd9576c2a94fec7b14c",
     "src/pages/404.astro": "d9d05d941afaf26b835d575658766f51caef66847e45c5d368ca612bf3fee2a6",
     "src/pages/[...slug].astro": "47173eb987eb0d64f4ed48ebcd64744058f5f5b9332f94bcb91d8b49bd4c4766",
     "src/pages/assets/documents/index.astro": "569140f6fa730834d4de39dec89c91cf9565fbe4ff8dc27bcd5babd377088a1f",
