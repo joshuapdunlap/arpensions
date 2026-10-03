@@ -1,0 +1,40 @@
+---
+import {financialRecord, sources} from '../lib/data';
+import {safeguards, metaDate} from '../lib/display';
+const figures = [
+  {id: 'apers_september_holding', label: 'APERS reported positions', note: 'Two Israel Bond positions, par value', stamp: 'Custody observation'},
+  {id: 'atrs_january_funding', label: 'ATRS manager funding', note: 'Transfer to the Reams manager account', stamp: 'Completed funding'},
+  {id: 'atrs_february_purchase', label: 'ATRS bond purchase', note: 'Inside the $50 million, not added to it', stamp: 'Completed purchase'},
+].map(f => {const r = financialRecord(f.id); return {...f, amount: `$${r.amount/1e6} million`, date: r.effectiveDate, url: sources[r.sourceIds[0]]?.recordUrl}});
+const calendar = [
+  {date: '2026-11-16', label: 'Prefiling'},
+  {date: '2027-01-11', label: 'Session convenes'},
+  {date: '2027-01-25', label: 'Ordinary filing deadline for retirement bills'},
+];
+const calendarSource = sources.legislative_calendar;
+const brief = '/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf';
+---
+<section class="briefing" aria-labelledby="briefing-heading">
+  <div class="briefing-ask">
+    <h2 id="briefing-heading">The briefing in one page</h2>
+    <p>We are seeking legislative support and a sponsor for the Pension Investment Integrity Act in the 2027 session.</p>
+    <div class="actions"><a class="button" href="mailto:info@arpensions.org?subject=Pension%20Investment%20Integrity%20Act%20briefing">Request a briefing</a><a class="button secondary" href={brief}>One-page brief (PDF)</a></div>
+    <p class="briefing-contact">Or email <span class="nowrap">info@arpensions.org</span>. <a href="/legislators/one-page/">Read the brief on the web</a>.</p>
+  </div>
+  <div class="briefing-grid">
+    <div>
+      <h3>What the records show</h3>
+      <dl class="briefing-figures">{figures.map(f => <div><dt>{f.label}</dt><dd><span class="stamp">{f.stamp}</span><a href={f.url}><strong>{f.amount}</strong></a> <time datetime={f.date}>{metaDate(f.date)}</time><span>{f.note}</span></dd></div>)}</dl>
+      <p class="briefing-note">These figures come from different record dates and cannot be added together.</p>
+    </div>
+    <div>
+      <h3>The five safeguards</h3>
+      <ol class="briefing-safeguards">{safeguards.map(s => <li><strong>{s.title}.</strong> {s.detail}</li>)}</ol>
+    </div>
+    <div>
+      <h3>Session dates</h3>
+      <ul class="briefing-dates">{calendar.map(c => <li><time datetime={c.date}>{metaDate(c.date)}</time><span>{c.label}</span></li>)}</ul>
+      <p class="briefing-note">Source: <a href={calendarSource?.recordUrl}>{calendarSource?.title} ↗</a></p>
+    </div>
+  </div>
+</section>

@@ -8,7 +8,10 @@ import ActionPanel from '../components/ActionPanel.astro';
 import SourceNote from '../components/SourceNote.astro';
 import FinancialSummary from '../components/FinancialSummary.astro';
 import CrossAgencyMeasures from '../components/CrossAgencyMeasures.astro';
+import LegislatorBriefing from '../components/LegislatorBriefing.astro';
+import {metaDate,isExternal} from '../lib/display';
 import {assets} from '../lib/assets';
+import plainTermsData from '../data/plain-terms.json';
 import {sources} from '../lib/data';
 export async function getStaticPaths(){return (await getCollection('pages')).map(entry=>({params:{slug:entry.data.permalink.replace(/^\/|\/$/g,'')},props:{entry}}))}
 const {entry}=Astro.props;
@@ -17,16 +20,25 @@ const {title,description,section,eyebrow,template,agency,reviewedAt,sourceIds}=e
 const isEvidence=template==='evidence', isAgency=template==='agency', isPolicy=template==='policy';
 const pathname=entry.data.permalink;
 const isAction=pathname==='/take-action/';
-const featuredSourceId=sourceIds.find(id=>assets[id]?.previews?.length);
-const featured=featuredSourceId?assets[featuredSourceId]:undefined;
+const internalIds=sourceIds.filter(id=>sources[id]?.summary&&!isExternal(sources[id].recordUrl));
+const keySourceId=internalIds.find(id=>assets[id]?.previews?.length)||internalIds[0];
+const keySource=keySourceId?sources[keySourceId]:undefined;
+const isLegislators=pathname==='/legislators/';
+const plainTerms=(plainTermsData as Record<string,{label:string;text:string}[]>)[pathname];
+const navLabels:Record<string,string>={'/the-issue/':'The Issue','/the-act/':'The Act','/evidence/':'Evidence','/news/':'Updates','/take-action/':'Take Action','/legislators/':'Legislators','/findings/':'Findings','/documents/':'Document library'};
+const parentPath=['/evidence/','/findings/','/news/','/the-act/','/take-action/','/legislators/'].find(p=>pathname!==p&&pathname.startsWith(p));
+const crumbs=[{label:'Home',href:'/'},...(parentPath?[{label:navLabels[parentPath],href:parentPath}]:[])];
+const currentLabel=navLabels[pathname]||title;
 ---
 <Base title={title} description={description} section={section||template} type="article" noindex={entry.data.noindex}>
   <div class="shell">
     {[...new Set(sourceIds.map(id=>sources[id]?.agency).filter(Boolean))].map(name=><span class="sr-only" data-pagefind-filter="Agency">{name}</span>)}
-    <header class:list={['page-heading',isAction&&'action-heading']}><div class="breadcrumbs"><a href="/">Home</a><span>/</span><a href={isAgency?'/evidence/':pathname.startsWith('/findings/')?'/findings/':pathname}>{isAgency?'Evidence':section||'The public record'}</a></div><span class="eyebrow">{eyebrow||section||'Arkansans for Pension Integrity'}</span><h1>{title}</h1><p class="lede">{description}</p>{isAction&&<ActionPanel/>}<div class="page-meta"><span>REVIEWED {reviewedAt}</span><span>{isPolicy?'CAMPAIGN PROPOSAL':isAgency?(agency==='treasury'?'BACKGROUND COMPARISON':'AGENCY DOSSIER'):template==='updates'?'DATED UPDATES':'PUBLIC RECORD & REFORM'}</span></div></header>
+    <header class:list={['page-heading',isAction&&'action-heading']}><nav class="breadcrumbs" aria-label="Breadcrumb" data-pagefind-ignore>{crumbs.map(c=><><a href={c.href}>{c.label}</a><span aria-hidden="true">/</span></>)}<span aria-current="page">{currentLabel}</span></nav><h1>{title}</h1><p class="lede">{description}</p>{isAction&&<ActionPanel/>}<div class="page-meta" data-pagefind-ignore><span>Reviewed <time datetime={reviewedAt}>{metaDate(reviewedAt)}</time></span><span>{isPolicy?'Campaign proposal':isAgency?(agency==='treasury'?'Background comparison':'Agency dossier'):template==='updates'?'Dated updates':'Public record & reform'}</span></div></header>
+    {isLegislators&&<LegislatorBriefing/>}
     <div class="article-grid">
       <div class="article-body">
-        {isEvidence&&<nav class="browse-links" aria-label="Agency dossiers"><a href="/evidence/apers/">APERS ↗</a><a href="/evidence/atrs/">ATRS / Reams ↗</a><a href="/documents/">Document library ↗</a></nav>}
+        {plainTerms&&<section class="plain-terms" aria-labelledby="plain-terms-heading"><h2 id="plain-terms-heading">In plain terms</h2><dl>{plainTerms.map(t=><div><dt>{t.label}</dt><dd>{t.text}</dd></div>)}</dl></section>}
+        {isEvidence&&<nav class="browse-links" aria-label="Agency dossiers"><a href="/evidence/apers/">APERS dossier →</a><a href="/evidence/atrs/">ATRS dossier →</a><a href="/documents/">Document library →</a></nav>}
         {isEvidence&&<FinancialSummary/>}
         {pathname==='/legislators/one-page/'&&<div class="brief-download actions"><a class="button" href="/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf">Download one-page PDF</a><a class="text-link" href="/assets/documents/legislator-letter-2026-09-17.txt">Download letter template</a></div>}
         <article class="prose"><Content/></article>
@@ -36,7 +48,7 @@ const featured=featuredSourceId?assets[featuredSourceId]:undefined;
         {(isEvidence||pathname==='/the-act/')&&<DecisionComparison/>}
         {sourceIds.length>0&&<div style="margin-top:40px"><SourceNote ids={sourceIds}/></div>}
       </div>
-      <aside class="article-aside" data-pagefind-ignore><div class="aside-inner"><span class="micro">On this page</span><nav class="toc" aria-label="On this page">{isAction&&<a href="#sign-the-petition">Sign the petition</a>}{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}{(isEvidence||agency==='atrs')&&<a href="#composition-heading">Inside the ATRS account</a>}{agency==='treasury'&&<a href="#cross-agency-measures">Background financial measures</a>}{(isEvidence||isAgency)&&<a href="#timeline-heading">Decision timeline</a>}</nav>{featured&&featuredSourceId&&<figure class="source-thumb"><a href={sources[featuredSourceId].recordUrl}><img src={featured.previews[0].url} width={featured.previews[0].width} height={featured.previews[0].height} alt={`Reviewed exhibit: ${sources[featuredSourceId].title}`} loading="lazy"/></a><figcaption>{sources[featuredSourceId].title}</figcaption><a href={sources[featuredSourceId].recordUrl}>Read the source ↗</a></figure>}<div class="aside-action"><p>A public financial case for every covered investment.</p><a class="button" href="/take-action/">Support the Act</a></div></div></aside>
+      <aside class="article-aside" data-pagefind-ignore><div class="aside-inner"><span class="micro">On this page</span><nav class="toc" aria-label="On this page">{isAction&&<a href="#sign-the-petition">Sign the petition</a>}{headings.filter(h=>h.depth===2).map(h=><a href={`#${h.slug}`}>{h.text}</a>)}{(isEvidence||agency==='atrs')&&<a href="#composition-heading">Inside the ATRS account</a>}{agency==='treasury'&&<a href="#cross-agency-measures">Background financial measures</a>}{(isEvidence||isAgency)&&<a href="#timeline-heading">Decision timeline</a>}</nav>{keySource&&<div class="key-record"><span class="micro">Key record</span><a class="key-record-title" href={keySource.recordUrl}>{keySource.title}</a><p>{keySource.summary}</p><span class="key-record-meta">{keySource.date&&<time datetime={keySource.date}>{metaDate(keySource.date)}</time>}{keySource.agency&&<span>{keySource.agency}</span>}</span><a class="key-record-link" href={keySource.recordUrl}>Read the record →</a></div>}{isLegislators?<div class="aside-action"><p>Questions about the proposal or the records?</p><a class="button" href="mailto:info@arpensions.org?subject=Pension%20Investment%20Integrity%20Act%20briefing">Request a briefing</a><span class="aside-email">info@arpensions.org</span></div>:!isAction&&<div class="aside-action"><p>A public financial case for every covered investment.</p><a class="button" href="/take-action/">Support the Act</a></div>}</div></aside>
     </div>
   </div>
 </Base>

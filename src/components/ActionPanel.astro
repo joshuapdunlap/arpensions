@@ -1,8 +1,20 @@
 ---
 const url='https://actionnetwork.org/petitions/stand-for-pension-integrity?source=arpensions';
 ---
-<section class="action-panel" aria-labelledby="petition-heading" id="petition"><span id="sign-the-petition"></span><h2 id="petition-heading" class="sr-only">Sign the petition</h2><div class="actions"><a class="button" href={url}>Open the petition</a><button class="button secondary" id="load-petition" hidden>Load petition here</button></div><p class="footnote">Hosted by Action Network. Email updates are selected by default; review “Edit Subscription Preferences” before signing. <a href="/privacy/">Privacy and subscription details</a>.</p><p id="petition-status" role="status" aria-live="polite"></p><div id="petition-container"></div><noscript><p>The direct petition link works without JavaScript on this site.</p></noscript></section>
+<section class="action-panel" aria-labelledby="petition-heading" id="petition"><span id="sign-the-petition"></span>
+  <h2 id="petition-heading">Sign the petition</h2>
+  <p class="petition-ask">The petition asks members of the Arkansas General Assembly to help develop and support the Pension Investment Integrity Act for the 2027 regular session.</p>
+  <div class="petition-primary"><a class="button" href={url}>Sign on Action Network</a></div>
+  <ol class="petition-steps" aria-label="What happens next">
+    <li>Action Network opens the petition form.</li>
+    <li>Add your name and details, then check the email choice before you submit.</li>
+    <li>Come back here to write to your legislators.</li>
+  </ol>
+  <p class="footnote">Hosted by Action Network. Email updates are selected by default; review “Edit Subscription Preferences” before signing. <a href="/privacy/">Privacy and subscription details</a>.</p>
+  <p class="petition-inline"><button type="button" class="link-button" id="load-petition" hidden>Or load the form on this page</button></p>
+  <p id="petition-status" role="status" aria-live="polite"></p><div id="petition-container"></div><noscript><p>The direct petition link works without JavaScript on this site.</p></noscript>
+</section>
 <script>
   const button=document.querySelector<HTMLButtonElement>('#load-petition');
-  if(button){button.hidden=false;button.addEventListener('click',()=>{button.disabled=true;const status=document.querySelector('#petition-status');const container=document.querySelector('#petition-container');if(status)status.textContent='Loading Action Network. The direct petition link remains available.';const frame=document.createElement('iframe');frame.className='petition-frame';frame.title='Pension Investment Integrity Act petition on Action Network';frame.src='https://actionnetwork.org/petitions/stand-for-pension-integrity?source=arpensions';frame.referrerPolicy='strict-origin-when-cross-origin';frame.addEventListener('load',()=>{if(status)status.textContent='If the form is blank, blocked, or difficult to use, open the petition with the link above.'});container?.append(frame);window.setTimeout(()=>{if(status)status.textContent='If the form does not appear, use Open the petition above. Your signature is handled by Action Network.'},10000)},{once:true})}
+  if(button){button.hidden=false;button.addEventListener('click',()=>{button.disabled=true;const status=document.querySelector('#petition-status');const container=document.querySelector('#petition-container');if(status)status.textContent='Loading Action Network. The direct petition link remains available.';const frame=document.createElement('iframe');frame.className='petition-frame';frame.title='Pension Investment Integrity Act petition on Action Network';frame.src='https://actionnetwork.org/petitions/stand-for-pension-integrity?source=arpensions';frame.referrerPolicy='strict-origin-when-cross-origin';frame.addEventListener('load',()=>{if(status)status.textContent='If the form is blank, blocked, or difficult to use, use Sign on Action Network above.'});container?.append(frame);window.setTimeout(()=>{if(status&&!status.textContent?.startsWith('If the form is blank'))status.textContent='If the form does not appear, use Sign on Action Network above. Your signature is handled by Action Network.'},10000)},{once:true})}
 </script>

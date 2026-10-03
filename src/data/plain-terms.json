@@ -1,0 +1,86 @@
+{
+  "/the-issue/": [
+    {
+      "label": "What happened",
+      "text": "APERS reported $25 million in Israel Bond positions on September 7, 2026. An ATRS manager account bought a $9.9 million Israel Bond on February 17, 2026, inside $50 million ATRS had transferred to it."
+    },
+    {
+      "label": "What it means for members",
+      "text": "Members should be able to read the financial reasoning behind each decision: the repayment risk, the alternatives, access to the money and why it serves them."
+    },
+    {
+      "label": "What it does not mean",
+      "text": "These records do not establish a loss to any member's benefit or require changes to individual retirement choices."
+    }
+  ],
+  "/evidence/": [
+    {
+      "label": "What the records show",
+      "text": "What APERS held on September 7, 2026, and what ATRS's manager bought on February 17, 2026, each from a dated record you can open."
+    },
+    {
+      "label": "How to read the figures",
+      "text": "The amounts come from different dates and cannot be added. ATRS's $9.9 million bond is part of its $50 million manager account, not on top of it."
+    },
+    {
+      "label": "What remains open",
+      "text": "Aon gave ATRS substantive advice on choosing a manager and carrying out the investment. The open question is which decision-specific financial analysis trustees relied on, and where members can read it."
+    }
+  ],
+  "/evidence/apers/": [
+    {
+      "label": "What happened",
+      "text": "APERS custody reporting shows two Israel Bond positions totaling $25 million par, the bonds' face amount, on September 7, 2026."
+    },
+    {
+      "label": "What it means for members",
+      "text": "How that amount is split among the systems APERS administers is unresolved, so it is not an individual member allocation."
+    },
+    {
+      "label": "What remains open",
+      "text": "The reviewed records do not identify an independent consultant credit memo tied to either purchase. That describes what was produced, not proof that nothing else exists."
+    }
+  ],
+  "/evidence/atrs/": [
+    {
+      "label": "What happened",
+      "text": "ATRS transferred $50 million to a Reams manager account on January 2, 2026. That account bought one $9.9 million Israel Bond on February 17, 2026."
+    },
+    {
+      "label": "How to read the figures",
+      "text": "The bond is part of the $50 million, not in addition to it. In July the rest of the account was U.S. Treasuries and cash."
+    },
+    {
+      "label": "What remains open",
+      "text": "Aon advised on choosing the manager but said its memo was not a recommendation to invest in Israel Bonds. The open question is the decision-specific financial case trustees relied on."
+    }
+  ],
+  "/educators/": [
+    {
+      "label": "What happened",
+      "text": "ATRS moved $50 million to an outside manager account on January 2, 2026. That account bought a $9.9 million Israel Bond on February 17, 2026."
+    },
+    {
+      "label": "What it means for you",
+      "text": "You can ask where members can read the written financial case for that decision."
+    },
+    {
+      "label": "What it does not mean",
+      "text": "These records do not establish a loss to your benefit or require changes to your individual retirement choices."
+    }
+  ],
+  "/public-employees/": [
+    {
+      "label": "What happened",
+      "text": "APERS custody reporting lists $25 million par in two Israel Bond positions as of September 7, 2026."
+    },
+    {
+      "label": "What it means for you",
+      "text": "It is not an individual member allocation. You can ask where members can read the financial case for these positions."
+    },
+    {
+      "label": "What it does not mean",
+      "text": "These records do not establish a loss to your benefit or require changes to your individual retirement choices."
+    }
+  ]
+}
