@@ -37,14 +37,14 @@ const fullTitle=Astro.url.pathname==='/'?'Arkansans for Pension Integrity | Publ
   <header class="site-header" data-pagefind-ignore>
     <div class="masthead shell">
       <a class="brand" href="/" aria-label="Arkansans for Pension Integrity, home">
-        <img src="/assets/images/api-badge.svg" width="62" height="62" alt=""/>
+        <img class="badge-light" src="/assets/images/api-badge.svg" width="62" height="62" alt=""/><img class="badge-dark" src="/assets/images/api-badge-on-dark.svg" width="62" height="62" alt=""/>
         <span>ARKANSANS FOR<br/><strong>PENSION INTEGRITY</strong></span>
       </a>
       <nav class="desktop-nav" aria-label="Primary">{nav.map(([label,url])=><a href={url} aria-current={Astro.url.pathname===url?'page':undefined}>{label}</a>)}</nav>
       <div class="header-tools">
         <a class="icon-button" href="/search/" aria-label="Search the public record"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a>
         <button class="icon-button theme-toggle" aria-label="Switch to dark theme" title="Change color theme" hidden><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M12 5a7 7 0 0 1 0 14Z" fill="currentColor"/></svg></button>
-        <details class="mobile-nav"><summary aria-label="Open navigation"><span></span><span></span></summary><nav aria-label="Mobile primary">{nav.map(([label,url])=><a href={url}>{label}</a>)}<a href="/documents/">Document library</a><a href="/about/">About API</a></nav></details>
+        <details class="mobile-nav"><summary aria-label="Open navigation"><span></span><span></span></summary><nav aria-label="Mobile primary">{nav.map(([label,url])=><a href={url} aria-current={Astro.url.pathname===url?'page':undefined}>{label}</a>)}<a href="/documents/">Document library</a><a href="/about/">About API</a></nav></details>
       </div>
     </div>
   </header>
@@ -54,7 +54,7 @@ const fullTitle=Astro.url.pathname==='/'?'Arkansans for Pension Integrity | Publ
   </main>
   <footer class="site-footer" data-pagefind-ignore>
     <div class="shell footer-grid">
-      <div><a class="footer-name" href="/">A public record.<br/>A stronger retirement.</a><p>Arkansans for Pension Integrity works for a clear financial case behind covered public pension investments.</p><a class="text-link" href="mailto:info@arpensions.org">info@arpensions.org ↗</a></div>
+      <div><a class="footer-name" href="/">A public record.<br/>A stronger retirement.</a><p>Arkansans for Pension Integrity works for a clear financial case behind covered public pension investments.</p><a class="text-link" href="mailto:info@arpensions.org">info@arpensions.org</a></div>
       <nav aria-label="Explore"><span class="micro">Explore</span><a href="/the-act/">The Integrity Act</a><a href="/documents/">Document library</a><a href="/findings/">The findings</a><a href="/key-figures/">People & institutions</a><a href="/news/">Updates & RSS</a></nav>
       <nav aria-label="About and standards"><span class="micro">Our standards</span><a href="/about/">About API</a><a href="/press/">For the press</a><a href="/methodology/">Methodology</a><a href="/glossary/">Glossary</a><a href="/corrections/">Corrections & updates</a><a href="/privacy/">Privacy</a></nav>
     </div>

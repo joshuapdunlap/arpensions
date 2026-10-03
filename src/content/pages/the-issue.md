@@ -22,12 +22,6 @@ When a pension board commits retirement money, its members should be able to see
 
 A decision record should explain repayment risk, expected return, liquidity, reasonable alternatives and the investment's place in the wider portfolio.
 
-## How the proposal moved
-
-Auditor-office records contain an eight-stop April 14–15, 2025 itinerary. It shows scheduled outreach, not proof that all eight meetings occurred. A participating-office email confirms the Hudson–Babbitt encounter. Seller messages report encounters with Fecher and Treasury staff. [Itinerary, p. 2](/documents/records/capitol-itinerary/) · [DFA confirmation](/documents/records/hudson-babbitt-confirmation/) · [Seller account, p. 589](/documents/records/seller-reported-meetings/).
-
-The signed APERS minutes identify Jason Brady as the Auditor's proxy and the presenter and mover of the authorization. [Minutes, pp. 1 and 4](/documents/records/apers-authorization/). [Explore the network and its boundaries](/network/).
-
 ## What the records now show
 
 | Record | Amount | What it establishes |
@@ -39,6 +33,12 @@ The signed APERS minutes identify Jason Brady as the Auditor's proxy and the pre
 The APERS and ATRS figures come from different record dates. ATRS’s $9.9 million bond is already included in its $50 million funded account, alongside U.S. Treasuries and cash. Adding the bond to that funding would count the same money twice.
 
 Sources: [APERS custody, p. 1](/documents/records/apers-september-holdings/); [ATRS trade, row 2](/documents/records/atrs-completed-purchase/); [ATRS July, row 9](/documents/records/atrs-july-holdings/); [funding, p. 3](/documents/records/atrs-completed-funding/).
+
+## How the proposal moved
+
+Auditor-office records contain an eight-stop April 14–15, 2025 itinerary. It shows scheduled outreach, not proof that all eight meetings occurred. A participating-office email confirms the Hudson–Babbitt encounter. Seller messages report encounters with Fecher and Treasury staff. [Itinerary, p. 2](/documents/records/capitol-itinerary/) · [DFA confirmation](/documents/records/hudson-babbitt-confirmation/) · [Seller account, p. 589](/documents/records/seller-reported-meetings/).
+
+The signed APERS minutes identify Jason Brady as the Auditor's proxy and the presenter and mover of the authorization. [Minutes, pp. 1 and 4](/documents/records/apers-authorization/). [Explore the network and its boundaries](/network/).
 
 ## What we are asking for
 

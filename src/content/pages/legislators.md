@@ -13,19 +13,9 @@ reviewedAt: '2026-09-17'
 updatedAt: '2026-09-17'
 ---
 
-**Give pension members a clear public record of investment decisions.** The Pension Investment Integrity Act is a proposal for Arkansas's 2027 legislative session. We are seeking legislative support and sponsorship.
-
-[Download the one-page handout (PDF)](/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf) · [Read the web brief](/legislators/one-page/) · [Request a briefing](mailto:info@arpensions.org?subject=Pension%20Investment%20Integrity%20Act%20briefing).
-
 ## The proposed decision record
 
-For covered pension investments in **non-tradable sovereign debt**, the proposal would require:
-
-1. **Explain repayment risk.** Prepare a written credit analysis before agreeing to the investment.
-2. **Compare the options.** Show how reasonable alternatives compare on risk, expected return and access to the money.
-3. **Explain the exit.** Describe restrictions on selling or transferring the investment before maturity.
-4. **Make the financial case.** Explain why this investment serves members' interests and fits the pension portfolio.
-5. **Publish the record.** Post the analysis and decision within 30 calendar days of the binding commitment, showing whether the transaction has settled.
+The five safeguards in the briefing above would apply to covered pension investments in **non-tradable sovereign debt**. The analysis would come before the binding commitment; publication would follow within 30 calendar days of it.
 
 ## Why the records make the case
 

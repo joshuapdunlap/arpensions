@@ -17,6 +17,8 @@ updatedAt: '2026-09-17'
 
 Find your representatives through the [Arkansas Legislature's directory](https://www.arkleg.state.ar.us/Legislators). You can adapt this message:
 
+<p class="letter-prompt"><strong>Start with one sentence about you.</strong> For example: I teach [grade or subject] in [town] and have been an ATRS member for [number] years. Then adapt the template below.</p>
+
 <!-- campaign-letter:start -->
 <div class="copy-row"><button type="button" hidden data-copy="legislator-letter">Copy letter template</button><span role="status" aria-live="polite"></span></div>
 <blockquote class="letter-box" id="legislator-letter">Dear Senator or Representative,
@@ -39,7 +41,9 @@ Sincerely,
 
 Sources for the letter: [APERS custody](/documents/records/apers-september-holdings/), [ATRS trade](/documents/records/atrs-completed-purchase/), [ATRS funding](/documents/records/atrs-completed-funding/).
 
-## Attend a board meeting
+## More ways to help
+
+### Attend a board meeting
 
 Check the [ATRS calendar](https://www.artrs.gov/calendar) or [APERS website](https://apers.org/) for current notices, location and access instructions. Contact the agency about any public-comment procedures. A public meeting does not automatically provide a right to speak.
 
@@ -47,10 +51,10 @@ Listen for credit risk, expected return, liquidity and alternatives. Ask where t
 
 <span id="participate"></span>
 
-## Volunteer
+### Volunteer
 
 Help with outreach, writing, source research or legislative visits. [Email the campaign](mailto:info@arpensions.org?subject=Volunteer) with your city, connection to a pension system and interests. Keep account numbers and sensitive identification out of email.
 
-## Spread the word
+### Spread the word
 
 Share the [September evidence update](/news/september-2026-records/) and [current printable brief](/legislators/one-page/) with a colleague. Explain the financial-stage distinctions with the figures.
