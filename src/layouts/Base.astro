@@ -66,7 +66,7 @@ const fullTitle=Astro.url.pathname==='/'?'Arkansans for Pension Integrity | Publ
     update();
     toggle?.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('api-theme',theme)}catch{}update()});
     document.addEventListener('keydown',e=>{if(e.key==='Escape'){const menu=document.querySelector<HTMLDetailsElement>('.mobile-nav[open]');if(menu){menu.open=false;menu.querySelector('summary')?.focus()}}});
-    document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button=>{button.hidden=false;button.addEventListener('click',async()=>{const target=document.getElementById(button.dataset.copy||'');if(!target)return;const status=button.parentElement?.querySelector('[role="status"]');try{await navigator.clipboard.writeText(target.textContent||'');if(status)status.textContent=button.dataset.copySuccess||'Copied. Review and personalize before sending.'}catch{if(status)status.textContent='Copy was unavailable. Select the text below and copy it.'}})});
+    document.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button=>{button.hidden=false;button.addEventListener('click',async()=>{const target=document.getElementById(button.dataset.copy||'');if(!target)return;const status=button.parentElement?.querySelector('[role="status"]');try{await navigator.clipboard.writeText(Array.from(target.childNodes,n=>(n.textContent||'').trim()).filter(Boolean).join('\n\n'));if(status)status.textContent=button.dataset.copySuccess||'Copied. Review and personalize before sending.'}catch{if(status)status.textContent='Copy was unavailable. Select the text below and copy it.'}})});
   </script>
 </body>
 </html>
