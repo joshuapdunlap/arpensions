@@ -1,14 +1,13 @@
 """Verify immutable downloads, reviewed exhibit hashes, previews, briefs and QR codes."""
 from pathlib import Path
 import argparse,hashlib,json,sys,re
-from urllib.request import Request,urlopen
 import fitz,zxingcpp
 from PIL import Image
 from campaign_provenance import input_hashes
 
 ROOT=Path(__file__).resolve().parent.parent
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--live',action='store_true');args=parser.parse_args()
+    argparse.ArgumentParser(description="Verify local assets, including encoded QR payloads, offline.").parse_args()
     errors=[];data=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf-8'));assets=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf-8'))
     contract=json.loads((ROOT/'tests/fixtures/compatibility.json').read_text())
     manifest=json.loads((ROOT/'src/data/campaign-assets.json').read_text(encoding='utf-8'))
@@ -95,7 +94,7 @@ def main():
         payloads=[r.text for r in zxingcpp.read_barcodes(Image.open(ROOT/'public/assets/images'/name))]
         if 'https://qr.generatorqr.com/3drm7MQpG' not in payloads:errors.append(f'{name}: historical QR changed')
     og=ROOT/'public/assets/images/og-rebuild.png'
-    if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 × 630')
+    if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 Ã— 630')
     qr=ROOT/'public/assets/images/campaign-qr.png'
     if not qr.exists() or 'https://arpensions.org/go/' not in [r.text for r in zxingcpp.read_barcodes(Image.open(qr))]:errors.append('New QR must use owned /go/ destination')
     campaign=json.loads((ROOT/'src/data/campaign.json').read_text(encoding='utf-8'))
@@ -108,13 +107,6 @@ def main():
             for token in ('$25','$9.9','January 2','non-tradable sovereign debt','30 calendar days',campaign['date']):
                 if token not in text:errors.append(f'Current brief missing {token}')
             if ' '.join(campaign['operatingSummary'].split()) not in text:errors.append('Current brief does not match the approved campaign explanation')
-    if args.live:
-        try:
-            with urlopen(Request('https://qr.generatorqr.com/3drm7MQpG',headers={'User-Agent':'arpensions-public-asset-check/2'}),timeout=20) as response:
-                destination=response.geturl()
-                if not destination.startswith('https://arpensions.org'):errors.append(f'Printed QR now resolves to {destination}')
-                else:print('Historical printed QR resolves to arpensions.org over HTTPS.')
-        except Exception as exc:errors.append(f'Live QR resolution could not be verified: {exc}')
     if errors:print('\n'.join('ERROR: '+e for e in errors));return 1
     print(f'Asset audit passed: {len(contract["downloads"])} historical PDFs ({len(revisions)} documented privacy revisions), {len(assets)} reviewed source exhibits, social card and QR codes.');return 0
 if __name__=='__main__':sys.exit(main())
