@@ -118,3 +118,5 @@ python scripts/publish_sources.py --wiki "<local-evidence-vault>" --reviewed
 Record changed files, source checks, validation and remaining browser review. Inspect mobile widths, both themes, keyboard focus, reduced motion, no-JavaScript reading, search, print and downloads. Automated success alone does not establish completed browser QA or accessibility.
 
 Follow [the release guide](release-guide.md). Source changes after approval require a new digest and approval. External correspondence, petition changes and publication require Joshua’s authorization. Keep historical deployment evidence separate from approval of a changed candidate.
+
+For PDF privacy revisions, render every changed page and inspect OCR from the replacement pixels. Check transaction fields against the catalog and retain prior redaction checks. The asset audit also inspects PDF links, metadata, contact text, forms, attachments and invisible text. Historical PDFs with reviewed features are recorded by exact file hash in `tests/fixtures/reviewed-pdf-features.json`. Review each occurrence before adding an exception. A new hash requires a new review.

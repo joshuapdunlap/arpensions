@@ -328,7 +328,7 @@
     "sha256": "5ee7faaaa86b5cf40fb3713df3be34120bb8df494368927e979a4f74e47a6732",
     "pages": 2,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/apers/FOIA Response 9-9-26/Asset_and_Accrual_DetailMarket_values_AR Cash Bond Details_Redacted_final_Redacted.pdf",
+    "originalFile": "Asset_and_Accrual_DetailMarket_values_AR Cash Bond Details_Redacted_final_Redacted.pdf",
     "originalLocator": "Physical page 1, two State of Israel positions; page 2 account total",
     "treatment": "Agency masking retained. Public derivative is rasterized to remove hidden text and metadata.",
     "previews": [
@@ -353,7 +353,7 @@
     "sha256": "c1aa33215bdca03d7e1d90acb94fd4d3cc370758cc6e6c7c826882bbdeef9c02",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/apers/FOIA Response 9-9-26/APERS 8-26 CIR_Redacted_final.pdf",
+    "originalFile": "APERS 8-26 CIR_Redacted_final.pdf",
     "originalLocator": "Physical page 1; separate execution timestamp not displayed",
     "treatment": "Rectangular request-form crop through bond total; direct seller contact block and footer omitted. Agency masking retained; rasterized.",
     "previews": [
@@ -372,7 +372,7 @@
     "sha256": "dad8c9cf2b5a47a9c18b8b0a2b1c5f3b6c9ecd4ca69060ddb007b067744471cb",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 9-11-26/2026_Funding.pdf",
+    "originalFile": "2026_Funding.pdf",
     "originalLocator": "Physical page 3 status Completed; pages 1 and 6–7 transfer context",
     "treatment": "Physical page 3 only. Reference number, submitting staff identity, source/destination fund codes and clearing-house field irreversibly masked before rasterization. No other funding pages included.",
     "previews": [
@@ -391,7 +391,7 @@
     "sha256": "49a2687d425fed79bb64bcc9d6e3f4e66c1df826e6f56dadbf0418022a451a9a",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 9-11-26/2026_trade.xlsx",
+    "originalFile": "2026_trade.xlsx",
     "originalLocator": "2026.0228.Reams ILS 4NZB Trade, row 2 (headers row 1)",
     "treatment": "Native LibreOffice spreadsheet PDF export of original rows 1-2. Only print-column widths widened in a working copy so source text is legible; cell values unchanged. Agency redaction retained. Rasterized public PDF.",
     "previews": [
@@ -410,7 +410,7 @@
     "sha256": "1277bd2094f1d4e8fdcb759ad87525a767c9c0b85033bf8391082da0a13429b9",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 9-11-26/2026-07-31_Report.xlsx",
+    "originalFile": "2026-07-31_Report.xlsx",
     "originalLocator": "MasterGridXLS rows 7, 9–10 and 12; headers row 1",
     "treatment": "Native LibreOffice spreadsheet PDF export, SinglePageSheets; original cells, headers and agency redactions preserved. Rasterized public PDF.",
     "previews": [
@@ -429,7 +429,7 @@
     "sha256": "e224407a3793412f9ac30567083f6b5d322d89cc3724c4154ae55caa7757b012",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 9-11-26/2026-02-13_13th Jubilee_cancellation.pdf",
+    "originalFile": "2026-02-13_13th Jubilee_cancellation.pdf",
     "originalLocator": "Physical page 1, Cancel Bond Issuance",
     "treatment": "Physical page 1 rectangular financial-table crop; recipient, account, barcode and return-mail blocks omitted. Agency masking retained. Rasterized public PDF.",
     "previews": [
@@ -448,7 +448,7 @@
     "sha256": "4031c2510e50e8388fc6bcb5143e6bbe5df273c2a83faa2888a119efb1c18d10",
     "pages": 3,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 9-11-26/2026 Q2.pdf",
+    "originalFile": "2026 Q2.pdf",
     "originalLocator": "Performance summary and portfolio commentary",
     "treatment": "Selected full source pages 3, 7 and 8: performance, portfolio strategy and characteristics. Rasterized public derivative; no added source-page graphics.",
     "previews": [
@@ -479,7 +479,7 @@
     "sha256": "b77e1fb9d77b5cc7a1e0d39652fd1f98fb97a5c487868e3896be2b0ceba77c2f",
     "pages": 2,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 9-11-26/4600057154_A2.pdf",
+    "originalFile": "4600057154_A2.pdf",
     "originalLocator": "Amendment 2, contract-period and signature fields",
     "treatment": "Physical pages 1 and 3. Department contact section irreversibly masked; official contract terms and signature section retained. Rasterized; form fields and metadata removed.",
     "previews": [
@@ -504,8 +504,8 @@
     "sha256": "4e1720ffcfa6ab7e360c7a3fffa669c849e002ebbd86ca34e7a2f4ea8cc685eb",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/treasury/FOIA Response 7-7-25/Dunlap FOIA 7.,2.25.pdf",
-    "originalLocator": "FOIA Response 7-7-25 / Dunlap FOIA 7.,2.25.pdf, physical pages 7-8; seller email to Treasury investment staff",
+    "originalFile": "Treasury production of July 7, 2025 (source identified by SHA-256)",
+    "originalLocator": "Treasury production of July 7, 2025, physical pages 7-8; seller email to Treasury investment staff",
     "treatment": "Physical page 7 email-body excerpt; sender/recipient direct-contact fields irreversibly masked; signature block on page 8 omitted. Seller statement, not a Treasury purchase authorization.",
     "previews": [
       {
@@ -523,7 +523,7 @@
     "sha256": "14fe54620ec82033f8d5b2f48f405f4a95d40b5cc3cca7d1f8361548ee32272d",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 6-18-25/State Auditors Emails/Spadoni/April 11, 2025 - 4.pdf",
+    "originalFile": "April 11, 2025 - 4.pdf",
     "originalLocator": "FOIA Response 6-18-25 / State Auditors Emails / Spadoni / April 11, 2025 - 4.pdf, physical page 2",
     "treatment": "Physical page 2 rectangular itinerary/body crop. Signature contact block omitted. Schedule is not attendance proof.",
     "previews": [
@@ -542,7 +542,7 @@
     "sha256": "60b97126e66d65c641cf0e4e1f4a2dd687c8d909c1d5fdea5d1af63e2b85373b",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/apers/FOIA Response 7-7-25/IB_FOIA_MAY_25_Reviewed.pdf",
+    "originalFile": "IB_FOIA_MAY_25_Reviewed.pdf",
     "originalLocator": "FOIA Response 7-7-25 / IB_FOIA_MAY_25_Reviewed.pdf, physical page 589",
     "treatment": "Physical page 589 crop through message closing; direct email address and mail-security banner masked; contact signature omitted. Seller-authored claims retained as seller claims.",
     "previews": [
@@ -561,7 +561,7 @@
     "sha256": "39aa56ee30d1355fd241065555980cc490b95bfd7226bd2a03bfc408c3b2ebb3",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 7-3-25/06-02-25_BOT_Packet.pdf",
+    "originalFile": "06-02-25_BOT_Packet.pdf",
     "originalLocator": "FOIA Response 7-3-25 / 06-02-25_BOT_Packet.pdf, physical page 6 (embedded signed minutes); cross-check: Sign-In Sheets 6-2-2025.pdf, physical page 1",
     "treatment": "Physical page 6, full minutes attendance page. Rasterized public derivative.",
     "previews": [
@@ -580,7 +580,7 @@
     "sha256": "b1febe184680e1f66ba9988c03210fb5f76e29915077321c870ff56c4ad606b9",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/treasury/FOIA Response 2-19-26/End of Year Letter from Treasurer Milligan.pdf",
+    "originalFile": "End of Year Letter from Treasurer Milligan.pdf",
     "originalLocator": "End of Year Letter from Treasurer Milligan.pdf, physical page 1",
     "treatment": "Full physical page 1. Public organization letter and sponsor list; rasterized.",
     "previews": [
@@ -599,7 +599,7 @@
     "sha256": "97d432acd70bb809caf0f84430ced27750f89782a6b87ee79d310c7ee99090a9",
     "pages": 3,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 6-18-25/State Auditors Emails/Milligan/🗳️ Pre-Election Update from the States - 4 nov 24.pdf",
+    "originalFile": "🗳️ Pre-Election Update from the States - 4 nov 24.pdf",
     "originalLocator": "FOIA Response 6-18-25 / State Auditors Emails / Milligan / 🗳️ Pre-Election Update from the States - 4 nov 24.pdf, physical pages 4-6",
     "treatment": "Original physical pages 4-6, including newsletter organization context and footer. Public generic organization contact retained; no personal contacts displayed.",
     "previews": [
@@ -668,7 +668,7 @@
     "sha256": "160a167118f3c898ac6d8297181696463fdddaf4e54eb89738f0f1478bbf8556",
     "pages": 3,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/securities/FOIA Response 4-20-26/ASD-120_Orders-86-27-S,-86-27a-S-1986.pdf",
+    "originalFile": "ASD-120_Orders-86-27-S,-86-27a-S-1986.pdf",
     "originalLocator": "Orders 86-27-S and 86-27a-S",
     "treatment": "All three original pages retained together: suspension and later vacatur/reinstatement. Rasterized public derivative.",
     "previews": [
@@ -699,7 +699,7 @@
     "sha256": "d5d54385745f91233702a40205ee2916b71a905023e1d0a502257ec2491f5169",
     "pages": 1,
     "reviewedAt": "2026-09-15",
-    "originalFile": "raw/atrs/FOIA Response 6-18-25/Reports.pdf",
+    "originalFile": "Reports.pdf",
     "originalLocator": "S&P April 18 rating report",
     "treatment": "Physical page 2, S&P research update dated April 18, 2024 (printed page 1). Analyst contact column masked. Historical report, not a current rating or pension-specific analysis.",
     "previews": [

@@ -1,7 +1,9 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import data from '../src/data/investigation.json';
+import assets from '../src/data/public-assets.json';
 import {assembleMeasure, type FinancialRecord} from '../src/lib/financial.ts';
+import {exposesPrivatePath,isPublicOriginalFilename,requirePublicLocator,requirePublicOriginalFilename} from '../src/lib/public-provenance.ts';
 const records=data.financialRecords as FinancialRecord[];
 const get=(id:string)=>records.find(r=>r.id===id)!;
 test('portfolio observations cannot double count their earlier purchase or statement',()=>{
@@ -42,4 +44,15 @@ test('July composition is market value plus accrued income, not par or funding',
 });
 test('every financial and timeline source resolves',()=>{
   for(const row of [...data.financialRecords,...data.timeline])for(const id of row.sourceIds)assert.ok(id in data.sources,`${row.id}: ${id}`);
+});
+test('public provenance separates filenames from private vault paths',()=>{
+  for(const [id,source] of Object.entries(data.sources))assert.ok(isPublicOriginalFilename(source.originalFile),`${id}: originalFile must be a public filename`);
+  for(const [id,asset] of Object.entries(assets))assert.ok(isPublicOriginalFilename(asset.originalFile),`${id}: asset originalFile must be a public filename`);
+  for(const value of ['raw/agency/mailbox/file.pdf','raw\\agency\\file.pdf','raw%2Fagency%2Ffile.pdf','/vault/file.pdf','C:\\vault\\file.pdf'])assert.equal(isPublicOriginalFilename(value),false);
+  for(const value of ['Source raw/agency/file.pdf','  /vault/file.pdf','Source raw%2Fagency%2Ffile.pdf'])assert.equal(exposesPrivatePath(value),true);
+  assert.throws(()=>requirePublicOriginalFilename('raw/agency/file.pdf','test record'),/public filename/);
+  assert.equal(data.sources.capitol_itinerary.originalFile,'April 11, 2025 - 4.pdf');
+  assert.match(data.sources.capitol_itinerary.locator,/State Auditors Emails \/ Spadoni/);
+  assert.equal(exposesPrivatePath(data.sources.capitol_itinerary.locator),false);
+  assert.equal(requirePublicLocator(data.sources.capitol_itinerary.locator,'test locator'),data.sources.capitol_itinerary.locator);
 });
