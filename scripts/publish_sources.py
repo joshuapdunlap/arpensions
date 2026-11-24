@@ -9,6 +9,7 @@ import argparse,hashlib,json,subprocess
 import fitz
 from PIL import Image, ImageDraw
 from io import BytesIO
+from public_provenance import exposes_private_path, is_public_original_filename
 ROOT=Path(__file__).resolve().parents[1]
 NEW={
 'apers_september_holdings':('apers/FOIA Response 9-9-26/Asset_and_Accrual_DetailMarket_values_AR Cash Bond Details_Redacted_final_Redacted.pdf',[(0,None,[]),(1,None,[])],'Agency masking retained. Public derivative is rasterized to remove hidden text and metadata.'),
@@ -94,13 +95,20 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--wiki',type=Path);ap.add_argument('--reviewed',action='store_true');ap.add_argument('--only',nargs='+');a=ap.parse_args()
  if not a.wiki or not a.reviewed:ap.error('Explicit --wiki and --reviewed required; review exact originals and private exports before generation.')
- sources=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf8'))['sources'];data=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf8'));out=ROOT/'public/assets/exhibits';out.mkdir(parents=True,exist_ok=True)
+ sources=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf8'))['sources'];data=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf8'))
+ for key,source in sources.items():
+  if not is_public_original_filename(source.get('originalFile')):raise ValueError(f'{key}: public originalFile must be a filename, not a private path')
+  if exposes_private_path(source.get('locator')):raise ValueError(f'{key}: public locator exposes a private path')
+ for key,asset in data.items():
+  if not is_public_original_filename(asset.get('originalFile')):raise ValueError(f'{key}: asset originalFile must be a filename, not a private path')
+  if exposes_private_path(asset.get('originalLocator')):raise ValueError(f'{key}: asset locator exposes a private path')
+ out=ROOT/'public/assets/exhibits';out.mkdir(parents=True,exist_ok=True)
  legacy=LEGACY_MANIFEST
  for key in list(legacy)+list(NEW):
   if a.only and key not in a.only:continue
   src=sources[key];asset_url=src.get('assetUrl','/assets/documents/'+key.replace('_','-')+'-reviewed.pdf');path=ROOT/('public'+asset_url);previews=[];texts=[]
   if key in NEW:
-   rel,selections,treatment=NEW[key];original=a.wiki/'raw'/rel
+   vault_path,selections,treatment=NEW[key];original=a.wiki/'raw'/vault_path
    if original.is_dir():
     # Some production folders or filenames identify a mailbox or requester.
     candidates = original.rglob(src['originalFile']) if key != 'treasury_target_report' else original.glob('*.pdf')

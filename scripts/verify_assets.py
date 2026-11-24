@@ -5,6 +5,7 @@ import fitz,zxingcpp
 from PIL import Image
 from campaign_provenance import input_hashes
 from pdf_privacy import inspect_public_pdfs
+from public_provenance import exposes_private_path, is_public_original_filename
 
 ROOT=Path(__file__).resolve().parent.parent
 def main():
@@ -23,7 +24,8 @@ def main():
             if not context.get(field):errors.append(f'Legacy context lacks {field}: {item["url"]}')
         if not re.fullmatch(r'[a-f0-9]{64}',context.get('originalSha256','')):errors.append(f'Legacy source fingerprint is invalid: {item["url"]}')
         if context.get('reviewedPublicSha256')!=item.get('reviewedPublicSha256'):errors.append(f'Legacy context and reviewed artifact diverge: {item["url"]}')
-        if '/' in context.get('originalFile','') or '\\' in context.get('originalFile',''):errors.append(f'Legacy original filename must not expose local paths: {item["url"]}')
+        if not is_public_original_filename(context.get('originalFile')):errors.append(f'Legacy original filename must not expose local paths: {item["url"]}')
+        if exposes_private_path(context.get('originalLocator')):errors.append(f'Legacy original locator must not expose private paths: {item["url"]}')
         with fitz.open(ROOT/'public'/item['url'].lstrip('/')) as pdf:
             pages=context.get('originalPages',[])
             if len(pages)!=len(pdf) or any(not isinstance(page,int) or page<1 for page in pages):errors.append(f'Legacy original page mapping is invalid: {item["url"]}')
@@ -74,7 +76,15 @@ def main():
         if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:errors.append(f'Historical download changed: {url}')
     for source_id,source in data['sources'].items():
         if source.get('assetUrl') and source_id not in assets:errors.append(f'{source_id}: reviewed asset manifest entry missing')
+        if not is_public_original_filename(source.get('originalFile')):errors.append(f'{source_id}: public originalFile must be a filename, not a private path')
+        if exposes_private_path(source.get('locator')):errors.append(f'{source_id}: public locator exposes a private path')
     for source_id,asset in assets.items():
+        fields=['treatment','originalFile','originalLocator','reviewedAt','transcript']
+        if asset.get('format')!='email-text':fields.append('previews')
+        for field in fields:
+            if not asset.get(field):errors.append(f'{source_id}: missing {field}')
+        if not is_public_original_filename(asset.get('originalFile')):errors.append(f'{source_id}: asset originalFile must be a filename, not a private path')
+        if exposes_private_path(asset.get('originalLocator')):errors.append(f'{source_id}: asset locator exposes a private path')
         path=ROOT/'public'/asset['assetUrl'].lstrip('/')
         if not path.exists():errors.append(f'Missing {asset["assetUrl"]}');continue
         if hashlib.sha256(path.read_bytes()).hexdigest()!=asset['sha256']:errors.append(f'{source_id}: public artifact differs from reviewed hash')
@@ -89,10 +99,6 @@ def main():
                     if len(pdf)!=asset['pages']:errors.append(f'{source_id}: page count changed')
                     if pdf.embfile_count():errors.append(f'{source_id}: embedded attachments require review')
         except Exception as exc:errors.append(f'{source_id}: unreadable PDF {exc}')
-        fields=['treatment','originalFile','originalLocator','reviewedAt','transcript']
-        if asset.get('format')!='email-text':fields.append('previews')
-        for field in fields:
-            if not asset.get(field):errors.append(f'{source_id}: missing {field}')
         for preview in asset['previews']:
             imagepath=ROOT/'public'/preview['url'].lstrip('/')
             if not imagepath.exists():errors.append(f'Missing preview {preview["url"]}');continue
