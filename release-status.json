@@ -8,27 +8,35 @@
   "approvedSourceDigest": "7d7ee42af76a58eedf7c8215a467c734fa83fa9008abd122a168cfd4c289af39",
   "notes": "Public source-path cleanup and dependency updates in fa1d1c8.",
   "lastDeployment": {
-    "release": "design-critique-fixes-2026-10-03",
-    "commit": "b29239950b05d77ebb508591938725cd9d913b6d",
-    "sourceDigest": "dd0e03800ce1d9e0e17500bd37bb567574b5b2a1d7fdc7b18f96953eff5b3d50",
-    "publishedAt": "2026-10-03T23:17:39Z",
-    "verifiedAt": "2026-10-03T23:19:36.861492+00:00",
-    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/37161260981",
-    "record": "https://github.com/joshuapdunlap/arpensions/pull/164",
-    "artifactSha256": "a9275eaac57cab4c8afd2f691384fdcf236d35de550f2f8558c7e160e5adec8d",
+    "release": "source-path-privacy-2026-11-24",
+    "commit": "584829c2ec04d2e3c9cf3c2fd1bd9da84b198788",
+    "sourceCommit": "fa1d1c88c43507b2b7eb848e0faae028a6efc1dc",
+    "sourceDigest": "7d7ee42af76a58eedf7c8215a467c734fa83fa9008abd122a168cfd4c289af39",
+    "publishedAt": "2026-11-24T21:39:01Z",
+    "verifiedOn": "2026-11-24",
+    "site": "https://arpensions.org/",
+    "workflow": "https://github.com/joshuapdunlap/arpensions/actions/runs/45493086760",
+    "artifactSha256": "ec84f4eaededb72dca726db896b7f5c8ff2eef760c505b83510aa9fabe761f42",
     "status": "deployed-and-verified",
     "checks": {
-      "htmlPages": 70,
-      "liveHtmlMatchesLocalBuildOfDeployedCommit": 6,
-      "downloadsAndSupportingFilesComparedWithArtifact": 62,
-      "textLineEndingsNormalizedForComparison": true,
-      "custom404": true,
-      "localAccessibilityAndLayoutCases": 144,
-      "mobileViewport": "390 x 844",
-      "legislatorBriefingFirstOnPhones": true,
-      "mobileNavigationAndThemeControls": true,
       "searchDiscovery": true,
-      "browserPageErrors": 0
+      "search": {
+        "query": "Reams",
+        "resultOpened": "https://arpensions.org/documents/records/atrs-contract-extension/",
+        "confirmedHeading": "Reams contract extension"
+      },
+      "sourcePagePrivacy": {
+        "index": "https://arpensions.org/documents/",
+        "pagesListed": 33,
+        "pagesChecked": 33,
+        "pagesWithPrivateFolderPathsBeforeRelease": 15,
+        "pagesWithPrivateFolderPathsAfterRelease": 0,
+        "scope": [
+          "Original record filenames",
+          "Exact locator values",
+          "Visible page text scanned for private path patterns"
+        ]
+      }
     }
   },
   "petitionPublicCopyVerifiedAt": "2026-09-16T23:47:17.172066+00:00"
