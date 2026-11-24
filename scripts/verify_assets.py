@@ -47,7 +47,7 @@ def main():
         if Image.open(ROOT/'public'/card['url'].lstrip('/')).size!=(1200,630):errors.append('Page-specific social card has wrong dimensions: '+card['url'])
     revisions=json.loads((ROOT/'src/data/download-revisions.json').read_text(encoding='utf-8'))
     reviewed_features = json.loads((ROOT/"tests/fixtures/reviewed-pdf-features.json").read_text())
-    reviewed_urls = set(contract['downloads']) | {asset['assetUrl'] for asset in assets.values()}
+    reviewed_urls = set(reviewed_features) | set(contract['downloads']) | {asset['assetUrl'] for asset in assets.values()}
     reviewed_urls.update('/' + name.removeprefix('public/') for name in manifest['outputs'])
     for path in (ROOT/'public').rglob('*'):
         if path.suffix.lower() == '.pdf' and '/' + path.relative_to(ROOT/'public').as_posix() not in reviewed_urls:

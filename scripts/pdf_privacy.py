@@ -37,9 +37,8 @@ def inspect_public_pdfs(public, reviewed_features, revisions):
                 if revisions.get(url, {}).get("privacyExtract"):
                     if not CAPTION.fullmatch(text.strip()) or len(page.get_image_info()) != 1:
                         errors.append(f"{url}: unexpected image or text layer on page {page.number + 1}")
-        if features:
+        if features or url in reviewed_features:
             reviewed = reviewed_features.get(url, {})
             if reviewed.get("sha256") != digest or reviewed.get("features") != sorted(features):
                 errors.append(f"{url}: review required for {', '.join(sorted(features))}")
     return errors
-
