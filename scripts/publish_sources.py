@@ -26,8 +26,8 @@ NEW.update({
  'atrs_auditor_designee':('atrs/FOIA Response 7-3-25/06-02-25_BOT_Packet.pdf',[(5,None,[])],'Physical page 6, full minutes attendance page. Rasterized public derivative.'),
  'sfof_sponsor_listing':('treasury/FOIA Response 2-19-26/End of Year Letter from Treasurer Milligan.pdf',[(0,None,[])],'Full physical page 1. Public organization letter and sponsor list; rasterized.'),
  'sfof_model_case':('atrs/FOIA Response 6-18-25/State Auditors Emails/Milligan/🗳️ Pre-Election Update from the States - 4 nov 24.pdf',[(3,None,[]),(4,None,[]),(5,None,[])],'Original physical pages 4-6, including newsletter organization context and footer. Public generic organization contact retained; no personal contacts displayed.'),
- 'sfof_speech_preparation':('auditor/FOIA Response 6-25-25/Jason.Brady@auditor.ar.gov/Top-of-Information-Store/Sent-Items/update sfof speech.pdf',[(0,None,[])],'Physical page 1 of draft speech email. Displayed header contains names, no direct addresses. Draft language is not proof of delivery.'),
- 'sfof_post_action_facilitation':('auditor/FOIA Response 6-25-25/Stacy.Peterson@auditor.ar.gov/Top-of-Information-Store/Sent-Items/Re Policy Zoom_1.pdf',[(0,(0,0,612,237),[])],'Physical page 1 rectangular crop of June 4 message only. Quoted prior email, direct contact and meeting details omitted.'),
+ 'sfof_speech_preparation':('auditor/FOIA Response 6-25-25',[(0,None,[])],'Physical page 1 of draft speech email. Displayed header contains names, no direct addresses. Draft language is not proof of delivery.'),
+ 'sfof_post_action_facilitation':('auditor/FOIA Response 6-25-25',[(0,(0,0,612,237),[])],'Physical page 1 rectangular crop of June 4 message only. Quoted prior email, direct contact and meeting details omitted.'),
  'securities_1986_orders':('securities/FOIA Response 4-20-26/ASD-120_Orders-86-27-S,-86-27a-S-1986.pdf',[(0,None,[]),(1,None,[]),(2,None,[])],'All three original pages retained together: suspension and later vacatur/reinstatement. Rasterized public derivative.'),
  'atrs_rating_report':('atrs/FOIA Response 6-18-25/Reports.pdf',[(1,None,[(440,298,570,495)])],'Physical page 2, S&P research update dated April 18, 2024 (printed page 1). Analyst contact column masked. Historical report, not a current rating or pension-specific analysis.')
 })
@@ -101,10 +101,12 @@ def main():
   src=sources[key];asset_url=src.get('assetUrl','/assets/documents/'+key.replace('_','-')+'-reviewed.pdf');path=ROOT/('public'+asset_url);previews=[];texts=[]
   if key in NEW:
    rel,selections,treatment=NEW[key];original=a.wiki/'raw'/rel
-   if key == 'treasury_target_report':
-    matches = [p for p in original.glob('*.pdf') if sha(p) == data[key]['originalSha256']]
+   if original.is_dir():
+    # Some production folders or filenames identify a mailbox or requester.
+    candidates = original.rglob(src['originalFile']) if key != 'treasury_target_report' else original.glob('*.pdf')
+    matches = [p for p in candidates if sha(p) == data[key]['originalSha256']]
     if len(matches) != 1:
-     raise ValueError('Expected one Treasury original matching the reviewed fingerprint')
+     raise ValueError('Expected one original matching the reviewed fingerprint')
     original = matches[0]
    input_path=ROOT/'.qa/source-work/single'/EXPORTS[key] if key in EXPORTS else original
    doc=fitz.open(input_path);public=fitz.open()
@@ -120,8 +122,7 @@ def main():
     buffer=BytesIO();im.save(buffer,format='PNG')
     dst=public.new_page(width=clip.width,height=clip.height);dst.insert_image(dst.rect,stream=buffer.getvalue())
    public.set_metadata({'title':src['title']});public.save(path,garbage=4,deflate=True);public.close()
-   original_file=Path(rel).name if '@' in rel else 'raw/'+rel;original_hash=sha(original)
-   if key == 'treasury_target_report': original_file = src['originalFile']
+   original_file=src['originalFile'];original_hash=sha(original)
   else:
    assert sha(path)==legacy[key]['sha256'],f'Immutable hash changed: {key}'
    fm=LEGACY_PROVENANCE[key];original_file=fm['source_file'];treatment=fm['publication_treatment']+' Existing public PDF preserved byte-for-byte; preview renders that exhibit.';selections=[(i,None,[]) for i in range(legacy[key]['pages'])];original_hash=None
