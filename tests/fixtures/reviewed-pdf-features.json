@@ -1,0 +1,120 @@
+{
+  "/assets/documents/apers-analysis-email-page-3081-masked.pdf": {
+    "sha256": "f12787cab1bfd2bd6aa32f90232bd527b2cb825497cda850f918428f2b73ec1a",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/apers-authorization-minutes-page-4.pdf": {
+    "sha256": "b47bdda2e80da385488aa72d1cd0992ef584ee65b140cd8c654d4b25bd2eaafa",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/apers-authorization-minutes-pages-1-4.pdf": {
+    "sha256": "d517842b623cf1761654f347f4ecfbd9d8532dddf59f61d125353e0cb1a5c881",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/apers-purchase-record-page-6925-masked.pdf": {
+    "sha256": "503b0782844239b5cb7146c7424fbb5f0b67588a1edac91518f8be7b8a9c6f0f",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/atrs-aon-memo-pages-149-150.pdf": {
+    "sha256": "656078606e180693d6634e369d5fd808a306a0b6d950e2e23a60546cd4878609",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/atrs-manager-funding-email-excerpt.pdf": {
+    "sha256": "9662e2cbf6df92a9fa8c16c2883e1a2d15435a29fd3a8fea6228ab36a65fccbc",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/atrs-resolution-2025-22-executed-pages-5-6.pdf": {
+    "sha256": "da5375fd460bfef6c77c9e9e7922014c3e804d4efa99ed2319b3739e340b288f",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/atrs-resolution-2025-22-pages-151-152.pdf": {
+    "sha256": "0f4f2fb73e6defb6aad7fffbb8a1abd0a30b8fa12f77d43c4fa88f583029d2e0",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/pension-investment-integrity-act-brief-2026-07-16.pdf": {
+    "sha256": "630adc36267d789b4e2c8f9a4d6fcc1aa4b50f31ae279ab773923323b7aa1b50",
+    "features": [
+      "contact or path",
+      "links",
+      "metadata"
+    ]
+  },
+  "/assets/documents/pension-investment-integrity-act-brief-2026-09-15.pdf": {
+    "sha256": "844007d555d4d6a548c7dd196626f43e999f795a95299b25537aed98f302907e",
+    "features": [
+      "contact or path",
+      "links",
+      "metadata"
+    ]
+  },
+  "/assets/documents/pension-investment-integrity-act-brief-2026-09-16.pdf": {
+    "sha256": "6605aae737be6612cbb081ecd21fafbab9153fb8ee30e48b2f3d45743f80e94b",
+    "features": [
+      "contact or path",
+      "links",
+      "metadata"
+    ]
+  },
+  "/assets/documents/pension-investment-integrity-act-brief-2026-09-17.pdf": {
+    "sha256": "80d679ac3f9fb1f14b91f31418cd344e6402ae2645a0b55b2213fc84b74f553b",
+    "features": [
+      "contact or path",
+      "links",
+      "metadata"
+    ]
+  },
+  "/assets/documents/treasury-final-maturity-excerpt.pdf": {
+    "sha256": "c08a6ea05e98152064b228dfdf7bbae21e1a6262b568b5604c2132456c2982dc",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/treasury-holdings-june-2025-cropped.pdf": {
+    "sha256": "589098c1f5e5c6a97865d6f8befe560c690688bdf76c650dbfb43a86136f4305",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/treasury-internal-credit-overview.pdf": {
+    "sha256": "6000afbf80143d6ac01f3a57244f6d25633664f09a5b385317c879aba3614406",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/treasury-investment-policy-2022.pdf": {
+    "sha256": "0f140d32f7919c9a353fd91ba8dca85cbdca8499c3fab4c80bc6766842decc25",
+    "features": [
+      "links",
+      "metadata"
+    ]
+  },
+  "/assets/documents/treasury-processing-payment-masked.pdf": {
+    "sha256": "810c6958cbf10680ced1c2d7e025f0ca82c6ebf4341cce1feea042820e359eae",
+    "features": [
+      "invisible text"
+    ]
+  },
+  "/assets/documents/white-foia-denial-december-2024.pdf": {
+    "sha256": "9ea9d80c037741c004785a03a8b3d188d2cbc8ec20d75563bdd931327354d17b",
+    "features": [
+      "contact or path",
+      "metadata"
+    ]
+  }
+}

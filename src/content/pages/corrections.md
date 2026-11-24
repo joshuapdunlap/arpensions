@@ -16,9 +16,15 @@ sourceIds:
 - treasury_hold
 - treasury_processing
 reviewedAt: '2026-09-17'
-updatedAt: '2026-09-17'
+updatedAt: '2026-11-24'
 ---
 
+
+## November 24, 2026 — privacy revisions to historical downloads
+
+Twelve historical email, briefing, marketing, purchase and news PDFs now show selected regions of the records. We removed contact details, distribution lists, payment administration and embedded links. The download addresses and original page order are preserved. Each entry in the [download catalog](/assets/documents/) identifies its source and explains the extract. Copies distributed before this revision may still contain the earlier material.
+
+## September evidence updates
 
 Reviewed September 17, 2026. This log explains substantive changes to the public account and the limits that remain.
 

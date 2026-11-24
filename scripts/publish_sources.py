@@ -20,14 +20,14 @@ NEW={
 'atrs_q2_report':('atrs/FOIA Response 9-11-26/2026 Q2.pdf',[(2,None,[]),(6,None,[]),(7,None,[])],'Selected full source pages 3, 7 and 8: performance, portfolio strategy and characteristics. Rasterized public derivative; no added source-page graphics.'),
 'atrs_contract_extension':('atrs/FOIA Response 9-11-26/4600057154_A2.pdf',[(0,None,[]),(2,None,[(40,190,580,545)])],'Physical pages 1 and 3. Department contact section irreversibly masked; official contract terms and signature section retained. Rasterized; form fields and metadata removed.')}
 NEW.update({
- 'treasury_target_report':('treasury/FOIA Response 7-7-25/Dunlap FOIA 7.,2.25.pdf',[(6,(70,178,540,700),[(70,180,540,196),(70,208,540,259)])],'Physical page 7 email-body excerpt; sender/recipient direct-contact fields irreversibly masked; signature block on page 8 omitted. Seller statement, not a Treasury purchase authorization.'),
+ 'treasury_target_report':('treasury/FOIA Response 7-7-25',[(6,(70,178,540,700),[(70,180,540,196),(70,208,540,259)])],'Physical page 7 email-body excerpt; sender/recipient direct-contact fields irreversibly masked; signature block on page 8 omitted. Seller statement, not a Treasury purchase authorization.'),
  'capitol_itinerary':('atrs/FOIA Response 6-18-25/State Auditors Emails/Spadoni/April 11, 2025 - 4.pdf',[(1,(70,65,540,595),[])],'Physical page 2 rectangular itinerary/body crop. Signature contact block omitted. Schedule is not attendance proof.'),
  'seller_reported_meetings':('apers/FOIA Response 7-7-25/IB_FOIA_MAY_25_Reviewed.pdf',[(588,(65,65,550,551),[(270,70,550,86),(65,165,550,196)])],'Physical page 589 crop through message closing; direct email address and mail-security banner masked; contact signature omitted. Seller-authored claims retained as seller claims.'),
  'atrs_auditor_designee':('atrs/FOIA Response 7-3-25/06-02-25_BOT_Packet.pdf',[(5,None,[])],'Physical page 6, full minutes attendance page. Rasterized public derivative.'),
  'sfof_sponsor_listing':('treasury/FOIA Response 2-19-26/End of Year Letter from Treasurer Milligan.pdf',[(0,None,[])],'Full physical page 1. Public organization letter and sponsor list; rasterized.'),
  'sfof_model_case':('atrs/FOIA Response 6-18-25/State Auditors Emails/Milligan/🗳️ Pre-Election Update from the States - 4 nov 24.pdf',[(3,None,[]),(4,None,[]),(5,None,[])],'Original physical pages 4-6, including newsletter organization context and footer. Public generic organization contact retained; no personal contacts displayed.'),
- 'sfof_speech_preparation':('auditor/FOIA Response 6-25-25/Jason.Brady@auditor.ar.gov/Top-of-Information-Store/Sent-Items/update sfof speech.pdf',[(0,None,[])],'Physical page 1 of draft speech email. Displayed header contains names, no direct addresses. Draft language is not proof of delivery.'),
- 'sfof_post_action_facilitation':('auditor/FOIA Response 6-25-25/Stacy.Peterson@auditor.ar.gov/Top-of-Information-Store/Sent-Items/Re Policy Zoom_1.pdf',[(0,(0,0,612,237),[])],'Physical page 1 rectangular crop of June 4 message only. Quoted prior email, direct contact and meeting details omitted.'),
+ 'sfof_speech_preparation':('auditor/FOIA Response 6-25-25',[(0,None,[])],'Physical page 1 of draft speech email. Displayed header contains names, no direct addresses. Draft language is not proof of delivery.'),
+ 'sfof_post_action_facilitation':('auditor/FOIA Response 6-25-25',[(0,(0,0,612,237),[])],'Physical page 1 rectangular crop of June 4 message only. Quoted prior email, direct contact and meeting details omitted.'),
  'securities_1986_orders':('securities/FOIA Response 4-20-26/ASD-120_Orders-86-27-S,-86-27a-S-1986.pdf',[(0,None,[]),(1,None,[]),(2,None,[])],'All three original pages retained together: suspension and later vacatur/reinstatement. Rasterized public derivative.'),
  'atrs_rating_report':('atrs/FOIA Response 6-18-25/Reports.pdf',[(1,None,[(440,298,570,495)])],'Physical page 2, S&P research update dated April 18, 2024 (printed page 1). Analyst contact column masked. Historical report, not a current rating or pension-specific analysis.')
 })
@@ -100,7 +100,15 @@ def main():
   if a.only and key not in a.only:continue
   src=sources[key];asset_url=src.get('assetUrl','/assets/documents/'+key.replace('_','-')+'-reviewed.pdf');path=ROOT/('public'+asset_url);previews=[];texts=[]
   if key in NEW:
-   rel,selections,treatment=NEW[key];original=a.wiki/'raw'/rel;input_path=ROOT/'.qa/source-work/single'/EXPORTS[key] if key in EXPORTS else original
+   rel,selections,treatment=NEW[key];original=a.wiki/'raw'/rel
+   if original.is_dir():
+    # Some production folders or filenames identify a mailbox or requester.
+    candidates = original.rglob(src['originalFile']) if key != 'treasury_target_report' else original.glob('*.pdf')
+    matches = [p for p in candidates if sha(p) == data[key]['originalSha256']]
+    if len(matches) != 1:
+     raise ValueError('Expected one original matching the reviewed fingerprint')
+    original = matches[0]
+   input_path=ROOT/'.qa/source-work/single'/EXPORTS[key] if key in EXPORTS else original
    doc=fitz.open(input_path);public=fitz.open()
    for j,(idx,crop,masks) in enumerate(selections):
     page=doc[idx]
@@ -114,7 +122,7 @@ def main():
     buffer=BytesIO();im.save(buffer,format='PNG')
     dst=public.new_page(width=clip.width,height=clip.height);dst.insert_image(dst.rect,stream=buffer.getvalue())
    public.set_metadata({'title':src['title']});public.save(path,garbage=4,deflate=True);public.close()
-   original_file=Path(rel).name if '@' in rel else 'raw/'+rel;original_hash=sha(original)
+   original_file=src['originalFile'];original_hash=sha(original)
   else:
    assert sha(path)==legacy[key]['sha256'],f'Immutable hash changed: {key}'
    fm=LEGACY_PROVENANCE[key];original_file=fm['source_file'];treatment=fm['publication_treatment']+' Existing public PDF preserved byte-for-byte; preview renders that exhibit.';selections=[(i,None,[]) for i in range(legacy[key]['pages'])];original_hash=None
