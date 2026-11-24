@@ -4,7 +4,7 @@ The public site builds from this repository. Evidence-vault access is an optiona
 
 ## Set up and validate
 
-Use Node.js 22 (minimum 22.12.0) and Python 3.13, matching GitHub workflows:
+Use Node.js 22 (minimum 22.23.4) and Python 3.13, matching GitHub workflows:
 
 ```sh
 node --version

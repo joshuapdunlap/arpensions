@@ -4,7 +4,7 @@ The Astro static website for [arpensions.org](https://arpensions.org), an Arkans
 
 ## Run locally
 
-Use **Node.js 22, at least 22.12.0**, and **Python 3.13**. Run from the repository root with those versions on PATH:
+Use **Node.js 22, at least 22.23.4**, and **Python 3.13**. Run from the repository root with those versions on PATH:
 
 ```sh
 npm ci
