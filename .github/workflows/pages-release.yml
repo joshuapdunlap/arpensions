@@ -23,7 +23,7 @@ jobs:
           python-version: '3.13'
       - run: |
           npm ci
-          python -m pip install -r requirements-dev.txt
+          python -m pip install --require-hashes --only-binary=:all: -r requirements-release.lock
       - name: Require recorded campaign alignment and publication approval
         run: npm run release:check
       - run: python scripts/sync_campaign_content.py
