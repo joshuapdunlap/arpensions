@@ -1,12 +1,12 @@
 {
-  "release": "legacy-pdf-privacy-2026-11-24",
+  "release": "source-path-privacy-2026-11-24",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
   "petitionVerifiedBy": "Codex, acting on Joshua\u00e2\u20ac\u2122s explicit instruction",
   "publicationApproved": true,
-  "approvedBy": "Joshua Dunlap, explicit approval on November 24, 2026 for candidate 97e4cca and its exact source digest.",
-  "approvedSourceDigest": "2da84e4eb24684af17ab5e7c134ee026dbd37a44a51c4588484a9ef7f924ef79",
-  "notes": "Approved Pages release of twelve privacy-reviewed PDF replacements, offline QR verification and locked Python dependencies.",
+  "approvedBy": "Joshua Dunlap, explicit approval to deploy fa1d1c8 on November 24, 2026.",
+  "approvedSourceDigest": "7d7ee42af76a58eedf7c8215a467c734fa83fa9008abd122a168cfd4c289af39",
+  "notes": "Public source-path cleanup and dependency updates in fa1d1c8.",
   "lastDeployment": {
     "release": "design-critique-fixes-2026-10-03",
     "commit": "b29239950b05d77ebb508591938725cd9d913b6d",
