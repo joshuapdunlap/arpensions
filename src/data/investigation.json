@@ -155,8 +155,8 @@
       "title": "Seller report of Treasury portfolio target",
       "agency": "State Treasury",
       "date": "2025-04-16",
-      "locator": "FOIA Response 7-7-25 / Dunlap FOIA 7.,2.25.pdf, physical pages 7-8; seller email to Treasury investment staff",
-      "originalFile": "raw/treasury/FOIA Response 7-7-25/Dunlap FOIA 7.,2.25.pdf",
+      "locator": "Treasury production of July 7, 2025, physical pages 7-8; seller email to Treasury investment staff",
+      "originalFile": "Treasury production of July 7, 2025 (source identified by SHA-256)",
       "recordUrl": "/documents/records/treasury-target-report/",
       "summary": "Seller report of Treasury portfolio target. Read with the dated scope and locator.",
       "treatment": "Physical page 7 email-body excerpt; sender/recipient direct-contact fields irreversibly masked; signature block on page 8 omitted. Seller statement, not a Treasury purchase authorization.",
@@ -164,7 +164,7 @@
       "documentType": "Email",
       "subject": "Funding, purchases and holdings",
       "dateType": "message",
-      "dateNote": "Date basis: message. See FOIA Response 7-7-25 / Dunlap FOIA 7.,2.25.pdf, physical pages 7-8; seller email to Treasury investment staff."
+      "dateNote": "Date basis: message. See Treasury production of July 7, 2025, physical pages 7-8; seller email to Treasury investment staff."
     },
     "capitol_itinerary": {
       "title": "April 2025 Capitol itinerary",

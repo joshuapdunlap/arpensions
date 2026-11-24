@@ -1,10 +1,10 @@
 {
   "/assets/documents/sovereign-bond-purchase-confirmation-may2025.pdf": {
     "originalSha256": "6bd771863cfb094671a25b98395dbb0b40930fda00c3463703fa5ca0793e229d",
-    "replacementSha256": "771c5a2cff1fdb485ac741cff1de361b9b57e8687512320cb98ef512a91368c1",
-    "reviewedAt": "2026-09-16",
-    "reason": "Broker-account fields on physical pages 1 and 2 removed from the image and any text layer. The second field was found during full-page visual follow-through after the first release. PDF metadata cleared; financial content and download URL retained.",
-    "originalRetained": "Original retained in private release archive; not served by this candidate.",
+    "replacementSha256": "51167439a22405e54ce5ed8571a2ecb44d2223760746df5fa2fab8e1bba3dcb2",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
     "redactedRegions": [
       {
         "page": 1,
@@ -30,15 +30,21 @@
         "sha256": "7552ba6896690f7f5cd9b880f4ccbbf572bb104f99e2c617dd492801de59d5c4",
         "reviewedAt": "2026-09-16",
         "scope": "Page 1 removed; page 2 remained visible and is corrected in this revision."
+      },
+      {
+        "sha256": "771c5a2cff1fdb485ac741cff1de361b9b57e8687512320cb98ef512a91368c1",
+        "reviewedAt": "2026-09-16",
+        "scope": "Broker-account fields on physical pages 1 and 2 removed from the image and any text layer. The second field was found during full-page visual follow-through after the first release. PDF metadata cleared; financial content and download URL retained."
       }
-    ]
+    ],
+    "privacyExtract": true
   },
   "/assets/documents/sovereign-bond-purchase-confirmation-nov2023.pdf": {
     "originalSha256": "656c9c35aa9bd99f3878058220a8c73803eacdf71ad0206d815aa42231201f21",
-    "replacementSha256": "5c077bc09f1c9a2c8fd2767936ca495e6cfb3bad37b09c724c63675890d94561",
-    "reviewedAt": "2026-09-16",
-    "reason": "Broker-account identifier on physical page 1 removed from the image and text layer. Matching extracted occurrences removed. PDF metadata cleared. Financial content and original download address retained.",
-    "originalRetained": "Original retained in private release archive; not served by this candidate.",
+    "replacementSha256": "1c3aa763aa073668d4bb1923d64a3fdb60706a75381b4ee1383c0e754eef5f4e",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
     "redactedRegions": [
       {
         "page": 1,
@@ -49,6 +55,104 @@
           559
         ]
       }
-    ]
+    ],
+    "priorRevisions": [
+      {
+        "sha256": "5c077bc09f1c9a2c8fd2767936ca495e6cfb3bad37b09c724c63675890d94561",
+        "reviewedAt": "2026-09-16",
+        "scope": "Broker-account identifier on physical page 1 removed from the image and text layer. Matching extracted occurrences removed. PDF metadata cleared. Financial content and original download address retained."
+      }
+    ],
+    "privacyExtract": true
+  },
+  "/assets/documents/berman-invokes-deceased-lowery-2023.pdf": {
+    "originalSha256": "a3803c8a074d76117ffc69c2b9877d47fc62b67ce77b66888536d0e46572e87e",
+    "replacementSha256": "5f922220d3be3e7f930a4f07a67c552b2934ef1a6f98acd1dd57298021fdb966",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/berman-thank-you-apers-staff-2024.pdf": {
+    "originalSha256": "a5f520b7f1ff39c21caab128851ba7a89400dc0581424840d368a2481ed602fc",
+    "replacementSha256": "90f199deb881afafce2003ee9725684f2471528af849f84b8884d66de94d2f56",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf": {
+    "originalSha256": "8b84adb2c17f1e0cda2295fad07c4e5b09aae42c6e301dabf9acf9d3b97e890b",
+    "replacementSha256": "887f5873efc8664306ff45690eecdcfb26bfe12ce50a9692d61fe817287348c1",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/berman-young-congratulations-milligan-2018.pdf": {
+    "originalSha256": "74eee40c25d9b22caa57dcc91eef1f306bb3bcb145641a48256a87e4d4858efe",
+    "replacementSha256": "6c748691e4b0bebfc4bed5ca064f72fc6e3460a3bfee0efe871b95cd6f874254",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/milligan-happy-to-help-internal-email-2025.pdf": {
+    "originalSha256": "ae1ab4746a0dafdc4de3ad557f70257a13e3ba554a3588796c53e9340fda7339",
+    "replacementSha256": "5eebdbb8aa1ab2248382ea9daeb7aad25fa92666d3334bba9cc6678c5616a32b",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf": {
+    "originalSha256": "d00b0c4420cd328af5740f0fb1c06028b415de0e424edfb32dc8df86c8aa8fad",
+    "replacementSha256": "8ccf9467d7d9862e815241fd72bbc57f85130c73fea195210ab74a2628768a8c",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/private-economic-briefing-invitation-2025.pdf": {
+    "originalSha256": "476b1425b8a11da972ed3836651ec04c8234845efb69e546005aa87b2b23cf85",
+    "replacementSha256": "d33c1aa5da5ddba56d699476a35892ea84795aa11700f21d5ad3612431e16f22",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/sfof-nominates-milligan-chair-2020.pdf": {
+    "originalSha256": "7be5783b6ebfb23d496eadaaabcee0a0c1ec4a066e1e53926c5fb610d5b69403",
+    "replacementSha256": "01accb7399e8de2a4d44e9aa6dafe507146fcebbacc54d5d76fd7bc72f9136aa",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/sovereign-bond-marketing-to-milligan-2025.pdf": {
+    "originalSha256": "b4e0a0c7a963ec76a8f0948e4c4507cd24d48c9dedc248e68e8a8d531756f3c7",
+    "replacementSha256": "68db47d568b3e7ac81facdc383b8a649efae671c6ac4b39b33348fc58093f97b",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
+  },
+  "/assets/documents/walther-10m-purchase-news-coverage-2023.pdf": {
+    "originalSha256": "b301bfe15e61466952c519b13041a367c11e3a1589a4bf73b98e8cf8bf6685c5",
+    "replacementSha256": "72692a2ea0837af615e224471c2356cd6a38a9410d5fceeac8082aa2f96752e6",
+    "reviewedAt": "2026-11-24",
+    "reason": "Page images rebuilt from selected evidence regions. Contact, routing and administrative material omitted. Original links, metadata and text layers discarded.",
+    "originalRetained": "Prior public copy retained in private release archive.",
+    "priorRevisions": [],
+    "privacyExtract": true
   }
 }

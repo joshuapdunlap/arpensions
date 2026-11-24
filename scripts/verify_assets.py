@@ -4,6 +4,7 @@ import argparse,hashlib,json,sys,re
 import fitz,zxingcpp
 from PIL import Image
 from campaign_provenance import input_hashes
+from pdf_privacy import inspect_public_pdfs
 
 ROOT=Path(__file__).resolve().parent.parent
 def main():
@@ -45,6 +46,13 @@ def main():
     for card in json.loads((ROOT/'src/data/social-cards.json').read_text(encoding='utf-8')).values():
         if Image.open(ROOT/'public'/card['url'].lstrip('/')).size!=(1200,630):errors.append('Page-specific social card has wrong dimensions: '+card['url'])
     revisions=json.loads((ROOT/'src/data/download-revisions.json').read_text(encoding='utf-8'))
+    reviewed_features = json.loads((ROOT/"tests/fixtures/reviewed-pdf-features.json").read_text())
+    reviewed_urls = set(contract['downloads']) | {asset['assetUrl'] for asset in assets.values()}
+    reviewed_urls.update('/' + name.removeprefix('public/') for name in manifest['outputs'])
+    for path in (ROOT/'public').rglob('*'):
+        if path.suffix.lower() == '.pdf' and '/' + path.relative_to(ROOT/'public').as_posix() not in reviewed_urls:
+            errors.append(f'Public PDF lacks a reviewed artifact record: {path.name}')
+    errors.extend(inspect_public_pdfs(ROOT/"public", reviewed_features, revisions))
     for url,revision in revisions.items():
         if url not in contract['downloads'] or revision.get('originalSha256')!=contract['downloads'].get(url):errors.append(f'Invalid historical revision baseline: {url}')
         for field in ('replacementSha256','reviewedAt','reason','originalRetained'):
@@ -94,7 +102,7 @@ def main():
         payloads=[r.text for r in zxingcpp.read_barcodes(Image.open(ROOT/'public/assets/images'/name))]
         if 'https://qr.generatorqr.com/3drm7MQpG' not in payloads:errors.append(f'{name}: historical QR changed')
     og=ROOT/'public/assets/images/og-rebuild.png'
-    if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 Ã— 630')
+    if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 Ãƒâ€” 630')
     qr=ROOT/'public/assets/images/campaign-qr.png'
     if not qr.exists() or 'https://arpensions.org/go/' not in [r.text for r in zxingcpp.read_barcodes(Image.open(qr))]:errors.append('New QR must use owned /go/ destination')
     campaign=json.loads((ROOT/'src/data/campaign.json').read_text(encoding='utf-8'))
