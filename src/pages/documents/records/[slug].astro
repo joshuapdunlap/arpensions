@@ -2,11 +2,14 @@
 import Base from '../../../layouts/Base.astro';
 import {sources,data,sourceDateLabel,sourceDateLabels} from '../../../lib/data';
 import {assets} from '../../../lib/assets';
+import {requirePublicLocator,requirePublicOriginalFilename} from '../../../lib/public-provenance';
 import {getCollection} from 'astro:content';
 export function getStaticPaths(){return Object.entries(sources).filter(([,s])=>s.recordUrl.startsWith('/documents/records/')).map(([id,source])=>({params:{slug:source.recordUrl.split('/').filter(Boolean).at(-1)},props:{id,source}}))}
 const {id,source}=Astro.props;
 const asset=assets[id];
 const assetUrl=asset?.assetUrl||source.assetUrl;
+const originalFile=requirePublicOriginalFilename(asset?.originalFile||source.originalFile,`${id} original record`);
+const originalLocator=requirePublicLocator(asset?.originalLocator||source.locator,`${id} exact locator`);
 const citation=`${source.agency}. ${source.title}. ${sourceDateLabel(source)}.${source.receivedDate?` Received: ${source.receivedDate}.`:''} ${source.locator}. https://arpensions.org${source.recordUrl}`;
 const related=(await getCollection('pages')).filter(p=>p.data.sourceIds.includes(id));
 ---
@@ -28,7 +31,7 @@ const related=(await getCollection('pages')).filter(p=>p.data.sourceIds.includes
       <aside class="record-details" aria-label="Source details">
         <h2>Read the record in context.</h2><p>{source.locator}</p><p class="footnote">{source.dateNote}</p>
         <section class="source-citation" aria-labelledby="citation-heading" id="source-citation"><h3 id="citation-heading">Cite this record</h3><p id="record-citation">{citation}</p><div class="copy-row"><button type="button" hidden data-copy="record-citation" data-copy-success="Citation copied.">Copy citation</button><span role="status" aria-live="polite"></span></div></section>
-        <dl><dt>Institution</dt><dd>{source.agency}</dd><dt>{sourceDateLabels[source.dateType]||'Source date'}</dt><dd>{source.date||'Not shown'}</dd>{source.receivedDate&&<><dt>Received</dt><dd>{source.receivedDate}</dd></>}<dt>Original record</dt><dd>{asset?.originalFile||source.originalFile}</dd><dt>Exact locator</dt><dd>{asset?.originalLocator||source.locator}</dd><dt>Publication treatment</dt><dd>{asset?.treatment||source.treatment}</dd><dt>Reviewed</dt><dd>{asset?.reviewedAt||data.reviewedAt}</dd>{asset&&<><dt>Public asset SHA-256</dt><dd><code>{asset.sha256}</code></dd>{asset.pages>0&&<><dt>Public exhibit length</dt><dd>{asset.pages} page{asset.pages===1?'':'s'}</dd></>}</>}</dl>
+        <dl><dt>Institution</dt><dd>{source.agency}</dd><dt>{sourceDateLabels[source.dateType]||'Source date'}</dt><dd>{source.date||'Not shown'}</dd>{source.receivedDate&&<><dt>Received</dt><dd>{source.receivedDate}</dd></>}<dt>Original record</dt><dd>{originalFile}</dd><dt>Exact locator</dt><dd>{originalLocator}</dd><dt>Publication treatment</dt><dd>{asset?.treatment||source.treatment}</dd><dt>Reviewed</dt><dd>{asset?.reviewedAt||data.reviewedAt}</dd>{asset&&<><dt>Public asset SHA-256</dt><dd><code>{asset.sha256}</code></dd>{asset.pages>0&&<><dt>Public exhibit length</dt><dd>{asset.pages} page{asset.pages===1?'':'s'}</dd></>}</>}</dl>
         {related.length>0&&<><h2>Related reading</h2><nav class="toc" aria-label="Related findings">{related.map(p=><a href={p.data.permalink}>{p.data.title} →</a>)}</nav></>}
         <a class="text-link" href="/documents/">Browse all records →</a>
       </aside>
