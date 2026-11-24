@@ -2,10 +2,11 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob, file } from 'astro/loaders';
 import investigation from './data/investigation.json';
+import {exposesPrivatePath,isPublicOriginalFilename} from './lib/public-provenance';
 
 const date = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const sourceSchema = z.looseObject({
-  title: z.string(), agency: z.string(), date: date.nullable(), dateType:z.enum(['document','message','decision','meeting','packet','transaction','account-as-of','period-end','scheduled-maturity','signature','verified','unknown']),dateNote:z.string().min(1),receivedDate:date.optional(),locator: z.string(), originalFile: z.string(),
+  title: z.string(), agency: z.string(), date: date.nullable(), dateType:z.enum(['document','message','decision','meeting','packet','transaction','account-as-of','period-end','scheduled-maturity','signature','verified','unknown']),dateNote:z.string().min(1),receivedDate:date.optional(),locator: z.string().refine(value=>!exposesPrivatePath(value),'Public locator must not expose a private path'), originalFile: z.string().refine(isPublicOriginalFilename,'Public originalFile must be a filename'),
   documentType: z.string().min(1), subject: z.string().min(1),
   recordUrl: z.string().regex(/^(\/|https:\/\/)/), assetUrl: z.string().optional(), summary: z.string(), treatment: z.string(),
 });
