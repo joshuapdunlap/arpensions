@@ -1,0 +1,14 @@
+name: Test written review on merged PR 177
+on:
+  push:
+    branches: [codex/test-written-review-177]
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  pilot:
+    uses: ./.github/workflows/written-codex-review.yml
+    with:
+      pull_number: 177
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
