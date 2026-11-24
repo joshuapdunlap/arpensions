@@ -1,14 +1,15 @@
 """Verify immutable downloads, reviewed exhibit hashes, previews, briefs and QR codes."""
 from pathlib import Path
 import argparse,hashlib,json,sys,re
-from urllib.request import Request,urlopen
 import fitz,zxingcpp
 from PIL import Image
 from campaign_provenance import input_hashes
+from pdf_privacy import inspect_public_pdfs
+from public_provenance import exposes_private_path, is_public_original_filename
 
 ROOT=Path(__file__).resolve().parent.parent
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--live',action='store_true');args=parser.parse_args()
+    argparse.ArgumentParser(description="Verify local assets, including encoded QR payloads, offline.").parse_args()
     errors=[];data=json.loads((ROOT/'src/data/investigation.json').read_text(encoding='utf-8'));assets=json.loads((ROOT/'src/data/public-assets.json').read_text(encoding='utf-8'))
     contract=json.loads((ROOT/'tests/fixtures/compatibility.json').read_text())
     manifest=json.loads((ROOT/'src/data/campaign-assets.json').read_text(encoding='utf-8'))
@@ -23,7 +24,8 @@ def main():
             if not context.get(field):errors.append(f'Legacy context lacks {field}: {item["url"]}')
         if not re.fullmatch(r'[a-f0-9]{64}',context.get('originalSha256','')):errors.append(f'Legacy source fingerprint is invalid: {item["url"]}')
         if context.get('reviewedPublicSha256')!=item.get('reviewedPublicSha256'):errors.append(f'Legacy context and reviewed artifact diverge: {item["url"]}')
-        if '/' in context.get('originalFile','') or '\\' in context.get('originalFile',''):errors.append(f'Legacy original filename must not expose local paths: {item["url"]}')
+        if not is_public_original_filename(context.get('originalFile')):errors.append(f'Legacy original filename must not expose local paths: {item["url"]}')
+        if exposes_private_path(context.get('originalLocator')):errors.append(f'Legacy original locator must not expose private paths: {item["url"]}')
         with fitz.open(ROOT/'public'/item['url'].lstrip('/')) as pdf:
             pages=context.get('originalPages',[])
             if len(pages)!=len(pdf) or any(not isinstance(page,int) or page<1 for page in pages):errors.append(f'Legacy original page mapping is invalid: {item["url"]}')
@@ -46,6 +48,13 @@ def main():
     for card in json.loads((ROOT/'src/data/social-cards.json').read_text(encoding='utf-8')).values():
         if Image.open(ROOT/'public'/card['url'].lstrip('/')).size!=(1200,630):errors.append('Page-specific social card has wrong dimensions: '+card['url'])
     revisions=json.loads((ROOT/'src/data/download-revisions.json').read_text(encoding='utf-8'))
+    reviewed_features = json.loads((ROOT/"tests/fixtures/reviewed-pdf-features.json").read_text())
+    reviewed_urls = set(reviewed_features) | set(contract['downloads']) | {asset['assetUrl'] for asset in assets.values()}
+    reviewed_urls.update('/' + name.removeprefix('public/') for name in manifest['outputs'])
+    for path in (ROOT/'public').rglob('*'):
+        if path.suffix.lower() == '.pdf' and '/' + path.relative_to(ROOT/'public').as_posix() not in reviewed_urls:
+            errors.append(f'Public PDF lacks a reviewed artifact record: {path.name}')
+    errors.extend(inspect_public_pdfs(ROOT/"public", reviewed_features, revisions))
     for url,revision in revisions.items():
         if url not in contract['downloads'] or revision.get('originalSha256')!=contract['downloads'].get(url):errors.append(f'Invalid historical revision baseline: {url}')
         for field in ('replacementSha256','reviewedAt','reason','originalRetained'):
@@ -67,7 +76,15 @@ def main():
         if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest()!=digest:errors.append(f'Historical download changed: {url}')
     for source_id,source in data['sources'].items():
         if source.get('assetUrl') and source_id not in assets:errors.append(f'{source_id}: reviewed asset manifest entry missing')
+        if not is_public_original_filename(source.get('originalFile')):errors.append(f'{source_id}: public originalFile must be a filename, not a private path')
+        if exposes_private_path(source.get('locator')):errors.append(f'{source_id}: public locator exposes a private path')
     for source_id,asset in assets.items():
+        fields=['treatment','originalFile','originalLocator','reviewedAt','transcript']
+        if asset.get('format')!='email-text':fields.append('previews')
+        for field in fields:
+            if not asset.get(field):errors.append(f'{source_id}: missing {field}')
+        if not is_public_original_filename(asset.get('originalFile')):errors.append(f'{source_id}: asset originalFile must be a filename, not a private path')
+        if exposes_private_path(asset.get('originalLocator')):errors.append(f'{source_id}: asset locator exposes a private path')
         path=ROOT/'public'/asset['assetUrl'].lstrip('/')
         if not path.exists():errors.append(f'Missing {asset["assetUrl"]}');continue
         if hashlib.sha256(path.read_bytes()).hexdigest()!=asset['sha256']:errors.append(f'{source_id}: public artifact differs from reviewed hash')
@@ -82,10 +99,6 @@ def main():
                     if len(pdf)!=asset['pages']:errors.append(f'{source_id}: page count changed')
                     if pdf.embfile_count():errors.append(f'{source_id}: embedded attachments require review')
         except Exception as exc:errors.append(f'{source_id}: unreadable PDF {exc}')
-        fields=['treatment','originalFile','originalLocator','reviewedAt','transcript']
-        if asset.get('format')!='email-text':fields.append('previews')
-        for field in fields:
-            if not asset.get(field):errors.append(f'{source_id}: missing {field}')
         for preview in asset['previews']:
             imagepath=ROOT/'public'/preview['url'].lstrip('/')
             if not imagepath.exists():errors.append(f'Missing preview {preview["url"]}');continue
@@ -95,7 +108,7 @@ def main():
         payloads=[r.text for r in zxingcpp.read_barcodes(Image.open(ROOT/'public/assets/images'/name))]
         if 'https://qr.generatorqr.com/3drm7MQpG' not in payloads:errors.append(f'{name}: historical QR changed')
     og=ROOT/'public/assets/images/og-rebuild.png'
-    if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 × 630')
+    if not og.exists() or Image.open(og).size!=(1200,630):errors.append('New social card must be 1200 Ãƒâ€” 630')
     qr=ROOT/'public/assets/images/campaign-qr.png'
     if not qr.exists() or 'https://arpensions.org/go/' not in [r.text for r in zxingcpp.read_barcodes(Image.open(qr))]:errors.append('New QR must use owned /go/ destination')
     campaign=json.loads((ROOT/'src/data/campaign.json').read_text(encoding='utf-8'))
@@ -108,13 +121,6 @@ def main():
             for token in ('$25','$9.9','January 2','non-tradable sovereign debt','30 calendar days',campaign['date']):
                 if token not in text:errors.append(f'Current brief missing {token}')
             if ' '.join(campaign['operatingSummary'].split()) not in text:errors.append('Current brief does not match the approved campaign explanation')
-    if args.live:
-        try:
-            with urlopen(Request('https://qr.generatorqr.com/3drm7MQpG',headers={'User-Agent':'arpensions-public-asset-check/2'}),timeout=20) as response:
-                destination=response.geturl()
-                if not destination.startswith('https://arpensions.org'):errors.append(f'Printed QR now resolves to {destination}')
-                else:print('Historical printed QR resolves to arpensions.org over HTTPS.')
-        except Exception as exc:errors.append(f'Live QR resolution could not be verified: {exc}')
     if errors:print('\n'.join('ERROR: '+e for e in errors));return 1
     print(f'Asset audit passed: {len(contract["downloads"])} historical PDFs ({len(revisions)} documented privacy revisions), {len(assets)} reviewed source exhibits, social card and QR codes.');return 0
 if __name__=='__main__':sys.exit(main())

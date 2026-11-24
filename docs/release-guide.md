@@ -28,7 +28,7 @@ Preserve the legacy source commit as well as the built artifact. Record Pages so
 
 ## Build and review
 
-Use Node 22, minimum 22.12.0, and Python 3.13:
+Use Node 22, minimum 22.23.4, and Python 3.13:
 
 ```sh
 npm ci

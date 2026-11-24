@@ -55,6 +55,6 @@ The [external petition package](petition-revision.md) was subsequently applied a
 
 ## Historical QR behavior
 
-The preserved printed QR still encodes its existing provider URL. On September 15, a browser visit displayed the provider's “Open Link” interstitial; following that link reached `https://arpensions.org/`. A simple HTTP redirect check cannot verify this JavaScript journey and therefore does not pass `verify_assets.py --live`. Keep the original artwork intact, record this limitation, and use the new owned `/go/` QR in new materials.
+The preserved printed QR still encodes its existing provider URL. On September 15, a browser visit displayed the provider's “Open Link” interstitial; following that link reached `https://arpensions.org/`. The asset verifier decodes the historical artwork and the owned QR offline. The September 15 browser observation is the last destination check recorded here. Use the owned `/go/` QR in new materials.
 
 Local logs, browser reports, archive hashes and release ZIPs are kept in the ignored `.qa/` directory. They are review artifacts, not public evidence sources.

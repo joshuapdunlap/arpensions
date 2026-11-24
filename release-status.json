@@ -1,12 +1,12 @@
 {
-  "release": "design-critique-fixes-2026-10-03",
+  "release": "legacy-pdf-privacy-2026-11-24",
   "externalPetitionAligned": true,
   "petitionVerifiedAt": "2026-09-15T19:42:07.660585+00:00",
   "petitionVerifiedBy": "Codex, acting on Joshua\u00e2\u20ac\u2122s explicit instruction",
   "publicationApproved": true,
-  "approvedBy": "Joshua Dunlap's October 3, 2026 approval (\"Approved.\") after reviewing the before-and-after review page and the list of new wording, and merging #162, #163 and Dependabot #159-#161.",
-  "approvedSourceDigest": "dd0e03800ce1d9e0e17500bd37bb567574b5b2a1d7fdc7b18f96953eff5b3d50",
-  "notes": "Deployed and verified October 3 design critique fixes within the current identity: Take Action leads with one petition action; legislator page opens with a one-page briefing; legible home exhibit and typed key-record cards; plain-terms openers drawn from existing claims; 12 px label floor, 44 px targets and dark-theme fixes; consistent safeguard names, arrows, dates and breadcrumbs. Records, figures, titles, URLs, historical downloads and petition settings are unchanged. See docs/releases/2026-10-03-design-critique-fixes.md.",
+  "approvedBy": "Joshua Dunlap, explicit approval on November 24, 2026 for candidate 97e4cca and its exact source digest.",
+  "approvedSourceDigest": "2da84e4eb24684af17ab5e7c134ee026dbd37a44a51c4588484a9ef7f924ef79",
+  "notes": "Approved Pages release of twelve privacy-reviewed PDF replacements, offline QR verification and locked Python dependencies.",
   "lastDeployment": {
     "release": "design-critique-fixes-2026-10-03",
     "commit": "b29239950b05d77ebb508591938725cd9d913b6d",

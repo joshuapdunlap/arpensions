@@ -4,6 +4,7 @@ from urllib.parse import urlsplit, unquote
 from collections import Counter
 import argparse, gzip, json, re, sys, yaml
 from bs4 import BeautifulSoup
+from public_provenance import exposes_private_path, is_public_original_filename
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -70,6 +71,10 @@ def audit(site=None):
                 if urlsplit(script['src']).netloc:errors.append(f'{relative}: unexpected third-party initial script')
             public_text=soup.get_text(' ',strip=True)
             if re.search(r'[CD]:[\\/]|AR_DL\.png',public_text):errors.append(f'{relative}: private local path leaked')
+            for label in soup.find_all('dt'):
+                value=label.find_next_sibling('dd')
+                if label.get_text(' ',strip=True)=='Original record' and (not value or not is_public_original_filename(value.get_text(' ',strip=True))):errors.append(f'{relative}: original record exposes a private path')
+                if label.get_text(' ',strip=True)=='Exact locator' and (not value or exposes_private_path(value.get_text(' ',strip=True))):errors.append(f'{relative}: exact locator exposes a private path')
             for tag in soup.select('[href],[src]'):
                 url=tag.get('href') or tag.get('src') or ''
                 split=urlsplit(url)
