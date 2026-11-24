@@ -4,8 +4,7 @@ on:
   pull_request_target:
     types: [opened]
 
-permissions:
-  pull-requests: write
+permissions: {}
 
 jobs:
   request-review:
@@ -13,7 +12,12 @@ jobs:
     steps:
       - name: Ask Codex to review the pull request
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.CODEX_REVIEW_REQUEST_TOKEN }}
           GH_REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: gh pr comment "$PR_NUMBER" --body '@codex review'
+        run: |
+          if [[ -z "$GH_TOKEN" ]]; then
+            echo "::error::Set CODEX_REVIEW_REQUEST_TOKEN to a fine-grained token from a Codex-linked GitHub user, limited to this repository with Pull requests read and write."
+            exit 1
+          fi
+          gh pr comment "$PR_NUMBER" --body '@codex review'
